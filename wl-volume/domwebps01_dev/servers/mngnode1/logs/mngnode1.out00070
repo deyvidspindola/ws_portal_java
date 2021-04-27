@@ -1,0 +1,1823 @@
+<Apr 23, 2021 1:19:48,041 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1697660883[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@6dc689c2[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 23, 2021 1:20:48,046 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1697660883[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@23ed5217[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 23, 2021 1:21:48,046 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1697660883[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@1a7ee90a[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 23, 2021 1:22:48,051 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1697660883[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@7c4eb5ff[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 23, 2021 1:23:48,039 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1697660883[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@193136ce[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 23, 2021 1:24:48,068 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1697660883[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@67a1adee[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 23, 2021 1:25:48,059 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1697660883[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@436097b3[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 23, 2021 1:26:48,057 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1697660883[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@5e824917[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 23, 2021 1:27:48,071 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1697660883[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@5f0ff474[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 23, 2021 1:28:48,054 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1697660883[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@24757daf[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 23, 2021 1:29:48,063 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1697660883[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@72465d0a[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 23, 2021 1:30:48,080 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1697660883[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@3d40beec[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 23, 2021 1:31:48,061 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1697660883[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@523d993b[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 23, 2021 1:32:48,055 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1697660883[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@57ed048e[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 23, 2021 1:33:48,049 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1697660883[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@3c2764c2[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 23, 2021 1:34:48,116 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1697660883[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@13d83cd2[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 23, 2021 1:35:48,077 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1697660883[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@1d054e12[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 23, 2021 1:36:48,094 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1697660883[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@145ec23[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 23, 2021 1:37:48,065 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1697660883[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@e31d36d[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 23, 2021 1:38:48,088 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1697660883[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@3fe30870[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 23, 2021 1:39:48,063 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1697660883[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@7db4a372[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 23, 2021 1:40:48,082 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1697660883[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@10511ead[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 23, 2021 1:41:48,047 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1697660883[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@7c4d46a2[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 23, 2021 1:42:48,088 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1697660883[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@27386ee5[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 23, 2021 1:43:48,061 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1697660883[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@496806da[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 23, 2021 1:44:48,078 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1697660883[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@bededb[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 23, 2021 1:45:48,037 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1697660883[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@43cf4c35[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 23, 2021 1:46:48,128 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1697660883[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@43861124[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 23, 2021 1:47:48,074 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1697660883[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@26a7ca24[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 23, 2021 1:48:48,080 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1697660883[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@1e91f3e9[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 23, 2021 1:49:48,100 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1697660883[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@12eb11e6[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 23, 2021 1:50:48,075 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1697660883[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@4effb5b5[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 23, 2021 1:51:48,070 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1697660883[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@56b17fca[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 23, 2021 1:52:48,050 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1697660883[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@2ec5cd92[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 23, 2021 1:53:48,074 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1697660883[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@5822bc94[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 23, 2021 1:54:48,078 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1697660883[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@30bdefdb[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 23, 2021 1:55:48,124 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1697660883[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@31f82e54[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 23, 2021 1:56:48,072 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1697660883[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@41560e08[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 23, 2021 1:57:48,066 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1697660883[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@3852542c[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 23, 2021 1:58:11,643 PM GMT> <Error> <Deployer> <BEA-149265> <Failure occurred in the execution of deployment request with ID "129323188001920" for task "weblogic.deploy.configChangeTask.1" on [partition-name: DOMAIN]. Error is: "weblogic.application.ModuleException: oracle.net.ns.NetException: Unknown host specified "
+weblogic.application.ModuleException: oracle.net.ns.NetException: Unknown host specified 
+	at weblogic.jdbc.module.JDBCModule.prepare(JDBCModule.java:408)
+	at weblogic.application.internal.flow.ModuleListenerInvoker.prepare(ModuleListenerInvoker.java:100)
+	at weblogic.application.internal.flow.ModuleStateDriver$1.next(ModuleStateDriver.java:192)
+	at weblogic.application.internal.flow.ModuleStateDriver$1.next(ModuleStateDriver.java:187)
+	at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:45)
+	Truncated. see log file for complete stacktrace
+Caused By: oracle.net.ns.NetException: Unknown host specified 
+	at oracle.net.resolver.HostnameNamingAdapter.resolve(HostnameNamingAdapter.java:209)
+	at oracle.net.resolver.NameResolver.resolveName(NameResolver.java:131)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:489)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:660)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 23, 2021 1:58:48,051 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1697660883[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@57b835ac[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 23, 2021 1:59:48,055 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1697660883[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@3bf2c0f4[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 23, 2021 2:00:27,176 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1697660883[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@7903ffe5[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: " Not A;Brand";v="99", "Chromium";v="90", "Google Chrome";v="90"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+java.vendor Oracle Corporation
+sun.java.launcher SUN_STANDARD
+sun.management.compiler HotSpot 64-Bit Tiered Compilers
+acpParserPortaSecundario 10025
+os.name Linux
+sun.boot.class.path /u01/jdk/jre/lib/resources.jar:/u01/jdk/jre/lib/rt.jar:/u01/jdk/jre/lib/sunrsasign.jar:/u01/jdk/jre/lib/jsse.jar:/u01/jdk/jre/lib/jce.jar:/u01/jdk/jre/lib/charsets.jar:/u01/jdk/jre/lib/jfr.jar:/u01/jdk/jre/classes
+java.vm.specification.vendor Oracle Corporation
+oracle.jms.useJmsNotification false
+java.runtime.version 1.8.0_241-b07
+SascarProperties /u01/oracle/user_projects/domains/domwebps01_dev/resources/portal_servicos/
+weblogic.Name mngnode1
+user.name oracle
+com.sun.jersey.server.impl.cdi.lookupExtensionInBeanManager true
+log4j.configuration file:/u01/weblogic/domains/domwebps01_dev/resources/portal_servicos/log4j.properties
+java.naming.factory.initial weblogic.jndi.WLInitialContextFactory
+user.language en
+sun.boot.library.path /u01/jdk/jre/lib/amd64
+java.version 1.8.0_241
+user.timezone GMT
+sun.arch.data.model 64
+oracle.jdbc.noImplicitBeginRequest true
+javax.rmi.CORBA.UtilClass weblogic.iiop.UtilDelegateImpl
+java.endorsed.dirs /u01/jdk/jre/lib/endorsed
+vde.home /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/ldap
+sun.cpu.isalist 
+sun.jnu.encoding UTF-8
+file.encoding.pkg sun.io
+file.separator /
+java.specification.name Java Platform API Specification
+java.class.version 52.0
+weblogic.home /u01/oracle/wlserver/server
+user.country US
+java.home /u01/jdk/jre
+java.vm.info mixed mode
+os.version 5.4.0-72-generic
+org.omg.CORBA.ORBSingletonClass weblogic.corba.orb.ORB
+path.separator :
+weblogic.nmservice.RotationEnabled true
+java.vm.version 25.241-b07
+java.protocol.handler.pkgs weblogic.utils|weblogic.utils|org.apache.axis.transport|
+java.system.class.loader com.oracle.classloader.weblogic.LaunchClassLoader
+java.awt.printerjob sun.print.PSPrinterJob
+java.security.policy /u01/oracle/wlserver/server/lib/weblogic.policy
+sun.io.unicode.encoding UnicodeLittle
+awt.toolkit sun.awt.X11.XToolkit
+weblogic.nodemanager.ServiceEnabled true
+java.naming.factory.url.pkgs weblogic.jndi.factories:weblogic.corba.j2ee.naming.url:weblogic.jndi.factories:weblogic.corba.j2ee.naming.url
+acpParserIpSecundario 201.94.129.110
+user.home /home/oracle
+weblogic.management.server http://172.17.0.2:7001
+acpParserIpPrimario 201.94.129.110
+wls.home /u01/oracle/wlserver/server
+java.specification.vendor Oracle Corporation
+SascarEnvironment desenvolvimento
+java.library.path ::/u01/oracle/wlserver/server/native/linux/x86_64:/u01/oracle/wlserver/server/native/linux/x86_64/oci920_8:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.vendor.url http://java.oracle.com/
+java.vm.vendor Oracle Corporation
+java.runtime.name Java(TM) SE Runtime Environment
+sun.java.command weblogic.Server
+java.class.path /u01/jdk/lib/tools.jar:/u01/oracle/wlserver/server/lib/weblogic.jar:/u01/oracle/wlserver/../oracle_common/modules/thirdparty/ant-contrib-1.0b3.jar:/u01/oracle/wlserver/modules/features/oracle.wls.common.nodemanager.jar:/u01/oracle/wlserver/common/derby/lib/derbynet.jar:/u01/oracle/wlserver/common/derby/lib/derbyclient.jar:/u01/oracle/wlserver/common/derby/lib/derby.jar:/u01/jdk/lib/tools.jar
+java.vm.specification.name Java Virtual Machine Specification
+javax.rmi.CORBA.PortableRemoteObjectClass weblogic.iiop.PortableRemoteObjectDelegateImpl
+java.vm.specification.version 1.8
+sun.cpu.endian little
+sun.os.patch.level unknown
+weblogic.security.TrustKeyStore DemoTrust
+java.io.tmpdir /tmp
+java.vendor.url.bug http://bugreport.sun.com/bugreport/
+SascarPathWS http://172.18.0.1:8000/
+acpParserPortaPrimario 10025
+os.arch amd64
+java.awt.graphicsenv sun.awt.X11GraphicsEnvironment
+java.ext.dirs /u01/jdk/jre/lib/ext:/usr/java/packages/lib/ext
+user.dir /u01/oracle/user_projects/domains/domwebps01_dev
+line.separator 
+
+java.vm.name Java HotSpot(TM) 64-Bit Server VM
+weblogic.system.BootIdentityFile /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties
+urlPortalServicos http://172.18.0.1:8000/
+javax.management.builder.initial weblogic.management.jmx.mbeanserver.WLSMBeanServerBuilder
+org.omg.CORBA.ORBClass weblogic.corba.orb.ORB
+file.encoding UTF-8
+java.specification.version 1.8
+launch.use.env.classpath true
+<Apr 23, 2021 2:00:34,511 PM GMT> <Warning> <Socket> <BEA-000449> <Closing the socket, as no data read from it on 172.17.0.1:41,626 during the configured idle timeout of 5 seconds.> 
+java.vendor Oracle Corporation
+sun.java.launcher SUN_STANDARD
+sun.management.compiler HotSpot 64-Bit Tiered Compilers
+acpParserPortaSecundario 10025
+os.name Linux
+sun.boot.class.path /u01/jdk/jre/lib/resources.jar:/u01/jdk/jre/lib/rt.jar:/u01/jdk/jre/lib/sunrsasign.jar:/u01/jdk/jre/lib/jsse.jar:/u01/jdk/jre/lib/jce.jar:/u01/jdk/jre/lib/charsets.jar:/u01/jdk/jre/lib/jfr.jar:/u01/jdk/jre/classes
+java.vm.specification.vendor Oracle Corporation
+oracle.jms.useJmsNotification false
+java.runtime.version 1.8.0_241-b07
+SascarProperties /u01/oracle/user_projects/domains/domwebps01_dev/resources/portal_servicos/
+weblogic.Name mngnode1
+user.name oracle
+com.sun.jersey.server.impl.cdi.lookupExtensionInBeanManager true
+log4j.configuration file:/u01/weblogic/domains/domwebps01_dev/resources/portal_servicos/log4j.properties
+java.naming.factory.initial weblogic.jndi.WLInitialContextFactory
+user.language en
+sun.boot.library.path /u01/jdk/jre/lib/amd64
+java.version 1.8.0_241
+user.timezone GMT
+sun.arch.data.model 64
+oracle.jdbc.noImplicitBeginRequest true
+javax.rmi.CORBA.UtilClass weblogic.iiop.UtilDelegateImpl
+java.endorsed.dirs /u01/jdk/jre/lib/endorsed
+vde.home /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/ldap
+sun.cpu.isalist 
+sun.jnu.encoding UTF-8
+file.encoding.pkg sun.io
+file.separator /
+java.specification.name Java Platform API Specification
+java.class.version 52.0
+weblogic.home /u01/oracle/wlserver/server
+user.country US
+java.home /u01/jdk/jre
+java.vm.info mixed mode
+os.version 5.4.0-72-generic
+org.omg.CORBA.ORBSingletonClass weblogic.corba.orb.ORB
+path.separator :
+weblogic.nmservice.RotationEnabled true
+java.vm.version 25.241-b07
+java.protocol.handler.pkgs weblogic.utils|weblogic.utils|org.apache.axis.transport|
+java.system.class.loader com.oracle.classloader.weblogic.LaunchClassLoader
+java.awt.printerjob sun.print.PSPrinterJob
+java.security.policy /u01/oracle/wlserver/server/lib/weblogic.policy
+sun.io.unicode.encoding UnicodeLittle
+awt.toolkit sun.awt.X11.XToolkit
+weblogic.nodemanager.ServiceEnabled true
+java.naming.factory.url.pkgs weblogic.jndi.factories:weblogic.corba.j2ee.naming.url:weblogic.jndi.factories:weblogic.corba.j2ee.naming.url
+acpParserIpSecundario 201.94.129.110
+user.home /home/oracle
+weblogic.management.server http://172.17.0.2:7001
+acpParserIpPrimario 201.94.129.110
+wls.home /u01/oracle/wlserver/server
+java.specification.vendor Oracle Corporation
+SascarEnvironment desenvolvimento
+java.library.path ::/u01/oracle/wlserver/server/native/linux/x86_64:/u01/oracle/wlserver/server/native/linux/x86_64/oci920_8:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.vendor.url http://java.oracle.com/
+java.vm.vendor Oracle Corporation
+java.runtime.name Java(TM) SE Runtime Environment
+sun.java.command weblogic.Server
+java.class.path /u01/jdk/lib/tools.jar:/u01/oracle/wlserver/server/lib/weblogic.jar:/u01/oracle/wlserver/../oracle_common/modules/thirdparty/ant-contrib-1.0b3.jar:/u01/oracle/wlserver/modules/features/oracle.wls.common.nodemanager.jar:/u01/oracle/wlserver/common/derby/lib/derbynet.jar:/u01/oracle/wlserver/common/derby/lib/derbyclient.jar:/u01/oracle/wlserver/common/derby/lib/derby.jar:/u01/jdk/lib/tools.jar
+java.vm.specification.name Java Virtual Machine Specification
+javax.rmi.CORBA.PortableRemoteObjectClass weblogic.iiop.PortableRemoteObjectDelegateImpl
+java.vm.specification.version 1.8
+sun.cpu.endian little
+sun.os.patch.level unknown
+weblogic.security.TrustKeyStore DemoTrust
+java.io.tmpdir /tmp
+java.vendor.url.bug http://bugreport.sun.com/bugreport/
+SascarPathWS http://172.18.0.1:8000/
+acpParserPortaPrimario 10025
+os.arch amd64
+java.awt.graphicsenv sun.awt.X11GraphicsEnvironment
+java.ext.dirs /u01/jdk/jre/lib/ext:/usr/java/packages/lib/ext
+user.dir /u01/oracle/user_projects/domains/domwebps01_dev
+line.separator 
+
+java.vm.name Java HotSpot(TM) 64-Bit Server VM
+weblogic.system.BootIdentityFile /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties
+urlPortalServicos http://172.18.0.1:8000/
+javax.management.builder.initial weblogic.management.jmx.mbeanserver.WLSMBeanServerBuilder
+org.omg.CORBA.ORBClass weblogic.corba.orb.ORB
+file.encoding UTF-8
+java.specification.version 1.8
+launch.use.env.classpath true
+java.vendor Oracle Corporation
+sun.java.launcher SUN_STANDARD
+sun.management.compiler HotSpot 64-Bit Tiered Compilers
+acpParserPortaSecundario 10025
+os.name Linux
+sun.boot.class.path /u01/jdk/jre/lib/resources.jar:/u01/jdk/jre/lib/rt.jar:/u01/jdk/jre/lib/sunrsasign.jar:/u01/jdk/jre/lib/jsse.jar:/u01/jdk/jre/lib/jce.jar:/u01/jdk/jre/lib/charsets.jar:/u01/jdk/jre/lib/jfr.jar:/u01/jdk/jre/classes
+java.vm.specification.vendor Oracle Corporation
+oracle.jms.useJmsNotification false
+java.runtime.version 1.8.0_241-b07
+SascarProperties /u01/oracle/user_projects/domains/domwebps01_dev/resources/portal_servicos/
+weblogic.Name mngnode1
+user.name oracle
+com.sun.jersey.server.impl.cdi.lookupExtensionInBeanManager true
+log4j.configuration file:/u01/weblogic/domains/domwebps01_dev/resources/portal_servicos/log4j.properties
+java.naming.factory.initial weblogic.jndi.WLInitialContextFactory
+user.language en
+sun.boot.library.path /u01/jdk/jre/lib/amd64
+java.version 1.8.0_241
+user.timezone GMT
+sun.arch.data.model 64
+oracle.jdbc.noImplicitBeginRequest true
+javax.rmi.CORBA.UtilClass weblogic.iiop.UtilDelegateImpl
+java.endorsed.dirs /u01/jdk/jre/lib/endorsed
+vde.home /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/ldap
+sun.cpu.isalist 
+sun.jnu.encoding UTF-8
+file.encoding.pkg sun.io
+file.separator /
+java.specification.name Java Platform API Specification
+java.class.version 52.0
+weblogic.home /u01/oracle/wlserver/server
+user.country US
+java.home /u01/jdk/jre
+java.vm.info mixed mode
+os.version 5.4.0-72-generic
+org.omg.CORBA.ORBSingletonClass weblogic.corba.orb.ORB
+path.separator :
+weblogic.nmservice.RotationEnabled true
+java.vm.version 25.241-b07
+java.protocol.handler.pkgs weblogic.utils|weblogic.utils|org.apache.axis.transport|
+java.system.class.loader com.oracle.classloader.weblogic.LaunchClassLoader
+java.awt.printerjob sun.print.PSPrinterJob
+java.security.policy /u01/oracle/wlserver/server/lib/weblogic.policy
+sun.io.unicode.encoding UnicodeLittle
+awt.toolkit sun.awt.X11.XToolkit
+weblogic.nodemanager.ServiceEnabled true
+java.naming.factory.url.pkgs weblogic.jndi.factories:weblogic.corba.j2ee.naming.url:weblogic.jndi.factories:weblogic.corba.j2ee.naming.url
+acpParserIpSecundario 201.94.129.110
+user.home /home/oracle
+weblogic.management.server http://172.17.0.2:7001
+acpParserIpPrimario 201.94.129.110
+wls.home /u01/oracle/wlserver/server
+java.specification.vendor Oracle Corporation
+SascarEnvironment desenvolvimento
+java.library.path ::/u01/oracle/wlserver/server/native/linux/x86_64:/u01/oracle/wlserver/server/native/linux/x86_64/oci920_8:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.vendor.url http://java.oracle.com/
+java.vm.vendor Oracle Corporation
+java.runtime.name Java(TM) SE Runtime Environment
+sun.java.command weblogic.Server
+java.class.path /u01/jdk/lib/tools.jar:/u01/oracle/wlserver/server/lib/weblogic.jar:/u01/oracle/wlserver/../oracle_common/modules/thirdparty/ant-contrib-1.0b3.jar:/u01/oracle/wlserver/modules/features/oracle.wls.common.nodemanager.jar:/u01/oracle/wlserver/common/derby/lib/derbynet.jar:/u01/oracle/wlserver/common/derby/lib/derbyclient.jar:/u01/oracle/wlserver/common/derby/lib/derby.jar:/u01/jdk/lib/tools.jar
+java.vm.specification.name Java Virtual Machine Specification
+javax.rmi.CORBA.PortableRemoteObjectClass weblogic.iiop.PortableRemoteObjectDelegateImpl
+java.vm.specification.version 1.8
+sun.cpu.endian little
+sun.os.patch.level unknown
+weblogic.security.TrustKeyStore DemoTrust
+java.io.tmpdir /tmp
+java.vendor.url.bug http://bugreport.sun.com/bugreport/
+SascarPathWS http://172.18.0.1:8000/
+acpParserPortaPrimario 10025
+os.arch amd64
+java.awt.graphicsenv sun.awt.X11GraphicsEnvironment
+java.ext.dirs /u01/jdk/jre/lib/ext:/usr/java/packages/lib/ext
+user.dir /u01/oracle/user_projects/domains/domwebps01_dev
+line.separator 
+
+java.vm.name Java HotSpot(TM) 64-Bit Server VM
+weblogic.system.BootIdentityFile /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties
+urlPortalServicos http://172.18.0.1:8000/
+javax.management.builder.initial weblogic.management.jmx.mbeanserver.WLSMBeanServerBuilder
+org.omg.CORBA.ORBClass weblogic.corba.orb.ORB
+file.encoding UTF-8
+java.specification.version 1.8
+launch.use.env.classpath true
+java.vendor Oracle Corporation
+sun.java.launcher SUN_STANDARD
+sun.management.compiler HotSpot 64-Bit Tiered Compilers
+acpParserPortaSecundario 10025
+os.name Linux
+sun.boot.class.path /u01/jdk/jre/lib/resources.jar:/u01/jdk/jre/lib/rt.jar:/u01/jdk/jre/lib/sunrsasign.jar:/u01/jdk/jre/lib/jsse.jar:/u01/jdk/jre/lib/jce.jar:/u01/jdk/jre/lib/charsets.jar:/u01/jdk/jre/lib/jfr.jar:/u01/jdk/jre/classes
+java.vm.specification.vendor Oracle Corporation
+oracle.jms.useJmsNotification false
+java.runtime.version 1.8.0_241-b07
+SascarProperties /u01/oracle/user_projects/domains/domwebps01_dev/resources/portal_servicos/
+weblogic.Name mngnode1
+user.name oracle
+com.sun.jersey.server.impl.cdi.lookupExtensionInBeanManager true
+log4j.configuration file:/u01/weblogic/domains/domwebps01_dev/resources/portal_servicos/log4j.properties
+java.naming.factory.initial weblogic.jndi.WLInitialContextFactory
+user.language en
+sun.boot.library.path /u01/jdk/jre/lib/amd64
+java.version 1.8.0_241
+user.timezone GMT
+sun.arch.data.model 64
+oracle.jdbc.noImplicitBeginRequest true
+javax.rmi.CORBA.UtilClass weblogic.iiop.UtilDelegateImpl
+java.endorsed.dirs /u01/jdk/jre/lib/endorsed
+vde.home /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/ldap
+sun.cpu.isalist 
+sun.jnu.encoding UTF-8
+file.encoding.pkg sun.io
+file.separator /
+java.specification.name Java Platform API Specification
+java.class.version 52.0
+weblogic.home /u01/oracle/wlserver/server
+user.country US
+java.home /u01/jdk/jre
+java.vm.info mixed mode
+os.version 5.4.0-72-generic
+org.omg.CORBA.ORBSingletonClass weblogic.corba.orb.ORB
+path.separator :
+weblogic.nmservice.RotationEnabled true
+java.vm.version 25.241-b07
+java.protocol.handler.pkgs weblogic.utils|weblogic.utils|org.apache.axis.transport|
+java.system.class.loader com.oracle.classloader.weblogic.LaunchClassLoader
+java.awt.printerjob sun.print.PSPrinterJob
+java.security.policy /u01/oracle/wlserver/server/lib/weblogic.policy
+sun.io.unicode.encoding UnicodeLittle
+awt.toolkit sun.awt.X11.XToolkit
+weblogic.nodemanager.ServiceEnabled true
+java.naming.factory.url.pkgs weblogic.jndi.factories:weblogic.corba.j2ee.naming.url:weblogic.jndi.factories:weblogic.corba.j2ee.naming.url
+acpParserIpSecundario 201.94.129.110
+user.home /home/oracle
+weblogic.management.server http://172.17.0.2:7001
+acpParserIpPrimario 201.94.129.110
+wls.home /u01/oracle/wlserver/server
+java.specification.vendor Oracle Corporation
+SascarEnvironment desenvolvimento
+java.library.path ::/u01/oracle/wlserver/server/native/linux/x86_64:/u01/oracle/wlserver/server/native/linux/x86_64/oci920_8:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.vendor.url http://java.oracle.com/
+java.vm.vendor Oracle Corporation
+java.runtime.name Java(TM) SE Runtime Environment
+sun.java.command weblogic.Server
+java.class.path /u01/jdk/lib/tools.jar:/u01/oracle/wlserver/server/lib/weblogic.jar:/u01/oracle/wlserver/../oracle_common/modules/thirdparty/ant-contrib-1.0b3.jar:/u01/oracle/wlserver/modules/features/oracle.wls.common.nodemanager.jar:/u01/oracle/wlserver/common/derby/lib/derbynet.jar:/u01/oracle/wlserver/common/derby/lib/derbyclient.jar:/u01/oracle/wlserver/common/derby/lib/derby.jar:/u01/jdk/lib/tools.jar
+java.vm.specification.name Java Virtual Machine Specification
+javax.rmi.CORBA.PortableRemoteObjectClass weblogic.iiop.PortableRemoteObjectDelegateImpl
+java.vm.specification.version 1.8
+sun.cpu.endian little
+sun.os.patch.level unknown
+weblogic.security.TrustKeyStore DemoTrust
+java.io.tmpdir /tmp
+java.vendor.url.bug http://bugreport.sun.com/bugreport/
+SascarPathWS http://172.18.0.1:8000/
+acpParserPortaPrimario 10025
+os.arch amd64
+java.awt.graphicsenv sun.awt.X11GraphicsEnvironment
+java.ext.dirs /u01/jdk/jre/lib/ext:/usr/java/packages/lib/ext
+user.dir /u01/oracle/user_projects/domains/domwebps01_dev
+line.separator 
+
+java.vm.name Java HotSpot(TM) 64-Bit Server VM
+weblogic.system.BootIdentityFile /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties
+urlPortalServicos http://172.18.0.1:8000/
+javax.management.builder.initial weblogic.management.jmx.mbeanserver.WLSMBeanServerBuilder
+org.omg.CORBA.ORBClass weblogic.corba.orb.ORB
+file.encoding UTF-8
+java.specification.version 1.8
+launch.use.env.classpath true
+java.vendor Oracle Corporation
+sun.java.launcher SUN_STANDARD
+sun.management.compiler HotSpot 64-Bit Tiered Compilers
+acpParserPortaSecundario 10025
+os.name Linux
+sun.boot.class.path /u01/jdk/jre/lib/resources.jar:/u01/jdk/jre/lib/rt.jar:/u01/jdk/jre/lib/sunrsasign.jar:/u01/jdk/jre/lib/jsse.jar:/u01/jdk/jre/lib/jce.jar:/u01/jdk/jre/lib/charsets.jar:/u01/jdk/jre/lib/jfr.jar:/u01/jdk/jre/classes
+java.vm.specification.vendor Oracle Corporation
+oracle.jms.useJmsNotification false
+java.runtime.version 1.8.0_241-b07
+SascarProperties /u01/oracle/user_projects/domains/domwebps01_dev/resources/portal_servicos/
+weblogic.Name mngnode1
+user.name oracle
+com.sun.jersey.server.impl.cdi.lookupExtensionInBeanManager true
+log4j.configuration file:/u01/weblogic/domains/domwebps01_dev/resources/portal_servicos/log4j.properties
+java.naming.factory.initial weblogic.jndi.WLInitialContextFactory
+user.language en
+sun.boot.library.path /u01/jdk/jre/lib/amd64
+java.version 1.8.0_241
+user.timezone GMT
+sun.arch.data.model 64
+oracle.jdbc.noImplicitBeginRequest true
+javax.rmi.CORBA.UtilClass weblogic.iiop.UtilDelegateImpl
+java.endorsed.dirs /u01/jdk/jre/lib/endorsed
+vde.home /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/ldap
+sun.cpu.isalist 
+sun.jnu.encoding UTF-8
+file.encoding.pkg sun.io
+file.separator /
+java.specification.name Java Platform API Specification
+java.class.version 52.0
+weblogic.home /u01/oracle/wlserver/server
+user.country US
+java.home /u01/jdk/jre
+java.vm.info mixed mode
+os.version 5.4.0-72-generic
+org.omg.CORBA.ORBSingletonClass weblogic.corba.orb.ORB
+path.separator :
+weblogic.nmservice.RotationEnabled true
+java.vm.version 25.241-b07
+java.protocol.handler.pkgs weblogic.utils|weblogic.utils|org.apache.axis.transport|
+java.system.class.loader com.oracle.classloader.weblogic.LaunchClassLoader
+java.awt.printerjob sun.print.PSPrinterJob
+java.security.policy /u01/oracle/wlserver/server/lib/weblogic.policy
+sun.io.unicode.encoding UnicodeLittle
+awt.toolkit sun.awt.X11.XToolkit
+weblogic.nodemanager.ServiceEnabled true
+java.naming.factory.url.pkgs weblogic.jndi.factories:weblogic.corba.j2ee.naming.url:weblogic.jndi.factories:weblogic.corba.j2ee.naming.url
+acpParserIpSecundario 201.94.129.110
+user.home /home/oracle
+weblogic.management.server http://172.17.0.2:7001
+acpParserIpPrimario 201.94.129.110
+wls.home /u01/oracle/wlserver/server
+java.specification.vendor Oracle Corporation
+SascarEnvironment desenvolvimento
+java.library.path ::/u01/oracle/wlserver/server/native/linux/x86_64:/u01/oracle/wlserver/server/native/linux/x86_64/oci920_8:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.vendor.url http://java.oracle.com/
+java.vm.vendor Oracle Corporation
+java.runtime.name Java(TM) SE Runtime Environment
+sun.java.command weblogic.Server
+java.class.path /u01/jdk/lib/tools.jar:/u01/oracle/wlserver/server/lib/weblogic.jar:/u01/oracle/wlserver/../oracle_common/modules/thirdparty/ant-contrib-1.0b3.jar:/u01/oracle/wlserver/modules/features/oracle.wls.common.nodemanager.jar:/u01/oracle/wlserver/common/derby/lib/derbynet.jar:/u01/oracle/wlserver/common/derby/lib/derbyclient.jar:/u01/oracle/wlserver/common/derby/lib/derby.jar:/u01/jdk/lib/tools.jar
+java.vm.specification.name Java Virtual Machine Specification
+javax.rmi.CORBA.PortableRemoteObjectClass weblogic.iiop.PortableRemoteObjectDelegateImpl
+java.vm.specification.version 1.8
+sun.cpu.endian little
+sun.os.patch.level unknown
+weblogic.security.TrustKeyStore DemoTrust
+java.io.tmpdir /tmp
+java.vendor.url.bug http://bugreport.sun.com/bugreport/
+SascarPathWS http://172.18.0.1:8000/
+acpParserPortaPrimario 10025
+os.arch amd64
+java.awt.graphicsenv sun.awt.X11GraphicsEnvironment
+java.ext.dirs /u01/jdk/jre/lib/ext:/usr/java/packages/lib/ext
+user.dir /u01/oracle/user_projects/domains/domwebps01_dev
+line.separator 
+
+java.vm.name Java HotSpot(TM) 64-Bit Server VM
+weblogic.system.BootIdentityFile /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties
+urlPortalServicos http://172.18.0.1:8000/
+javax.management.builder.initial weblogic.management.jmx.mbeanserver.WLSMBeanServerBuilder
+org.omg.CORBA.ORBClass weblogic.corba.orb.ORB
+file.encoding UTF-8
+java.specification.version 1.8
+launch.use.env.classpath true
+java.vendor Oracle Corporation
+sun.java.launcher SUN_STANDARD
+sun.management.compiler HotSpot 64-Bit Tiered Compilers
+acpParserPortaSecundario 10025
+os.name Linux
+sun.boot.class.path /u01/jdk/jre/lib/resources.jar:/u01/jdk/jre/lib/rt.jar:/u01/jdk/jre/lib/sunrsasign.jar:/u01/jdk/jre/lib/jsse.jar:/u01/jdk/jre/lib/jce.jar:/u01/jdk/jre/lib/charsets.jar:/u01/jdk/jre/lib/jfr.jar:/u01/jdk/jre/classes
+java.vm.specification.vendor Oracle Corporation
+oracle.jms.useJmsNotification false
+java.runtime.version 1.8.0_241-b07
+SascarProperties /u01/oracle/user_projects/domains/domwebps01_dev/resources/portal_servicos/
+weblogic.Name mngnode1
+user.name oracle
+com.sun.jersey.server.impl.cdi.lookupExtensionInBeanManager true
+log4j.configuration file:/u01/weblogic/domains/domwebps01_dev/resources/portal_servicos/log4j.properties
+java.naming.factory.initial weblogic.jndi.WLInitialContextFactory
+user.language en
+sun.boot.library.path /u01/jdk/jre/lib/amd64
+java.version 1.8.0_241
+user.timezone GMT
+sun.arch.data.model 64
+oracle.jdbc.noImplicitBeginRequest true
+javax.rmi.CORBA.UtilClass weblogic.iiop.UtilDelegateImpl
+java.endorsed.dirs /u01/jdk/jre/lib/endorsed
+vde.home /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/ldap
+sun.cpu.isalist 
+sun.jnu.encoding UTF-8
+file.encoding.pkg sun.io
+file.separator /
+java.specification.name Java Platform API Specification
+java.class.version 52.0
+weblogic.home /u01/oracle/wlserver/server
+user.country US
+java.home /u01/jdk/jre
+java.vm.info mixed mode
+os.version 5.4.0-72-generic
+org.omg.CORBA.ORBSingletonClass weblogic.corba.orb.ORB
+path.separator :
+weblogic.nmservice.RotationEnabled true
+java.vm.version 25.241-b07
+java.protocol.handler.pkgs weblogic.utils|weblogic.utils|org.apache.axis.transport|
+java.system.class.loader com.oracle.classloader.weblogic.LaunchClassLoader
+java.awt.printerjob sun.print.PSPrinterJob
+java.security.policy /u01/oracle/wlserver/server/lib/weblogic.policy
+sun.io.unicode.encoding UnicodeLittle
+awt.toolkit sun.awt.X11.XToolkit
+weblogic.nodemanager.ServiceEnabled true
+java.naming.factory.url.pkgs weblogic.jndi.factories:weblogic.corba.j2ee.naming.url:weblogic.jndi.factories:weblogic.corba.j2ee.naming.url
+acpParserIpSecundario 201.94.129.110
+user.home /home/oracle
+weblogic.management.server http://172.17.0.2:7001
+acpParserIpPrimario 201.94.129.110
+wls.home /u01/oracle/wlserver/server
+java.specification.vendor Oracle Corporation
+SascarEnvironment desenvolvimento
+java.library.path ::/u01/oracle/wlserver/server/native/linux/x86_64:/u01/oracle/wlserver/server/native/linux/x86_64/oci920_8:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.vendor.url http://java.oracle.com/
+java.vm.vendor Oracle Corporation
+java.runtime.name Java(TM) SE Runtime Environment
+sun.java.command weblogic.Server
+java.class.path /u01/jdk/lib/tools.jar:/u01/oracle/wlserver/server/lib/weblogic.jar:/u01/oracle/wlserver/../oracle_common/modules/thirdparty/ant-contrib-1.0b3.jar:/u01/oracle/wlserver/modules/features/oracle.wls.common.nodemanager.jar:/u01/oracle/wlserver/common/derby/lib/derbynet.jar:/u01/oracle/wlserver/common/derby/lib/derbyclient.jar:/u01/oracle/wlserver/common/derby/lib/derby.jar:/u01/jdk/lib/tools.jar
+java.vm.specification.name Java Virtual Machine Specification
+javax.rmi.CORBA.PortableRemoteObjectClass weblogic.iiop.PortableRemoteObjectDelegateImpl
+java.vm.specification.version 1.8
+sun.cpu.endian little
+sun.os.patch.level unknown
+weblogic.security.TrustKeyStore DemoTrust
+java.io.tmpdir /tmp
+java.vendor.url.bug http://bugreport.sun.com/bugreport/
+SascarPathWS http://172.18.0.1:8000/
+acpParserPortaPrimario 10025
+os.arch amd64
+java.awt.graphicsenv sun.awt.X11GraphicsEnvironment
+java.ext.dirs /u01/jdk/jre/lib/ext:/usr/java/packages/lib/ext
+user.dir /u01/oracle/user_projects/domains/domwebps01_dev
+line.separator 
+
+java.vm.name Java HotSpot(TM) 64-Bit Server VM
+weblogic.system.BootIdentityFile /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties
+urlPortalServicos http://172.18.0.1:8000/
+javax.management.builder.initial weblogic.management.jmx.mbeanserver.WLSMBeanServerBuilder
+org.omg.CORBA.ORBClass weblogic.corba.orb.ORB
+file.encoding UTF-8
+java.specification.version 1.8
+launch.use.env.classpath true
+java.vendor Oracle Corporation
+sun.java.launcher SUN_STANDARD
+sun.management.compiler HotSpot 64-Bit Tiered Compilers
+acpParserPortaSecundario 10025
+os.name Linux
+sun.boot.class.path /u01/jdk/jre/lib/resources.jar:/u01/jdk/jre/lib/rt.jar:/u01/jdk/jre/lib/sunrsasign.jar:/u01/jdk/jre/lib/jsse.jar:/u01/jdk/jre/lib/jce.jar:/u01/jdk/jre/lib/charsets.jar:/u01/jdk/jre/lib/jfr.jar:/u01/jdk/jre/classes
+java.vm.specification.vendor Oracle Corporation
+oracle.jms.useJmsNotification false
+java.runtime.version 1.8.0_241-b07
+SascarProperties /u01/oracle/user_projects/domains/domwebps01_dev/resources/portal_servicos/
+weblogic.Name mngnode1
+user.name oracle
+com.sun.jersey.server.impl.cdi.lookupExtensionInBeanManager true
+log4j.configuration file:/u01/weblogic/domains/domwebps01_dev/resources/portal_servicos/log4j.properties
+java.naming.factory.initial weblogic.jndi.WLInitialContextFactory
+user.language en
+sun.boot.library.path /u01/jdk/jre/lib/amd64
+java.version 1.8.0_241
+user.timezone GMT
+sun.arch.data.model 64
+oracle.jdbc.noImplicitBeginRequest true
+javax.rmi.CORBA.UtilClass weblogic.iiop.UtilDelegateImpl
+java.endorsed.dirs /u01/jdk/jre/lib/endorsed
+vde.home /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/ldap
+sun.cpu.isalist 
+sun.jnu.encoding UTF-8
+file.encoding.pkg sun.io
+file.separator /
+java.specification.name Java Platform API Specification
+java.class.version 52.0
+weblogic.home /u01/oracle/wlserver/server
+user.country US
+java.home /u01/jdk/jre
+java.vm.info mixed mode
+os.version 5.4.0-72-generic
+org.omg.CORBA.ORBSingletonClass weblogic.corba.orb.ORB
+path.separator :
+weblogic.nmservice.RotationEnabled true
+java.vm.version 25.241-b07
+java.protocol.handler.pkgs weblogic.utils|weblogic.utils|org.apache.axis.transport|
+java.system.class.loader com.oracle.classloader.weblogic.LaunchClassLoader
+java.awt.printerjob sun.print.PSPrinterJob
+java.security.policy /u01/oracle/wlserver/server/lib/weblogic.policy
+sun.io.unicode.encoding UnicodeLittle
+awt.toolkit sun.awt.X11.XToolkit
+weblogic.nodemanager.ServiceEnabled true
+java.naming.factory.url.pkgs weblogic.jndi.factories:weblogic.corba.j2ee.naming.url:weblogic.jndi.factories:weblogic.corba.j2ee.naming.url
+acpParserIpSecundario 201.94.129.110
+user.home /home/oracle
+weblogic.management.server http://172.17.0.2:7001
+acpParserIpPrimario 201.94.129.110
+wls.home /u01/oracle/wlserver/server
+java.specification.vendor Oracle Corporation
+SascarEnvironment desenvolvimento
+java.library.path ::/u01/oracle/wlserver/server/native/linux/x86_64:/u01/oracle/wlserver/server/native/linux/x86_64/oci920_8:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.vendor.url http://java.oracle.com/
+java.vm.vendor Oracle Corporation
+java.runtime.name Java(TM) SE Runtime Environment
+sun.java.command weblogic.Server
+java.class.path /u01/jdk/lib/tools.jar:/u01/oracle/wlserver/server/lib/weblogic.jar:/u01/oracle/wlserver/../oracle_common/modules/thirdparty/ant-contrib-1.0b3.jar:/u01/oracle/wlserver/modules/features/oracle.wls.common.nodemanager.jar:/u01/oracle/wlserver/common/derby/lib/derbynet.jar:/u01/oracle/wlserver/common/derby/lib/derbyclient.jar:/u01/oracle/wlserver/common/derby/lib/derby.jar:/u01/jdk/lib/tools.jar
+java.vm.specification.name Java Virtual Machine Specification
+javax.rmi.CORBA.PortableRemoteObjectClass weblogic.iiop.PortableRemoteObjectDelegateImpl
+java.vm.specification.version 1.8
+sun.cpu.endian little
+sun.os.patch.level unknown
+weblogic.security.TrustKeyStore DemoTrust
+java.io.tmpdir /tmp
+java.vendor.url.bug http://bugreport.sun.com/bugreport/
+SascarPathWS http://172.18.0.1:8000/
+acpParserPortaPrimario 10025
+os.arch amd64
+java.awt.graphicsenv sun.awt.X11GraphicsEnvironment
+java.ext.dirs /u01/jdk/jre/lib/ext:/usr/java/packages/lib/ext
+user.dir /u01/oracle/user_projects/domains/domwebps01_dev
+line.separator 
+
+java.vm.name Java HotSpot(TM) 64-Bit Server VM
+weblogic.system.BootIdentityFile /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties
+urlPortalServicos http://172.18.0.1:8000/
+javax.management.builder.initial weblogic.management.jmx.mbeanserver.WLSMBeanServerBuilder
+org.omg.CORBA.ORBClass weblogic.corba.orb.ORB
+file.encoding UTF-8
+java.specification.version 1.8
+launch.use.env.classpath true
+java.vendor Oracle Corporation
+sun.java.launcher SUN_STANDARD
+sun.management.compiler HotSpot 64-Bit Tiered Compilers
+acpParserPortaSecundario 10025
+os.name Linux
+sun.boot.class.path /u01/jdk/jre/lib/resources.jar:/u01/jdk/jre/lib/rt.jar:/u01/jdk/jre/lib/sunrsasign.jar:/u01/jdk/jre/lib/jsse.jar:/u01/jdk/jre/lib/jce.jar:/u01/jdk/jre/lib/charsets.jar:/u01/jdk/jre/lib/jfr.jar:/u01/jdk/jre/classes
+java.vm.specification.vendor Oracle Corporation
+oracle.jms.useJmsNotification false
+java.runtime.version 1.8.0_241-b07
+SascarProperties /u01/oracle/user_projects/domains/domwebps01_dev/resources/portal_servicos/
+weblogic.Name mngnode1
+user.name oracle
+com.sun.jersey.server.impl.cdi.lookupExtensionInBeanManager true
+log4j.configuration file:/u01/weblogic/domains/domwebps01_dev/resources/portal_servicos/log4j.properties
+java.naming.factory.initial weblogic.jndi.WLInitialContextFactory
+user.language en
+sun.boot.library.path /u01/jdk/jre/lib/amd64
+java.version 1.8.0_241
+user.timezone GMT
+sun.arch.data.model 64
+oracle.jdbc.noImplicitBeginRequest true
+javax.rmi.CORBA.UtilClass weblogic.iiop.UtilDelegateImpl
+java.endorsed.dirs /u01/jdk/jre/lib/endorsed
+vde.home /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/ldap
+sun.cpu.isalist 
+sun.jnu.encoding UTF-8
+file.encoding.pkg sun.io
+file.separator /
+java.specification.name Java Platform API Specification
+java.class.version 52.0
+weblogic.home /u01/oracle/wlserver/server
+user.country US
+java.home /u01/jdk/jre
+java.vm.info mixed mode
+os.version 5.4.0-72-generic
+org.omg.CORBA.ORBSingletonClass weblogic.corba.orb.ORB
+path.separator :
+weblogic.nmservice.RotationEnabled true
+java.vm.version 25.241-b07
+java.protocol.handler.pkgs weblogic.utils|weblogic.utils|org.apache.axis.transport|
+java.system.class.loader com.oracle.classloader.weblogic.LaunchClassLoader
+java.awt.printerjob sun.print.PSPrinterJob
+java.security.policy /u01/oracle/wlserver/server/lib/weblogic.policy
+sun.io.unicode.encoding UnicodeLittle
+awt.toolkit sun.awt.X11.XToolkit
+weblogic.nodemanager.ServiceEnabled true
+java.naming.factory.url.pkgs weblogic.jndi.factories:weblogic.corba.j2ee.naming.url:weblogic.jndi.factories:weblogic.corba.j2ee.naming.url
+acpParserIpSecundario 201.94.129.110
+user.home /home/oracle
+weblogic.management.server http://172.17.0.2:7001
+acpParserIpPrimario 201.94.129.110
+wls.home /u01/oracle/wlserver/server
+java.specification.vendor Oracle Corporation
+SascarEnvironment desenvolvimento
+java.library.path ::/u01/oracle/wlserver/server/native/linux/x86_64:/u01/oracle/wlserver/server/native/linux/x86_64/oci920_8:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.vendor.url http://java.oracle.com/
+java.vm.vendor Oracle Corporation
+java.runtime.name Java(TM) SE Runtime Environment
+sun.java.command weblogic.Server
+java.class.path /u01/jdk/lib/tools.jar:/u01/oracle/wlserver/server/lib/weblogic.jar:/u01/oracle/wlserver/../oracle_common/modules/thirdparty/ant-contrib-1.0b3.jar:/u01/oracle/wlserver/modules/features/oracle.wls.common.nodemanager.jar:/u01/oracle/wlserver/common/derby/lib/derbynet.jar:/u01/oracle/wlserver/common/derby/lib/derbyclient.jar:/u01/oracle/wlserver/common/derby/lib/derby.jar:/u01/jdk/lib/tools.jar
+java.vm.specification.name Java Virtual Machine Specification
+javax.rmi.CORBA.PortableRemoteObjectClass weblogic.iiop.PortableRemoteObjectDelegateImpl
+java.vm.specification.version 1.8
+sun.cpu.endian little
+sun.os.patch.level unknown
+weblogic.security.TrustKeyStore DemoTrust
+java.io.tmpdir /tmp
+java.vendor.url.bug http://bugreport.sun.com/bugreport/
+SascarPathWS http://172.18.0.1:8000/
+acpParserPortaPrimario 10025
+os.arch amd64
+java.awt.graphicsenv sun.awt.X11GraphicsEnvironment
+java.ext.dirs /u01/jdk/jre/lib/ext:/usr/java/packages/lib/ext
+user.dir /u01/oracle/user_projects/domains/domwebps01_dev
+line.separator 
+
+java.vm.name Java HotSpot(TM) 64-Bit Server VM
+weblogic.system.BootIdentityFile /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties
+urlPortalServicos http://172.18.0.1:8000/
+javax.management.builder.initial weblogic.management.jmx.mbeanserver.WLSMBeanServerBuilder
+org.omg.CORBA.ORBClass weblogic.corba.orb.ORB
+file.encoding UTF-8
+java.specification.version 1.8
+launch.use.env.classpath true

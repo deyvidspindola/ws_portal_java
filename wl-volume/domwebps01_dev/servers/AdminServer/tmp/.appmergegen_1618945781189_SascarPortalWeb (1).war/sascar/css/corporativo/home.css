@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+#acesso {
+	width: 1024px;
+	height: 45px;
+	padding: 0px;
+	margin: 0px;
+}
+
+#botaoacesso {
+	background-image: url(../../images/corporativo_new/acesso_fundo-21.png);
+	width: 924px;
+	height: 26px;
+	margin-top: 10px;
+	text-align: left;
+	padding-top: 10px;
+	padding-left: 100px;
+}
+
+#dashboard {
+	width: 1024px;
+	height: 400px;
+	background-image: url(../../images/corporativo_new/fundo_home-14.jpg);
+	margin: 0px;
+}
+
+#acessorapido {
+	width: 300px;
+	height: 205px;
+	float: left;
+	padding-top: 10px;
+}
+
+#banner_faleconosco {
+	width: 225px;
+	height: 75px;
+	float: right;
+	margin-left: 20px;
+	margin-top: 35px;
+}
+
+#banner_duvidas {
+	width: 225px;
+	height: 75px;
+	float: right;
+}
+
+#banner_direcionamento_sinal {
+	width: 225px;
+	height: 75px;
+	float: right;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+
+#banner_mau_uso_equipamento {
+	width: 225px;
+	height: 75px;
+	float: right;
+	margin-top: 15px;
+}
+
+#banner_download_guia {
+	width: 225px;
+	height: 75px;
+	float: right;
+	margin-top: 15px;
+}
+
+#bannerrandomico {
+	width: 470px;
+	height: 75px;
+	float: right;
+	margin-top: 20px;
+}
+
+.iconshome {
+	margin-left: 20px;
+}
+
+/*textos*/
+.acessorapido {
+	color: #00417B;
+	font-weight: bold;
+	font-size: 16px;
+	margin-right: 30px;
+}
+
+a.dashboard:link {
+	color: #00417B;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+a.dashboard:visited {
+	color: #00417B;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+a.dashboard:hover {
+	color: #333;
+	font-weight: bold;
+	text-decoration: nome;
+	font-size: 14px;
+}
+
+a.dashboard:active {
+	color: #00417B;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 14px;
+}
+.titulo_download{
+	font-size: 15px;
+	color: #1162AA;
+	font-weight: bolder;
+	font-style: italic;
+}

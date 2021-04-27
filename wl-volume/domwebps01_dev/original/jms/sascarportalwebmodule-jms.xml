@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<web:weblogic-jms xmlns:web="http://xmlns.oracle.com/weblogic/weblogic-jms">
+  <web:connection-factory name="envio_config_factory">
+    <web:sub-deployment-name>SascarPortalWebSub</web:sub-deployment-name>
+    <web:default-targeting-enabled>false</web:default-targeting-enabled>
+    <web:jndi-name>jms/envio_config_factory</web:jndi-name>
+    <web:client-params>
+      <web:client-id-policy>Restricted</web:client-id-policy>
+      <web:subscription-sharing-policy>Exclusive</web:subscription-sharing-policy>
+      <web:acknowledge-policy>All</web:acknowledge-policy>
+      <web:allow-close-in-onMessage>true</web:allow-close-in-onMessage>
+      <web:messages-maximum>100</web:messages-maximum>
+      <web:multicast-overrun-policy>KeepOld</web:multicast-overrun-policy>
+      <web:synchronous-prefetch-mode>disabled</web:synchronous-prefetch-mode>
+      <web:reconnect-policy>producer</web:reconnect-policy>
+      <web:reconnect-blocking-millis>60000</web:reconnect-blocking-millis>
+      <web:total-reconnect-period-millis>-1</web:total-reconnect-period-millis>
+    </web:client-params>
+    <web:transaction-params>
+      <web:xa-connection-factory-enabled>true</web:xa-connection-factory-enabled>
+    </web:transaction-params>
+    <web:load-balancing-params>
+      <web:load-balancing-enabled>true</web:load-balancing-enabled>
+      <web:server-affinity-enabled>false</web:server-affinity-enabled>
+    </web:load-balancing-params>
+    <web:security-params>
+      <web:attach-jmsx-user-id>false</web:attach-jmsx-user-id>
+    </web:security-params>
+  </web:connection-factory>
+  <web:uniform-distributed-queue name="envio_config_queue">
+    <web:sub-deployment-name>SascarPortalWebSub</web:sub-deployment-name>
+    <web:default-targeting-enabled>false</web:default-targeting-enabled>
+    <web:jndi-name>jms/envio_config_queue</web:jndi-name>
+    <web:load-balancing-policy>Round-Robin</web:load-balancing-policy>
+    <web:forward-delay>-1</web:forward-delay>
+    <web:reset-delivery-count-on-forward>true</web:reset-delivery-count-on-forward>
+  </web:uniform-distributed-queue>
+</web:weblogic-jms>

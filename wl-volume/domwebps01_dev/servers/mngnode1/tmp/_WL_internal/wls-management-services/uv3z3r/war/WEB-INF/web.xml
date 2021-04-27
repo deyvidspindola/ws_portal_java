@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<web-app version="2.5" 
+         xmlns="http://java.sun.com/xml/ns/javaee" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+
+  <display-name>Management Services REST Resources</display-name>
+  <description>Management Services REST Resources</description>
+
+  <servlet>
+    <servlet-name>weblogic.management.rest.Application</servlet-name>
+    <servlet-class>weblogic.management.rest.JerseyServlet</servlet-class>
+    <init-param>
+      <param-name>javax.ws.rs.Application</param-name>
+      <param-value>weblogic.management.rest.Application</param-value>
+    </init-param>
+    <load-on-startup>1</load-on-startup>
+    <multipart-config>
+      <location></location>
+      <max-file-size>-1</max-file-size>
+      <max-request-size>-1</max-request-size>
+      <file-size-threshold>0</file-size-threshold>
+    </multipart-config>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>weblogic.management.rest.Application</servlet-name>
+    <url-pattern>/*</url-pattern>
+  </servlet-mapping>
+
+  <listener>
+    <listener-class>weblogic.management.rest.utils.RequestListener</listener-class>
+  </listener>
+
+  <!-- legacy resources get one set of role mappings -->
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name>legacy_management_rest_resources</web-resource-name>
+      <url-pattern>/tenant-monitoring/*</url-pattern>
+      <url-pattern>/elasticity-monitoring/*</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+      <role-name>Admin</role-name>
+      <role-name>Monitor</role-name>
+    </auth-constraint>
+  </security-constraint>
+
+  <!-- all non-legacy (i.e. current) resources get another set of role mappings -->
+  <security-constraint>
+    <web-resource-collection>
+      <web-resource-name>current_management_rest_resources</web-resource-name>
+      <url-pattern>/</url-pattern>
+    </web-resource-collection>
+    <auth-constraint>
+      <role-name>Admin</role-name>
+      <role-name>Deployer</role-name>
+      <role-name>Operator</role-name>
+      <role-name>Monitor</role-name>
+    </auth-constraint>
+  </security-constraint>
+
+  <login-config>
+    <auth-method>CLIENT-CERT,BASIC</auth-method>
+  </login-config>
+  
+  <security-role>
+    <role-name>Admin</role-name>
+  </security-role>
+  
+  <security-role>
+    <role-name>Operator</role-name>
+  </security-role>
+
+  <security-role>
+    <role-name>Deployer</role-name>
+  </security-role>
+
+  <security-role>
+    <role-name>Monitor</role-name>
+  </security-role>
+
+</web-app>

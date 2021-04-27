@@ -1,0 +1,96 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--Composite DITA to XHTML application by IBM Corp., 2001, 2002, 2003--><!--Common DITA topic to HTML application by IBM Corp., 2001, 2002, 2003--><html lang="en-US"><head><META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="/consolehelp/wls.css" type="text/css" rel="stylesheet"><title>Configure foreign server
+  overrides</title>
+<script src="/consolehelp/en-us/topicInfo.js" language="JavaScript"></script>
+<script src="/consolehelp/en-us/CookieClass.js" language="JavaScript"></script>
+
+</head><body class="base"><a name="WLACH64002" id="WLACH64002"></a>
+
+
+  <h1 class="topictitle1">Configure foreign server
+  overrides</h1>
+
+  <div><!--topic body-->
+    <div class="prereq"><p class="sectiontitle"><b>
+        Before you begin
+      </b></p>
+      <p><a href="/consolehelp/console-help.portal?_nfpb=true&_pageLabel=page&helpId=partition.jmsoverride.CreateForeignServerOverrides">Create foreign server
+  overrides</a></p>
+    </div>
+
+    <div><br>
+      <p>A JMS foreign server override defines partition-specific overrides
+      for the most commonly overridden attributes in a ForeignServer MBean. It
+      overrides some of the settings in a same-named ForeignServer MBean
+      instance in the same multi-tenant scope to which this override MBean
+      belongs.</p>
+
+      <p><a name="WLACH64002__startstop1198902" id="WLACH64002__startstop1198902"></a>To configure a JMS foreign
+      server override:</p>
+    </div>
+
+    <ol>
+      <li>
+        <span><a name="WLACH64002__startstop1198904" id="WLACH64002__startstop1198904"></a>In the left
+        pane of the Console, select <b>Domain
+        Partitions</b>.</span>
+
+         
+          <p>The Domain Partitions table displays all the partitions defined
+          in the domain.</p>
+        
+      </li>
+
+      <li>
+        <span>Click on the name of the domain partition for which you want to
+        configure a foreign server override.</span>
+      </li>
+
+      <li>
+        <span><a name="WLACH64002__startstop1204881" id="WLACH64002__startstop1204881"></a>Select the
+        <b>Resource Overrides </b><b>&gt; JMS
+        Modules</b> configuration page.</span>
+
+         
+          <p>The JMS Module Overrides table displays all the JMS module
+          overrides that have been configured in this domain partition.</p>
+        
+      </li>
+
+      <li>
+        <span><a name="WLACH64002__startstop1213516" id="WLACH64002__startstop1213516"></a>Click on the
+        name of the JMS module override for which you want to configure a
+        foreign server override.</span>
+      </li>
+
+      <li>
+        <span>On the <b>Settings &gt; Configuration</b> page,
+        click on the name of the foreign server override that you want to
+        configure.</span>
+      </li>
+
+      <li>
+        <span>On the <b>Configuration &gt; General</b> page,
+        optionally provide partition-specific values in the <b>Initial
+        Context Factory</b>, <b>Connection URL</b>,
+        <b>JNDI Properties Credential</b>, and <b>JNDI
+        Properties</b> fields and click
+        <b>Save</b>.</span>
+
+        <span>
+          <p>The JMS foreign server override configuration is changed.</p>
+        </span>
+      </li>
+    </ol>
+
+    <div class="postreq"><p class="sectiontitle"><b>
+        After you finish
+      </b></p>
+      <p>If the resource is running, you must restart the partition for the
+      overrides to take effect.</p>
+    </div>
+  </div>
+
+
+</body></html>

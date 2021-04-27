@@ -1,0 +1,135 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="help ID" content="Core-partition.core.partition.resourcegroup.jmsstoretable.title">
+<title>Domain Partition: Resource Groups: Services: Persistent
+  Stores</title>
+<script language="JavaScript" src="/consolehelp/en-us/topicInfo.js"></script><script language="JavaScript" src="/consolehelp/en-us/CookieClass.js"></script>
+</head>
+<body class="base">
+<blockquote>
+<h1 class="Title">Domain Partition: Resource Groups: Services: Persistent
+  Stores</h1>
+<p>
+<a href="#table">Column Display</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#tasks">Related Tasks</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#concepts">Related Topics</a>
+</p>
+<p>A persistent store is a physical repository for storing subsystem data,
+    such as persistent JMS messages. It can be either a JDBC-accessible
+    database, disk-based file, or replicated memory storage. This page
+    summarizes the persistent stores that have been created for this resource
+    group.</p>
+<h4>
+<a name="table">Column Display</a>
+</h4>
+<p>You can show fewer or additional data points on this page by expanding <b>Customize this table</b> and modifying the <b>Column Display</b> list. Each data point displays in its own table column.</p>
+<p>The following table lists all of the data points that you can display in columns on this page.</p>
+<div class="tblmargin">
+<table class="edocshelp">
+<thead>
+<tr>
+<th valign="top" style="padding:0px"> Name</th><th valign="top" style="padding:0px"> Description</th>
+</tr>
+</thead>
+<tbody>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.resourcegroup.jmsstoretable.name">Name</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>The name of this a JDBC-accessible database, disk-based file, or
+        replicated memory store. This name must be unique within the WebLogic
+        Server instance or its cluster.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/WebLogicMBean.html#Name">WebLogicMBean.Name</a></code>
+</p>
+<p>
+<a href="en-us/restart.html" onClick="return popup(this,'glossarypopup')"> 
+                                                    Changes take effect after you redeploy the module or restart the server.</a>
+</p>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.resourcegroup.jmsstoretable.type">Type</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>The type of persistent store.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/JMSFileStoreMBean.html#Targets">JMSFileStoreMBean.Targets</a></code>
+</p>
+<p>
+<a href="en-us/restart.html" onClick="return popup(this,'glossarypopup')"> 
+                                                    Changes take effect after you redeploy the module or restart the server.</a>
+</p>
+</td>
+</tr>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.resourcegroup.jmsstoretable.target">Target</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>The server instances, dynamic clusters, or migratable targets
+        defined in the current domain that are candidates for hosting a
+        persistent store.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/JMSFileStoreMBean.html#Targets">JMSFileStoreMBean.Targets</a></code>
+</p>
+<p>
+<a href="en-us/restart.html" onClick="return popup(this,'glossarypopup')"> 
+                                                    Changes take effect after you redeploy the module or restart the server.</a>
+</p>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.resourcegroup.jmsstoretable.scope">Scope</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>Specifies if the persistent store is accessible within the domain,
+        a partition, or a resource group template.</p>
+</td>
+</tr>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.resourcegroup.jmsstoretable.partitions">Domain Partitions</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>List of domain partitions that this persistent store is
+        available.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="relatedtopics">
+<a name="tasks">Related Tasks</a>
+</p>
+<ul>
+<li>
+<a href="/consolehelp/console-help.portal?_nfpb=true&amp;_pageLabel=page&amp;helpId=stores.CreateFileStores">Create file
+  stores</a>
+</li>
+<li>
+<a href="/consolehelp/console-help.portal?_nfpb=true&amp;_pageLabel=page&amp;helpId=stores.CreateReplicatedStores">Create replicated
+  stores</a>
+</li>
+<li>
+<a href="/consolehelp/console-help.portal?_nfpb=true&amp;_pageLabel=page&amp;helpId=stores.CreateJDBCStores">Create JDBC
+  stores</a>
+</li>
+<li>
+<a href="/consolehelp/console-help.portal?_nfpb=true&amp;_pageLabel=page&amp;helpId=stores.MonitorStores">Monitor persistent
+  stores</a>
+</li>
+</ul>
+<p class="relatedtopics">
+<a name="concepts">Related Topics</a>
+</p>
+<ul>
+<li>
+<a href="http://docs.oracle.com/middleware/12213/wls/WLSMT/config_store.htm">Configuring WebLogic
+    Stores</a>
+</li>
+<li>
+<a href="http://docs.oracle.com/middleware/12213/wls/STORE/overview.htm">Using the WebLogic Persistent
+    Store</a>
+</li>
+<li>
+<a href="http://docs.oracle.com/middleware/12213/wls/WLEXA/rs.htm">Using the WebLogic Replicated
+    Store</a>
+</li>
+</ul>
+</blockquote>
+</body>
+</html>

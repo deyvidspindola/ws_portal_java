@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--Composite DITA to XHTML application by IBM Corp., 2001, 2002, 2003--><!--Common DITA topic to HTML application by IBM Corp., 2001, 2002, 2003--><html lang="en-US"><head><META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="/consolehelp/wls.css" type="text/css" rel="stylesheet"><title>Configure domain
+  partition available targets</title>
+<script src="/consolehelp/en-us/topicInfo.js" language="JavaScript"></script>
+<script src="/consolehelp/en-us/CookieClass.js" language="JavaScript"></script>
+
+</head><body class="base"><a name="WLACH06006" id="WLACH06006"></a>
+
+
+  <h1 class="topictitle1">Configure domain
+  partition available targets</h1>
+
+  <div><!--topic body-->
+    <div><br>
+      <p><a name="WLACH06006__startstop1198902" id="WLACH06006__startstop1198902"></a>To configure a domain
+      partition available targets:</p>
+
+      <p><b>Note: </b>This topic focuses on the management tasks you perform
+      on the domain partition itself, and not on the associated resource
+      groups.</p>
+    </div>
+
+    <ol><li>If you have not already done so, in the Change Center of the Administration Console, click <b>Lock &amp; Edit</b> (see <a href="/consolehelp/console-help.portal?_nfpb=true&_pageLabel=page&helpId=console.UseTheChangeCenter">Use the Change Center</a>).</li>
+      <li>
+        <span><a name="WLACH06006__startstop1198904" id="WLACH06006__startstop1198904"></a>In the left
+        pane of the Console, select <b>Domain Partitions</b>.</span>
+
+         
+          <p>The Domain Partitions table displays all of the partitions
+          defined in the domain.</p>
+        
+      </li>
+
+      <li>
+        <span><a name="WLACH06006__startstop1213516" id="WLACH06006__startstop1213516"></a>Select the
+        domain partition you want to configure.</span>
+      </li>
+
+      <li>
+        <span>Select the Domain Partition Configuration -&gt; Available Targets
+        page.</span>
+      </li>
+
+      <li>
+        <span><a name="WLACH06006__startstop1204881" id="WLACH06006__startstop1204881"></a>Select one or
+        more existing virtual targets to be available for this domain
+        partition to use. Multiple partitions cannot use the same virtual
+        target. You can use a virtual target only with one partition at any
+        one time. See <a href="http://docs.oracle.com/middleware/12213/wls/WLSMT/config_virtual.htm#WLSMT580">Configuring Virtual Targets</a> and <a href="http://docs.oracle.com/middleware/12213/wls/WLSMT/config_virtual.htm#WLSMT1685">About Partition
+        Administrative Virtual Targets</a> for more information on virtual
+        targets.</span>
+      </li>
+
+      <li>
+        <span><a name="WLACH06006__startstop1202599" id="WLACH06006__startstop1202599"></a>Click
+        <b>Save</b>.</span>
+      </li>
+    <li>To activate these changes, in the Change Center of the Administration Console, click <b>Activate Changes</b>. <br>Not all changes take effect immediately&mdash;some require a restart (see <a href="/consolehelp/console-help.portal?_nfpb=true&_pageLabel=page&helpId=console.UseTheChangeCenter">Use the Change Center</a>).</li></ol>
+
+    <div class="postreq"><p class="sectiontitle"><b>
+        After you finish
+      </b></p>
+      <p>You perform most of the configuration required for a partition when
+      you configure the resource group or resource group overrides. The tasks
+      include configuring JDBC system data sources, JMS servers and resources,
+      and foreign JNDI providers, and so forth.</p>
+
+      <p>If you did not create the resource group from a resource group
+      template, edit the resource group as needed. <a href="http://docs.oracle.com/middleware/12213/wls/WLSMT/config_resource_grp.htm#WLSMT583">See
+      Configuring Resource Groups</a> for additional information.</p>
+
+      <p>If you did create the resource group from a resource group template,
+      see <a href="http://docs.oracle.com/middleware/12213/wls/WLSMT/config_resource_over.htm#WLSMT737">Configuring Resource Overrides</a> for additional
+      information.</p>
+    </div>
+  </div>
+
+
+</body></html>

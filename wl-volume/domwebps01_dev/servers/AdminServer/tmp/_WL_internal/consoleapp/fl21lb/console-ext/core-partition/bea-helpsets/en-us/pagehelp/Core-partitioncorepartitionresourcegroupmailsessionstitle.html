@@ -1,0 +1,118 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="help ID" content="Core-partition.core.partition.resourcegroup.mailsessions.title">
+<title>Mail Sessions</title>
+<script language="JavaScript" src="/consolehelp/en-us/topicInfo.js"></script><script language="JavaScript" src="/consolehelp/en-us/CookieClass.js"></script>
+</head>
+<body class="base">
+<blockquote>
+<h1 class="Title">Mail Sessions</h1>
+<p>
+<a href="#table">Column Display</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#tasks">Related Tasks</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>This page summarizes the mail sessions that have been configured in the
+    current domain partition resource group.</p>
+<h4>
+<a name="table">Column Display</a>
+</h4>
+<p>You can show fewer or additional data points on this page by expanding <b>Customize this table</b> and modifying the <b>Column Display</b> list. Each data point displays in its own table column.</p>
+<p>The following table lists all of the data points that you can display in columns on this page.</p>
+<div class="tblmargin">
+<table class="edocshelp">
+<thead>
+<tr>
+<th valign="top" style="padding:0px"> Name</th><th valign="top" style="padding:0px"> Description</th>
+</tr>
+</thead>
+<tbody>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partitionresourcegroup.mailsession.table.name">Name</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>The name of this mail session.</p>
+<p>This value is for user-identification purposes only; applications
+        use the JNDI name to access this mail session.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/MailSessionMBean.html#Name">MailSessionMBean.Name</a></code>
+</p>
+<p>
+<a href="en-us/restart.html" onClick="return popup(this,'glossarypopup')"> 
+                                                    Changes take effect after you redeploy the module or restart the server.</a>
+</p>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partitionresourcegroup.mailsession.table.properties">Properties</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getProperties"></a><a name="Properties"></a>
+<p>The configuration options and user authentication data that this mail session uses to interact with a mail server. Each property that you specify overrides the default property value as defined by the JavaMail API Design Specification.</p>
+<p>Include only the properties defined by the JavaMail API Design Specification.</p>
+<p>If you do not specify any properties, this mail session will use the JavaMail default property values.</p>
+<p>Express each property as a <code><i>name</i>=<i>value</i></code> pair. Separate multiple properties with a semicolon (<code>;</code>).</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/MailSessionMBean.html#Properties">MailSessionMBean.Properties</a></code>
+</p>
+<p>
+<a href="en-us/restart.html" onClick="return popup(this,'glossarypopup')"> 
+                                                    Changes take effect after you redeploy the module or restart the server.</a>
+</p>
+</td>
+</tr>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partitionresourcegroup.mailsession.table.jndiname">JNDI Name</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>The JNDI name that modules use to access this mail session.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/MailSessionMBean.html#JNDIName">MailSessionMBean.JNDIName</a></code>
+</p>
+<p>
+<a href="en-us/restart.html" onClick="return popup(this,'glossarypopup')"> 
+                                                    Changes take effect after you redeploy the module or restart the server.</a>
+</p>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partitionresourcegroup.mailsession.table.sessionusername">Username</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getSessionUsername"></a><a name="SessionUsername"></a>
+<p>Returns the username to be used to create an authenticated JavaMail Session, using a JavaMail <code>Authenticator</code> instance; if this is not set, it will be assumed that the Session is not to be authenticated.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/MailSessionMBean.html#SessionUsername">MailSessionMBean.SessionUsername</a></code>
+</p>
+<p>
+<a href="en-us/restart.html" onClick="return popup(this,'glossarypopup')"> 
+                                                    Changes take effect after you redeploy the module or restart the server.</a>
+</p>
+</td>
+</tr>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partitionresourcegroup.mailsession.table.scope">Scope</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>The scope in which this mail session is deployed.</p>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partitionresourcegroup.mailsession.table.partitions">Domain Partitions</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>List of domain partitions that this mail session is available.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="relatedtopics">
+<a name="tasks">Related Tasks</a>
+</p>
+<ul>
+<li>
+<a href="/consolehelp/console-help.portal?_nfpb=true&amp;_pageLabel=page&amp;helpId=mail.CreateMailSessions">Configure access to
+  JavaMail</a>
+</li>
+<li>
+<a href="/consolehelp/console-help.portal?_nfpb=true&amp;_pageLabel=page&amp;helpId=mail.TargetMailSessions">Target mail sessions</a>
+</li>
+<li>
+<a href="/consolehelp/console-help.portal?_nfpb=true&amp;_pageLabel=page&amp;helpId=mail.DeleteMailSessions">Delete mail sessions</a>
+</li>
+</ul>
+</blockquote>
+</body>
+</html>

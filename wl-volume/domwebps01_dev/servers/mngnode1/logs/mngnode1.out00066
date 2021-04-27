@@ -1,0 +1,182 @@
+<Apr 20, 2021 7:19:54 PM GMT> <INFO> <NodeManager> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: PATH=/u01/jdk/jre/bin:/u01/jdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/u01/jdk/bin:/u01/oracle/oracle_common/common/bin:/u01/oracle:/u01/jdk/bin:/u01/oracle/oracle_common/common/bin:/u01/oracle/container-scripts>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: CONFIGURED_MANAGED_SERVER_COUNT=1>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: ADMIN_LISTEN_PORT=7001>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: JRE_HOME=/u01/jdk/jre>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: MANAGED_SERVER_CONTAINER=false>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: ADMIN_HOST=AdminContainer>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: PWD=/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: MEM_ARGS=-Xms32m -Xmx200m>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: JAVA_VM=-server>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: OLDPWD=/u01/oracle>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: DOMAIN_ROOT=/u01/oracle/user_projects/domains>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: DOMAIN_HOME=/u01/oracle/user_projects/domains/domwebps01_dev>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: BEA_JAVA_HOME=>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: ADMINISTRATION_PORT_ENABLED=false>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: MANAGED_SERVER_NAME_BASE=mngnode>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: LC_ALL=en_US.UTF-8>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: ADMIN_NAME=AdminServer>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: DEFAULT_SUN_JAVA_HOME=/u01/jdk>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: JAVA_OPTIONS=-Dweblogic.system.BootIdentityFile=/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties -Dweblogic.nodemanager.ServiceEnabled=true -Dweblogic.nmservice.RotationEnabled=true -Dlog4j.configuration=file:/u01/weblogic/domains/domwebps01_dev/resources/portal_servicos/log4j.properties   -DSascarProperties=/u01/oracle/user_projects/domains/domwebps01_dev/resources/portal_servicos/  -DurlPortalServicos=http://172.18.0.1:8000/   -DacpParserIpPrimario=201.94.129.110   -DacpParserPortaPrimario=10025   -DacpParserIpSecundario=201.94.129.110   -DacpParserPortaSecundario=10025   -DSascarEnvironment=desenvolvimento   -DSascarPathWS=http://172.18.0.1:8000/  -Xdebug  -Xnoagent  -Xrunjdwp:transport=dt_socket,address=4000,server=y,suspend=n>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: SHLVL=3>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: PROPERTIES_FILE_DIR=/u01/oracle/properties>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: SECURITY_JVM_ARGS=-Dweblogic.alternateTypesDirectory='/u01/oracle/wlserver/..'/oracle_common/modules/oracle.oamprovider,'/u01/oracle/wlserver/..'/oracle_common/modules/oracle.jps>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: ADMIN_URL=http://172.17.0.2:7001>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: DERBY_SYSTEM_HOME=/u01/oracle/user_projects/domains/domwebps01_dev/common/db>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: JAVA_HOME=/u01/jdk>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: CLUSTER_TYPE=CONFIGURED>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: TMP_UPDATE_SCRIPT=/tmp/Update.sh>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: NODEMGR_HOME=/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: SERVER_NAME=mngnode1>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: ORACLE_HOME=/u01/oracle>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: _=/u01/jdk/bin/java>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: MANAGED_NAME=MS1>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: CLUSTER_NAME=cluster01_dev>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: PATHSEP=:>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: CAM_NODEMANAGER_JAR_PATH=/u01/oracle/wlserver/modules/features/oracle.wls.common.nodemanager.jar>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: ADMINISTRATION_PORT=9002>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: DOMAIN_NAME=domwebps01_dev>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: CLASSPATH=/u01/jdk/lib/tools.jar:>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: DEFAULT_BEA_JAVA_HOME=>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: MANAGED_SERVER_PORT=8001>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: SUN_JAVA_HOME=/u01/jdk>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: HOSTNAME=AdminContainer>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: CLASSPATHSEP=:>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: HOME=/home/oracle>
+<Apr 20, 2021 7:19:54 PM GMT> <FINEST> <NodeManager> <Environment: UTILS_MEM_ARGS=-Xms32m -Xmx1024m>
+<Apr 20, 2021 7:19:54 PM GMT> <INFO> <NodeManager> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Apr 20, 2021 7:19:54 PM GMT> <INFO> <NodeManager> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+.
+.
+JAVA Memory arguments: -Xms256m -Xmx512m -XX:CompileThreshold=8000
+.
+CLASSPATH=/u01/jdk/lib/tools.jar:/u01/oracle/wlserver/server/lib/weblogic.jar:/u01/oracle/wlserver/../oracle_common/modules/thirdparty/ant-contrib-1.0b3.jar:/u01/oracle/wlserver/modules/features/oracle.wls.common.nodemanager.jar::/u01/oracle/wlserver/common/derby/lib/derbynet.jar:/u01/oracle/wlserver/common/derby/lib/derbyclient.jar:/u01/oracle/wlserver/common/derby/lib/derby.jar:/u01/jdk/lib/tools.jar:
+.
+PATH=/u01/oracle/user_projects/domains/domwebps01_dev/bin:/u01/oracle/wlserver/server/bin:/u01/oracle/wlserver/../oracle_common/modules/thirdparty/org.apache.ant/1.9.8.0.0/apache-ant-1.9.8/bin:/u01/jdk/jre/bin:/u01/jdk/bin:/u01/jdk/jre/bin:/u01/jdk/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/u01/jdk/bin:/u01/oracle/oracle_common/common/bin:/u01/oracle:/u01/jdk/bin:/u01/oracle/oracle_common/common/bin:/u01/oracle/container-scripts
+.
+***************************************************
+*  To start WebLogic Server, use a username and   *
+*  password assigned to an admin-level user.  For *
+*  server administration, use the WebLogic Server *
+*  console at http://hostname:port/console        *
+***************************************************
+Starting WLS with line:
+/u01/jdk/bin/java -server   -Xms256m -Xmx512m -XX:CompileThreshold=8000 -cp /u01/oracle/wlserver/server/lib/weblogic-launcher.jar -Dlaunch.use.env.classpath=true -Dweblogic.Name=mngnode1 -Djava.security.policy=/u01/oracle/wlserver/server/lib/weblogic.policy -Dweblogic.system.BootIdentityFile=/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties -Dweblogic.nodemanager.ServiceEnabled=true -Dweblogic.nmservice.RotationEnabled=true -Dlog4j.configuration=file:/u01/weblogic/domains/domwebps01_dev/resources/portal_servicos/log4j.properties   -DSascarProperties=/u01/oracle/user_projects/domains/domwebps01_dev/resources/portal_servicos/  -DurlPortalServicos=http://172.18.0.1:8000/   -DacpParserIpPrimario=201.94.129.110   -DacpParserPortaPrimario=10025   -DacpParserIpSecundario=201.94.129.110   -DacpParserPortaSecundario=10025   -DSascarEnvironment=desenvolvimento   -DSascarPathWS=http://172.18.0.1:8000/  -Xdebug  -Xnoagent  -Xrunjdwp:transport=dt_socket,address=4000,server=y,suspend=n -Djava.system.class.loader=com.oracle.classloader.weblogic.LaunchClassLoader  -javaagent:/u01/oracle/wlserver/server/lib/debugpatch-agent.jar -da -Dwls.home=/u01/oracle/wlserver/server -Dweblogic.home=/u01/oracle/wlserver/server   -Dweblogic.management.server=http://172.17.0.2:7001   weblogic.Server
+Listening for transport dt_socket at address: 4000
+<Apr 20, 2021 7:19:56 PM GMT> <Info> <Security> <BEA-090905> <Disabling the CryptoJ JCE Provider self-integrity check for better startup performance. To enable this check, specify -Dweblogic.security.allowCryptoJDefaultJCEVerification=true.> 
+<Apr 20, 2021 7:19:56 PM GMT> <Info> <Security> <BEA-090906> <Changing the default Random Number Generator in RSA CryptoJ from ECDRBG128 to HMACDRBG. To disable this change, specify -Dweblogic.security.allowCryptoJDefaultPRNG=true.> 
+<Apr 20, 2021 7:19:56 PM GMT> <Notice> <WebLogicServer> <BEA-000395> <The following extensions directory contents added to the end of the classpath: 
+/u01/oracle/user_projects/domains/domwebps01_dev/lib/postgresql-9.2-1004.jdbc4.jar.> 
+<Apr 20, 2021 7:19:57 PM GMT> <Info> <WebLogicServer> <BEA-000377> <Starting WebLogic Server with Java HotSpot(TM) 64-Bit Server VM Version 25.241-b07 from Oracle Corporation.> 
+<Apr 20, 2021 7:19:57 PM GMT> <Info> <RCM> <BEA-2165021> <"ResourceManagement" is not enabled in this JVM. Enable "ResourceManagement" to use the WebLogic Server "Resource Consumption Management" feature. To enable "ResourceManagement", you must specify the following JVM options in the WebLogic Server instance in which the JVM runs: -XX:+UnlockCommercialFeatures -XX:+ResourceManagement.> 
+<Apr 20, 2021 7:19:57 PM GMT> <Info> <Management> <BEA-141107> <Version: WebLogic Server 12.2.1.3.0 Thu Aug 17 13:39:49 PDT 2017 1882952> 
+<Apr 20, 2021 7:20:00 PM GMT> <Notice> <WebLogicServer> <BEA-000365> <Server state changed to STARTING.> 
+<Apr 20, 2021 7:20:00 PM GMT> <Info> <WorkManager> <BEA-002900> <Initializing self-tuning thread pool.> 
+<Apr 20, 2021 7:20:00 PM GMT> <Info> <WorkManager> <BEA-002942> <CMM memory level becomes 0. Setting standby thread pool size to 256.> 
+<Apr 20, 2021 7:20:01,260 PM GMT> <Notice> <Log Management> <BEA-170019> <The server log file weblogic.logging.FileStreamHandler instance=1964808272
+Current log file=/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.log
+Rotation dir=/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs
+ is opened. All server side log events will be written to this file.> 
+<Apr 20, 2021 7:20:01,929 PM GMT> <Notice> <Security> <BEA-090946> <Security pre-initializing using security realm: myrealm> 
+<Apr 20, 2021 7:20:02,597 PM GMT> <Notice> <Security> <BEA-090947> <Security post-initializing using security realm: myrealm> 
+<Apr 20, 2021 7:20:04,652 PM GMT> <Notice> <Security> <BEA-090082> <Security initialized using administrative security realm: myrealm> 
+<Apr 20, 2021 7:20:05,024 PM GMT> <Notice> <JMX> <BEA-149512> <JMX Connector Server started at service:jmx:iiop://172.17.0.2:8001/jndi/weblogic.management.mbeanservers.runtime.> 
+<Apr 20, 2021 7:20:07,475 PM GMT> <Notice> <WebLogicServer> <BEA-000365> <Server state changed to STANDBY.> 
+<Apr 20, 2021 7:20:07,480 PM GMT> <Notice> <WebLogicServer> <BEA-000365> <Server state changed to STARTING.> 
+<Apr 20, 2021 7:20:07,594 PM GMT> <Notice> <Log Management> <BEA-170036> <The Logging monitoring service timer has started to check for logged message counts every 30 seconds.> 
+<Apr 20, 2021 7:22:18,399 PM GMT> <Error> <Deployer> <BEA-149205> <Failed to initialize the application "WebCenterDS" due to error weblogic.application.ModuleException: java.net.ConnectException: Connection timed out
+weblogic.application.ModuleException: java.net.ConnectException: Connection timed out
+	at weblogic.jdbc.module.JDBCModule.prepare(JDBCModule.java:408)
+	at weblogic.application.internal.flow.ModuleListenerInvoker.prepare(ModuleListenerInvoker.java:100)
+	at weblogic.application.internal.flow.ModuleStateDriver$1.next(ModuleStateDriver.java:192)
+	at weblogic.application.internal.flow.ModuleStateDriver$1.next(ModuleStateDriver.java:187)
+	at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:45)
+	Truncated. see log file for complete stacktrace
+Caused By: java.net.ConnectException: Connection timed out
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at java.nio.channels.SocketChannel.open(SocketChannel.java:189)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 20, 2021 7:22:18,458 PM GMT> <Error> <Deployer> <BEA-149205> <Failed to initialize the application "mds-SpacesDS" due to error weblogic.application.ModuleException: oracle.net.ns.NetException: Unknown host specified 
+weblogic.application.ModuleException: oracle.net.ns.NetException: Unknown host specified 
+	at weblogic.jdbc.module.JDBCModule.prepare(JDBCModule.java:408)
+	at weblogic.application.internal.flow.ModuleListenerInvoker.prepare(ModuleListenerInvoker.java:100)
+	at weblogic.application.internal.flow.ModuleStateDriver$1.next(ModuleStateDriver.java:192)
+	at weblogic.application.internal.flow.ModuleStateDriver$1.next(ModuleStateDriver.java:187)
+	at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:45)
+	Truncated. see log file for complete stacktrace
+Caused By: oracle.net.ns.NetException: Unknown host specified 
+	at oracle.net.resolver.HostnameNamingAdapter.resolve(HostnameNamingAdapter.java:209)
+	at oracle.net.resolver.NameResolver.resolveName(NameResolver.java:131)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:489)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:660)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 20, 2021 7:22:28,493 PM GMT> <Error> <Deployer> <BEA-149205> <Failed to initialize the application "mds-owsm" due to error weblogic.application.ModuleException: java.io.InterruptedIOException: Socket read timed out
+weblogic.application.ModuleException: java.io.InterruptedIOException: Socket read timed out
+	at weblogic.jdbc.module.JDBCModule.prepare(JDBCModule.java:408)
+	at weblogic.application.internal.flow.ModuleListenerInvoker.prepare(ModuleListenerInvoker.java:100)
+	at weblogic.application.internal.flow.ModuleStateDriver$1.next(ModuleStateDriver.java:192)
+	at weblogic.application.internal.flow.ModuleStateDriver$1.next(ModuleStateDriver.java:187)
+	at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:45)
+	Truncated. see log file for complete stacktrace
+Caused By: java.io.InterruptedIOException: Socket read timed out
+	at oracle.net.nt.TimeoutSocketChannel.handleInterrupt(TimeoutSocketChannel.java:307)
+	at oracle.net.nt.TimeoutSocketChannel.<init>(TimeoutSocketChannel.java:84)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:169)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:161)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:470)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 20, 2021 7:22:28,577 PM GMT> <Error> <Deployer> <BEA-149205> <Failed to initialize the application "moduloEnvioConfigSasdb" due to error weblogic.application.ModuleException: oracle.net.ns.NetException: Unknown host specified 
+weblogic.application.ModuleException: oracle.net.ns.NetException: Unknown host specified 
+	at weblogic.jdbc.module.JDBCModule.prepare(JDBCModule.java:408)
+	at weblogic.application.internal.flow.ModuleListenerInvoker.prepare(ModuleListenerInvoker.java:100)
+	at weblogic.application.internal.flow.ModuleStateDriver$1.next(ModuleStateDriver.java:192)
+	at weblogic.application.internal.flow.ModuleStateDriver$1.next(ModuleStateDriver.java:187)
+	at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:45)
+	Truncated. see log file for complete stacktrace
+Caused By: oracle.net.ns.NetException: Unknown host specified 
+	at oracle.net.resolver.HostnameNamingAdapter.resolve(HostnameNamingAdapter.java:209)
+	at oracle.net.resolver.NameResolver.resolveName(NameResolver.java:131)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:489)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:660)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 20, 2021 7:26:50,766 PM GMT> <Error> <Deployer> <BEA-149205> <Failed to initialize the application "posicaoPortalOracle" due to error weblogic.application.ModuleException: java.net.ConnectException: Connection timed out
+weblogic.application.ModuleException: java.net.ConnectException: Connection timed out
+	at weblogic.jdbc.module.JDBCModule.prepare(JDBCModule.java:408)
+	at weblogic.application.internal.flow.ModuleListenerInvoker.prepare(ModuleListenerInvoker.java:100)
+	at weblogic.application.internal.flow.ModuleStateDriver$1.next(ModuleStateDriver.java:192)
+	at weblogic.application.internal.flow.ModuleStateDriver$1.next(ModuleStateDriver.java:187)
+	at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:45)
+	Truncated. see log file for complete stacktrace
+Caused By: java.net.ConnectException: Connection timed out
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	at java.nio.channels.SocketChannel.open(SocketChannel.java:189)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 20, 2021 7:29:01,860 PM GMT> <Error> <Deployer> <BEA-149205> <Failed to initialize the application "postgresBlackbox" due to error weblogic.application.ModuleException: java.net.ConnectException: Connection timed out (Connection timed out)
+weblogic.application.ModuleException: java.net.ConnectException: Connection timed out (Connection timed out)
+	at weblogic.jdbc.module.JDBCModule.prepare(JDBCModule.java:408)
+	at weblogic.application.internal.flow.ModuleListenerInvoker.prepare(ModuleListenerInvoker.java:100)
+	at weblogic.application.internal.flow.ModuleStateDriver$1.next(ModuleStateDriver.java:192)
+	at weblogic.application.internal.flow.ModuleStateDriver$1.next(ModuleStateDriver.java:187)
+	at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:45)
+	Truncated. see log file for complete stacktrace
+Caused By: java.net.ConnectException: Connection timed out (Connection timed out)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	Truncated. see log file for complete stacktrace
+> 

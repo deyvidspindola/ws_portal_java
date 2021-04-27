@@ -1,0 +1,102 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--Composite DITA to XHTML application by IBM Corp., 2001, 2002, 2003--><!--Common DITA topic to HTML application by IBM Corp., 2001, 2002, 2003--><html lang="en-US"><head><META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="/consolehelp/wls.css" type="text/css" rel="stylesheet"><title>Configure partition
+  resource managers</title>
+<script src="/consolehelp/en-us/topicInfo.js" language="JavaScript"></script>
+<script src="/consolehelp/en-us/CookieClass.js" language="JavaScript"></script>
+
+</head><body class="base"><a name="startstop1208193" id="startstop1208193"></a>
+
+
+  <h1 class="topictitle1">Configure partition
+  resource managers</h1>
+
+  <div><!--topic body-->
+    <div class="prereq"><p class="sectiontitle"><b>
+        Before you begin
+      </b></p>
+      <p><a href="http://docs.oracle.com/middleware/12213/wls/WLACH/taskhelp/rcm/CreateResourceConsumptionManagers.html">Create a Resource Consumption Manager</a></p>
+    </div>
+
+    <div><br>
+      <p><a name="startstop1208193__startstop1208194" id="startstop1208193__startstop1208194"></a>Resource Consumption
+      Management (RCM) provides a flexible, dynamic mechanism to manage shared
+      resources and provide consistent performance of domain partitions. Use
+      this page to select an existing domain resource manager or to create a
+      new resource manager for this domain partition.</p>
+
+      <p><a name="startstop1208193__startstop1198902" id="startstop1208193__startstop1198902"></a>To configure a Partition
+      Resource Manager:</p>
+    </div>
+
+    <ol>
+      <li>
+        <span><a name="startstop1208193__startstop1198904" id="startstop1208193__startstop1198904"></a>In the left
+        pane of the Console, expand <b>Domain
+        Partitions</b>.</span>
+
+         
+          <p>The Domain Partitions table displays all the partitions defined
+          in the domain.</p>
+        
+      </li>
+
+      <li>
+        <span><a name="startstop1208193__startstop1213516" id="startstop1208193__startstop1213516"></a>Click on the
+        name of the domain partition where you want to configure a resource
+        manager.</span>
+      </li>
+
+      <li>
+        <span><a name="startstop1208193__startstop1198904" id="startstop1208193__startstop1198904"></a>Select
+        <b>Configuration: Resource Management</b>.</span>
+      </li>
+
+      <li>
+        <span><a name="startstop1208193__startstop1213516" id="startstop1208193__startstop1213516"></a>Select an
+        existing resource manager from the <b>Resource Manager
+        Reference</b> drop-down box. To create a domain partition
+        specific resource manager, select <b>NONE</b>.</span>
+      </li>
+
+      <li>
+        <span>If you selected <b>NONE</b> from the
+        <b>Resource Manager Reference</b> drop-down box,
+        select <b>Resource Manager Name: Change</b> to create
+        or manage a resource manager that is specific for a domain
+        partition.</span>
+
+        <ol type="a">
+          <li>
+            <span>To create a new resource manager for this domain partition,
+            see <a href="/consolehelp/console-help.portal?_nfpb=true&_pageLabel=page&helpId=partition.rcm.CreatePartitionRcmManagers">Create a partition
+  resource manager</a>.</span>
+          </li>
+
+          <li>
+            <span>For an existing resource manager, select <b>Resource
+            Manager Name: Change</b> and <a href="http://docs.oracle.com/middleware/12213/wls/WLACH/taskhelp/rcm/ManageRCMPolicies.html">Manage Resource Conumption Manager
+            Policies</a>.</span>
+          </li>
+        </ol>
+      </li>
+    </ol>
+
+    <div class="postreq"><p class="sectiontitle"><b>
+        After you finish
+      </b></p>
+      <ul>
+        <li><a href="/consolehelp/console-help.portal?_nfpb=true&_pageLabel=page&helpId=partition.rcm.MonitorPartitionRcmCPU">Monitor CPU
+  utilization</a></li>
+
+        <li><a href="/consolehelp/console-help.portal?_nfpb=true&_pageLabel=page&helpId=partition.rcm.MonitorPartitionRcmFiles">Monitor open
+  files</a></li>
+
+        <li><a href="/consolehelp/console-help.portal?_nfpb=true&_pageLabel=page&helpId=partition.rcm.MonitorPartitionRcmHeap">Monitor heap
+  utilization</a></li>
+      </ul>
+    </div>
+  </div>
+
+
+</body></html>

@@ -1,0 +1,124 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="help ID" content="Core-partition.core.partition.partitionresourcegroups.pathservice.title">
+<title>Domain Partition: Resource Group: Services: Path
+  Services</title>
+<script language="JavaScript" src="/consolehelp/en-us/topicInfo.js"></script><script language="JavaScript" src="/consolehelp/en-us/CookieClass.js"></script>
+</head>
+<body class="base">
+<blockquote>
+<h1 class="Title">Domain Partition: Resource Group: Services: Path
+  Services</h1>
+<p>
+<a href="#attributes">Configuration Options</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#tasks">Related Tasks</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#concepts">Related Topics</a>
+</p>
+<p>A path service is persistent map that can be used to store the mapping
+    of a group of messages in a Message Unit-of-Order to a messaging resource
+    in a cluster. It provides a way to enforce ordering by pinning messages to
+    a member of a cluster hosting servlets, distributed queue members, or
+    store-and-forward agents.</p>
+<p>This page summarizes the path service instances that have been
+    configured for this Resource Group.</p>
+<h4>
+<a name="attributes">Configuration Options</a>
+</h4>
+<div class="tblmargin">
+<table class="edocshelp">
+<thead>
+<tr>
+<th valign="top" style="padding:0px"> Name</th><th valign="top" style="padding:0px"> Description</th>
+</tr>
+</thead>
+<tbody>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.partitionresourcegroups.pathservice.name">Name</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>The name of this path service.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/PathServiceMBean.html#Name">PathServiceMBean.Name</a></code>
+</p>
+<p>
+<a href="en-us/restart.html" onClick="return popup(this,'glossarypopup')"> 
+                                                    Changes take effect after you redeploy the module or restart the server.</a>
+</p>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.partitionresourcegroups.pathservice.target">Targets</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>The cluster member or migratable target server for your path
+        service instance.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/PathServiceMBean.html#Targets">PathServiceMBean.Targets</a></code>
+</p>
+</td>
+</tr>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.partitionresourcegroups.pathservice.persistentstore">Persistent Store</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getPersistentStore"></a><a name="PersistentStore"></a>
+<p>The name of the persistent store used to store the routing path for this path service instance.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/PathServiceMBean.html#PersistentStore">PathServiceMBean.PersistentStore</a></code>
+</p>
+<p>
+<a href="en-us/restart.html" onClick="return popup(this,'glossarypopup')"> 
+                                                    Changes take effect after you redeploy the module or restart the server.</a>
+</p>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.partitionresourcegroups.pathservice.scope">Scope</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>The scope in which this path service is created.</p>
+</td>
+</tr>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.partitionresourcegroups.pathservice.partitions">Domain Partitions</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>The partitions where this path service is accessible.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="relatedtopics">
+<a name="tasks">Related Tasks</a>
+</p>
+<ul>
+<li>
+<a href="/consolehelp/console-help.portal?_nfpb=true&amp;_pageLabel=page&amp;helpId=pathservice.CreatePathServices">Create path services</a>
+</li>
+<li>
+<a href="/consolehelp/console-help.portal?_nfpb=true&amp;_pageLabel=page&amp;helpId=pathservice.ConfigurePathService">Configure path
+  services</a>
+</li>
+</ul>
+<p class="relatedtopics">
+<a name="concepts">Related Topics</a>
+</p>
+<ul>
+<li>
+<a href="http://docs.oracle.com/middleware/12213/wls/JMSAD/advance_config.htm#JMSAD191">Configuring
+    Messaging for MT</a>
+</li>
+<li>
+<a href="http://docs.oracle.com/middleware/12213/wls/JMSAD/advance_config.htm#JMSAD191">Using the
+    WebLogic Path Service</a>
+</li>
+<li>
+<a href="http://docs.oracle.com/middleware/12213/wls/STORE/overview.htm">Using the WebLogic Persistent
+    Store</a>
+</li>
+<li>
+<a href="http://docs.oracle.com/middleware/12213/wls/JMSPG/uoo.htm">Using Message Unit-of-Order</a>
+</li>
+<li>
+<a href="http://docs.oracle.com/middleware/12213/wls/SAFMG/config_jms.htm">Configuring SAF for JMS
+    Messages</a>
+</li>
+</ul>
+</blockquote>
+</body>
+</html>

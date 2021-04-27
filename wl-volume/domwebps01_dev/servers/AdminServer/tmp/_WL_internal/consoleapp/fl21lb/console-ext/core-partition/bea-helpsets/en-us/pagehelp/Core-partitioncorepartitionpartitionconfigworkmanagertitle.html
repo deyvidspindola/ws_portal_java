@@ -1,0 +1,128 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="help ID" content="Core-partition.core.partition.partitionconfigworkmanager.title">
+<title>Domain Partition: Configuration: Partition Work
+  Manager</title>
+<script language="JavaScript" src="/consolehelp/en-us/topicInfo.js"></script><script language="JavaScript" src="/consolehelp/en-us/CookieClass.js"></script>
+</head>
+<body class="base">
+<blockquote>
+<h1 class="Title">Domain Partition: Configuration: Partition Work
+  Manager</h1>
+<p>
+<a href="#attributes">Configuration Options</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#tasks">Related Tasks</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#concepts">Related Topics</a>
+</p>
+<p>Use this page to define a Partition Work Manager for this domain
+    partition.</p>
+<p>A domain partition can be associated with (referenced by) only one
+    Partition Work Manager. You can choose to either reference an existing one
+    or to create one that is not shared by any other domain partition.</p>
+<h4>
+<a name="attributes">Configuration Options</a>
+</h4>
+<div class="tblmargin">
+<table class="edocshelp">
+<thead>
+<tr>
+<th valign="top" style="padding:0px"> Name</th><th valign="top" style="padding:0px"> Description</th>
+</tr>
+</thead>
+<tbody>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.partitionworkmanagerconfig.name">Partition Work Manager</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>Select an existing Partition Work Manager to use in your partition
+        or select None to create or edit one for this partition only.</p>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.partitionworkmanagerconfig.sharedcapacity">Shared Capacity</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>Total number of requests that can be present in the server for a
+        partition, as a percentage of the sharedCapacityForWorkManagers
+        attribute value in OverloadProtectionMBean. This includes requests
+        that are enqueued and those under execution.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/PartitionWorkManagerMBean.html#SharedCapacityPercent">PartitionWorkManagerMBean.SharedCapacityPercent</a></code>
+</p>
+<p>Minimum value: <code>1</code>
+</p>
+<p>Maximum value: <code>100</code>
+</p>
+</td>
+</tr>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.partitionworkmanagerconfig.fairshare">Fair Share</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>A desired percentage of thread usage of that partition compared to
+        the thread usage of all partitions.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/PartitionWorkManagerMBean.html#FairShare">PartitionWorkManagerMBean.FairShare</a></code>
+</p>
+<p>Minimum value: <code>1</code>
+</p>
+<p>Maximum value: <code>99</code>
+</p>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.partitionworkmanagerconfig.minthreadsconstraint">Minimum Threads Constraint</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>This imposes an upper limit on the number of standby threads that
+        can be created for satisfying minimum threads constraints configured
+        in a partition.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/PartitionWorkManagerMBean.html#MinThreadsConstraintCap">PartitionWorkManagerMBean.MinThreadsConstraintCap</a></code>
+</p>
+<p>Minimum value: <code>0</code>
+</p>
+<p>Maximum value: <code>65534</code>
+</p>
+</td>
+</tr>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.partitionworkmanagerconfig.maxthreadsconstraint">Maximum Threads Constraint</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>The maximum number of concurrent requests that the self-tuning
+        thread pool can be processing on behalf of a partition at any given
+        time.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/PartitionWorkManagerMBean.html#MaxThreadsConstraint">PartitionWorkManagerMBean.MaxThreadsConstraint</a></code>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="relatedtopics">
+<a name="tasks">Related Tasks</a>
+</p>
+<ul>
+<li>
+<a href="/consolehelp/console-help.portal?_nfpb=true&amp;_pageLabel=page&amp;helpId=partition.work.CreatePartitionWorkManagers">Define Partition Work
+  Managers</a>
+</li>
+<li>
+<a href="/consolehelp/console-help.portal?_nfpb=true&amp;_pageLabel=page&amp;helpId=partition.work.AssignPartitionWorkManagers">Associate partitions
+  with Partition Work Managers</a>
+</li>
+<li>
+<a href="/consolehelp/console-help.portal?_nfpb=true&amp;_pageLabel=page&amp;helpId=partition.work.ConfigurePartitionWorkManagers">Configure Partition Work
+  Managers</a>
+</li>
+</ul>
+<p class="relatedtopics">
+<a name="concepts">Related Topics</a>
+</p>
+<ul>
+<li>
+<a href="http://docs.oracle.com/middleware/12213/wls/WLSMT/config_work.htm#WLSMT618">Configuring
+    Partition Work Managers</a>
+</li>
+</ul>
+</blockquote>
+</body>
+</html>

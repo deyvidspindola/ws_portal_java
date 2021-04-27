@@ -1,0 +1,71 @@
+.topo ul{
+	width: 900px;
+	height: 41px;
+	float: left;
+	background: url(../../images/institucional/caixas/menu.gif) no-repeat 0 0;
+	padding: 0 30px 0 30px;
+	margin: 0 0 13px 0;
+}
+
+	.topo ul li{
+		float: left;
+	}
+	
+		.topo ul li.primeiro a{
+			border-left: 0;
+		}
+		
+		.topo ul li.ultimo a{
+			border-right: 0;
+		}
+	
+		.topo ul li a{
+			display: block;
+			font-size: 16px;
+			color: #fff;
+			font-weight: bold;	
+			font-style: italic;
+			text-transform: uppercase;
+			border-right: 1px solid #617eb0;
+			border-left: 1px solid #183d77;
+			padding: 6px 20px 6px 20px;
+		}
+		
+		.topo ul li a:hover{
+			background: url(../../images/institucional/menu/hover.gif) repeat-x 0 0;
+			text-decoration: none;
+		}
+		
+		.topo ul li ul{
+			width: 136px;
+			height: 94px;
+			position: absolute;
+			float: none;
+			border: 2px solid #0b2e64;
+			border-top: 0;
+			background: #33507e;
+			padding: 0;
+			margin: 0;
+			top: 144px;
+		}
+		
+			.topo ul li ul li{
+			}
+			
+				.topo ul li ul li a{
+					width: 120px;
+					height: 19px;
+					font-size: 12px;
+					color: #fff;
+					font-weight: bold;	
+					font-style: italic;
+					text-transform: uppercase;
+					border: 0;
+					border-bottom: 1px solid #617eb0;
+					border-top: 1px solid #183d77;
+					padding: 3px 8px 0 8px;
+				}
+					
+					.topo ul li ul li a:hover{
+						background: #0e3067;
+					}

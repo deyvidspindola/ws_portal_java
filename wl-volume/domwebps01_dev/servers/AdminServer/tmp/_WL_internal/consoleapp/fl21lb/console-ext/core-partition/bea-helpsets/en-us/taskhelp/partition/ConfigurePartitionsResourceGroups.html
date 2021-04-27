@@ -1,0 +1,152 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--Composite DITA to XHTML application by IBM Corp., 2001, 2002, 2003--><!--Common DITA topic to HTML application by IBM Corp., 2001, 2002, 2003--><html lang="en-US"><head><META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="/consolehelp/wls.css" type="text/css" rel="stylesheet"><title>Configure domain
+  partition resource groups</title>
+<script src="/consolehelp/en-us/topicInfo.js" language="JavaScript"></script>
+<script src="/consolehelp/en-us/CookieClass.js" language="JavaScript"></script>
+
+</head><body class="base"><a name="WLACH06007" id="WLACH06007"></a>
+
+
+  <h1 class="topictitle1">Configure domain
+  partition resource groups</h1>
+
+  <div><!--topic body-->
+    <div><br>
+      <p><a name="WLACH06007__startstop1198902" id="WLACH06007__startstop1198902"></a>To configure a domain
+      partition resource group:</p>
+    </div>
+
+    <ol><li>If you have not already done so, in the Change Center of the Administration Console, click <b>Lock &amp; Edit</b> (see <a href="/consolehelp/console-help.portal?_nfpb=true&_pageLabel=page&helpId=console.UseTheChangeCenter">Use the Change Center</a>).</li>
+      <li>
+        <span><a name="WLACH06007__startstop1198904" id="WLACH06007__startstop1198904"></a>In the left
+        pane of the Console, select <b>Domain Partitions</b>.</span>
+
+         
+          <p>The Domain Partitions table displays all of the partitions
+          defined in the domain.</p>
+        
+      </li>
+
+      <li>
+        <span><a name="WLACH06007__startstop1213516" id="WLACH06007__startstop1213516"></a>Select the
+        domain partition you want to configure.</span>
+      </li>
+
+      <li>
+        <span>Select the Domain Partition Configuration -&gt; Resource Groups
+        page.</span>
+      </li>
+
+      <li>
+        <span>In the <span>Resource Groups </span>table, select the
+        resource group you want to configure.</span>
+      </li>
+
+      <li>
+        <span><a name="WLACH06007__messaging_bridge1111014" id="WLACH06007__messaging_bridge1111014"></a>Select
+        the <b>General</b> page and update as necessary:</span>
+
+        <ol type="a">
+          <li>
+            <span><b>Name</b> - The name you chose for the resource group when
+            you created it. You cannot change this name.</span>
+          </li>
+
+          <li>
+            <span><a name="WLACH06007__messaging_bridge1111016" id="WLACH06007__messaging_bridge1111016"></a><b>Resource Group
+            Template</b> - Optional. A named, domain-level collection
+            of deployable resources intended to be used as a pattern by
+            (usually) multiple resource groups. Each resource group that
+            refers to a given template will have its own runtime copies of the
+            resources defined in the template.</span>
+          </li>
+
+          <li>
+            <span><b>Leave this resource group running when the
+            partition is shutdown</b> - Optional. Select this check
+            box if the resource group contains <i>administrative</i>
+            applications and resources. Administrative resource groups are
+            handled in a unique manner by partition lifecycle operations. See
+            <a href="http://docs.oracle.com/middleware/12213/wls/WLSMT/config_resource_grp.htm#WLSMT1688">Managing Administrative Applications and Resources in
+            Partition Resource Groups</a> for additional information.</span>
+          </li>
+
+          <li>
+            <span><a name="WLACH06007__messaging_bridge1111020" id="WLACH06007__messaging_bridge1111020"></a><b>Targets </b>- If
+            you accepted the default resource group when you created the
+            partition, the resource group uses the default target. If you do
+            not want to use the default target, deselect the <b>Use Default
+            Target</b> check box and move one or more virtual targets from the
+            Available list to the Chosen list.</span>
+          </li>
+        </ol>
+      </li>
+
+      <li>
+        <span>Select the <b>Deployments </b>page and override applications
+        deployed to this resource group as necessary. When you deploy an
+        application you can choose to deploy it to a resource group at the
+        partition level. See <a href="http://docs.oracle.com/middleware/12213/wls/WLSMT/deploying_apps.htm#WLSMT594">Deploying Applications to Resource Groups</a> for
+        information on deploying applications to resource groups at the
+        partition level.</span>
+      </li>
+
+      <li>
+        <span>Select the <b>Services </b>page and update the services as
+        necessary. You can update the following services:</span>
+
+         
+          <div><ul>
+              <li>JDBC</li>
+
+              <li>JMS</li>
+
+              <li>Bridges</li>
+
+              <li>Mail</li>
+
+              <li>Concurrent Utilities</li>
+
+              <li>Persistent Stores</li>
+
+              <li>Path Services</li>
+
+              <li>Foreign JNDI Providers</li>
+
+              <li>WLDF</li>
+
+              <li>SAF Agents</li>
+
+              <li>OSGi Frameworks</li>
+            </ul>See <a href="http://docs.oracle.com/middleware/12213/wls/WLSMT/config_resource_grp.htm#WLSMT583">Configuring Resource Groups</a> for more
+          information.</div>
+        
+      </li>
+
+      <li>
+        <span><a name="WLACH06007__startstop1202599" id="WLACH06007__startstop1202599"></a>Click
+        <b>Save</b>.</span>
+      </li>
+    <li>To activate these changes, in the Change Center of the Administration Console, click <b>Activate Changes</b>. <br>Not all changes take effect immediately&mdash;some require a restart (see <a href="/consolehelp/console-help.portal?_nfpb=true&_pageLabel=page&helpId=console.UseTheChangeCenter">Use the Change Center</a>).</li></ol>
+
+    <div class="postreq"><p class="sectiontitle"><b>
+        After you finish
+      </b></p>
+      <p>You perform most of the configuration required for a partition when
+      you configure the resource group or resource group overrides. The tasks
+      include configuring JDBC system data sources, JMS servers and resources,
+      and foreign JNDI providers, and so forth.</p>
+
+      <p>If you did not create the resource group from a resource group
+      template, edit the resource group as needed. <a href="http://docs.oracle.com/middleware/12213/wls/WLSMT/config_resource_grp.htm#WLSMT583">See
+      Configuring Resource Groups</a> for additional information.</p>
+
+      <p>If you did create the resource group from a resource group template,
+      see <a href="http://docs.oracle.com/middleware/12213/wls/WLSMT/config_resource_over.htm#WLSMT737">Configuring Resource Overrides</a> for additional
+      information.</p>
+    </div>
+  </div>
+
+
+</body></html>

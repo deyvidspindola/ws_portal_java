@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Implementation-Title: jms-internal-xa-adp
+Implementation-Version: 12.2.1.3
+Implementation-Vendor: Oracle, Inc.
+

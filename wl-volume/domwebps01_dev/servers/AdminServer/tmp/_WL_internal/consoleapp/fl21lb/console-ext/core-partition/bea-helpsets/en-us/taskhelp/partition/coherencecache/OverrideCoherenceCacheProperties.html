@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--Composite DITA to XHTML application by IBM Corp., 2001, 2002, 2003--><!--Common DITA topic to HTML application by IBM Corp., 2001, 2002, 2003--><html lang="en-US"><head><META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="/consolehelp/wls.css" type="text/css" rel="stylesheet"><title>Override Coherence cache configuration
+  properties at the partition level</title>
+<script src="/consolehelp/en-us/topicInfo.js" language="JavaScript"></script>
+<script src="/consolehelp/en-us/CookieClass.js" language="JavaScript"></script>
+
+</head><body class="base"><a name="WLACH65003" id="WLACH65003"></a>
+
+
+  <h1 class="topictitle1">Override Coherence cache configuration
+  properties at the partition level</h1>
+
+  <div><!--topic body-->
+    <div><br>
+      <p>Cache configuration properties can be specified for each domain partition. 
+      Partition-specific values are injected into the cache configuration when a 
+      GAR module is initialized, which allows the same GAR and cache configuration file 
+      to be deployed across partitions.</p>
+      <p>You cannot override Coherence cache configuration properties if a cache is 
+      shared across multiple partitions.</p>   
+
+      <p>To override cache configuration properties with partition-specific values:</p>
+    </div>
+
+    <ol><li>If you have not already done so, in the Change Center of the Administration Console, click <b>Lock &amp; Edit</b> (see <a href="/consolehelp/console-help.portal?_nfpb=true&_pageLabel=page&helpId=console.UseTheChangeCenter">Use the Change Center</a>).</li>
+      <li>
+        <span>In the
+        left pane of the Console, select <span>Domain
+        Partitions</span>.</span>
+      </li>
+
+      <li>
+        <span>Select 
+        the partition where the Coherence cache is defined.</span>
+      </li>
+      
+      <li>
+        <span>Select the <b>Coherence Caches</b> page.</span>
+      </li>
+
+      <li>
+        <span>From the Coherence Caches table, select a Coherence cache entry to modify its setting.</span>
+        <span>The Settings for stores-shared-cache page displays.</span>
+      </li>
+        
+      <li>
+        <span>
+         From the Properties set for this cache table, click <b>New</b>. You can 
+         also edit and delete existing property overrides.</span>
+         <span>The Create a New Coherence Cache Property page displays.</span>
+      </li>
+      
+     <li>
+        <span>
+         In the <b>Property Name</b> field, enter the name of a Coherence cache 
+         configuration property.</span>
+      </li>
+      
+      <li>
+        <span>
+         In the <b>Property Value</b> field, enter a value that will be applied to 
+         the cache in this partition.</span>
+      </li>
+      
+      <li>
+        <span>In the Notes field, enter additional information about the property settings as required.</span>
+      </li>
+
+      <li>
+        <span>Click <b>OK</b>.</span>
+      </li>
+    <li>To activate these changes, in the Change Center of the Administration Console, click <b>Activate Changes</b>. <br>Not all changes take effect immediately&mdash;some require a restart (see <a href="/consolehelp/console-help.portal?_nfpb=true&_pageLabel=page&helpId=console.UseTheChangeCenter">Use the Change Center</a>).</li></ol>
+  </div>
+
+
+</body></html>

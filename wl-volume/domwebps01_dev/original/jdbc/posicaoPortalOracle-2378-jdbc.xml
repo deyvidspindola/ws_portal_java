@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jdbc:jdbc-data-source xmlns:jdbc="http://xmlns.oracle.com/weblogic/jdbc-data-source">
+  <jdbc:name>posicaoPortalOracle</jdbc:name>
+  <jdbc:datasource-type>GENERIC</jdbc:datasource-type>
+  <jdbc:jdbc-driver-params>
+    <jdbc:url>jdbc:oracle:thin:@10.1.110.47:1521:devdbpr</jdbc:url>
+    <jdbc:driver-name>oracle.jdbc.OracleDriver</jdbc:driver-name>
+    <jdbc:properties>
+      <jdbc:property>
+        <jdbc:name>user</jdbc:name>
+        <jdbc:value>squad_devices</jdbc:value>
+      </jdbc:property>
+    </jdbc:properties>
+    <jdbc:password-encrypted>{AES}/U6YpFF0CpTri1EY9jZrZ/fPLD/2wpiw60JcM92IqDM=</jdbc:password-encrypted>
+  </jdbc:jdbc-driver-params>
+  <jdbc:jdbc-connection-pool-params>
+    <jdbc:initial-capacity>1</jdbc:initial-capacity>
+    <jdbc:max-capacity>15</jdbc:max-capacity>
+    <jdbc:min-capacity>1</jdbc:min-capacity>
+    <jdbc:test-table-name>SQL ISVALID</jdbc:test-table-name>
+    <jdbc:statement-cache-size>10</jdbc:statement-cache-size>
+    <jdbc:statement-cache-type>LRU</jdbc:statement-cache-type>
+  </jdbc:jdbc-connection-pool-params>
+  <jdbc:jdbc-data-source-params>
+    <jdbc:jndi-name>jdbc/posicaoPortalOracle</jdbc:jndi-name>
+    <jdbc:global-transactions-protocol>OnePhaseCommit</jdbc:global-transactions-protocol>
+  </jdbc:jdbc-data-source-params>
+</jdbc:jdbc-data-source>

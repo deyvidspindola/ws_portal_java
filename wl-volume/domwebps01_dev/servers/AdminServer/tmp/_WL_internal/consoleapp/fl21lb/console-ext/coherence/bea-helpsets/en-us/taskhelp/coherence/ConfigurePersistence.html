@@ -1,0 +1,78 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--Composite DITA to XHTML application by IBM Corp., 2001, 2002, 2003--><!--Common DITA topic to HTML application by IBM Corp., 2001, 2002, 2003--><html lang="en-US"><head><META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="/consolehelp/wls.css" type="text/css" rel="stylesheet"><title>Configure Persistence</title>
+<script src="/consolehelp/en-us/topicInfo.js" language="JavaScript"></script>
+<script src="/consolehelp/en-us/CookieClass.js" language="JavaScript"></script>
+
+</head><body class="base"><a name="WLACH50025" id="WLACH50025"></a>
+
+
+  <h1 class="topictitle1">Configure Persistence</h1>
+  <div><!--topic body-->
+    <div><br>
+      <p><a name="WLACH50025__startstop1208194" id="WLACH50025__startstop1208194"></a>The persistence feature 
+      is used to save and recover Coherence distributed caches. Cached data is 
+      persisted so that it can be quickly recovered after a catastrophic failure 
+      or after a cluster restart due to planned maintenance.</p>
+      
+      <p><a name="WLACH50025__startstop1208194" id="WLACH50025__startstop1208194"></a>Persistence can operate in two modes:</p>
+     <ul>
+     <li>On-Demand persistence mode &ndash; a cache service is manually persisted and 
+     recovered upon request using the persistence coordinator. The persistence 
+     coordinator is exposed as an MBean interface that provides operations for creating, 
+     archiving, and recovering snapshots of a cache service.</li>
+     <li>Active persistence mode &ndash; In this mode, cache contents are automatically persisted 
+     on all mutations and are automatically recovered on cluster/service startup. The 
+     persistence coordinator can still be used in active persistence mode to perform on-demand 
+     snapshots.</li>
+     </ul>
+
+      <p>To configure persistence:</p>
+    </div>
+
+    <ol><li>If you have not already done so, in the Change Center of the Administration Console, click <b>Lock &amp; Edit</b> (see <a href="/consolehelp/console-help.portal?_nfpb=true&_pageLabel=page&helpId=console.UseTheChangeCenter">Use the Change Center</a>).</li>
+      <li>
+        <span><a name="WLACH50025__startstop1198904" id="WLACH50025__startstop1198904"></a>In the left
+        pane of the Console, select <b>Environment &gt; Coherence
+        Clusters</b>.</span>
+      </li>
+
+      <li>
+        <span><a name="WLACH50025__startstop1213516" id="WLACH50025__startstop1213516"></a>In the
+        Coherence Clusters table, select the Coherence cluster for which you
+        want a configure persistence.</span>
+      </li>
+
+      <li>
+        <span><a name="WLACH50025__startstop1204881" id="WLACH50025__startstop1204881"></a>Select the
+        <b>Configuration: Persistence</b> page.</span>
+      </li>
+      
+      <li>
+        <span><a name="WLACH50025__startstop1204882" id="WLACH50025__startstop1204882"></a>Use the
+        Persistence Mode drop-down list to select a persistence mode.</span>
+      </li>
+
+      <li>
+        <span><a name="WLACH50025__startstop1204883" id="WLACH50025__startstop1204883"></a>Use the Active 
+        Directory field to override the default location where 
+        active persistence files are stored.
+        </span>
+      </li>
+      <li>
+        <span><a name="WLACH50025__startstop1204883" id="WLACH50025__startstop1204883"></a>Use the Snapshot 
+        Directory field to override the default location where 
+        snapshot persistence files are stored.
+        </span>
+      </li>
+       <li>
+        <span><a name="WLACH50025__startstop1204883" id="WLACH50025__startstop1204883"></a>Use the Trash 
+        Directory to override the default location where 
+        persistence files that are no longer required are stored.
+        </span>
+      </li>
+    <li>To activate these changes, in the Change Center of the Administration Console, click <b>Activate Changes</b>. <br>Not all changes take effect immediately&mdash;some require a restart (see <a href="/consolehelp/console-help.portal?_nfpb=true&_pageLabel=page&helpId=console.UseTheChangeCenter">Use the Change Center</a>).</li></ol>
+  </div>
+
+
+</body></html>

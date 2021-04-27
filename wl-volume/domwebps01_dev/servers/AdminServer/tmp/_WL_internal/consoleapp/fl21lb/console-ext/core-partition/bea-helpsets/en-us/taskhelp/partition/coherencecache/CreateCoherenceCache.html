@@ -1,0 +1,95 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--Composite DITA to XHTML application by IBM Corp., 2001, 2002, 2003--><!--Common DITA topic to HTML application by IBM Corp., 2001, 2002, 2003--><html lang="en-US"><head><META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="/consolehelp/wls.css" type="text/css" rel="stylesheet"><title>Create a Coherence cache 
+  at the partition level</title>
+<script src="/consolehelp/en-us/topicInfo.js" language="JavaScript"></script>
+<script src="/consolehelp/en-us/CookieClass.js" language="JavaScript"></script>
+
+</head><body class="base"><a name="WLACH65001" id="WLACH65001"></a>
+
+
+  <h1 class="topictitle1">Create a Coherence cache 
+  at the partition level</h1>
+
+  <div><!--topic body-->
+    <div><br>
+      <p>Multi-tenant domains use a single, shared Coherence cluster that is available across all 
+      domain partitions. A single Coherence GAR is deployed across multiple domain partitions and used 
+      by all tenants. Isolation is provided at the domain partition level and is transparent to 
+      the application.</p>   
+
+      <p>To define a Coherence cache to be used by this partition:</p>
+    </div>
+
+    <ol><li>If you have not already done so, in the Change Center of the Administration Console, click <b>Lock &amp; Edit</b> (see <a href="/consolehelp/console-help.portal?_nfpb=true&_pageLabel=page&helpId=console.UseTheChangeCenter">Use the Change Center</a>).</li>
+      <li>
+        <span>In the
+        left pane of the Console, select <span>Domain
+        Partitions</span>.</span>
+      </li>
+
+      <li>
+        <span>Select
+        the partition for which you want to create the Coherence cache.</span>
+      </li>
+
+      <li>
+        <span>Select the <b>Coherence Caches</b> page.</span>
+      </li>
+
+      <li>
+        <span>Click <b>New</b>.</span>
+        <span>The <span>Create a New Coherence Cache</span> page displays.</span>
+      </li>
+      
+      <li>
+        <span>
+         In the <b>Name</b> field, enter the name that will identify this Coherence cache entry.</span>
+      </li>
+      
+      <li>
+        <span>
+         In the <b>Coherence Cache Name</b> field, enter the name of the Coherence cache.</span>
+      </li>
+      
+      <li>
+        <span>
+         In the <b>GAR Application Name</b> field, enter the name of the GAR that contains the 
+         cache configuration file that defines the scheme for this cache.</span>
+      </li>
+      
+      <li>
+        <span>
+         Select the <b>Shared</b> option, if the cache is used by multiple domain partitions.</span>
+          Each partition that uses the cache must also define a Coherence cache configuration with the same
+         configuration values and enable the <b>Shared</b> option.
+      </li>
+      
+      <li>
+        <span>On the
+        <span>Create a New Coherence Cache
+        </span>page, enter the name that will identify your Coherence cache.</span>
+      </li>
+
+      <li>
+        <span>In the Notes field, enter additional information about this Coherence cache entry as required.</span>
+      </li>
+
+      <li>
+        <span>Click <b>OK</b>.</span>
+      </li>
+    <li>To activate these changes, in the Change Center of the Administration Console, click <b>Activate Changes</b>. <br>Not all changes take effect immediately&mdash;some require a restart (see <a href="/consolehelp/console-help.portal?_nfpb=true&_pageLabel=page&helpId=console.UseTheChangeCenter">Use the Change Center</a>).</li></ol>
+
+    <div class="postreq"><p class="sectiontitle"><b>
+        After you finish
+      </b></p>
+      <p>To override cache configuration properties specific for this partition, See <a href="/consolehelp/console-help.portal?_nfpb=true&_pageLabel=page&helpId=partition.coherencecache.OverrideCoherenceCacheProperties">Override Coherence cache configuration
+  properties at the partition level</a>.</p>
+      
+       <p>To enable cache sharing for this partition, See <a href="/consolehelp/console-help.portal?_nfpb=true&_pageLabel=page&helpId=partition.coherencecache.ShareCoherenceCache">Enable Coherence cache sharing
+   at the partition level</a>.</p>
+    </div>
+  </div>
+
+
+</body></html>

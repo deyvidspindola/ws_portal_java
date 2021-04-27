@@ -1,0 +1,52 @@
+.options ul{ 
+	margin:0  !important; 
+	padding:0 !important; 
+}
+
+ .options li{
+	margin:0 0 5px 0 !important;
+	padding:0 !important;
+	list-style:none !important;
+	padding:0 0 0 38px !important;
+}
+
+.options li a.option{ 
+	font-weight: bold !important; 
+	border: 1.5px solid #c3c3c3;
+	background-color: #f9f9f9;
+	-moz-border-radius: 5px;
+	font-size:90%;
+}
+
+.options li a.option {
+	background-position:top !important;
+	display:block !important;
+	/*width:230px !important;*/
+	height:40px !important;
+	text-decoration: none !important;
+}
+
+.options li a.option:hover{
+	background-position:bottom  !important;
+	text-decoration: none !important;
+	background-color: #e7e7e7;
+}
+
+.options li a {
+	color: black !important;
+	margin:  5px !important;
+	line-height: 40px !important;
+}
+
+.options li a span{
+	margin: 10px !important;
+}
+
+.options li.active a{
+	background-color: #e7e7e7;
+}
+
+.options li.active{
+	background: url('../../images/mobile/tick.png') no-repeat;
+}
+

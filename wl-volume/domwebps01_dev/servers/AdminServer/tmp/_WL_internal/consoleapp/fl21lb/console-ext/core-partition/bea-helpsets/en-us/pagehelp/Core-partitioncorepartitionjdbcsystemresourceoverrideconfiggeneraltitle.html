@@ -1,0 +1,201 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="help ID" content="Core-partition.core.partition.jdbcsystemresourceoverrideconfiggeneral.title">
+<title>JDBC System Resource Override : Configuration</title>
+<script language="JavaScript" src="/consolehelp/en-us/topicInfo.js"></script><script language="JavaScript" src="/consolehelp/en-us/CookieClass.js"></script>
+</head>
+<body class="base">
+<blockquote>
+<h1 class="Title">JDBC System Resource Override : Configuration</h1>
+<p>
+<a href="#attributes">Configuration Options</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#tasks">Related Tasks</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#concepts">Related Topics</a>
+</p>
+<p>Use this page to view or change the configuration of a JDBC system
+    resource override.</p>
+<h4>
+<a name="attributes">Configuration Options</a>
+</h4>
+<div class="tblmargin">
+<table class="edocshelp">
+<thead>
+<tr>
+<th valign="top" style="padding:0px"> Name</th><th valign="top" style="padding:0px"> Description</th>
+</tr>
+</thead>
+<tbody>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.jdbcsystemresourceoverrideconfiggeneral.jdbcsystemresourceoverridename">JDBC System Resource Override Name</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>The name of this JDBC system resource override.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/JDBCSystemResourceOverrideMBean.html#Name">JDBCSystemResourceOverrideMBean.Name</a></code>
+</p>
+<p>
+<a href="en-us/restart.html" onClick="return popup(this,'glossarypopup')"> 
+                                                    Changes take effect after you redeploy the module or restart the server.</a>
+</p>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.jdbcsystemresourceoverrideconfiggeneral.url">URL</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getURL"></a><a name="URL"></a>
+<p>The connection URL for the data source.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/JDBCSystemResourceOverrideMBean.html#URL">JDBCSystemResourceOverrideMBean.URL</a></code>
+</p>
+</td>
+</tr>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.jdbcsystemresourceoverrideconfiggeneral.user">User Name</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getUser"></a><a name="User"></a>
+<p>The name of the user for the data source.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/JDBCSystemResourceOverrideMBean.html#User">JDBCSystemResourceOverrideMBean.User</a></code>
+</p>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.jdbcsystemresourceoverrideconfiggeneral.password">Password</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getPassword"></a><a name="Password"></a>
+<p>The password in clear text.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/JDBCSystemResourceOverrideMBean.html#Password">JDBCSystemResourceOverrideMBean.Password</a></code>
+</p>
+</td>
+</tr>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.jdbcsystemresourceoverrideconfiggeneral.confirmpassword">Confirm Password</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"></td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.jdbcsystemresourceoverrideconfiggeneral.properties">Properties</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>The list of properties passed to the JDBC driver that are used to
+        create physical database connections. For example: server=dbserver1.
+        List each property=value pair on a separate line.</p>
+<p>To enable driver-level features, add the driver property and its
+        value to the Properties list. WebLogic Server sets driver-level
+        properties in the Properties list on the driver's
+        ConnectionPoolDataSource object.</p>
+<dl>
+          
+<dt>Note:</dt>
+          
+<dd>For security reasons, when WebLogic Server is running in
+          production mode, you cannot specify database passwords in this
+          properties list. Data source deployment will fail if a password is
+          specified in the properties list. To override this security check,
+          use the command line argument
+          "weblogic.management.allowClearTextPasswords" when starting the
+          server.</dd>
+        
+</dl>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/JDBCPropertyOverrideMBean.html#Properties">JDBCPropertyOverrideMBean.Properties</a></code>
+</p>
+<p>
+<a href="en-us/restart.html" onClick="return popup(this,'glossarypopup')"> 
+                                                    Changes take effect after you redeploy the module or restart the server.</a>
+</p>
+</td>
+</tr>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.jdbcsystemresourceoverrideconfiggeneral.systemproperties">System Properties</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>The list of system properties names passed to the JDBC driver that
+        are used to create physical database connections. For example:
+        server=dbserver1. List each property=value pair on a separate
+        line.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/JDBCPropertyOverrideMBean.html#SysPropValue">JDBCPropertyOverrideMBean.SysPropValue</a></code>
+</p>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.jdbcsystemresourceoverrideconfiggeneral.encryptedproperties">Encrypted Properties</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>The list of encrypted properties passed to the JDBC driver that are
+        used to create physical database connections. For example:
+        password=value.<br>
+</p>
+<p>There are two ways to enter the values:</p>
+<ul>
+          
+<li>You can enter several values at once but the encrypted values
+          will be visible on the screen until you save the changes. To use
+          this option, list each property=value pair on a separate line.
+          Values entered will be encrypted when saved.</li>
+          
+<li>To enter the information securely, save any other changes that
+          you wish to make to this page and click <b>Add Securely</b>. On the
+          Add a New Encrypted Property page, enter the property name and
+          masked value, and click <b>OK</b>. Repeat for additional encrypted
+          property values.</li>
+        
+</ul>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/JDBCPropertyOverrideMBean.html#EncryptedValue">JDBCPropertyOverrideMBean.EncryptedValue</a></code>
+</p>
+</td>
+</tr>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.jdbcsystemresourceoverrideconfiggeneral.initialcapacity">Initial Capacity</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getInitialCapacity"></a><a name="InitialCapacity"></a>
+<p>Returns the initial pool capacity for the partition datasource. The value -1 indicates that the attribute is not set.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/JDBCSystemResourceOverrideMBean.html#InitialCapacity">JDBCSystemResourceOverrideMBean.InitialCapacity</a></code>
+</p>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.jdbcsystemresourceoverrideconfiggeneral.mincapacity">Min Capacity</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getMinCapacity"></a><a name="MinCapacity"></a>
+<p>Returns the min pool capacity for the partition datasource. The value -1 indicates that the attribute is not set.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/JDBCSystemResourceOverrideMBean.html#MinCapacity">JDBCSystemResourceOverrideMBean.MinCapacity</a></code>
+</p>
+</td>
+</tr>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.jdbcsystemresourceoverrideconfiggeneral.maxcapacity">Max Capacity</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getMaxCapacity"></a><a name="MaxCapacity"></a>
+<p>Returns the max pool capacity for the partition datasource. The value -1 indicates that the attribute is not set.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/JDBCSystemResourceOverrideMBean.html#MaxCapacity">JDBCSystemResourceOverrideMBean.MaxCapacity</a></code>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="relatedtopics">
+<a name="tasks">Related Tasks</a>
+</p>
+<ul>
+<li>
+<a href="/consolehelp/console-help.portal?_nfpb=true&amp;_pageLabel=page&amp;helpId=partition.jdbcoverride.CreateJDBCOverrides">Create JDBC system
+  resource overrides</a>
+</li>
+<li>
+<a href="/consolehelp/console-help.portal?_nfpb=true&amp;_pageLabel=page&amp;helpId=partition.jdbcoverride.ConfigureJDBCOverrides">Configure JDBC system
+  resource overrides</a>
+</li>
+<li>
+<a href="/consolehelp/console-help.portal?_nfpb=true&amp;_pageLabel=page&amp;helpId=partition.jdbcoverride.DeleteJDBCOverrides">Delete JDBC system
+  resource overrides</a>
+</li>
+</ul>
+<p class="relatedtopics">
+<a name="concepts">Related Topics</a>
+</p>
+<ul>
+<li>
+<a href="http://docs.oracle.com/middleware/12213/wls/WLSMT/config_resource_over.htm#WLSMT737">Configuring Resource Overrides</a>
+</li>
+</ul>
+</blockquote>
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="help ID" content="Core-partition.core.partition.partitiondeployments.table.title">
+<title>Domain Partition: Deployments</title>
+<script language="JavaScript" src="/consolehelp/en-us/topicInfo.js"></script><script language="JavaScript" src="/consolehelp/en-us/CookieClass.js"></script>
+</head>
+<body class="base">
+<blockquote>
+<h1 class="Title">Domain Partition: Deployments</h1>
+<p>
+<a href="#table">Column Display</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#tasks">Related Tasks</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#concepts">Related Topics</a>
+</p>
+<p>This page displays the list of Java EE applications and standalone
+    application modules that have been deployed to this domain partition.</p>
+<p>To start and stop installed applications and modules in the domain
+    partition, first select the application name, and then select
+    <b>Control</b>.</p>
+<p>To configure deployment options for applications and modules in the
+    domain partition, first select the application name, and then select
+    <b>Configuration</b>.</p>
+<p>To install a new application or module for deployment to this domain
+    partition, select <b>Deployments</b> in the Domain Structure pane, and
+    then click <b>Install</b>.</p>
+<h4>
+<a name="table">Column Display</a>
+</h4>
+<p>You can show fewer or additional data points on this page by expanding <b>Customize this table</b> and modifying the <b>Column Display</b> list. Each data point displays in its own table column.</p>
+<p>The following table lists all of the data points that you can display in columns on this page.</p>
+<div class="tblmargin">
+<table class="edocshelp">
+<thead>
+<tr>
+<th valign="top" style="padding:0px"> Name</th><th valign="top" style="padding:0px"> Description</th>
+</tr>
+</thead>
+<tbody>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.partitiondeployments.name">Name</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>The name of this Java EE application or module.</p>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.partitiondeployments.state">State</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>The state of the deployment.</p>
+</td>
+</tr>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.partitiondeployments.type">Type</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>The type of deployment: enterprise application, Web service, EJB,
+        Web application, Java EE library, and so on.</p>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.partitiondeployments.scope">Scope</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>Specifies if the application or library is accessible within the
+        domain, a partition, or a resource group template.</p>
+</td>
+</tr>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.partitiondeployments.deploymentorder">Deployment Order</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getDeploymentOrder"></a><a name="DeploymentOrder"></a>
+<p>An integer value that indicates when this unit is deployed, relative to other deployable units on a server, during startup.</p>
+<p>Units with lower values are deployed before those with higher values.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/AppDeploymentMBean.html#DeploymentOrder">AppDeploymentMBean.DeploymentOrder</a></code>
+</p>
+<p>
+<a href="en-us/restart.html" onClick="return popup(this,'glossarypopup')"> 
+                                                    Changes take effect after you redeploy the module or restart the server.</a>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="relatedtopics">
+<a name="tasks">Related Tasks</a>
+</p>
+<ul>
+<li>
+<a href="/consolehelp/console-help.portal?_nfpb=true&amp;_pageLabel=page&amp;helpId=deployment.DeployApplicationsAndModules">Deploy
+  applications and modules</a>
+</li>
+<li>
+<a href="/consolehelp/console-help.portal?_nfpb=true&amp;_pageLabel=page&amp;helpId=deployment.InstallApplicationsAndModules">Install applications
+  and modules</a>
+</li>
+<li>
+<a href="/consolehelp/console-help.portal?_nfpb=true&amp;_pageLabel=page&amp;helpId=deployment.UpdateApplication">Update (redeploy) an
+  application</a>
+</li>
+<li>
+<a href="/consolehelp/console-help.portal?_nfpb=true&amp;_pageLabel=page&amp;helpId=deployment.StartApplicationsAndModules">Start applications and
+  modules</a>
+</li>
+<li>
+<a href="/consolehelp/console-help.portal?_nfpb=true&amp;_pageLabel=page&amp;helpId=deployment.StopApplicationsAndModules">Stop applications and
+  modules</a>
+</li>
+</ul>
+<p class="relatedtopics">
+<a name="concepts">Related Topics</a>
+</p>
+<ul>
+<li>
+<a href="http://docs.oracle.com/middleware/12213/wls/DEPGD/deployunits.htm">Preparing Applications and
+    Modules for Deployment</a>
+</li>
+<li>
+<a href="http://docs.oracle.com/middleware/12213/wls/DEPGD/deploy.htm#DEPGD213">Overview of Common
+    Deployment Scenarios</a>
+</li>
+<li>
+<a href="http://docs.oracle.com/middleware/12213/wls/WLSMT/deploying_apps.htm#WLSMT594">Deploying
+    Applications to Partition Resource Groups</a>
+</li>
+<li>
+<a href="http://docs.oracle.com/middleware/12213/wls/WLSMT/config_domain_part.htm">Configuring Domain
+    Partitions</a>
+</li>
+</ul>
+</blockquote>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--Composite DITA to XHTML application by IBM Corp., 2001, 2002, 2003--><!--Common DITA topic to HTML application by IBM Corp., 2001, 2002, 2003--><html lang="en-US"><head><META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="/consolehelp/wls.css" type="text/css" rel="stylesheet"><title>Create a new
+  resource group at the partition level</title>
+<script src="/consolehelp/en-us/topicInfo.js" language="JavaScript"></script>
+<script src="/consolehelp/en-us/CookieClass.js" language="JavaScript"></script>
+
+</head><body class="base"><a name="WLACH06553" id="WLACH06553"></a>
+
+
+  <h1 class="topictitle1">Create a new
+  resource group at the partition level</h1>
+
+  <div><!--topic body-->
+    <div><br>
+      <p>A resource group is a named collection of (typically) related
+      deployable resources, such as Java EE applications and the data sources,
+      JMS artifacts, and other resources that applications use. Resource
+      groups are a convenient way to group together Java EE applications and
+      the resources they use into a distinct administrative unit within the
+      domain. The resources and applications are "fully qualified" in that the
+      administrator provides all the information needed to start or connect to
+      those resources, including credentials for connecting to a data source
+      and targeting information for Java EE applications. All the resources in
+      or referenced by a resource group are targeted together (to the same
+      target).</p>
+
+      <p>You can create a resource group at the domain level, or specific to a
+      partition. You can create the resource group in two ways:</p>
+
+      <ul>
+        <li>Create a new resource group when you create a partition. When you
+        finish creating the partition you must then edit this resource group
+        as needed. See <a href="/consolehelp/console-help.portal?_nfpb=true&_pageLabel=page&helpId=partition.CreatePartitions">Create domain
+  partitions</a> for more information.</li>
+
+        <li>Create the new resource group based on a resource group template
+        when you create a partition. See <a href="http://docs.oracle.com/middleware/12213/wls/WLSMT/config_resource_temp.htm#WLSMT581">Configuring Resource Group Templates</a> for more
+        information.</li>
+
+        <li>Create a new resource group for an existing partition, optionally
+        based on a resource group template.</li>
+      </ul>
+
+      <p>To create a resource group for an existing partition:</p>
+    </div>
+
+    <ol><li>If you have not already done so, in the Change Center of the Administration Console, click <b>Lock &amp; Edit</b> (see <a href="/consolehelp/console-help.portal?_nfpb=true&_pageLabel=page&helpId=console.UseTheChangeCenter">Use the Change Center</a>).</li>
+      <li>
+        <span><a name="WLACH06553__virtual_hosts1104941" id="WLACH06553__virtual_hosts1104941"></a>In the
+        left pane of the Console, select <span>Domain
+        Partitions</span>.</span>
+      </li>
+
+      <li>
+        <span><a name="WLACH06553__messaging_bridge1111013" id="WLACH06553__messaging_bridge1111013"></a>Click
+        the partition for which you want to create the resource group.</span>
+      </li>
+
+      <li>
+        <span>Select the <b>Resource Groups</b> page.</span>
+      </li>
+
+      <li>
+        <span>Click <b>New</b>.</span>
+      </li>
+
+      <li>
+        <span><a name="WLACH06553__messaging_bridge1111014" id="WLACH06553__messaging_bridge1111014"></a>On the
+        <span>Create a New Domain Partition Resource Group
+        </span>page, enter the name that will identify your resource
+        group.</span>
+      </li>
+
+      <li>
+        <span>If you want to create the resource group based on an existing
+        resource group template, select the resource group template from the
+        drop-down menu.</span>
+      </li>
+
+      <li>
+        <span>Select the <b>Use Default Target </b>control to use only the
+        default target identified for the partition. Or, deselect the <b>Use
+        Default Target </b>control and move one or more targets from the
+        Available list to the Chosen list.</span>
+      </li>
+
+      <li>
+        <span>Click <b>OK</b>.</span>
+      </li>
+    </ol>
+
+    <div class="postreq"><p class="sectiontitle"><b>
+        After you finish
+      </b></p>
+      <p>Creating a new resource group provides only the basic structure. You
+      must now edit this resource group as needed. See <a href="/consolehelp/console-help.portal?_nfpb=true&_pageLabel=page&helpId=partition.resourcegroup.PartConfigureResourceGroups">Configure resource
+  groups at the partition level</a> for the steps
+      to follow.</p>
+
+      <p>If you created the resource group from a resource group template,
+      edit and override the resource group settings as needed. See <a href="http://docs.oracle.com/middleware/12213/wls/WLSMT/config_resource_temp.htm#WLSMT581">Configuring
+      Resource Group Templates</a> for more information.</p>
+    </div>
+  </div>
+
+
+</body></html>

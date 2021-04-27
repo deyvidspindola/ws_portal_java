@@ -1,0 +1,137 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="help ID" content="Core-partition.core.partition.partitionresourcegroupconfiggeneral.title">
+<title>Resource Group : Configuration</title>
+<script language="JavaScript" src="/consolehelp/en-us/topicInfo.js"></script><script language="JavaScript" src="/consolehelp/en-us/CookieClass.js"></script>
+</head>
+<body class="base">
+<blockquote>
+<h1 class="Title">Resource Group : Configuration</h1>
+<p>
+<a href="#attributes">Configuration Options</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#tasks">Related Tasks</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#concepts">Related Topics</a>
+</p>
+<p>Use this page to view or change the configuration of a domain partition
+    resource group. If Use Default Target is selected, then the partition's
+    default target will be used. In this case, remove all selected targets
+    before saving the changes. If there is no default target set for the
+    partition, then this resource group is considered as untargeted.</p>
+<h4>
+<a name="attributes">Configuration Options</a>
+</h4>
+<div class="tblmargin">
+<table class="edocshelp">
+<thead>
+<tr>
+<th valign="top" style="padding:0px"> Name</th><th valign="top" style="padding:0px"> Description</th>
+</tr>
+</thead>
+<tbody>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.partitionresourcegroupconfiggeneral.resourcegroupname">Name</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>The name of this domain partition resource group.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/ResourceGroupMBean.html#Name">ResourceGroupMBean.Name</a></code>
+</p>
+<p>
+<a href="en-us/restart.html" onClick="return popup(this,'glossarypopup')"> 
+                                                    Changes take effect after you redeploy the module or restart the server.</a>
+</p>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.partitionresourcegroupconfiggeneral.partitionname">Domain Partition Name</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>The name of the domain partition that references this resource
+        group.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/PartitionMBean.html#Name">PartitionMBean.Name</a></code>
+</p>
+<p>
+<a href="en-us/restart.html" onClick="return popup(this,'glossarypopup')"> 
+                                                    Changes take effect after you redeploy the module or restart the server.</a>
+</p>
+</td>
+</tr>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.partitionresourcegroupconfiggeneral.resourcegrouptemplate">Resource Group Template</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>The name of the resource group template used for this domain
+        partition resource group.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/ResourceGroupMBean.html#ResourceGroupTemplate">ResourceGroupMBean.ResourceGroupTemplate</a></code>
+</p>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.partitionresourcegroupconfiggeneral.administrative">Leave this resource group running when partition is shutdown</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getAdministrative"></a><a name="Administrative"></a>
+<p>Does this resource group contain administrative applications and resources? If true, then this is considered an administrative resource group and will be handled differently by the partition lifecycle. Specifically, an administrative resource group will be left running when a partition is shut down (it will be shut down only when the partition is halted).</p>
+<p>Note that this Boolean is independent of the targeting of the resource group and works independently of the <code>autoTargetAdminServer</code> Boolean.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/ResourceGroupMBean.html#Administrative">ResourceGroupMBean.Administrative</a></code>
+</p>
+</td>
+</tr>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.partitionresourcegroupconfiggeneral.usedefaulttarget">Use Default Target</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>Indicate if this resource group should use the partition's default target.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/ResourceGroupMBean.html#UseDefaultTarget">ResourceGroupMBean.UseDefaultTarget</a></code>
+</p>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.partitionresourcegroupconfiggeneral.targets">Explicit Targeting</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>Select Target(s) for this Resource Group only if 'Use Default Target' is not checked.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/ResourceGroupMBean.html#Targets">ResourceGroupMBean.Targets</a></code>
+</p>
+</td>
+</tr>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.partitionresourcegroupconfiggeneral.autotargetadminserver">This resource group has been configured to be targeted to the admin server</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>WLS console does not support configurating this option.  Please use WLST or scripting tools to configure this attribute.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/ResourceGroupMBean.html#AutoTargetAdminServer">ResourceGroupMBean.AutoTargetAdminServer</a></code>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="relatedtopics">
+<a name="tasks">Related Tasks</a>
+</p>
+<ul>
+<li>
+<a href="/consolehelp/console-help.portal?_nfpb=true&amp;_pageLabel=page&amp;helpId=partition.resourcegroup.PartConfigureResourceGroups">Configure resource
+  groups at the partition level</a>
+</li>
+<li>
+<a href="/consolehelp/console-help.portal?_nfpb=true&amp;_pageLabel=page&amp;helpId=partition.resourcegroup.PartCreateResourceGroups">Create a new
+  resource group at the partition level</a>
+</li>
+</ul>
+<p class="relatedtopics">
+<a name="concepts">Related Topics</a>
+</p>
+<ul>
+<li>
+<a href="http://docs.oracle.com/middleware/12213/wls/WLSMT/config_resource_grp.htm#WLSMT583">Configuring Resource Groups</a>
+</li>
+<li>
+<a href="http://docs.oracle.com/middleware/12213/wls/WLSMT/config_virtual.htm#WLSMT1685">About
+    Partition Administrative Virtual Targets</a>
+</li>
+</ul>
+</blockquote>
+</body>
+</html>

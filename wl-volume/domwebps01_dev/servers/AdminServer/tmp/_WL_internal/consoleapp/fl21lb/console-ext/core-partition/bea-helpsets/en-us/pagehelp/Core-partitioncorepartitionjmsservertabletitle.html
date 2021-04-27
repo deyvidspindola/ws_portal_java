@@ -1,0 +1,165 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="help ID" content="Core-partition.core.partition.jmsservertable.title">
+<title>Domain Partition: Services: JMS Modules and
+  Servers</title>
+<script language="JavaScript" src="/consolehelp/en-us/topicInfo.js"></script><script language="JavaScript" src="/consolehelp/en-us/CookieClass.js"></script>
+</head>
+<body class="base">
+<blockquote>
+<h1 class="Title">Domain Partition: Services: JMS Modules and
+  Servers</h1>
+<p>
+<a href="#table">Column Display</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#tasks">Related Tasks</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#concepts">Related Topics</a>
+</p>
+<p>The following JMS modules have been explicitly targeted to this domain
+    partition. JMS resources are configured and stored as modules similar to
+    standard Java EE modules. Such resources include queues, topics,
+    connection factories, templates, destination keys, quota, distributed
+    queues, distributed topics, foreign servers, and JMS store-and-forward
+    (SAF) destinations.</p>
+<h4>
+<a name="table">Column Display</a>
+</h4>
+<p>You can show fewer or additional data points on this page by expanding <b>Customize this table</b> and modifying the <b>Column Display</b> list. Each data point displays in its own table column.</p>
+<p>The following table lists all of the data points that you can display in columns on this page.</p>
+<div class="tblmargin">
+<table class="edocshelp">
+<thead>
+<tr>
+<th valign="top" style="padding:0px"> Name</th><th valign="top" style="padding:0px"> Description</th>
+</tr>
+</thead>
+<tbody>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.partitionservicesjms.modules.table.name">Name</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>The name of this JMS module.</p>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.partitionservicesjms.modules.table.type">Type</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>The type of JMS module. JMS system modules are configured through
+        the Administration Console, JMX, or WLST, and are stored in the
+        <code>config\jms</code> subdirectory of the domain directory, with a
+        reference to the module added to the domain's configuration file. JMS
+        system modules are globally available for targeting to servers and
+        clusters configured in the domain. A stand-alone JMS application
+        module is deployed as a stand-alone resource using the Administration
+        Console or the <code>weblogic.Deployer</code> utility, and is
+        typically available to the server or cluster targeted during the
+        deployment process.</p>
+</td>
+</tr>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.resourcegroup.servicesjms.servers.table.scope">Scope</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>The scope in which the JMS module is created.</p>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.resourcegroup.servicesjms.servers.table.partitions">Domain Partitions</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>The partitions where this JMS module is accessible.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h4>
+<a name="table">Column Display</a>
+</h4>
+<p>You can show fewer or additional data points on this page by expanding <b>Customize this table</b> and modifying the <b>Column Display</b> list. Each data point displays in its own table column.</p>
+<p>The following table lists all of the data points that you can display in columns on this page.</p>
+<div class="tblmargin">
+<table class="edocshelp">
+<thead>
+<tr>
+<th valign="top" style="padding:0px"> Name</th><th valign="top" style="padding:0px"> Description</th>
+</tr>
+</thead>
+<tbody>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.partitionservicesjms.servers.table.name">Name</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>The name of this JMS server.</p>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.partitionservicesjms.servers.table.store">Persistent Store</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getPersistentStore"></a><a name="PersistentStore"></a>
+<p>The file or database in which this JMS server stores persistent messages. If unspecified, the JMS server uses the default persistent store that is configured on each targeted WebLogic Server instance. If the JMS server has a store configured, then the configured store is used to store persistent messages.</p>
+<p>The disk-based file store or JDBC-accessible database store that you specify must be targeted to the same server, cluster, or migratable target instance as this JMS server. Multiple services on the same WebLogic Server instance, including multiple JMS servers, may share the same persistent store. Each service's persistent data will be kept apart.</p>
+<p>If you specify a PersistentStore, the deprecated <b>Store</b> field must not be set. If neither the <b>PersistentStore</b> field nor the <b>Store</b> field are set, the JMS server supports persistent messaging using the default persistent store for the targeted WebLogic Server instance.</p>
+<p>If the value is changed and activated, you need to restart any servers to which the MBean is targeted before the value will take effect (even though you do not get a warning in the Console that the server needs to be restarted).</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/JMSServerMBean.html#PersistentStore">JMSServerMBean.PersistentStore</a></code>
+</p>
+<p>
+<a href="en-us/restart.html" onClick="return popup(this,'glossarypopup')"> 
+                                                    Changes take effect after you redeploy the module or restart the server.</a>
+</p>
+</td>
+</tr>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.partitionservicesjms.servers.table.target">Target</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getTargets"></a><a name="Targets"></a>
+<p>The server instances, clusters, or a migratable targets defined in the current domain that are candidates for hosting the JMSSerer.</p>
+<p>In a clustered environment, a recommended best practice is to use a cluster as a target or target a JMSServer to the same migratable target as the Persistent Store that it uses, so that a member server will not be a single point of failure. A JMSServer can also be configured to automatically migrate from an unhealthy server instance to a healthy server instance with the help of the automatic service migration feature.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/JMSServerMBean.html#Targets">JMSServerMBean.Targets</a></code>
+</p>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.resourcegroup.servicesjms.servers.table.scope">Scope</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>The scope in which the JMS module is created.</p>
+</td>
+</tr>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.resourcegroup.servicesjms.servers.table.partitions">Domain Partitions</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>The partitions where this JMS module is accessible.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="relatedtopics">
+<a name="tasks">Related Tasks</a>
+</p>
+<ul>
+<li>
+<a href="/consolehelp/console-help.portal?_nfpb=true&amp;_pageLabel=page&amp;helpId=jms_servers.CreateJMSServers">Create JMS
+  servers</a>
+</li>
+<li>
+<a href="/consolehelp/console-help.portal?_nfpb=true&amp;_pageLabel=page&amp;helpId=jms_servers.ConfigureJMSServers">Configure JMS servers</a>
+</li>
+<li>
+<a href="/consolehelp/console-help.portal?_nfpb=true&amp;_pageLabel=page&amp;helpId=jms_modules.modules.CreateJMSModules">Create JMS system
+  modules</a>
+</li>
+<li>
+<a href="/consolehelp/console-help.portal?_nfpb=true&amp;_pageLabel=page&amp;helpId=jms_modules.modules.ConfigureJMSModules">Configure JMS system
+  modules</a>
+</li>
+</ul>
+<p class="relatedtopics">
+<a name="concepts">Related Topics</a>
+</p>
+<ul>
+<li>
+<a href="http://docs.oracle.com/middleware/12213/wls/WLSMT/config_jms.htm#WLSMT617">Configuring
+    Messaging</a>
+</li>
+<li>
+<a href="http://docs.oracle.com/middleware/12213/wls/JMSAD/overview.htm">Understanding JMS Resource
+    Configuration</a>
+</li>
+<li>
+<a href="http://docs.oracle.com/middleware/12213/wls/JMSPG/fund.htm">Understanding WebLogic JMS</a>
+</li>
+</ul>
+</blockquote>
+</body>
+</html>

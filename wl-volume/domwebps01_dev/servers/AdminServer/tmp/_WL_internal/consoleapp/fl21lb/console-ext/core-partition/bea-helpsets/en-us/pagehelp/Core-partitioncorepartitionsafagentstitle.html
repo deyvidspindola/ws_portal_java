@@ -1,0 +1,139 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="help ID" content="Core-partition.core.partition.safagents.title">
+<title>Domain Partition: Services: Store-and-Forward (SAF)
+  Agents</title>
+<script language="JavaScript" src="/consolehelp/en-us/topicInfo.js"></script><script language="JavaScript" src="/consolehelp/en-us/CookieClass.js"></script>
+</head>
+<body class="base">
+<blockquote>
+<h1 class="Title">Domain Partition: Services: Store-and-Forward (SAF)
+  Agents</h1>
+<p>
+<a href="#table">Column Display</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#tasks">Related Tasks</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#concepts">Related Topics</a>
+</p>
+<p>There are two sides involved in the process of storing and forwarding
+    messages: a local sending side and a remote receiving endpoint. SAF agents
+    are responsible for store-and-forwarding messages between these local
+    sending and remote receiving endpoints. A SAF agent can be configured to
+    have only sending capabilities, receiving capabilities, or both.</p>
+<p>For SAF agents that are scoped to a resource group template, you cannot
+    edit them at the partition or resource group level. The properties of
+    these resources apply to the entire domain. To edit these resources,
+    expand the Services node in the Domain Structure pane, then select the
+    resource you want to edit. Changes to any properties apply to the entire
+    domain.</p>
+<p>This page summarizes the SAF agents that have been created for this
+    domain partition.</p>
+<h4>
+<a name="table">Column Display</a>
+</h4>
+<p>You can show fewer or additional data points on this page by expanding <b>Customize this table</b> and modifying the <b>Column Display</b> list. Each data point displays in its own table column.</p>
+<p>The following table lists all of the data points that you can display in columns on this page.</p>
+<div class="tblmargin">
+<table class="edocshelp">
+<thead>
+<tr>
+<th valign="top" style="padding:0px"> Name</th><th valign="top" style="padding:0px"> Description</th>
+</tr>
+</thead>
+<tbody>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="jms.safagent.safagenttable.name">Name</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>The name of this Store-and-Forward agent.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/WebLogicMBean.html#Name">WebLogicMBean.Name</a></code>
+</p>
+<p>
+<a href="en-us/restart.html" onClick="return popup(this,'glossarypopup')"> 
+                                                    Changes take effect after you redeploy the module or restart the server.</a>
+</p>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="jms.safagent.safagenttable.agenttype">Agent Type</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getServiceType"></a><a name="ServiceType"></a>
+<p>The type of service that this SAF agent provides. JMS requires only a Sending agent on the sending side for messages. Whereas, Web Services Reliable Messaging requires both a Sending and Receiving agent for messages.</p>
+<ul> 
+<li>
+<b>Sending-only</b> 
+<p>Configures an agent that stores messages in persistent storage, forwards messages to the receiving side, and re-transmits messages when acknowledgements do not come back in time.</p> 
+</li>  
+<li>
+<b>Receiving-only</b> 
+<p>Configures an agent that detects and eliminates duplicate messages sent by a receiving agent, and delivers messages to the final destination.</p> 
+</li>  
+<li>
+<b>Both</b> 
+<p>Configures an agent that has sending and receiving agent functionality.</p> 
+</li> 
+</ul>
+<p>If the value is changed and activated, you need to restart any servers to which the MBean is targeted before the value will take effect (even though you do not get a warning in the Console that the server needs to be restarted).</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/SAFAgentMBean.html#ServiceType">SAFAgentMBean.ServiceType</a></code>
+</p>
+<p>
+<a href="en-us/restart.html" onClick="return popup(this,'glossarypopup')"> 
+                                                    Changes take effect after you redeploy the module or restart the server.</a>
+</p>
+</td>
+</tr>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="jms.safagent.safagenttable.store">Persistent Store</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getStore"></a><a name="Store"></a>
+<p>The persistent disk-based file store or JDBC-accessible database for the SAF agent.</p>
+<p>If a store is not configured, the server's default store is used.</p>
+<p>If the value is changed and activated, you need to restart any servers to which the MBean is targeted before the value will take effect (even though you do not get a warning in the Console that the server needs to be restarted).</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/SAFAgentMBean.html#Store">SAFAgentMBean.Store</a></code>
+</p>
+<p>
+<a href="en-us/restart.html" onClick="return popup(this,'glossarypopup')"> 
+                                                    Changes take effect after you redeploy the module or restart the server.</a>
+</p>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="jms.safagent.safagenttable.scope">Scope</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>The scope in which this Store-and-Forward Agent is deployed.</p>
+</td>
+</tr>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="jms.safagent.safagenttable.partitions">Domain Partitions</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>List of domain partitions that this Store-and-Forward Agent is
+        available.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="relatedtopics">
+<a name="tasks">Related Tasks</a>
+</p>
+<ul>
+<li>
+<a href="/consolehelp/console-help.portal?_nfpb=true&amp;_pageLabel=page&amp;helpId=saf_agents.CreateSAFAgents">Create Store-and-Forward
+  agents</a>
+</li>
+</ul>
+<p class="relatedtopics">
+<a name="concepts">Related Topics</a>
+</p>
+<ul>
+<li>
+<a href="http://docs.oracle.com/middleware/12213/wls/WLSMT/config_jms.htm#WLSMT617">Configuring
+    Messaging</a>
+</li>
+<li>
+<a href="http://docs.oracle.com/middleware/12213/wls/SAFMG/index.html">Administering the
+    Store-and-Forward Service for Oracle WebLogic Server</a>
+</li>
+</ul>
+</blockquote>
+</body>
+</html>

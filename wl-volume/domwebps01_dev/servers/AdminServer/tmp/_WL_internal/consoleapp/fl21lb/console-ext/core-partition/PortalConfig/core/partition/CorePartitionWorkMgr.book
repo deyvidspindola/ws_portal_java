@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portal:root xmlns:netuix="http://www.bea.com/servers/netuix/xsd/controls/netuix/1.0.0"
+             xmlns:html="http://www.w3.org/1999/xhtml-netuix-modified/1.0.0"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns:portal="http://www.bea.com/servers/netuix/xsd/portal/support/1.0.0"
+             xsi:schemaLocation="http://www.bea.com/servers/netuix/xsd/portal/support/1.0.0 portal-support-1_0_0.xsd">
+<!-- 
+    Definition file for the pages for interacting with the 
+    partition work management subsystem
+    
+    Copyright (c) 2014 Oracle and/or its affiliates. All rights reserved.
+-->
+  <netuix:book definitionLabel="PartitionWorkMgrBook" title="book.title" markupName="book"
+               backingFile="com.bea.console.utils.GeneralBackingFile"
+               threadsafe="true"
+               presentationClass="invisible">
+    <netuix:content>
+      <!-- Definition for the Partition Work Manager table page -->
+      <netuix:book definitionLabel="CorePartitionWorkManagerTableBook" markupName="book"
+                   backingFile="com.bea.console.utils.GeneralBackingFile"
+                   threadsafe="true"
+                   title="globalpartitionworkmgr.title"
+                   presentationClass="wlsc-frame">
+        <netuix:titlebar/>
+        <netuix:content>
+          <netuix:page markupName="page" definitionLabel="CorePartitionWorkManagerTablePage" title="not.used"
+                       hidden="true"
+                       presentationClass="page-table">
+            <netuix:meta name="helpid" content="Core-Partition.globalpartitionworkmgr.table.title;core-partition"/>
+            <netuix:meta name="breadcrumb" content="globalpartitionworkmgr.title"/>
+            <netuix:content>
+              <netuix:layout type="no" markupName="NoLayout">
+                <netuix:placeholder usingFlow="false" markupName="ph1">
+                  <netuix:portlet definitionLabel="CorePartitionWorkManagerTablePortlet">
+                    <netuix:strutsContent module="/core-partition" action="CorePartitionWorkManagerTable"
+                                          refreshAction="CorePartitionWorkManagerTable"/>
+                  </netuix:portlet>
+                </netuix:placeholder>
+              </netuix:layout>
+            </netuix:content>
+          </netuix:page>
+        </netuix:content>
+      </netuix:book>
+      <!-- Definition for the Partition Work Manager creation assistant page -->
+      <netuix:book definitionLabel="CoreCreatePartitionWorkManagerBook" markupName="book"
+                   backingFile="com.bea.console.utils.GeneralBackingFile"
+                   threadsafe="true"
+                   title="assistant.create.partitionworkmanager.title"
+                   presentationClass="wlsc-frame">
+        <netuix:titlebar/>
+        <netuix:content>
+          <netuix:page markupName="page" definitionLabel="CoreCreatePartitionWorkManager" title="not.used"
+                       hidden="true"
+                       presentationClass="page-assistant">
+            <netuix:meta name="helpid" content="Core-Partition.globalpartitionworkmgr.create.title;core-partition"/>
+            <netuix:content>
+              <netuix:layout type="no" markupName="NoLayout">
+                <netuix:placeholder usingFlow="false" markupName="ph1">
+                  <netuix:portlet definitionLabel="CoreCreatePartitionWorkManagerPortlet">
+                    <netuix:pageflowContent contentUri="/com/bea/console/actions/core/globalpartitionworkmgr/createglobalpartitionworkmgr/CreatePartitionWorkManager.jpf"
+                                            action="begin"
+                                            refreshAction="begin"/>
+                  </netuix:portlet>
+                </netuix:placeholder>
+              </netuix:layout>
+            </netuix:content>
+          </netuix:page>
+        </netuix:content>
+      </netuix:book>
+      <!-- Definition for the Partition Work Manager edit assistant page -->
+      <netuix:book definitionLabel="CorePartitionWorkManagerConfigBook" markupName="book"
+                   backingFile="com.bea.console.utils.GeneralBackingFile"
+                   threadsafe="true"
+                   title="assistant.edit.partitionworkmanager.title"
+                   presentationClass="wlsc-frame">
+        <netuix:titlebar/>
+        <netuix:content>
+          <netuix:page markupName="page" definitionLabel="CorePartitionWorkManagerConfigPage" title="not.used"
+                       hidden="true"
+                       presentationClass="page-assistant">
+            <netuix:meta name="helpid" content="Core-Partition.globalpartitionworkmgr.config.title;core-partition"/>
+            <netuix:content>
+              <netuix:layout type="no" markupName="NoLayout">
+                <netuix:placeholder usingFlow="false" markupName="ph1">
+                  <netuix:portlet definitionLabel="CorePartitionWorkManagerConfigPortlet">
+                    <netuix:strutsContent module="/core-partition" action="CorePartitionWorkManagerConfig"
+                                          refreshAction="CorePartitionWorkManagerConfig"/>
+                  </netuix:portlet>
+                </netuix:placeholder>
+              </netuix:layout>
+            </netuix:content>
+          </netuix:page>
+        </netuix:content>
+      </netuix:book>
+
+      <!-- Definition for the Partition Work Manager clone assistant page -->
+      <netuix:book definitionLabel="CoreClonePartitionWorkManagerBook" markupName="book"
+                   backingFile="com.bea.console.utils.GeneralBackingFile"
+                   threadsafe="true"
+                   title="assistant.clone.globalpartitionworkmgr.title"
+                   presentationClass="wlsc-frame">
+        <netuix:titlebar/>
+        <netuix:content>
+          <netuix:page markupName="page" definitionLabel="CoreClonePartitionWorkManager" title="not.used"
+                       hidden="true"
+                       presentationClass="page-assistant">
+            <netuix:meta name="helpid" content="Core-Partition.globalpartitionworkmgr.create.title;core-partition"/>
+            <netuix:content>
+              <netuix:layout type="no" markupName="NoLayout">
+                <netuix:placeholder usingFlow="false" markupName="ph1">
+                  <netuix:portlet definitionLabel="CoreClonePartitionWorkManagerPortlet">
+                    <netuix:pageflowContent contentUri="/com/bea/console/actions/core/globalpartitionworkmgr/createglobalpartitionworkmgr/CreatePartitionWorkManager.jpf"
+                                            action="clone"
+                                            refreshAction="clone"/>
+                  </netuix:portlet>
+                </netuix:placeholder>
+              </netuix:layout>
+            </netuix:content>
+          </netuix:page>
+        </netuix:content>
+      </netuix:book>
+      <!-- Definition for the Partition Work Manager deletion assistant page -->
+      <netuix:book definitionLabel="CoreDeletePartitionWorkManagerBook" markupName="book"
+                   backingFile="com.bea.console.utils.GeneralBackingFile"
+                   threadsafe="true"
+                   title="assistant.delete.partitionworkmanager.title"
+                   presentationClass="wlsc-frame">
+        <netuix:titlebar/>
+        <netuix:content>
+          <netuix:page markupName="page" definitionLabel="CoreDeletePartitionWorkManager" title="not.used"
+                       hidden="true"
+                       presentationClass="page-assistant">
+            <netuix:meta name="helpid" content="Core-Partition.globalpartitionworkmgr.delete.title;core-partition"/>
+            <netuix:content>
+              <netuix:layout type="no" markupName="NoLayout">
+                <netuix:placeholder usingFlow="false" markupName="ph1">
+                  <netuix:portlet definitionLabel="CoreDeletePartitionWorkManagerPortlet">
+                    <netuix:pageflowContent contentUri="/com/bea/console/actions/core/globalpartitionworkmgr/deleteglobalpartitionworkmgr/DeletePartitionWorkManager.jpf"
+                                            action="begin"
+                                            refreshAction="begin"/>
+                  </netuix:portlet>
+                </netuix:placeholder>
+              </netuix:layout>
+            </netuix:content>
+          </netuix:page>
+        </netuix:content>
+      </netuix:book>
+    </netuix:content>
+  </netuix:book>
+</portal:root>

@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<weblogic-jms xmlns="http://xmlns.oracle.com/weblogic/weblogic-jms" xmlns:sec="http://xmlns.oracle.com/weblogic/security" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wls="http://xmlns.oracle.com/weblogic/security/wls" xsi:schemaLocation="http://xmlns.oracle.com/weblogic/weblogic-jms http://xmlns.oracle.com/weblogic/weblogic-jms/1.1/weblogic-jms.xsd">
+  <connection-factory name="envio_config_factory">
+    <sub-deployment-name>SascarPortalWebSub</sub-deployment-name>
+    <default-targeting-enabled>false</default-targeting-enabled>
+    <jndi-name>jms/envio_config_factory</jndi-name>
+    <client-params>
+      <client-id-policy>Restricted</client-id-policy>
+      <subscription-sharing-policy>Exclusive</subscription-sharing-policy>
+      <acknowledge-policy>All</acknowledge-policy>
+      <allow-close-in-onMessage>true</allow-close-in-onMessage>
+      <messages-maximum>100</messages-maximum>
+      <multicast-overrun-policy>KeepOld</multicast-overrun-policy>
+      <synchronous-prefetch-mode>disabled</synchronous-prefetch-mode>
+      <reconnect-policy>producer</reconnect-policy>
+      <reconnect-blocking-millis>60000</reconnect-blocking-millis>
+      <total-reconnect-period-millis>-1</total-reconnect-period-millis>
+    </client-params>
+    <transaction-params>
+      <xa-connection-factory-enabled>true</xa-connection-factory-enabled>
+    </transaction-params>
+    <load-balancing-params>
+      <load-balancing-enabled>true</load-balancing-enabled>
+      <server-affinity-enabled>false</server-affinity-enabled>
+    </load-balancing-params>
+    <security-params>
+      <attach-jmsx-user-id>false</attach-jmsx-user-id>
+    </security-params>
+  </connection-factory>
+  <uniform-distributed-queue name="envio_config_queue">
+    <sub-deployment-name>SascarPortalWebSub</sub-deployment-name>
+    <default-targeting-enabled>false</default-targeting-enabled>
+    <jndi-name>jms/envio_config_queue</jndi-name>
+    <load-balancing-policy>Round-Robin</load-balancing-policy>
+    <forward-delay>-1</forward-delay>
+    <reset-delivery-count-on-forward>true</reset-delivery-count-on-forward>
+  </uniform-distributed-queue>
+</weblogic-jms>

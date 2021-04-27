@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<weblogic-web-app
+  xmlns="http://xmlns.oracle.com/weblogic/weblogic-web-app"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xmlns.oracle.com/weblogic/weblogic-web-app">
+
+  <context-root>management</context-root>
+  
+  <work-manager>
+    <name>WlsManagementDelegatedRequestWorkManager</name>
+    <!--
+      min-threads-constraint is overridden by the DomainMBean's
+      RestfulManagementServicesMBean's DelegatedRequestMinThreads property.
+      Start off with a small value so that we don't consume threads until
+      the first REST fanout from the admin server to the managed servers occurs.
+      Each partition gets a separate copy of this work manager.
+    -->
+    <min-threads-constraint>
+      <name>WlsManagementMinThreadsCount</name>
+      <count>1</count>
+    </min-threads-constraint>
+  </work-manager>
+
+  <work-manager>
+    <!--
+      Basically controls how many incoming REST requests can be processed in parallel.
+      Cannot be overriden today (unless there's a way to override deployment descriptor
+      values for internal apps).
+      Each partition gets a separate copy of this work manager.
+    -->
+    <name>WlsManagementDispatchWorkManager</name>
+    <min-threads-constraint>
+      <name>WlsManagementMinThreadsCount</name>
+      <count>25</count>
+    </min-threads-constraint>
+  </work-manager>
+
+  <wl-dispatch-policy>WlsManagementDispatchWorkManager</wl-dispatch-policy>
+
+  <security-role-assignment>
+    <role-name>Admin</role-name>
+    <externally-defined/>
+  </security-role-assignment>
+
+  <security-role-assignment>
+    <role-name>Deployer</role-name>
+    <externally-defined/>
+  </security-role-assignment>
+
+  <security-role-assignment>
+    <role-name>Operator</role-name>
+    <externally-defined/>
+  </security-role-assignment>
+
+  <security-role-assignment>
+    <role-name>Monitor</role-name>
+    <externally-defined/>
+  </security-role-assignment>
+
+  <container-descriptor>
+    <prefer-web-inf-classes>true</prefer-web-inf-classes>
+    <require-admin-traffic>true</require-admin-traffic>
+  </container-descriptor>
+
+</weblogic-web-app>

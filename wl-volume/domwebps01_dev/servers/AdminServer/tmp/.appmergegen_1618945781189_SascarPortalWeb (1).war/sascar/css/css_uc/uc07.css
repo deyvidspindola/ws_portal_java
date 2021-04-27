@@ -1,0 +1,111 @@
+.formulario ul{	
+	margin:0px;
+	padding:0px;	
+}
+
+.formulario ul li{
+	list-style-type:none;
+}
+.formulario {
+	width:100%;
+	list-style-type:none;
+	margin:0px;
+	padding:0px;	
+}
+.formulario > .infoGeral {
+	position:relative;	
+	background:#eee;
+	height:150px;
+	width:100%;
+}
+
+.formulario > .topicos {
+	position:relative;	
+	height:500px;
+	width:100%;
+
+}
+
+.topicos  > li .perguntas {
+	position:relative;		
+	width:100%;
+}
+
+.perguntas > li{
+	position:relative;		
+	width:100%;
+}
+
+.perguntas li ul {
+	padding:5px 0px;
+	/* background: #FFF; */
+}
+
+.perguntas li > .fundo_linha_impar {
+	background-color: #eee;
+}
+
+.perguntas > li .opcoes {
+	width:49%;	
+	display:inline-block;
+	vertical-align: middle;
+}
+
+.perguntas > li .descricao {
+	width:40%;
+	padding-left:5px;	
+	display:inline-block;
+	vertical-align: middle;
+}
+
+.opcoes input[type="radio"],
+.opcoes input[type="checkbox"] {
+	vertical-align: middle;
+}
+
+.opcoes > ul li{	
+	display:inline-block;
+}
+
+.st-titulo{
+	text-align: left;
+	float: left;
+	height:70px;
+	padding-left: 20px;
+	padding-top: 10px;
+	display: inline-block;
+	width: 100%;
+}
+
+.st-titulo-pesquisa{
+	height:40px !important;
+}
+
+.st-sub-titulo{
+	padding-left: 10px;
+	padding-top: 10px;
+	text-align: left;
+	margin-bottom: 4px;
+}
+.st-alinhar-esquerda{
+	text-align: left;
+}
+
+.st-barra-azul-1 {
+	background-color: #7DB4EA;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 13px;
+	text-align: left;
+	padding-left: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	height: 12px;
+}
+
+.st-linha{
+	display: inline-block;
+}
+
+
+

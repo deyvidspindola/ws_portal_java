@@ -1,0 +1,3023 @@
+<Apr 20, 2021 3:54:04,026 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1826847922[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@682e518e[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: "Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 20, 2021 3:55:03,958 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1826847922[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@6658797c[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: "Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 20, 2021 3:56:03,977 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1826847922[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@1ae6dfb3[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: "Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 20, 2021 3:57:04,019 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1826847922[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@561051ae[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: "Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+<Apr 20, 2021 3:57:23,113 PM GMT> <Error> <HTTP> <BEA-101017> <[ServletContext@1826847922[app:SascarPortalWeb module:SascarPortalWeb.war path:null spec-version:3.1 version:v_12345], request: weblogic.servlet.internal.ServletRequestImpl@55fa2ccb[
+POST /SascarPortalWeb/AtivarEquipamentoTestes/reenviarConfiguracoes?acao=24 HTTP/1.1
+Connection: keep-alive
+Content-Length: 145
+sec-ch-ua: "Google Chrome";v="89", "Chromium";v="89", ";Not A Brand";v="99"
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+sec-ch-ua-mobile: ?0
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36
+Content-Type: application/x-www-form-urlencoded
+Origin: http://localhost:8001
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: cors
+Sec-Fetch-Dest: empty
+Referer: http://localhost:8001/SascarPortalWeb/Satellite?pagename=SascarPortal_Corporativo/RepresentanteTecnico&page=Corporativo/UC13/dv02
+Accept-Encoding: gzip, deflate, br
+Accept-Language: pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7
+
+]] Root cause of ServletException.
+javax.servlet.ServletException: SESSAO
+	at br.com.sascar.portal.helper.AbstractServletHelper.doGetPost(AbstractServletHelper.java:58)
+	at br.com.sascar.portal.helper.AbstractServletHelper.doPost(AbstractServletHelper.java:40)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at weblogic.servlet.internal.StubSecurityHelper$ServletServiceAction.run(StubSecurityHelper.java:286)
+	Truncated. see log file for complete stacktrace
+> 
+java.vendor Oracle Corporation
+sun.java.launcher SUN_STANDARD
+sun.management.compiler HotSpot 64-Bit Tiered Compilers
+acpParserPortaSecundario 10025
+os.name Linux
+sun.boot.class.path /u01/jdk/jre/lib/resources.jar:/u01/jdk/jre/lib/rt.jar:/u01/jdk/jre/lib/sunrsasign.jar:/u01/jdk/jre/lib/jsse.jar:/u01/jdk/jre/lib/jce.jar:/u01/jdk/jre/lib/charsets.jar:/u01/jdk/jre/lib/jfr.jar:/u01/jdk/jre/classes
+java.vm.specification.vendor Oracle Corporation
+oracle.jms.useJmsNotification false
+java.runtime.version 1.8.0_241-b07
+SascarProperties /u01/oracle/user_projects/domains/domwebps01_dev/resources/portal_servicos/
+weblogic.Name mngnode1
+user.name oracle
+com.sun.jersey.server.impl.cdi.lookupExtensionInBeanManager true
+log4j.configuration file:/u01/weblogic/domains/domwebps01_dev/resources/portal_servicos/log4j.properties
+java.naming.factory.initial weblogic.jndi.WLInitialContextFactory
+user.language en
+sun.boot.library.path /u01/jdk/jre/lib/amd64
+java.version 1.8.0_241
+user.timezone GMT
+sun.arch.data.model 64
+oracle.jdbc.noImplicitBeginRequest true
+javax.rmi.CORBA.UtilClass weblogic.iiop.UtilDelegateImpl
+java.endorsed.dirs /u01/jdk/jre/lib/endorsed
+vde.home /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/ldap
+sun.cpu.isalist 
+sun.jnu.encoding UTF-8
+file.encoding.pkg sun.io
+file.separator /
+java.specification.name Java Platform API Specification
+java.class.version 52.0
+weblogic.home /u01/oracle/wlserver/server
+user.country US
+java.home /u01/jdk/jre
+java.vm.info mixed mode
+os.version 5.4.0-72-generic
+org.omg.CORBA.ORBSingletonClass weblogic.corba.orb.ORB
+path.separator :
+weblogic.nmservice.RotationEnabled true
+java.vm.version 25.241-b07
+java.protocol.handler.pkgs weblogic.utils|weblogic.utils|org.apache.axis.transport|
+java.system.class.loader com.oracle.classloader.weblogic.LaunchClassLoader
+java.awt.printerjob sun.print.PSPrinterJob
+java.security.policy /u01/oracle/wlserver/server/lib/weblogic.policy
+sun.io.unicode.encoding UnicodeLittle
+awt.toolkit sun.awt.X11.XToolkit
+weblogic.nodemanager.ServiceEnabled true
+java.naming.factory.url.pkgs weblogic.jndi.factories:weblogic.corba.j2ee.naming.url:weblogic.jndi.factories:weblogic.corba.j2ee.naming.url
+acpParserIpSecundario 201.94.129.110
+user.home /home/oracle
+weblogic.management.server http://172.17.0.2:7001
+acpParserIpPrimario 201.94.129.110
+wls.home /u01/oracle/wlserver/server
+java.specification.vendor Oracle Corporation
+SascarEnvironment desenvolvimento
+java.library.path ::/u01/oracle/wlserver/server/native/linux/x86_64:/u01/oracle/wlserver/server/native/linux/x86_64/oci920_8:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.vendor.url http://java.oracle.com/
+java.vm.vendor Oracle Corporation
+java.runtime.name Java(TM) SE Runtime Environment
+sun.java.command weblogic.Server
+java.class.path /u01/jdk/lib/tools.jar:/u01/oracle/wlserver/server/lib/weblogic.jar:/u01/oracle/wlserver/../oracle_common/modules/thirdparty/ant-contrib-1.0b3.jar:/u01/oracle/wlserver/modules/features/oracle.wls.common.nodemanager.jar:/u01/oracle/wlserver/common/derby/lib/derbynet.jar:/u01/oracle/wlserver/common/derby/lib/derbyclient.jar:/u01/oracle/wlserver/common/derby/lib/derby.jar:/u01/jdk/lib/tools.jar
+java.vm.specification.name Java Virtual Machine Specification
+javax.rmi.CORBA.PortableRemoteObjectClass weblogic.iiop.PortableRemoteObjectDelegateImpl
+java.vm.specification.version 1.8
+sun.cpu.endian little
+sun.os.patch.level unknown
+weblogic.security.TrustKeyStore DemoTrust
+java.io.tmpdir /tmp
+java.vendor.url.bug http://bugreport.sun.com/bugreport/
+SascarPathWS http://172.18.0.1:8000/
+acpParserPortaPrimario 10025
+os.arch amd64
+java.awt.graphicsenv sun.awt.X11GraphicsEnvironment
+java.ext.dirs /u01/jdk/jre/lib/ext:/usr/java/packages/lib/ext
+user.dir /u01/oracle/user_projects/domains/domwebps01_dev
+line.separator 
+
+java.vm.name Java HotSpot(TM) 64-Bit Server VM
+weblogic.system.BootIdentityFile /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties
+urlPortalServicos http://172.18.0.1:8000/
+javax.management.builder.initial weblogic.management.jmx.mbeanserver.WLSMBeanServerBuilder
+org.omg.CORBA.ORBClass weblogic.corba.orb.ORB
+file.encoding UTF-8
+java.specification.version 1.8
+launch.use.env.classpath true
+java.vendor Oracle Corporation
+sun.java.launcher SUN_STANDARD
+sun.management.compiler HotSpot 64-Bit Tiered Compilers
+acpParserPortaSecundario 10025
+os.name Linux
+sun.boot.class.path /u01/jdk/jre/lib/resources.jar:/u01/jdk/jre/lib/rt.jar:/u01/jdk/jre/lib/sunrsasign.jar:/u01/jdk/jre/lib/jsse.jar:/u01/jdk/jre/lib/jce.jar:/u01/jdk/jre/lib/charsets.jar:/u01/jdk/jre/lib/jfr.jar:/u01/jdk/jre/classes
+java.vm.specification.vendor Oracle Corporation
+oracle.jms.useJmsNotification false
+java.runtime.version 1.8.0_241-b07
+SascarProperties /u01/oracle/user_projects/domains/domwebps01_dev/resources/portal_servicos/
+weblogic.Name mngnode1
+user.name oracle
+com.sun.jersey.server.impl.cdi.lookupExtensionInBeanManager true
+log4j.configuration file:/u01/weblogic/domains/domwebps01_dev/resources/portal_servicos/log4j.properties
+java.naming.factory.initial weblogic.jndi.WLInitialContextFactory
+user.language en
+sun.boot.library.path /u01/jdk/jre/lib/amd64
+java.version 1.8.0_241
+user.timezone GMT
+sun.arch.data.model 64
+oracle.jdbc.noImplicitBeginRequest true
+javax.rmi.CORBA.UtilClass weblogic.iiop.UtilDelegateImpl
+java.endorsed.dirs /u01/jdk/jre/lib/endorsed
+vde.home /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/ldap
+sun.cpu.isalist 
+sun.jnu.encoding UTF-8
+file.encoding.pkg sun.io
+file.separator /
+java.specification.name Java Platform API Specification
+java.class.version 52.0
+weblogic.home /u01/oracle/wlserver/server
+user.country US
+java.home /u01/jdk/jre
+java.vm.info mixed mode
+os.version 5.4.0-72-generic
+org.omg.CORBA.ORBSingletonClass weblogic.corba.orb.ORB
+path.separator :
+weblogic.nmservice.RotationEnabled true
+java.vm.version 25.241-b07
+java.protocol.handler.pkgs weblogic.utils|weblogic.utils|org.apache.axis.transport|
+java.system.class.loader com.oracle.classloader.weblogic.LaunchClassLoader
+java.awt.printerjob sun.print.PSPrinterJob
+java.security.policy /u01/oracle/wlserver/server/lib/weblogic.policy
+sun.io.unicode.encoding UnicodeLittle
+awt.toolkit sun.awt.X11.XToolkit
+weblogic.nodemanager.ServiceEnabled true
+java.naming.factory.url.pkgs weblogic.jndi.factories:weblogic.corba.j2ee.naming.url:weblogic.jndi.factories:weblogic.corba.j2ee.naming.url
+acpParserIpSecundario 201.94.129.110
+user.home /home/oracle
+weblogic.management.server http://172.17.0.2:7001
+acpParserIpPrimario 201.94.129.110
+wls.home /u01/oracle/wlserver/server
+java.specification.vendor Oracle Corporation
+SascarEnvironment desenvolvimento
+java.library.path ::/u01/oracle/wlserver/server/native/linux/x86_64:/u01/oracle/wlserver/server/native/linux/x86_64/oci920_8:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.vendor.url http://java.oracle.com/
+java.vm.vendor Oracle Corporation
+java.runtime.name Java(TM) SE Runtime Environment
+sun.java.command weblogic.Server
+java.class.path /u01/jdk/lib/tools.jar:/u01/oracle/wlserver/server/lib/weblogic.jar:/u01/oracle/wlserver/../oracle_common/modules/thirdparty/ant-contrib-1.0b3.jar:/u01/oracle/wlserver/modules/features/oracle.wls.common.nodemanager.jar:/u01/oracle/wlserver/common/derby/lib/derbynet.jar:/u01/oracle/wlserver/common/derby/lib/derbyclient.jar:/u01/oracle/wlserver/common/derby/lib/derby.jar:/u01/jdk/lib/tools.jar
+java.vm.specification.name Java Virtual Machine Specification
+javax.rmi.CORBA.PortableRemoteObjectClass weblogic.iiop.PortableRemoteObjectDelegateImpl
+java.vm.specification.version 1.8
+sun.cpu.endian little
+sun.os.patch.level unknown
+weblogic.security.TrustKeyStore DemoTrust
+java.io.tmpdir /tmp
+java.vendor.url.bug http://bugreport.sun.com/bugreport/
+SascarPathWS http://172.18.0.1:8000/
+acpParserPortaPrimario 10025
+os.arch amd64
+java.awt.graphicsenv sun.awt.X11GraphicsEnvironment
+java.ext.dirs /u01/jdk/jre/lib/ext:/usr/java/packages/lib/ext
+user.dir /u01/oracle/user_projects/domains/domwebps01_dev
+line.separator 
+
+java.vm.name Java HotSpot(TM) 64-Bit Server VM
+weblogic.system.BootIdentityFile /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties
+urlPortalServicos http://172.18.0.1:8000/
+javax.management.builder.initial weblogic.management.jmx.mbeanserver.WLSMBeanServerBuilder
+org.omg.CORBA.ORBClass weblogic.corba.orb.ORB
+file.encoding UTF-8
+java.specification.version 1.8
+launch.use.env.classpath true
+java.vendor Oracle Corporation
+sun.java.launcher SUN_STANDARD
+sun.management.compiler HotSpot 64-Bit Tiered Compilers
+acpParserPortaSecundario 10025
+os.name Linux
+sun.boot.class.path /u01/jdk/jre/lib/resources.jar:/u01/jdk/jre/lib/rt.jar:/u01/jdk/jre/lib/sunrsasign.jar:/u01/jdk/jre/lib/jsse.jar:/u01/jdk/jre/lib/jce.jar:/u01/jdk/jre/lib/charsets.jar:/u01/jdk/jre/lib/jfr.jar:/u01/jdk/jre/classes
+java.vm.specification.vendor Oracle Corporation
+oracle.jms.useJmsNotification false
+java.runtime.version 1.8.0_241-b07
+SascarProperties /u01/oracle/user_projects/domains/domwebps01_dev/resources/portal_servicos/
+weblogic.Name mngnode1
+user.name oracle
+com.sun.jersey.server.impl.cdi.lookupExtensionInBeanManager true
+log4j.configuration file:/u01/weblogic/domains/domwebps01_dev/resources/portal_servicos/log4j.properties
+java.naming.factory.initial weblogic.jndi.WLInitialContextFactory
+user.language en
+sun.boot.library.path /u01/jdk/jre/lib/amd64
+java.version 1.8.0_241
+user.timezone GMT
+sun.arch.data.model 64
+oracle.jdbc.noImplicitBeginRequest true
+javax.rmi.CORBA.UtilClass weblogic.iiop.UtilDelegateImpl
+java.endorsed.dirs /u01/jdk/jre/lib/endorsed
+vde.home /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/ldap
+sun.cpu.isalist 
+sun.jnu.encoding UTF-8
+file.encoding.pkg sun.io
+file.separator /
+java.specification.name Java Platform API Specification
+java.class.version 52.0
+weblogic.home /u01/oracle/wlserver/server
+user.country US
+java.home /u01/jdk/jre
+java.vm.info mixed mode
+os.version 5.4.0-72-generic
+org.omg.CORBA.ORBSingletonClass weblogic.corba.orb.ORB
+path.separator :
+weblogic.nmservice.RotationEnabled true
+java.vm.version 25.241-b07
+java.protocol.handler.pkgs weblogic.utils|weblogic.utils|org.apache.axis.transport|
+java.system.class.loader com.oracle.classloader.weblogic.LaunchClassLoader
+java.awt.printerjob sun.print.PSPrinterJob
+java.security.policy /u01/oracle/wlserver/server/lib/weblogic.policy
+sun.io.unicode.encoding UnicodeLittle
+awt.toolkit sun.awt.X11.XToolkit
+weblogic.nodemanager.ServiceEnabled true
+java.naming.factory.url.pkgs weblogic.jndi.factories:weblogic.corba.j2ee.naming.url:weblogic.jndi.factories:weblogic.corba.j2ee.naming.url
+acpParserIpSecundario 201.94.129.110
+user.home /home/oracle
+weblogic.management.server http://172.17.0.2:7001
+acpParserIpPrimario 201.94.129.110
+wls.home /u01/oracle/wlserver/server
+java.specification.vendor Oracle Corporation
+SascarEnvironment desenvolvimento
+java.library.path ::/u01/oracle/wlserver/server/native/linux/x86_64:/u01/oracle/wlserver/server/native/linux/x86_64/oci920_8:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.vendor.url http://java.oracle.com/
+java.vm.vendor Oracle Corporation
+java.runtime.name Java(TM) SE Runtime Environment
+sun.java.command weblogic.Server
+java.class.path /u01/jdk/lib/tools.jar:/u01/oracle/wlserver/server/lib/weblogic.jar:/u01/oracle/wlserver/../oracle_common/modules/thirdparty/ant-contrib-1.0b3.jar:/u01/oracle/wlserver/modules/features/oracle.wls.common.nodemanager.jar:/u01/oracle/wlserver/common/derby/lib/derbynet.jar:/u01/oracle/wlserver/common/derby/lib/derbyclient.jar:/u01/oracle/wlserver/common/derby/lib/derby.jar:/u01/jdk/lib/tools.jar
+java.vm.specification.name Java Virtual Machine Specification
+javax.rmi.CORBA.PortableRemoteObjectClass weblogic.iiop.PortableRemoteObjectDelegateImpl
+java.vm.specification.version 1.8
+sun.cpu.endian little
+sun.os.patch.level unknown
+weblogic.security.TrustKeyStore DemoTrust
+java.io.tmpdir /tmp
+java.vendor.url.bug http://bugreport.sun.com/bugreport/
+SascarPathWS http://172.18.0.1:8000/
+acpParserPortaPrimario 10025
+os.arch amd64
+java.awt.graphicsenv sun.awt.X11GraphicsEnvironment
+java.ext.dirs /u01/jdk/jre/lib/ext:/usr/java/packages/lib/ext
+user.dir /u01/oracle/user_projects/domains/domwebps01_dev
+line.separator 
+
+java.vm.name Java HotSpot(TM) 64-Bit Server VM
+weblogic.system.BootIdentityFile /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties
+urlPortalServicos http://172.18.0.1:8000/
+javax.management.builder.initial weblogic.management.jmx.mbeanserver.WLSMBeanServerBuilder
+org.omg.CORBA.ORBClass weblogic.corba.orb.ORB
+file.encoding UTF-8
+java.specification.version 1.8
+launch.use.env.classpath true
+java.vendor Oracle Corporation
+sun.java.launcher SUN_STANDARD
+sun.management.compiler HotSpot 64-Bit Tiered Compilers
+acpParserPortaSecundario 10025
+os.name Linux
+sun.boot.class.path /u01/jdk/jre/lib/resources.jar:/u01/jdk/jre/lib/rt.jar:/u01/jdk/jre/lib/sunrsasign.jar:/u01/jdk/jre/lib/jsse.jar:/u01/jdk/jre/lib/jce.jar:/u01/jdk/jre/lib/charsets.jar:/u01/jdk/jre/lib/jfr.jar:/u01/jdk/jre/classes
+java.vm.specification.vendor Oracle Corporation
+oracle.jms.useJmsNotification false
+java.runtime.version 1.8.0_241-b07
+SascarProperties /u01/oracle/user_projects/domains/domwebps01_dev/resources/portal_servicos/
+weblogic.Name mngnode1
+user.name oracle
+com.sun.jersey.server.impl.cdi.lookupExtensionInBeanManager true
+log4j.configuration file:/u01/weblogic/domains/domwebps01_dev/resources/portal_servicos/log4j.properties
+java.naming.factory.initial weblogic.jndi.WLInitialContextFactory
+user.language en
+sun.boot.library.path /u01/jdk/jre/lib/amd64
+java.version 1.8.0_241
+user.timezone GMT
+sun.arch.data.model 64
+oracle.jdbc.noImplicitBeginRequest true
+javax.rmi.CORBA.UtilClass weblogic.iiop.UtilDelegateImpl
+java.endorsed.dirs /u01/jdk/jre/lib/endorsed
+vde.home /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/ldap
+sun.cpu.isalist 
+sun.jnu.encoding UTF-8
+file.encoding.pkg sun.io
+file.separator /
+java.specification.name Java Platform API Specification
+java.class.version 52.0
+weblogic.home /u01/oracle/wlserver/server
+user.country US
+java.home /u01/jdk/jre
+java.vm.info mixed mode
+os.version 5.4.0-72-generic
+org.omg.CORBA.ORBSingletonClass weblogic.corba.orb.ORB
+path.separator :
+weblogic.nmservice.RotationEnabled true
+java.vm.version 25.241-b07
+java.protocol.handler.pkgs weblogic.utils|weblogic.utils|org.apache.axis.transport|
+java.system.class.loader com.oracle.classloader.weblogic.LaunchClassLoader
+java.awt.printerjob sun.print.PSPrinterJob
+java.security.policy /u01/oracle/wlserver/server/lib/weblogic.policy
+sun.io.unicode.encoding UnicodeLittle
+awt.toolkit sun.awt.X11.XToolkit
+weblogic.nodemanager.ServiceEnabled true
+java.naming.factory.url.pkgs weblogic.jndi.factories:weblogic.corba.j2ee.naming.url:weblogic.jndi.factories:weblogic.corba.j2ee.naming.url
+acpParserIpSecundario 201.94.129.110
+user.home /home/oracle
+weblogic.management.server http://172.17.0.2:7001
+acpParserIpPrimario 201.94.129.110
+wls.home /u01/oracle/wlserver/server
+java.specification.vendor Oracle Corporation
+SascarEnvironment desenvolvimento
+java.library.path ::/u01/oracle/wlserver/server/native/linux/x86_64:/u01/oracle/wlserver/server/native/linux/x86_64/oci920_8:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.vendor.url http://java.oracle.com/
+java.vm.vendor Oracle Corporation
+java.runtime.name Java(TM) SE Runtime Environment
+sun.java.command weblogic.Server
+java.class.path /u01/jdk/lib/tools.jar:/u01/oracle/wlserver/server/lib/weblogic.jar:/u01/oracle/wlserver/../oracle_common/modules/thirdparty/ant-contrib-1.0b3.jar:/u01/oracle/wlserver/modules/features/oracle.wls.common.nodemanager.jar:/u01/oracle/wlserver/common/derby/lib/derbynet.jar:/u01/oracle/wlserver/common/derby/lib/derbyclient.jar:/u01/oracle/wlserver/common/derby/lib/derby.jar:/u01/jdk/lib/tools.jar
+java.vm.specification.name Java Virtual Machine Specification
+javax.rmi.CORBA.PortableRemoteObjectClass weblogic.iiop.PortableRemoteObjectDelegateImpl
+java.vm.specification.version 1.8
+sun.cpu.endian little
+sun.os.patch.level unknown
+weblogic.security.TrustKeyStore DemoTrust
+java.io.tmpdir /tmp
+java.vendor.url.bug http://bugreport.sun.com/bugreport/
+SascarPathWS http://172.18.0.1:8000/
+acpParserPortaPrimario 10025
+os.arch amd64
+java.awt.graphicsenv sun.awt.X11GraphicsEnvironment
+java.ext.dirs /u01/jdk/jre/lib/ext:/usr/java/packages/lib/ext
+user.dir /u01/oracle/user_projects/domains/domwebps01_dev
+line.separator 
+
+java.vm.name Java HotSpot(TM) 64-Bit Server VM
+weblogic.system.BootIdentityFile /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties
+urlPortalServicos http://172.18.0.1:8000/
+javax.management.builder.initial weblogic.management.jmx.mbeanserver.WLSMBeanServerBuilder
+org.omg.CORBA.ORBClass weblogic.corba.orb.ORB
+file.encoding UTF-8
+java.specification.version 1.8
+launch.use.env.classpath true
+<Apr 20, 2021 3:58:10,637 PM GMT> <Warning> <Socket> <BEA-000449> <Closing the socket, as no data read from it on 172.17.0.1:50,184 during the configured idle timeout of 5 seconds.> 
+java.vendor Oracle Corporation
+sun.java.launcher SUN_STANDARD
+sun.management.compiler HotSpot 64-Bit Tiered Compilers
+acpParserPortaSecundario 10025
+os.name Linux
+sun.boot.class.path /u01/jdk/jre/lib/resources.jar:/u01/jdk/jre/lib/rt.jar:/u01/jdk/jre/lib/sunrsasign.jar:/u01/jdk/jre/lib/jsse.jar:/u01/jdk/jre/lib/jce.jar:/u01/jdk/jre/lib/charsets.jar:/u01/jdk/jre/lib/jfr.jar:/u01/jdk/jre/classes
+java.vm.specification.vendor Oracle Corporation
+oracle.jms.useJmsNotification false
+java.runtime.version 1.8.0_241-b07
+SascarProperties /u01/oracle/user_projects/domains/domwebps01_dev/resources/portal_servicos/
+weblogic.Name mngnode1
+user.name oracle
+com.sun.jersey.server.impl.cdi.lookupExtensionInBeanManager true
+log4j.configuration file:/u01/weblogic/domains/domwebps01_dev/resources/portal_servicos/log4j.properties
+java.naming.factory.initial weblogic.jndi.WLInitialContextFactory
+user.language en
+sun.boot.library.path /u01/jdk/jre/lib/amd64
+java.version 1.8.0_241
+user.timezone GMT
+sun.arch.data.model 64
+oracle.jdbc.noImplicitBeginRequest true
+javax.rmi.CORBA.UtilClass weblogic.iiop.UtilDelegateImpl
+java.endorsed.dirs /u01/jdk/jre/lib/endorsed
+vde.home /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/ldap
+sun.cpu.isalist 
+sun.jnu.encoding UTF-8
+file.encoding.pkg sun.io
+file.separator /
+java.specification.name Java Platform API Specification
+java.class.version 52.0
+weblogic.home /u01/oracle/wlserver/server
+user.country US
+java.home /u01/jdk/jre
+java.vm.info mixed mode
+os.version 5.4.0-72-generic
+org.omg.CORBA.ORBSingletonClass weblogic.corba.orb.ORB
+path.separator :
+weblogic.nmservice.RotationEnabled true
+java.vm.version 25.241-b07
+java.protocol.handler.pkgs weblogic.utils|weblogic.utils|org.apache.axis.transport|
+java.system.class.loader com.oracle.classloader.weblogic.LaunchClassLoader
+java.awt.printerjob sun.print.PSPrinterJob
+java.security.policy /u01/oracle/wlserver/server/lib/weblogic.policy
+sun.io.unicode.encoding UnicodeLittle
+awt.toolkit sun.awt.X11.XToolkit
+weblogic.nodemanager.ServiceEnabled true
+java.naming.factory.url.pkgs weblogic.jndi.factories:weblogic.corba.j2ee.naming.url:weblogic.jndi.factories:weblogic.corba.j2ee.naming.url
+acpParserIpSecundario 201.94.129.110
+user.home /home/oracle
+weblogic.management.server http://172.17.0.2:7001
+acpParserIpPrimario 201.94.129.110
+wls.home /u01/oracle/wlserver/server
+java.specification.vendor Oracle Corporation
+SascarEnvironment desenvolvimento
+java.library.path ::/u01/oracle/wlserver/server/native/linux/x86_64:/u01/oracle/wlserver/server/native/linux/x86_64/oci920_8:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.vendor.url http://java.oracle.com/
+java.vm.vendor Oracle Corporation
+java.runtime.name Java(TM) SE Runtime Environment
+sun.java.command weblogic.Server
+java.class.path /u01/jdk/lib/tools.jar:/u01/oracle/wlserver/server/lib/weblogic.jar:/u01/oracle/wlserver/../oracle_common/modules/thirdparty/ant-contrib-1.0b3.jar:/u01/oracle/wlserver/modules/features/oracle.wls.common.nodemanager.jar:/u01/oracle/wlserver/common/derby/lib/derbynet.jar:/u01/oracle/wlserver/common/derby/lib/derbyclient.jar:/u01/oracle/wlserver/common/derby/lib/derby.jar:/u01/jdk/lib/tools.jar
+java.vm.specification.name Java Virtual Machine Specification
+javax.rmi.CORBA.PortableRemoteObjectClass weblogic.iiop.PortableRemoteObjectDelegateImpl
+java.vm.specification.version 1.8
+sun.cpu.endian little
+sun.os.patch.level unknown
+weblogic.security.TrustKeyStore DemoTrust
+java.io.tmpdir /tmp
+java.vendor.url.bug http://bugreport.sun.com/bugreport/
+SascarPathWS http://172.18.0.1:8000/
+acpParserPortaPrimario 10025
+os.arch amd64
+java.awt.graphicsenv sun.awt.X11GraphicsEnvironment
+java.ext.dirs /u01/jdk/jre/lib/ext:/usr/java/packages/lib/ext
+user.dir /u01/oracle/user_projects/domains/domwebps01_dev
+line.separator 
+
+java.vm.name Java HotSpot(TM) 64-Bit Server VM
+weblogic.system.BootIdentityFile /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties
+urlPortalServicos http://172.18.0.1:8000/
+javax.management.builder.initial weblogic.management.jmx.mbeanserver.WLSMBeanServerBuilder
+org.omg.CORBA.ORBClass weblogic.corba.orb.ORB
+file.encoding UTF-8
+java.specification.version 1.8
+launch.use.env.classpath true
+java.vendor Oracle Corporation
+sun.java.launcher SUN_STANDARD
+sun.management.compiler HotSpot 64-Bit Tiered Compilers
+acpParserPortaSecundario 10025
+os.name Linux
+sun.boot.class.path /u01/jdk/jre/lib/resources.jar:/u01/jdk/jre/lib/rt.jar:/u01/jdk/jre/lib/sunrsasign.jar:/u01/jdk/jre/lib/jsse.jar:/u01/jdk/jre/lib/jce.jar:/u01/jdk/jre/lib/charsets.jar:/u01/jdk/jre/lib/jfr.jar:/u01/jdk/jre/classes
+java.vm.specification.vendor Oracle Corporation
+oracle.jms.useJmsNotification false
+java.runtime.version 1.8.0_241-b07
+SascarProperties /u01/oracle/user_projects/domains/domwebps01_dev/resources/portal_servicos/
+weblogic.Name mngnode1
+user.name oracle
+com.sun.jersey.server.impl.cdi.lookupExtensionInBeanManager true
+log4j.configuration file:/u01/weblogic/domains/domwebps01_dev/resources/portal_servicos/log4j.properties
+java.naming.factory.initial weblogic.jndi.WLInitialContextFactory
+user.language en
+sun.boot.library.path /u01/jdk/jre/lib/amd64
+java.version 1.8.0_241
+user.timezone GMT
+sun.arch.data.model 64
+oracle.jdbc.noImplicitBeginRequest true
+javax.rmi.CORBA.UtilClass weblogic.iiop.UtilDelegateImpl
+java.endorsed.dirs /u01/jdk/jre/lib/endorsed
+vde.home /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/ldap
+sun.cpu.isalist 
+sun.jnu.encoding UTF-8
+file.encoding.pkg sun.io
+file.separator /
+java.specification.name Java Platform API Specification
+java.class.version 52.0
+weblogic.home /u01/oracle/wlserver/server
+user.country US
+java.home /u01/jdk/jre
+java.vm.info mixed mode
+os.version 5.4.0-72-generic
+org.omg.CORBA.ORBSingletonClass weblogic.corba.orb.ORB
+path.separator :
+weblogic.nmservice.RotationEnabled true
+java.vm.version 25.241-b07
+java.protocol.handler.pkgs weblogic.utils|weblogic.utils|org.apache.axis.transport|
+java.system.class.loader com.oracle.classloader.weblogic.LaunchClassLoader
+java.awt.printerjob sun.print.PSPrinterJob
+java.security.policy /u01/oracle/wlserver/server/lib/weblogic.policy
+sun.io.unicode.encoding UnicodeLittle
+awt.toolkit sun.awt.X11.XToolkit
+weblogic.nodemanager.ServiceEnabled true
+java.naming.factory.url.pkgs weblogic.jndi.factories:weblogic.corba.j2ee.naming.url:weblogic.jndi.factories:weblogic.corba.j2ee.naming.url
+acpParserIpSecundario 201.94.129.110
+user.home /home/oracle
+weblogic.management.server http://172.17.0.2:7001
+acpParserIpPrimario 201.94.129.110
+wls.home /u01/oracle/wlserver/server
+java.specification.vendor Oracle Corporation
+SascarEnvironment desenvolvimento
+java.library.path ::/u01/oracle/wlserver/server/native/linux/x86_64:/u01/oracle/wlserver/server/native/linux/x86_64/oci920_8:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.vendor.url http://java.oracle.com/
+java.vm.vendor Oracle Corporation
+java.runtime.name Java(TM) SE Runtime Environment
+sun.java.command weblogic.Server
+java.class.path /u01/jdk/lib/tools.jar:/u01/oracle/wlserver/server/lib/weblogic.jar:/u01/oracle/wlserver/../oracle_common/modules/thirdparty/ant-contrib-1.0b3.jar:/u01/oracle/wlserver/modules/features/oracle.wls.common.nodemanager.jar:/u01/oracle/wlserver/common/derby/lib/derbynet.jar:/u01/oracle/wlserver/common/derby/lib/derbyclient.jar:/u01/oracle/wlserver/common/derby/lib/derby.jar:/u01/jdk/lib/tools.jar
+java.vm.specification.name Java Virtual Machine Specification
+javax.rmi.CORBA.PortableRemoteObjectClass weblogic.iiop.PortableRemoteObjectDelegateImpl
+java.vm.specification.version 1.8
+sun.cpu.endian little
+sun.os.patch.level unknown
+weblogic.security.TrustKeyStore DemoTrust
+java.io.tmpdir /tmp
+java.vendor.url.bug http://bugreport.sun.com/bugreport/
+SascarPathWS http://172.18.0.1:8000/
+acpParserPortaPrimario 10025
+os.arch amd64
+java.awt.graphicsenv sun.awt.X11GraphicsEnvironment
+java.ext.dirs /u01/jdk/jre/lib/ext:/usr/java/packages/lib/ext
+user.dir /u01/oracle/user_projects/domains/domwebps01_dev
+line.separator 
+
+java.vm.name Java HotSpot(TM) 64-Bit Server VM
+weblogic.system.BootIdentityFile /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties
+urlPortalServicos http://172.18.0.1:8000/
+javax.management.builder.initial weblogic.management.jmx.mbeanserver.WLSMBeanServerBuilder
+org.omg.CORBA.ORBClass weblogic.corba.orb.ORB
+file.encoding UTF-8
+java.specification.version 1.8
+launch.use.env.classpath true
+java.vendor Oracle Corporation
+sun.java.launcher SUN_STANDARD
+sun.management.compiler HotSpot 64-Bit Tiered Compilers
+acpParserPortaSecundario 10025
+os.name Linux
+sun.boot.class.path /u01/jdk/jre/lib/resources.jar:/u01/jdk/jre/lib/rt.jar:/u01/jdk/jre/lib/sunrsasign.jar:/u01/jdk/jre/lib/jsse.jar:/u01/jdk/jre/lib/jce.jar:/u01/jdk/jre/lib/charsets.jar:/u01/jdk/jre/lib/jfr.jar:/u01/jdk/jre/classes
+java.vm.specification.vendor Oracle Corporation
+oracle.jms.useJmsNotification false
+java.runtime.version 1.8.0_241-b07
+SascarProperties /u01/oracle/user_projects/domains/domwebps01_dev/resources/portal_servicos/
+weblogic.Name mngnode1
+user.name oracle
+com.sun.jersey.server.impl.cdi.lookupExtensionInBeanManager true
+log4j.configuration file:/u01/weblogic/domains/domwebps01_dev/resources/portal_servicos/log4j.properties
+java.naming.factory.initial weblogic.jndi.WLInitialContextFactory
+user.language en
+sun.boot.library.path /u01/jdk/jre/lib/amd64
+java.version 1.8.0_241
+user.timezone GMT
+sun.arch.data.model 64
+oracle.jdbc.noImplicitBeginRequest true
+javax.rmi.CORBA.UtilClass weblogic.iiop.UtilDelegateImpl
+java.endorsed.dirs /u01/jdk/jre/lib/endorsed
+vde.home /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/ldap
+sun.cpu.isalist 
+sun.jnu.encoding UTF-8
+file.encoding.pkg sun.io
+file.separator /
+java.specification.name Java Platform API Specification
+java.class.version 52.0
+weblogic.home /u01/oracle/wlserver/server
+user.country US
+java.home /u01/jdk/jre
+java.vm.info mixed mode
+os.version 5.4.0-72-generic
+org.omg.CORBA.ORBSingletonClass weblogic.corba.orb.ORB
+path.separator :
+weblogic.nmservice.RotationEnabled true
+java.vm.version 25.241-b07
+java.protocol.handler.pkgs weblogic.utils|weblogic.utils|org.apache.axis.transport|
+java.system.class.loader com.oracle.classloader.weblogic.LaunchClassLoader
+java.awt.printerjob sun.print.PSPrinterJob
+java.security.policy /u01/oracle/wlserver/server/lib/weblogic.policy
+sun.io.unicode.encoding UnicodeLittle
+awt.toolkit sun.awt.X11.XToolkit
+weblogic.nodemanager.ServiceEnabled true
+java.naming.factory.url.pkgs weblogic.jndi.factories:weblogic.corba.j2ee.naming.url:weblogic.jndi.factories:weblogic.corba.j2ee.naming.url
+acpParserIpSecundario 201.94.129.110
+user.home /home/oracle
+weblogic.management.server http://172.17.0.2:7001
+acpParserIpPrimario 201.94.129.110
+wls.home /u01/oracle/wlserver/server
+java.specification.vendor Oracle Corporation
+SascarEnvironment desenvolvimento
+java.library.path ::/u01/oracle/wlserver/server/native/linux/x86_64:/u01/oracle/wlserver/server/native/linux/x86_64/oci920_8:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.vendor.url http://java.oracle.com/
+java.vm.vendor Oracle Corporation
+java.runtime.name Java(TM) SE Runtime Environment
+sun.java.command weblogic.Server
+java.class.path /u01/jdk/lib/tools.jar:/u01/oracle/wlserver/server/lib/weblogic.jar:/u01/oracle/wlserver/../oracle_common/modules/thirdparty/ant-contrib-1.0b3.jar:/u01/oracle/wlserver/modules/features/oracle.wls.common.nodemanager.jar:/u01/oracle/wlserver/common/derby/lib/derbynet.jar:/u01/oracle/wlserver/common/derby/lib/derbyclient.jar:/u01/oracle/wlserver/common/derby/lib/derby.jar:/u01/jdk/lib/tools.jar
+java.vm.specification.name Java Virtual Machine Specification
+javax.rmi.CORBA.PortableRemoteObjectClass weblogic.iiop.PortableRemoteObjectDelegateImpl
+java.vm.specification.version 1.8
+sun.cpu.endian little
+sun.os.patch.level unknown
+weblogic.security.TrustKeyStore DemoTrust
+java.io.tmpdir /tmp
+java.vendor.url.bug http://bugreport.sun.com/bugreport/
+SascarPathWS http://172.18.0.1:8000/
+acpParserPortaPrimario 10025
+os.arch amd64
+java.awt.graphicsenv sun.awt.X11GraphicsEnvironment
+java.ext.dirs /u01/jdk/jre/lib/ext:/usr/java/packages/lib/ext
+user.dir /u01/oracle/user_projects/domains/domwebps01_dev
+line.separator 
+
+java.vm.name Java HotSpot(TM) 64-Bit Server VM
+weblogic.system.BootIdentityFile /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties
+urlPortalServicos http://172.18.0.1:8000/
+javax.management.builder.initial weblogic.management.jmx.mbeanserver.WLSMBeanServerBuilder
+org.omg.CORBA.ORBClass weblogic.corba.orb.ORB
+file.encoding UTF-8
+java.specification.version 1.8
+launch.use.env.classpath true
+java.vendor Oracle Corporation
+sun.java.launcher SUN_STANDARD
+sun.management.compiler HotSpot 64-Bit Tiered Compilers
+acpParserPortaSecundario 10025
+os.name Linux
+sun.boot.class.path /u01/jdk/jre/lib/resources.jar:/u01/jdk/jre/lib/rt.jar:/u01/jdk/jre/lib/sunrsasign.jar:/u01/jdk/jre/lib/jsse.jar:/u01/jdk/jre/lib/jce.jar:/u01/jdk/jre/lib/charsets.jar:/u01/jdk/jre/lib/jfr.jar:/u01/jdk/jre/classes
+java.vm.specification.vendor Oracle Corporation
+oracle.jms.useJmsNotification false
+java.runtime.version 1.8.0_241-b07
+SascarProperties /u01/oracle/user_projects/domains/domwebps01_dev/resources/portal_servicos/
+weblogic.Name mngnode1
+user.name oracle
+com.sun.jersey.server.impl.cdi.lookupExtensionInBeanManager true
+log4j.configuration file:/u01/weblogic/domains/domwebps01_dev/resources/portal_servicos/log4j.properties
+java.naming.factory.initial weblogic.jndi.WLInitialContextFactory
+user.language en
+sun.boot.library.path /u01/jdk/jre/lib/amd64
+java.version 1.8.0_241
+user.timezone GMT
+sun.arch.data.model 64
+oracle.jdbc.noImplicitBeginRequest true
+javax.rmi.CORBA.UtilClass weblogic.iiop.UtilDelegateImpl
+java.endorsed.dirs /u01/jdk/jre/lib/endorsed
+vde.home /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/ldap
+sun.cpu.isalist 
+sun.jnu.encoding UTF-8
+file.encoding.pkg sun.io
+file.separator /
+java.specification.name Java Platform API Specification
+java.class.version 52.0
+weblogic.home /u01/oracle/wlserver/server
+user.country US
+java.home /u01/jdk/jre
+java.vm.info mixed mode
+os.version 5.4.0-72-generic
+org.omg.CORBA.ORBSingletonClass weblogic.corba.orb.ORB
+path.separator :
+weblogic.nmservice.RotationEnabled true
+java.vm.version 25.241-b07
+java.protocol.handler.pkgs weblogic.utils|weblogic.utils|org.apache.axis.transport|
+java.system.class.loader com.oracle.classloader.weblogic.LaunchClassLoader
+java.awt.printerjob sun.print.PSPrinterJob
+java.security.policy /u01/oracle/wlserver/server/lib/weblogic.policy
+sun.io.unicode.encoding UnicodeLittle
+awt.toolkit sun.awt.X11.XToolkit
+weblogic.nodemanager.ServiceEnabled true
+java.naming.factory.url.pkgs weblogic.jndi.factories:weblogic.corba.j2ee.naming.url:weblogic.jndi.factories:weblogic.corba.j2ee.naming.url
+acpParserIpSecundario 201.94.129.110
+user.home /home/oracle
+weblogic.management.server http://172.17.0.2:7001
+acpParserIpPrimario 201.94.129.110
+wls.home /u01/oracle/wlserver/server
+java.specification.vendor Oracle Corporation
+SascarEnvironment desenvolvimento
+java.library.path ::/u01/oracle/wlserver/server/native/linux/x86_64:/u01/oracle/wlserver/server/native/linux/x86_64/oci920_8:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.vendor.url http://java.oracle.com/
+java.vm.vendor Oracle Corporation
+java.runtime.name Java(TM) SE Runtime Environment
+sun.java.command weblogic.Server
+java.class.path /u01/jdk/lib/tools.jar:/u01/oracle/wlserver/server/lib/weblogic.jar:/u01/oracle/wlserver/../oracle_common/modules/thirdparty/ant-contrib-1.0b3.jar:/u01/oracle/wlserver/modules/features/oracle.wls.common.nodemanager.jar:/u01/oracle/wlserver/common/derby/lib/derbynet.jar:/u01/oracle/wlserver/common/derby/lib/derbyclient.jar:/u01/oracle/wlserver/common/derby/lib/derby.jar:/u01/jdk/lib/tools.jar
+java.vm.specification.name Java Virtual Machine Specification
+javax.rmi.CORBA.PortableRemoteObjectClass weblogic.iiop.PortableRemoteObjectDelegateImpl
+java.vm.specification.version 1.8
+sun.cpu.endian little
+sun.os.patch.level unknown
+weblogic.security.TrustKeyStore DemoTrust
+java.io.tmpdir /tmp
+java.vendor.url.bug http://bugreport.sun.com/bugreport/
+SascarPathWS http://172.18.0.1:8000/
+acpParserPortaPrimario 10025
+os.arch amd64
+java.awt.graphicsenv sun.awt.X11GraphicsEnvironment
+java.ext.dirs /u01/jdk/jre/lib/ext:/usr/java/packages/lib/ext
+user.dir /u01/oracle/user_projects/domains/domwebps01_dev
+line.separator 
+
+java.vm.name Java HotSpot(TM) 64-Bit Server VM
+weblogic.system.BootIdentityFile /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties
+urlPortalServicos http://172.18.0.1:8000/
+javax.management.builder.initial weblogic.management.jmx.mbeanserver.WLSMBeanServerBuilder
+org.omg.CORBA.ORBClass weblogic.corba.orb.ORB
+file.encoding UTF-8
+java.specification.version 1.8
+launch.use.env.classpath true
+<Apr 20, 2021 4:00:10,637 PM GMT> <Warning> <Socket> <BEA-000449> <Closing the socket, as no data read from it on 172.17.0.1:51,304 during the configured idle timeout of 5 seconds.> 
+java.vendor Oracle Corporation
+sun.java.launcher SUN_STANDARD
+sun.management.compiler HotSpot 64-Bit Tiered Compilers
+acpParserPortaSecundario 10025
+os.name Linux
+sun.boot.class.path /u01/jdk/jre/lib/resources.jar:/u01/jdk/jre/lib/rt.jar:/u01/jdk/jre/lib/sunrsasign.jar:/u01/jdk/jre/lib/jsse.jar:/u01/jdk/jre/lib/jce.jar:/u01/jdk/jre/lib/charsets.jar:/u01/jdk/jre/lib/jfr.jar:/u01/jdk/jre/classes
+java.vm.specification.vendor Oracle Corporation
+oracle.jms.useJmsNotification false
+java.runtime.version 1.8.0_241-b07
+SascarProperties /u01/oracle/user_projects/domains/domwebps01_dev/resources/portal_servicos/
+weblogic.Name mngnode1
+user.name oracle
+com.sun.jersey.server.impl.cdi.lookupExtensionInBeanManager true
+log4j.configuration file:/u01/weblogic/domains/domwebps01_dev/resources/portal_servicos/log4j.properties
+java.naming.factory.initial weblogic.jndi.WLInitialContextFactory
+user.language en
+sun.boot.library.path /u01/jdk/jre/lib/amd64
+java.version 1.8.0_241
+user.timezone GMT
+sun.arch.data.model 64
+oracle.jdbc.noImplicitBeginRequest true
+javax.rmi.CORBA.UtilClass weblogic.iiop.UtilDelegateImpl
+java.endorsed.dirs /u01/jdk/jre/lib/endorsed
+vde.home /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/ldap
+sun.cpu.isalist 
+sun.jnu.encoding UTF-8
+file.encoding.pkg sun.io
+file.separator /
+java.specification.name Java Platform API Specification
+java.class.version 52.0
+weblogic.home /u01/oracle/wlserver/server
+user.country US
+java.home /u01/jdk/jre
+java.vm.info mixed mode
+os.version 5.4.0-72-generic
+org.omg.CORBA.ORBSingletonClass weblogic.corba.orb.ORB
+path.separator :
+weblogic.nmservice.RotationEnabled true
+java.vm.version 25.241-b07
+java.protocol.handler.pkgs weblogic.utils|weblogic.utils|org.apache.axis.transport|
+java.system.class.loader com.oracle.classloader.weblogic.LaunchClassLoader
+java.awt.printerjob sun.print.PSPrinterJob
+java.security.policy /u01/oracle/wlserver/server/lib/weblogic.policy
+sun.io.unicode.encoding UnicodeLittle
+awt.toolkit sun.awt.X11.XToolkit
+weblogic.nodemanager.ServiceEnabled true
+java.naming.factory.url.pkgs weblogic.jndi.factories:weblogic.corba.j2ee.naming.url:weblogic.jndi.factories:weblogic.corba.j2ee.naming.url
+acpParserIpSecundario 201.94.129.110
+user.home /home/oracle
+weblogic.management.server http://172.17.0.2:7001
+acpParserIpPrimario 201.94.129.110
+wls.home /u01/oracle/wlserver/server
+java.specification.vendor Oracle Corporation
+SascarEnvironment desenvolvimento
+java.library.path ::/u01/oracle/wlserver/server/native/linux/x86_64:/u01/oracle/wlserver/server/native/linux/x86_64/oci920_8:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.vendor.url http://java.oracle.com/
+java.vm.vendor Oracle Corporation
+java.runtime.name Java(TM) SE Runtime Environment
+sun.java.command weblogic.Server
+java.class.path /u01/jdk/lib/tools.jar:/u01/oracle/wlserver/server/lib/weblogic.jar:/u01/oracle/wlserver/../oracle_common/modules/thirdparty/ant-contrib-1.0b3.jar:/u01/oracle/wlserver/modules/features/oracle.wls.common.nodemanager.jar:/u01/oracle/wlserver/common/derby/lib/derbynet.jar:/u01/oracle/wlserver/common/derby/lib/derbyclient.jar:/u01/oracle/wlserver/common/derby/lib/derby.jar:/u01/jdk/lib/tools.jar
+java.vm.specification.name Java Virtual Machine Specification
+javax.rmi.CORBA.PortableRemoteObjectClass weblogic.iiop.PortableRemoteObjectDelegateImpl
+java.vm.specification.version 1.8
+sun.cpu.endian little
+sun.os.patch.level unknown
+weblogic.security.TrustKeyStore DemoTrust
+java.io.tmpdir /tmp
+java.vendor.url.bug http://bugreport.sun.com/bugreport/
+SascarPathWS http://172.18.0.1:8000/
+acpParserPortaPrimario 10025
+os.arch amd64
+java.awt.graphicsenv sun.awt.X11GraphicsEnvironment
+java.ext.dirs /u01/jdk/jre/lib/ext:/usr/java/packages/lib/ext
+user.dir /u01/oracle/user_projects/domains/domwebps01_dev
+line.separator 
+
+java.vm.name Java HotSpot(TM) 64-Bit Server VM
+weblogic.system.BootIdentityFile /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties
+urlPortalServicos http://172.18.0.1:8000/
+javax.management.builder.initial weblogic.management.jmx.mbeanserver.WLSMBeanServerBuilder
+org.omg.CORBA.ORBClass weblogic.corba.orb.ORB
+file.encoding UTF-8
+java.specification.version 1.8
+launch.use.env.classpath true
+java.vendor Oracle Corporation
+sun.java.launcher SUN_STANDARD
+sun.management.compiler HotSpot 64-Bit Tiered Compilers
+acpParserPortaSecundario 10025
+os.name Linux
+sun.boot.class.path /u01/jdk/jre/lib/resources.jar:/u01/jdk/jre/lib/rt.jar:/u01/jdk/jre/lib/sunrsasign.jar:/u01/jdk/jre/lib/jsse.jar:/u01/jdk/jre/lib/jce.jar:/u01/jdk/jre/lib/charsets.jar:/u01/jdk/jre/lib/jfr.jar:/u01/jdk/jre/classes
+java.vm.specification.vendor Oracle Corporation
+oracle.jms.useJmsNotification false
+java.runtime.version 1.8.0_241-b07
+SascarProperties /u01/oracle/user_projects/domains/domwebps01_dev/resources/portal_servicos/
+weblogic.Name mngnode1
+user.name oracle
+com.sun.jersey.server.impl.cdi.lookupExtensionInBeanManager true
+log4j.configuration file:/u01/weblogic/domains/domwebps01_dev/resources/portal_servicos/log4j.properties
+java.naming.factory.initial weblogic.jndi.WLInitialContextFactory
+user.language en
+sun.boot.library.path /u01/jdk/jre/lib/amd64
+java.version 1.8.0_241
+user.timezone GMT
+sun.arch.data.model 64
+oracle.jdbc.noImplicitBeginRequest true
+javax.rmi.CORBA.UtilClass weblogic.iiop.UtilDelegateImpl
+java.endorsed.dirs /u01/jdk/jre/lib/endorsed
+vde.home /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/ldap
+sun.cpu.isalist 
+sun.jnu.encoding UTF-8
+file.encoding.pkg sun.io
+file.separator /
+java.specification.name Java Platform API Specification
+java.class.version 52.0
+weblogic.home /u01/oracle/wlserver/server
+user.country US
+java.home /u01/jdk/jre
+java.vm.info mixed mode
+os.version 5.4.0-72-generic
+org.omg.CORBA.ORBSingletonClass weblogic.corba.orb.ORB
+path.separator :
+weblogic.nmservice.RotationEnabled true
+java.vm.version 25.241-b07
+java.protocol.handler.pkgs weblogic.utils|weblogic.utils|org.apache.axis.transport|
+java.system.class.loader com.oracle.classloader.weblogic.LaunchClassLoader
+java.awt.printerjob sun.print.PSPrinterJob
+java.security.policy /u01/oracle/wlserver/server/lib/weblogic.policy
+sun.io.unicode.encoding UnicodeLittle
+awt.toolkit sun.awt.X11.XToolkit
+weblogic.nodemanager.ServiceEnabled true
+java.naming.factory.url.pkgs weblogic.jndi.factories:weblogic.corba.j2ee.naming.url:weblogic.jndi.factories:weblogic.corba.j2ee.naming.url
+acpParserIpSecundario 201.94.129.110
+user.home /home/oracle
+weblogic.management.server http://172.17.0.2:7001
+acpParserIpPrimario 201.94.129.110
+wls.home /u01/oracle/wlserver/server
+java.specification.vendor Oracle Corporation
+SascarEnvironment desenvolvimento
+java.library.path ::/u01/oracle/wlserver/server/native/linux/x86_64:/u01/oracle/wlserver/server/native/linux/x86_64/oci920_8:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.vendor.url http://java.oracle.com/
+java.vm.vendor Oracle Corporation
+java.runtime.name Java(TM) SE Runtime Environment
+sun.java.command weblogic.Server
+java.class.path /u01/jdk/lib/tools.jar:/u01/oracle/wlserver/server/lib/weblogic.jar:/u01/oracle/wlserver/../oracle_common/modules/thirdparty/ant-contrib-1.0b3.jar:/u01/oracle/wlserver/modules/features/oracle.wls.common.nodemanager.jar:/u01/oracle/wlserver/common/derby/lib/derbynet.jar:/u01/oracle/wlserver/common/derby/lib/derbyclient.jar:/u01/oracle/wlserver/common/derby/lib/derby.jar:/u01/jdk/lib/tools.jar
+java.vm.specification.name Java Virtual Machine Specification
+javax.rmi.CORBA.PortableRemoteObjectClass weblogic.iiop.PortableRemoteObjectDelegateImpl
+java.vm.specification.version 1.8
+sun.cpu.endian little
+sun.os.patch.level unknown
+weblogic.security.TrustKeyStore DemoTrust
+java.io.tmpdir /tmp
+java.vendor.url.bug http://bugreport.sun.com/bugreport/
+SascarPathWS http://172.18.0.1:8000/
+acpParserPortaPrimario 10025
+os.arch amd64
+java.awt.graphicsenv sun.awt.X11GraphicsEnvironment
+java.ext.dirs /u01/jdk/jre/lib/ext:/usr/java/packages/lib/ext
+user.dir /u01/oracle/user_projects/domains/domwebps01_dev
+line.separator 
+
+java.vm.name Java HotSpot(TM) 64-Bit Server VM
+weblogic.system.BootIdentityFile /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties
+urlPortalServicos http://172.18.0.1:8000/
+javax.management.builder.initial weblogic.management.jmx.mbeanserver.WLSMBeanServerBuilder
+org.omg.CORBA.ORBClass weblogic.corba.orb.ORB
+file.encoding UTF-8
+java.specification.version 1.8
+launch.use.env.classpath true
+java.vendor Oracle Corporation
+sun.java.launcher SUN_STANDARD
+sun.management.compiler HotSpot 64-Bit Tiered Compilers
+acpParserPortaSecundario 10025
+os.name Linux
+sun.boot.class.path /u01/jdk/jre/lib/resources.jar:/u01/jdk/jre/lib/rt.jar:/u01/jdk/jre/lib/sunrsasign.jar:/u01/jdk/jre/lib/jsse.jar:/u01/jdk/jre/lib/jce.jar:/u01/jdk/jre/lib/charsets.jar:/u01/jdk/jre/lib/jfr.jar:/u01/jdk/jre/classes
+java.vm.specification.vendor Oracle Corporation
+oracle.jms.useJmsNotification false
+java.runtime.version 1.8.0_241-b07
+SascarProperties /u01/oracle/user_projects/domains/domwebps01_dev/resources/portal_servicos/
+weblogic.Name mngnode1
+user.name oracle
+com.sun.jersey.server.impl.cdi.lookupExtensionInBeanManager true
+log4j.configuration file:/u01/weblogic/domains/domwebps01_dev/resources/portal_servicos/log4j.properties
+java.naming.factory.initial weblogic.jndi.WLInitialContextFactory
+user.language en
+sun.boot.library.path /u01/jdk/jre/lib/amd64
+java.version 1.8.0_241
+user.timezone GMT
+sun.arch.data.model 64
+oracle.jdbc.noImplicitBeginRequest true
+javax.rmi.CORBA.UtilClass weblogic.iiop.UtilDelegateImpl
+java.endorsed.dirs /u01/jdk/jre/lib/endorsed
+vde.home /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/ldap
+sun.cpu.isalist 
+sun.jnu.encoding UTF-8
+file.encoding.pkg sun.io
+file.separator /
+java.specification.name Java Platform API Specification
+java.class.version 52.0
+weblogic.home /u01/oracle/wlserver/server
+user.country US
+java.home /u01/jdk/jre
+java.vm.info mixed mode
+os.version 5.4.0-72-generic
+org.omg.CORBA.ORBSingletonClass weblogic.corba.orb.ORB
+path.separator :
+weblogic.nmservice.RotationEnabled true
+java.vm.version 25.241-b07
+java.protocol.handler.pkgs weblogic.utils|weblogic.utils|org.apache.axis.transport|
+java.system.class.loader com.oracle.classloader.weblogic.LaunchClassLoader
+java.awt.printerjob sun.print.PSPrinterJob
+java.security.policy /u01/oracle/wlserver/server/lib/weblogic.policy
+sun.io.unicode.encoding UnicodeLittle
+awt.toolkit sun.awt.X11.XToolkit
+weblogic.nodemanager.ServiceEnabled true
+java.naming.factory.url.pkgs weblogic.jndi.factories:weblogic.corba.j2ee.naming.url:weblogic.jndi.factories:weblogic.corba.j2ee.naming.url
+acpParserIpSecundario 201.94.129.110
+user.home /home/oracle
+weblogic.management.server http://172.17.0.2:7001
+acpParserIpPrimario 201.94.129.110
+wls.home /u01/oracle/wlserver/server
+java.specification.vendor Oracle Corporation
+SascarEnvironment desenvolvimento
+java.library.path ::/u01/oracle/wlserver/server/native/linux/x86_64:/u01/oracle/wlserver/server/native/linux/x86_64/oci920_8:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.vendor.url http://java.oracle.com/
+java.vm.vendor Oracle Corporation
+java.runtime.name Java(TM) SE Runtime Environment
+sun.java.command weblogic.Server
+java.class.path /u01/jdk/lib/tools.jar:/u01/oracle/wlserver/server/lib/weblogic.jar:/u01/oracle/wlserver/../oracle_common/modules/thirdparty/ant-contrib-1.0b3.jar:/u01/oracle/wlserver/modules/features/oracle.wls.common.nodemanager.jar:/u01/oracle/wlserver/common/derby/lib/derbynet.jar:/u01/oracle/wlserver/common/derby/lib/derbyclient.jar:/u01/oracle/wlserver/common/derby/lib/derby.jar:/u01/jdk/lib/tools.jar
+java.vm.specification.name Java Virtual Machine Specification
+javax.rmi.CORBA.PortableRemoteObjectClass weblogic.iiop.PortableRemoteObjectDelegateImpl
+java.vm.specification.version 1.8
+sun.cpu.endian little
+sun.os.patch.level unknown
+weblogic.security.TrustKeyStore DemoTrust
+java.io.tmpdir /tmp
+java.vendor.url.bug http://bugreport.sun.com/bugreport/
+SascarPathWS http://172.18.0.1:8000/
+acpParserPortaPrimario 10025
+os.arch amd64
+java.awt.graphicsenv sun.awt.X11GraphicsEnvironment
+java.ext.dirs /u01/jdk/jre/lib/ext:/usr/java/packages/lib/ext
+user.dir /u01/oracle/user_projects/domains/domwebps01_dev
+line.separator 
+
+java.vm.name Java HotSpot(TM) 64-Bit Server VM
+weblogic.system.BootIdentityFile /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties
+urlPortalServicos http://172.18.0.1:8000/
+javax.management.builder.initial weblogic.management.jmx.mbeanserver.WLSMBeanServerBuilder
+org.omg.CORBA.ORBClass weblogic.corba.orb.ORB
+file.encoding UTF-8
+java.specification.version 1.8
+launch.use.env.classpath true
+java.vendor Oracle Corporation
+sun.java.launcher SUN_STANDARD
+sun.management.compiler HotSpot 64-Bit Tiered Compilers
+acpParserPortaSecundario 10025
+os.name Linux
+sun.boot.class.path /u01/jdk/jre/lib/resources.jar:/u01/jdk/jre/lib/rt.jar:/u01/jdk/jre/lib/sunrsasign.jar:/u01/jdk/jre/lib/jsse.jar:/u01/jdk/jre/lib/jce.jar:/u01/jdk/jre/lib/charsets.jar:/u01/jdk/jre/lib/jfr.jar:/u01/jdk/jre/classes
+java.vm.specification.vendor Oracle Corporation
+oracle.jms.useJmsNotification false
+java.runtime.version 1.8.0_241-b07
+SascarProperties /u01/oracle/user_projects/domains/domwebps01_dev/resources/portal_servicos/
+weblogic.Name mngnode1
+user.name oracle
+com.sun.jersey.server.impl.cdi.lookupExtensionInBeanManager true
+log4j.configuration file:/u01/weblogic/domains/domwebps01_dev/resources/portal_servicos/log4j.properties
+java.naming.factory.initial weblogic.jndi.WLInitialContextFactory
+user.language en
+sun.boot.library.path /u01/jdk/jre/lib/amd64
+java.version 1.8.0_241
+user.timezone GMT
+sun.arch.data.model 64
+oracle.jdbc.noImplicitBeginRequest true
+javax.rmi.CORBA.UtilClass weblogic.iiop.UtilDelegateImpl
+java.endorsed.dirs /u01/jdk/jre/lib/endorsed
+vde.home /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/ldap
+sun.cpu.isalist 
+sun.jnu.encoding UTF-8
+file.encoding.pkg sun.io
+file.separator /
+java.specification.name Java Platform API Specification
+java.class.version 52.0
+weblogic.home /u01/oracle/wlserver/server
+user.country US
+java.home /u01/jdk/jre
+java.vm.info mixed mode
+os.version 5.4.0-72-generic
+org.omg.CORBA.ORBSingletonClass weblogic.corba.orb.ORB
+path.separator :
+weblogic.nmservice.RotationEnabled true
+java.vm.version 25.241-b07
+java.protocol.handler.pkgs weblogic.utils|weblogic.utils|org.apache.axis.transport|
+java.system.class.loader com.oracle.classloader.weblogic.LaunchClassLoader
+java.awt.printerjob sun.print.PSPrinterJob
+java.security.policy /u01/oracle/wlserver/server/lib/weblogic.policy
+sun.io.unicode.encoding UnicodeLittle
+awt.toolkit sun.awt.X11.XToolkit
+weblogic.nodemanager.ServiceEnabled true
+java.naming.factory.url.pkgs weblogic.jndi.factories:weblogic.corba.j2ee.naming.url:weblogic.jndi.factories:weblogic.corba.j2ee.naming.url
+acpParserIpSecundario 201.94.129.110
+user.home /home/oracle
+weblogic.management.server http://172.17.0.2:7001
+acpParserIpPrimario 201.94.129.110
+wls.home /u01/oracle/wlserver/server
+java.specification.vendor Oracle Corporation
+SascarEnvironment desenvolvimento
+java.library.path ::/u01/oracle/wlserver/server/native/linux/x86_64:/u01/oracle/wlserver/server/native/linux/x86_64/oci920_8:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.vendor.url http://java.oracle.com/
+java.vm.vendor Oracle Corporation
+java.runtime.name Java(TM) SE Runtime Environment
+sun.java.command weblogic.Server
+java.class.path /u01/jdk/lib/tools.jar:/u01/oracle/wlserver/server/lib/weblogic.jar:/u01/oracle/wlserver/../oracle_common/modules/thirdparty/ant-contrib-1.0b3.jar:/u01/oracle/wlserver/modules/features/oracle.wls.common.nodemanager.jar:/u01/oracle/wlserver/common/derby/lib/derbynet.jar:/u01/oracle/wlserver/common/derby/lib/derbyclient.jar:/u01/oracle/wlserver/common/derby/lib/derby.jar:/u01/jdk/lib/tools.jar
+java.vm.specification.name Java Virtual Machine Specification
+javax.rmi.CORBA.PortableRemoteObjectClass weblogic.iiop.PortableRemoteObjectDelegateImpl
+java.vm.specification.version 1.8
+sun.cpu.endian little
+sun.os.patch.level unknown
+weblogic.security.TrustKeyStore DemoTrust
+java.io.tmpdir /tmp
+java.vendor.url.bug http://bugreport.sun.com/bugreport/
+SascarPathWS http://172.18.0.1:8000/
+acpParserPortaPrimario 10025
+os.arch amd64
+java.awt.graphicsenv sun.awt.X11GraphicsEnvironment
+java.ext.dirs /u01/jdk/jre/lib/ext:/usr/java/packages/lib/ext
+user.dir /u01/oracle/user_projects/domains/domwebps01_dev
+line.separator 
+
+java.vm.name Java HotSpot(TM) 64-Bit Server VM
+weblogic.system.BootIdentityFile /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties
+urlPortalServicos http://172.18.0.1:8000/
+javax.management.builder.initial weblogic.management.jmx.mbeanserver.WLSMBeanServerBuilder
+org.omg.CORBA.ORBClass weblogic.corba.orb.ORB
+file.encoding UTF-8
+java.specification.version 1.8
+launch.use.env.classpath true
+java.vendor Oracle Corporation
+sun.java.launcher SUN_STANDARD
+sun.management.compiler HotSpot 64-Bit Tiered Compilers
+acpParserPortaSecundario 10025
+os.name Linux
+sun.boot.class.path /u01/jdk/jre/lib/resources.jar:/u01/jdk/jre/lib/rt.jar:/u01/jdk/jre/lib/sunrsasign.jar:/u01/jdk/jre/lib/jsse.jar:/u01/jdk/jre/lib/jce.jar:/u01/jdk/jre/lib/charsets.jar:/u01/jdk/jre/lib/jfr.jar:/u01/jdk/jre/classes
+java.vm.specification.vendor Oracle Corporation
+oracle.jms.useJmsNotification false
+java.runtime.version 1.8.0_241-b07
+SascarProperties /u01/oracle/user_projects/domains/domwebps01_dev/resources/portal_servicos/
+weblogic.Name mngnode1
+user.name oracle
+com.sun.jersey.server.impl.cdi.lookupExtensionInBeanManager true
+log4j.configuration file:/u01/weblogic/domains/domwebps01_dev/resources/portal_servicos/log4j.properties
+java.naming.factory.initial weblogic.jndi.WLInitialContextFactory
+user.language en
+sun.boot.library.path /u01/jdk/jre/lib/amd64
+java.version 1.8.0_241
+user.timezone GMT
+sun.arch.data.model 64
+oracle.jdbc.noImplicitBeginRequest true
+javax.rmi.CORBA.UtilClass weblogic.iiop.UtilDelegateImpl
+java.endorsed.dirs /u01/jdk/jre/lib/endorsed
+vde.home /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/ldap
+sun.cpu.isalist 
+sun.jnu.encoding UTF-8
+file.encoding.pkg sun.io
+file.separator /
+java.specification.name Java Platform API Specification
+java.class.version 52.0
+weblogic.home /u01/oracle/wlserver/server
+user.country US
+java.home /u01/jdk/jre
+java.vm.info mixed mode
+os.version 5.4.0-72-generic
+org.omg.CORBA.ORBSingletonClass weblogic.corba.orb.ORB
+path.separator :
+weblogic.nmservice.RotationEnabled true
+java.vm.version 25.241-b07
+java.protocol.handler.pkgs weblogic.utils|weblogic.utils|org.apache.axis.transport|
+java.system.class.loader com.oracle.classloader.weblogic.LaunchClassLoader
+java.awt.printerjob sun.print.PSPrinterJob
+java.security.policy /u01/oracle/wlserver/server/lib/weblogic.policy
+sun.io.unicode.encoding UnicodeLittle
+awt.toolkit sun.awt.X11.XToolkit
+weblogic.nodemanager.ServiceEnabled true
+java.naming.factory.url.pkgs weblogic.jndi.factories:weblogic.corba.j2ee.naming.url:weblogic.jndi.factories:weblogic.corba.j2ee.naming.url
+acpParserIpSecundario 201.94.129.110
+user.home /home/oracle
+weblogic.management.server http://172.17.0.2:7001
+acpParserIpPrimario 201.94.129.110
+wls.home /u01/oracle/wlserver/server
+java.specification.vendor Oracle Corporation
+SascarEnvironment desenvolvimento
+java.library.path ::/u01/oracle/wlserver/server/native/linux/x86_64:/u01/oracle/wlserver/server/native/linux/x86_64/oci920_8:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.vendor.url http://java.oracle.com/
+java.vm.vendor Oracle Corporation
+java.runtime.name Java(TM) SE Runtime Environment
+sun.java.command weblogic.Server
+java.class.path /u01/jdk/lib/tools.jar:/u01/oracle/wlserver/server/lib/weblogic.jar:/u01/oracle/wlserver/../oracle_common/modules/thirdparty/ant-contrib-1.0b3.jar:/u01/oracle/wlserver/modules/features/oracle.wls.common.nodemanager.jar:/u01/oracle/wlserver/common/derby/lib/derbynet.jar:/u01/oracle/wlserver/common/derby/lib/derbyclient.jar:/u01/oracle/wlserver/common/derby/lib/derby.jar:/u01/jdk/lib/tools.jar
+java.vm.specification.name Java Virtual Machine Specification
+javax.rmi.CORBA.PortableRemoteObjectClass weblogic.iiop.PortableRemoteObjectDelegateImpl
+java.vm.specification.version 1.8
+sun.cpu.endian little
+sun.os.patch.level unknown
+weblogic.security.TrustKeyStore DemoTrust
+java.io.tmpdir /tmp
+java.vendor.url.bug http://bugreport.sun.com/bugreport/
+SascarPathWS http://172.18.0.1:8000/
+acpParserPortaPrimario 10025
+os.arch amd64
+java.awt.graphicsenv sun.awt.X11GraphicsEnvironment
+java.ext.dirs /u01/jdk/jre/lib/ext:/usr/java/packages/lib/ext
+user.dir /u01/oracle/user_projects/domains/domwebps01_dev
+line.separator 
+
+java.vm.name Java HotSpot(TM) 64-Bit Server VM
+weblogic.system.BootIdentityFile /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties
+urlPortalServicos http://172.18.0.1:8000/
+javax.management.builder.initial weblogic.management.jmx.mbeanserver.WLSMBeanServerBuilder
+org.omg.CORBA.ORBClass weblogic.corba.orb.ORB
+file.encoding UTF-8
+java.specification.version 1.8
+launch.use.env.classpath true
+java.vendor Oracle Corporation
+sun.java.launcher SUN_STANDARD
+sun.management.compiler HotSpot 64-Bit Tiered Compilers
+acpParserPortaSecundario 10025
+os.name Linux
+sun.boot.class.path /u01/jdk/jre/lib/resources.jar:/u01/jdk/jre/lib/rt.jar:/u01/jdk/jre/lib/sunrsasign.jar:/u01/jdk/jre/lib/jsse.jar:/u01/jdk/jre/lib/jce.jar:/u01/jdk/jre/lib/charsets.jar:/u01/jdk/jre/lib/jfr.jar:/u01/jdk/jre/classes
+java.vm.specification.vendor Oracle Corporation
+oracle.jms.useJmsNotification false
+java.runtime.version 1.8.0_241-b07
+SascarProperties /u01/oracle/user_projects/domains/domwebps01_dev/resources/portal_servicos/
+weblogic.Name mngnode1
+user.name oracle
+com.sun.jersey.server.impl.cdi.lookupExtensionInBeanManager true
+log4j.configuration file:/u01/weblogic/domains/domwebps01_dev/resources/portal_servicos/log4j.properties
+java.naming.factory.initial weblogic.jndi.WLInitialContextFactory
+user.language en
+sun.boot.library.path /u01/jdk/jre/lib/amd64
+java.version 1.8.0_241
+user.timezone GMT
+sun.arch.data.model 64
+oracle.jdbc.noImplicitBeginRequest true
+javax.rmi.CORBA.UtilClass weblogic.iiop.UtilDelegateImpl
+java.endorsed.dirs /u01/jdk/jre/lib/endorsed
+vde.home /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/ldap
+sun.cpu.isalist 
+sun.jnu.encoding UTF-8
+file.encoding.pkg sun.io
+file.separator /
+java.specification.name Java Platform API Specification
+java.class.version 52.0
+weblogic.home /u01/oracle/wlserver/server
+user.country US
+java.home /u01/jdk/jre
+java.vm.info mixed mode
+os.version 5.4.0-72-generic
+org.omg.CORBA.ORBSingletonClass weblogic.corba.orb.ORB
+path.separator :
+weblogic.nmservice.RotationEnabled true
+java.vm.version 25.241-b07
+java.protocol.handler.pkgs weblogic.utils|weblogic.utils|org.apache.axis.transport|
+java.system.class.loader com.oracle.classloader.weblogic.LaunchClassLoader
+java.awt.printerjob sun.print.PSPrinterJob
+java.security.policy /u01/oracle/wlserver/server/lib/weblogic.policy
+sun.io.unicode.encoding UnicodeLittle
+awt.toolkit sun.awt.X11.XToolkit
+weblogic.nodemanager.ServiceEnabled true
+java.naming.factory.url.pkgs weblogic.jndi.factories:weblogic.corba.j2ee.naming.url:weblogic.jndi.factories:weblogic.corba.j2ee.naming.url
+acpParserIpSecundario 201.94.129.110
+user.home /home/oracle
+weblogic.management.server http://172.17.0.2:7001
+acpParserIpPrimario 201.94.129.110
+wls.home /u01/oracle/wlserver/server
+java.specification.vendor Oracle Corporation
+SascarEnvironment desenvolvimento
+java.library.path ::/u01/oracle/wlserver/server/native/linux/x86_64:/u01/oracle/wlserver/server/native/linux/x86_64/oci920_8:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.vendor.url http://java.oracle.com/
+java.vm.vendor Oracle Corporation
+java.runtime.name Java(TM) SE Runtime Environment
+sun.java.command weblogic.Server
+java.class.path /u01/jdk/lib/tools.jar:/u01/oracle/wlserver/server/lib/weblogic.jar:/u01/oracle/wlserver/../oracle_common/modules/thirdparty/ant-contrib-1.0b3.jar:/u01/oracle/wlserver/modules/features/oracle.wls.common.nodemanager.jar:/u01/oracle/wlserver/common/derby/lib/derbynet.jar:/u01/oracle/wlserver/common/derby/lib/derbyclient.jar:/u01/oracle/wlserver/common/derby/lib/derby.jar:/u01/jdk/lib/tools.jar
+java.vm.specification.name Java Virtual Machine Specification
+javax.rmi.CORBA.PortableRemoteObjectClass weblogic.iiop.PortableRemoteObjectDelegateImpl
+java.vm.specification.version 1.8
+sun.cpu.endian little
+sun.os.patch.level unknown
+weblogic.security.TrustKeyStore DemoTrust
+java.io.tmpdir /tmp
+java.vendor.url.bug http://bugreport.sun.com/bugreport/
+SascarPathWS http://172.18.0.1:8000/
+acpParserPortaPrimario 10025
+os.arch amd64
+java.awt.graphicsenv sun.awt.X11GraphicsEnvironment
+java.ext.dirs /u01/jdk/jre/lib/ext:/usr/java/packages/lib/ext
+user.dir /u01/oracle/user_projects/domains/domwebps01_dev
+line.separator 
+
+java.vm.name Java HotSpot(TM) 64-Bit Server VM
+weblogic.system.BootIdentityFile /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties
+urlPortalServicos http://172.18.0.1:8000/
+javax.management.builder.initial weblogic.management.jmx.mbeanserver.WLSMBeanServerBuilder
+org.omg.CORBA.ORBClass weblogic.corba.orb.ORB
+file.encoding UTF-8
+java.specification.version 1.8
+launch.use.env.classpath true
+<Apr 20, 2021 4:11:10,637 PM GMT> <Warning> <Socket> <BEA-000449> <Closing the socket, as no data read from it on 172.17.0.1:57,214 during the configured idle timeout of 5 seconds.> 
+java.vendor Oracle Corporation
+sun.java.launcher SUN_STANDARD
+sun.management.compiler HotSpot 64-Bit Tiered Compilers
+acpParserPortaSecundario 10025
+os.name Linux
+sun.boot.class.path /u01/jdk/jre/lib/resources.jar:/u01/jdk/jre/lib/rt.jar:/u01/jdk/jre/lib/sunrsasign.jar:/u01/jdk/jre/lib/jsse.jar:/u01/jdk/jre/lib/jce.jar:/u01/jdk/jre/lib/charsets.jar:/u01/jdk/jre/lib/jfr.jar:/u01/jdk/jre/classes
+java.vm.specification.vendor Oracle Corporation
+oracle.jms.useJmsNotification false
+java.runtime.version 1.8.0_241-b07
+SascarProperties /u01/oracle/user_projects/domains/domwebps01_dev/resources/portal_servicos/
+weblogic.Name mngnode1
+user.name oracle
+com.sun.jersey.server.impl.cdi.lookupExtensionInBeanManager true
+log4j.configuration file:/u01/weblogic/domains/domwebps01_dev/resources/portal_servicos/log4j.properties
+java.naming.factory.initial weblogic.jndi.WLInitialContextFactory
+user.language en
+sun.boot.library.path /u01/jdk/jre/lib/amd64
+java.version 1.8.0_241
+user.timezone GMT
+sun.arch.data.model 64
+oracle.jdbc.noImplicitBeginRequest true
+javax.rmi.CORBA.UtilClass weblogic.iiop.UtilDelegateImpl
+java.endorsed.dirs /u01/jdk/jre/lib/endorsed
+vde.home /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/ldap
+sun.cpu.isalist 
+sun.jnu.encoding UTF-8
+file.encoding.pkg sun.io
+file.separator /
+java.specification.name Java Platform API Specification
+java.class.version 52.0
+weblogic.home /u01/oracle/wlserver/server
+user.country US
+java.home /u01/jdk/jre
+java.vm.info mixed mode
+os.version 5.4.0-72-generic
+org.omg.CORBA.ORBSingletonClass weblogic.corba.orb.ORB
+path.separator :
+weblogic.nmservice.RotationEnabled true
+java.vm.version 25.241-b07
+java.protocol.handler.pkgs weblogic.utils|weblogic.utils|org.apache.axis.transport|
+java.system.class.loader com.oracle.classloader.weblogic.LaunchClassLoader
+java.awt.printerjob sun.print.PSPrinterJob
+java.security.policy /u01/oracle/wlserver/server/lib/weblogic.policy
+sun.io.unicode.encoding UnicodeLittle
+awt.toolkit sun.awt.X11.XToolkit
+weblogic.nodemanager.ServiceEnabled true
+java.naming.factory.url.pkgs weblogic.jndi.factories:weblogic.corba.j2ee.naming.url:weblogic.jndi.factories:weblogic.corba.j2ee.naming.url
+acpParserIpSecundario 201.94.129.110
+user.home /home/oracle
+weblogic.management.server http://172.17.0.2:7001
+acpParserIpPrimario 201.94.129.110
+wls.home /u01/oracle/wlserver/server
+java.specification.vendor Oracle Corporation
+SascarEnvironment desenvolvimento
+java.library.path ::/u01/oracle/wlserver/server/native/linux/x86_64:/u01/oracle/wlserver/server/native/linux/x86_64/oci920_8:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.vendor.url http://java.oracle.com/
+java.vm.vendor Oracle Corporation
+java.runtime.name Java(TM) SE Runtime Environment
+sun.java.command weblogic.Server
+java.class.path /u01/jdk/lib/tools.jar:/u01/oracle/wlserver/server/lib/weblogic.jar:/u01/oracle/wlserver/../oracle_common/modules/thirdparty/ant-contrib-1.0b3.jar:/u01/oracle/wlserver/modules/features/oracle.wls.common.nodemanager.jar:/u01/oracle/wlserver/common/derby/lib/derbynet.jar:/u01/oracle/wlserver/common/derby/lib/derbyclient.jar:/u01/oracle/wlserver/common/derby/lib/derby.jar:/u01/jdk/lib/tools.jar
+java.vm.specification.name Java Virtual Machine Specification
+javax.rmi.CORBA.PortableRemoteObjectClass weblogic.iiop.PortableRemoteObjectDelegateImpl
+java.vm.specification.version 1.8
+sun.cpu.endian little
+sun.os.patch.level unknown
+weblogic.security.TrustKeyStore DemoTrust
+java.io.tmpdir /tmp
+java.vendor.url.bug http://bugreport.sun.com/bugreport/
+SascarPathWS http://172.18.0.1:8000/
+acpParserPortaPrimario 10025
+os.arch amd64
+java.awt.graphicsenv sun.awt.X11GraphicsEnvironment
+java.ext.dirs /u01/jdk/jre/lib/ext:/usr/java/packages/lib/ext
+user.dir /u01/oracle/user_projects/domains/domwebps01_dev
+line.separator 
+
+java.vm.name Java HotSpot(TM) 64-Bit Server VM
+weblogic.system.BootIdentityFile /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties
+urlPortalServicos http://172.18.0.1:8000/
+javax.management.builder.initial weblogic.management.jmx.mbeanserver.WLSMBeanServerBuilder
+org.omg.CORBA.ORBClass weblogic.corba.orb.ORB
+file.encoding UTF-8
+java.specification.version 1.8
+launch.use.env.classpath true
+java.vendor Oracle Corporation
+sun.java.launcher SUN_STANDARD
+sun.management.compiler HotSpot 64-Bit Tiered Compilers
+acpParserPortaSecundario 10025
+os.name Linux
+sun.boot.class.path /u01/jdk/jre/lib/resources.jar:/u01/jdk/jre/lib/rt.jar:/u01/jdk/jre/lib/sunrsasign.jar:/u01/jdk/jre/lib/jsse.jar:/u01/jdk/jre/lib/jce.jar:/u01/jdk/jre/lib/charsets.jar:/u01/jdk/jre/lib/jfr.jar:/u01/jdk/jre/classes
+java.vm.specification.vendor Oracle Corporation
+oracle.jms.useJmsNotification false
+java.runtime.version 1.8.0_241-b07
+SascarProperties /u01/oracle/user_projects/domains/domwebps01_dev/resources/portal_servicos/
+weblogic.Name mngnode1
+user.name oracle
+com.sun.jersey.server.impl.cdi.lookupExtensionInBeanManager true
+log4j.configuration file:/u01/weblogic/domains/domwebps01_dev/resources/portal_servicos/log4j.properties
+java.naming.factory.initial weblogic.jndi.WLInitialContextFactory
+user.language en
+sun.boot.library.path /u01/jdk/jre/lib/amd64
+java.version 1.8.0_241
+user.timezone GMT
+sun.arch.data.model 64
+oracle.jdbc.noImplicitBeginRequest true
+javax.rmi.CORBA.UtilClass weblogic.iiop.UtilDelegateImpl
+java.endorsed.dirs /u01/jdk/jre/lib/endorsed
+vde.home /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/ldap
+sun.cpu.isalist 
+sun.jnu.encoding UTF-8
+file.encoding.pkg sun.io
+file.separator /
+java.specification.name Java Platform API Specification
+java.class.version 52.0
+weblogic.home /u01/oracle/wlserver/server
+user.country US
+java.home /u01/jdk/jre
+java.vm.info mixed mode
+os.version 5.4.0-72-generic
+org.omg.CORBA.ORBSingletonClass weblogic.corba.orb.ORB
+path.separator :
+weblogic.nmservice.RotationEnabled true
+java.vm.version 25.241-b07
+java.protocol.handler.pkgs weblogic.utils|weblogic.utils|org.apache.axis.transport|
+java.system.class.loader com.oracle.classloader.weblogic.LaunchClassLoader
+java.awt.printerjob sun.print.PSPrinterJob
+java.security.policy /u01/oracle/wlserver/server/lib/weblogic.policy
+sun.io.unicode.encoding UnicodeLittle
+awt.toolkit sun.awt.X11.XToolkit
+weblogic.nodemanager.ServiceEnabled true
+java.naming.factory.url.pkgs weblogic.jndi.factories:weblogic.corba.j2ee.naming.url:weblogic.jndi.factories:weblogic.corba.j2ee.naming.url
+acpParserIpSecundario 201.94.129.110
+user.home /home/oracle
+weblogic.management.server http://172.17.0.2:7001
+acpParserIpPrimario 201.94.129.110
+wls.home /u01/oracle/wlserver/server
+java.specification.vendor Oracle Corporation
+SascarEnvironment desenvolvimento
+java.library.path ::/u01/oracle/wlserver/server/native/linux/x86_64:/u01/oracle/wlserver/server/native/linux/x86_64/oci920_8:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.vendor.url http://java.oracle.com/
+java.vm.vendor Oracle Corporation
+java.runtime.name Java(TM) SE Runtime Environment
+sun.java.command weblogic.Server
+java.class.path /u01/jdk/lib/tools.jar:/u01/oracle/wlserver/server/lib/weblogic.jar:/u01/oracle/wlserver/../oracle_common/modules/thirdparty/ant-contrib-1.0b3.jar:/u01/oracle/wlserver/modules/features/oracle.wls.common.nodemanager.jar:/u01/oracle/wlserver/common/derby/lib/derbynet.jar:/u01/oracle/wlserver/common/derby/lib/derbyclient.jar:/u01/oracle/wlserver/common/derby/lib/derby.jar:/u01/jdk/lib/tools.jar
+java.vm.specification.name Java Virtual Machine Specification
+javax.rmi.CORBA.PortableRemoteObjectClass weblogic.iiop.PortableRemoteObjectDelegateImpl
+java.vm.specification.version 1.8
+sun.cpu.endian little
+sun.os.patch.level unknown
+weblogic.security.TrustKeyStore DemoTrust
+java.io.tmpdir /tmp
+java.vendor.url.bug http://bugreport.sun.com/bugreport/
+SascarPathWS http://172.18.0.1:8000/
+acpParserPortaPrimario 10025
+os.arch amd64
+java.awt.graphicsenv sun.awt.X11GraphicsEnvironment
+java.ext.dirs /u01/jdk/jre/lib/ext:/usr/java/packages/lib/ext
+user.dir /u01/oracle/user_projects/domains/domwebps01_dev
+line.separator 
+
+java.vm.name Java HotSpot(TM) 64-Bit Server VM
+weblogic.system.BootIdentityFile /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties
+urlPortalServicos http://172.18.0.1:8000/
+javax.management.builder.initial weblogic.management.jmx.mbeanserver.WLSMBeanServerBuilder
+org.omg.CORBA.ORBClass weblogic.corba.orb.ORB
+file.encoding UTF-8
+java.specification.version 1.8
+launch.use.env.classpath true
+java.vendor Oracle Corporation
+sun.java.launcher SUN_STANDARD
+sun.management.compiler HotSpot 64-Bit Tiered Compilers
+acpParserPortaSecundario 10025
+os.name Linux
+sun.boot.class.path /u01/jdk/jre/lib/resources.jar:/u01/jdk/jre/lib/rt.jar:/u01/jdk/jre/lib/sunrsasign.jar:/u01/jdk/jre/lib/jsse.jar:/u01/jdk/jre/lib/jce.jar:/u01/jdk/jre/lib/charsets.jar:/u01/jdk/jre/lib/jfr.jar:/u01/jdk/jre/classes
+java.vm.specification.vendor Oracle Corporation
+oracle.jms.useJmsNotification false
+java.runtime.version 1.8.0_241-b07
+SascarProperties /u01/oracle/user_projects/domains/domwebps01_dev/resources/portal_servicos/
+weblogic.Name mngnode1
+user.name oracle
+com.sun.jersey.server.impl.cdi.lookupExtensionInBeanManager true
+log4j.configuration file:/u01/weblogic/domains/domwebps01_dev/resources/portal_servicos/log4j.properties
+java.naming.factory.initial weblogic.jndi.WLInitialContextFactory
+user.language en
+sun.boot.library.path /u01/jdk/jre/lib/amd64
+java.version 1.8.0_241
+user.timezone GMT
+sun.arch.data.model 64
+oracle.jdbc.noImplicitBeginRequest true
+javax.rmi.CORBA.UtilClass weblogic.iiop.UtilDelegateImpl
+java.endorsed.dirs /u01/jdk/jre/lib/endorsed
+vde.home /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/ldap
+sun.cpu.isalist 
+sun.jnu.encoding UTF-8
+file.encoding.pkg sun.io
+file.separator /
+java.specification.name Java Platform API Specification
+java.class.version 52.0
+weblogic.home /u01/oracle/wlserver/server
+user.country US
+java.home /u01/jdk/jre
+java.vm.info mixed mode
+os.version 5.4.0-72-generic
+org.omg.CORBA.ORBSingletonClass weblogic.corba.orb.ORB
+path.separator :
+weblogic.nmservice.RotationEnabled true
+java.vm.version 25.241-b07
+java.protocol.handler.pkgs weblogic.utils|weblogic.utils|org.apache.axis.transport|
+java.system.class.loader com.oracle.classloader.weblogic.LaunchClassLoader
+java.awt.printerjob sun.print.PSPrinterJob
+java.security.policy /u01/oracle/wlserver/server/lib/weblogic.policy
+sun.io.unicode.encoding UnicodeLittle
+awt.toolkit sun.awt.X11.XToolkit
+weblogic.nodemanager.ServiceEnabled true
+java.naming.factory.url.pkgs weblogic.jndi.factories:weblogic.corba.j2ee.naming.url:weblogic.jndi.factories:weblogic.corba.j2ee.naming.url
+acpParserIpSecundario 201.94.129.110
+user.home /home/oracle
+weblogic.management.server http://172.17.0.2:7001
+acpParserIpPrimario 201.94.129.110
+wls.home /u01/oracle/wlserver/server
+java.specification.vendor Oracle Corporation
+SascarEnvironment desenvolvimento
+java.library.path ::/u01/oracle/wlserver/server/native/linux/x86_64:/u01/oracle/wlserver/server/native/linux/x86_64/oci920_8:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.vendor.url http://java.oracle.com/
+java.vm.vendor Oracle Corporation
+java.runtime.name Java(TM) SE Runtime Environment
+sun.java.command weblogic.Server
+java.class.path /u01/jdk/lib/tools.jar:/u01/oracle/wlserver/server/lib/weblogic.jar:/u01/oracle/wlserver/../oracle_common/modules/thirdparty/ant-contrib-1.0b3.jar:/u01/oracle/wlserver/modules/features/oracle.wls.common.nodemanager.jar:/u01/oracle/wlserver/common/derby/lib/derbynet.jar:/u01/oracle/wlserver/common/derby/lib/derbyclient.jar:/u01/oracle/wlserver/common/derby/lib/derby.jar:/u01/jdk/lib/tools.jar
+java.vm.specification.name Java Virtual Machine Specification
+javax.rmi.CORBA.PortableRemoteObjectClass weblogic.iiop.PortableRemoteObjectDelegateImpl
+java.vm.specification.version 1.8
+sun.cpu.endian little
+sun.os.patch.level unknown
+weblogic.security.TrustKeyStore DemoTrust
+java.io.tmpdir /tmp
+java.vendor.url.bug http://bugreport.sun.com/bugreport/
+SascarPathWS http://172.18.0.1:8000/
+acpParserPortaPrimario 10025
+os.arch amd64
+java.awt.graphicsenv sun.awt.X11GraphicsEnvironment
+java.ext.dirs /u01/jdk/jre/lib/ext:/usr/java/packages/lib/ext
+user.dir /u01/oracle/user_projects/domains/domwebps01_dev
+line.separator 
+
+java.vm.name Java HotSpot(TM) 64-Bit Server VM
+weblogic.system.BootIdentityFile /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties
+urlPortalServicos http://172.18.0.1:8000/
+javax.management.builder.initial weblogic.management.jmx.mbeanserver.WLSMBeanServerBuilder
+org.omg.CORBA.ORBClass weblogic.corba.orb.ORB
+file.encoding UTF-8
+java.specification.version 1.8
+launch.use.env.classpath true
+java.vendor Oracle Corporation
+sun.java.launcher SUN_STANDARD
+sun.management.compiler HotSpot 64-Bit Tiered Compilers
+acpParserPortaSecundario 10025
+os.name Linux
+sun.boot.class.path /u01/jdk/jre/lib/resources.jar:/u01/jdk/jre/lib/rt.jar:/u01/jdk/jre/lib/sunrsasign.jar:/u01/jdk/jre/lib/jsse.jar:/u01/jdk/jre/lib/jce.jar:/u01/jdk/jre/lib/charsets.jar:/u01/jdk/jre/lib/jfr.jar:/u01/jdk/jre/classes
+java.vm.specification.vendor Oracle Corporation
+oracle.jms.useJmsNotification false
+java.runtime.version 1.8.0_241-b07
+SascarProperties /u01/oracle/user_projects/domains/domwebps01_dev/resources/portal_servicos/
+weblogic.Name mngnode1
+user.name oracle
+com.sun.jersey.server.impl.cdi.lookupExtensionInBeanManager true
+log4j.configuration file:/u01/weblogic/domains/domwebps01_dev/resources/portal_servicos/log4j.properties
+java.naming.factory.initial weblogic.jndi.WLInitialContextFactory
+user.language en
+sun.boot.library.path /u01/jdk/jre/lib/amd64
+java.version 1.8.0_241
+user.timezone GMT
+sun.arch.data.model 64
+oracle.jdbc.noImplicitBeginRequest true
+javax.rmi.CORBA.UtilClass weblogic.iiop.UtilDelegateImpl
+java.endorsed.dirs /u01/jdk/jre/lib/endorsed
+vde.home /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/ldap
+sun.cpu.isalist 
+sun.jnu.encoding UTF-8
+file.encoding.pkg sun.io
+file.separator /
+java.specification.name Java Platform API Specification
+java.class.version 52.0
+weblogic.home /u01/oracle/wlserver/server
+user.country US
+java.home /u01/jdk/jre
+java.vm.info mixed mode
+os.version 5.4.0-72-generic
+org.omg.CORBA.ORBSingletonClass weblogic.corba.orb.ORB
+path.separator :
+weblogic.nmservice.RotationEnabled true
+java.vm.version 25.241-b07
+java.protocol.handler.pkgs weblogic.utils|weblogic.utils|org.apache.axis.transport|
+java.system.class.loader com.oracle.classloader.weblogic.LaunchClassLoader
+java.awt.printerjob sun.print.PSPrinterJob
+java.security.policy /u01/oracle/wlserver/server/lib/weblogic.policy
+sun.io.unicode.encoding UnicodeLittle
+awt.toolkit sun.awt.X11.XToolkit
+weblogic.nodemanager.ServiceEnabled true
+java.naming.factory.url.pkgs weblogic.jndi.factories:weblogic.corba.j2ee.naming.url:weblogic.jndi.factories:weblogic.corba.j2ee.naming.url
+acpParserIpSecundario 201.94.129.110
+user.home /home/oracle
+weblogic.management.server http://172.17.0.2:7001
+acpParserIpPrimario 201.94.129.110
+wls.home /u01/oracle/wlserver/server
+java.specification.vendor Oracle Corporation
+SascarEnvironment desenvolvimento
+java.library.path ::/u01/oracle/wlserver/server/native/linux/x86_64:/u01/oracle/wlserver/server/native/linux/x86_64/oci920_8:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.vendor.url http://java.oracle.com/
+java.vm.vendor Oracle Corporation
+java.runtime.name Java(TM) SE Runtime Environment
+sun.java.command weblogic.Server
+java.class.path /u01/jdk/lib/tools.jar:/u01/oracle/wlserver/server/lib/weblogic.jar:/u01/oracle/wlserver/../oracle_common/modules/thirdparty/ant-contrib-1.0b3.jar:/u01/oracle/wlserver/modules/features/oracle.wls.common.nodemanager.jar:/u01/oracle/wlserver/common/derby/lib/derbynet.jar:/u01/oracle/wlserver/common/derby/lib/derbyclient.jar:/u01/oracle/wlserver/common/derby/lib/derby.jar:/u01/jdk/lib/tools.jar
+java.vm.specification.name Java Virtual Machine Specification
+javax.rmi.CORBA.PortableRemoteObjectClass weblogic.iiop.PortableRemoteObjectDelegateImpl
+java.vm.specification.version 1.8
+sun.cpu.endian little
+sun.os.patch.level unknown
+weblogic.security.TrustKeyStore DemoTrust
+java.io.tmpdir /tmp
+java.vendor.url.bug http://bugreport.sun.com/bugreport/
+SascarPathWS http://172.18.0.1:8000/
+acpParserPortaPrimario 10025
+os.arch amd64
+java.awt.graphicsenv sun.awt.X11GraphicsEnvironment
+java.ext.dirs /u01/jdk/jre/lib/ext:/usr/java/packages/lib/ext
+user.dir /u01/oracle/user_projects/domains/domwebps01_dev
+line.separator 
+
+java.vm.name Java HotSpot(TM) 64-Bit Server VM
+weblogic.system.BootIdentityFile /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties
+urlPortalServicos http://172.18.0.1:8000/
+javax.management.builder.initial weblogic.management.jmx.mbeanserver.WLSMBeanServerBuilder
+org.omg.CORBA.ORBClass weblogic.corba.orb.ORB
+file.encoding UTF-8
+java.specification.version 1.8
+launch.use.env.classpath true
+java.vendor Oracle Corporation
+sun.java.launcher SUN_STANDARD
+sun.management.compiler HotSpot 64-Bit Tiered Compilers
+acpParserPortaSecundario 10025
+os.name Linux
+sun.boot.class.path /u01/jdk/jre/lib/resources.jar:/u01/jdk/jre/lib/rt.jar:/u01/jdk/jre/lib/sunrsasign.jar:/u01/jdk/jre/lib/jsse.jar:/u01/jdk/jre/lib/jce.jar:/u01/jdk/jre/lib/charsets.jar:/u01/jdk/jre/lib/jfr.jar:/u01/jdk/jre/classes
+java.vm.specification.vendor Oracle Corporation
+oracle.jms.useJmsNotification false
+java.runtime.version 1.8.0_241-b07
+SascarProperties /u01/oracle/user_projects/domains/domwebps01_dev/resources/portal_servicos/
+weblogic.Name mngnode1
+user.name oracle
+com.sun.jersey.server.impl.cdi.lookupExtensionInBeanManager true
+log4j.configuration file:/u01/weblogic/domains/domwebps01_dev/resources/portal_servicos/log4j.properties
+java.naming.factory.initial weblogic.jndi.WLInitialContextFactory
+user.language en
+sun.boot.library.path /u01/jdk/jre/lib/amd64
+java.version 1.8.0_241
+user.timezone GMT
+sun.arch.data.model 64
+oracle.jdbc.noImplicitBeginRequest true
+javax.rmi.CORBA.UtilClass weblogic.iiop.UtilDelegateImpl
+java.endorsed.dirs /u01/jdk/jre/lib/endorsed
+vde.home /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/ldap
+sun.cpu.isalist 
+sun.jnu.encoding UTF-8
+file.encoding.pkg sun.io
+file.separator /
+java.specification.name Java Platform API Specification
+java.class.version 52.0
+weblogic.home /u01/oracle/wlserver/server
+user.country US
+java.home /u01/jdk/jre
+java.vm.info mixed mode
+os.version 5.4.0-72-generic
+org.omg.CORBA.ORBSingletonClass weblogic.corba.orb.ORB
+path.separator :
+weblogic.nmservice.RotationEnabled true
+java.vm.version 25.241-b07
+java.protocol.handler.pkgs weblogic.utils|weblogic.utils|org.apache.axis.transport|
+java.system.class.loader com.oracle.classloader.weblogic.LaunchClassLoader
+java.awt.printerjob sun.print.PSPrinterJob
+java.security.policy /u01/oracle/wlserver/server/lib/weblogic.policy
+sun.io.unicode.encoding UnicodeLittle
+awt.toolkit sun.awt.X11.XToolkit
+weblogic.nodemanager.ServiceEnabled true
+java.naming.factory.url.pkgs weblogic.jndi.factories:weblogic.corba.j2ee.naming.url:weblogic.jndi.factories:weblogic.corba.j2ee.naming.url
+acpParserIpSecundario 201.94.129.110
+user.home /home/oracle
+weblogic.management.server http://172.17.0.2:7001
+acpParserIpPrimario 201.94.129.110
+wls.home /u01/oracle/wlserver/server
+java.specification.vendor Oracle Corporation
+SascarEnvironment desenvolvimento
+java.library.path ::/u01/oracle/wlserver/server/native/linux/x86_64:/u01/oracle/wlserver/server/native/linux/x86_64/oci920_8:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.vendor.url http://java.oracle.com/
+java.vm.vendor Oracle Corporation
+java.runtime.name Java(TM) SE Runtime Environment
+sun.java.command weblogic.Server
+java.class.path /u01/jdk/lib/tools.jar:/u01/oracle/wlserver/server/lib/weblogic.jar:/u01/oracle/wlserver/../oracle_common/modules/thirdparty/ant-contrib-1.0b3.jar:/u01/oracle/wlserver/modules/features/oracle.wls.common.nodemanager.jar:/u01/oracle/wlserver/common/derby/lib/derbynet.jar:/u01/oracle/wlserver/common/derby/lib/derbyclient.jar:/u01/oracle/wlserver/common/derby/lib/derby.jar:/u01/jdk/lib/tools.jar
+java.vm.specification.name Java Virtual Machine Specification
+javax.rmi.CORBA.PortableRemoteObjectClass weblogic.iiop.PortableRemoteObjectDelegateImpl
+java.vm.specification.version 1.8
+sun.cpu.endian little
+sun.os.patch.level unknown
+weblogic.security.TrustKeyStore DemoTrust
+java.io.tmpdir /tmp
+java.vendor.url.bug http://bugreport.sun.com/bugreport/
+SascarPathWS http://172.18.0.1:8000/
+acpParserPortaPrimario 10025
+os.arch amd64
+java.awt.graphicsenv sun.awt.X11GraphicsEnvironment
+java.ext.dirs /u01/jdk/jre/lib/ext:/usr/java/packages/lib/ext
+user.dir /u01/oracle/user_projects/domains/domwebps01_dev
+line.separator 
+
+java.vm.name Java HotSpot(TM) 64-Bit Server VM
+weblogic.system.BootIdentityFile /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties
+urlPortalServicos http://172.18.0.1:8000/
+javax.management.builder.initial weblogic.management.jmx.mbeanserver.WLSMBeanServerBuilder
+org.omg.CORBA.ORBClass weblogic.corba.orb.ORB
+file.encoding UTF-8
+java.specification.version 1.8
+launch.use.env.classpath true
+java.vendor Oracle Corporation
+sun.java.launcher SUN_STANDARD
+sun.management.compiler HotSpot 64-Bit Tiered Compilers
+acpParserPortaSecundario 10025
+os.name Linux
+sun.boot.class.path /u01/jdk/jre/lib/resources.jar:/u01/jdk/jre/lib/rt.jar:/u01/jdk/jre/lib/sunrsasign.jar:/u01/jdk/jre/lib/jsse.jar:/u01/jdk/jre/lib/jce.jar:/u01/jdk/jre/lib/charsets.jar:/u01/jdk/jre/lib/jfr.jar:/u01/jdk/jre/classes
+java.vm.specification.vendor Oracle Corporation
+oracle.jms.useJmsNotification false
+java.runtime.version 1.8.0_241-b07
+SascarProperties /u01/oracle/user_projects/domains/domwebps01_dev/resources/portal_servicos/
+weblogic.Name mngnode1
+user.name oracle
+com.sun.jersey.server.impl.cdi.lookupExtensionInBeanManager true
+log4j.configuration file:/u01/weblogic/domains/domwebps01_dev/resources/portal_servicos/log4j.properties
+java.naming.factory.initial weblogic.jndi.WLInitialContextFactory
+user.language en
+sun.boot.library.path /u01/jdk/jre/lib/amd64
+java.version 1.8.0_241
+user.timezone GMT
+sun.arch.data.model 64
+oracle.jdbc.noImplicitBeginRequest true
+javax.rmi.CORBA.UtilClass weblogic.iiop.UtilDelegateImpl
+java.endorsed.dirs /u01/jdk/jre/lib/endorsed
+vde.home /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/ldap
+sun.cpu.isalist 
+sun.jnu.encoding UTF-8
+file.encoding.pkg sun.io
+file.separator /
+java.specification.name Java Platform API Specification
+java.class.version 52.0
+weblogic.home /u01/oracle/wlserver/server
+user.country US
+java.home /u01/jdk/jre
+java.vm.info mixed mode
+os.version 5.4.0-72-generic
+org.omg.CORBA.ORBSingletonClass weblogic.corba.orb.ORB
+path.separator :
+weblogic.nmservice.RotationEnabled true
+java.vm.version 25.241-b07
+java.protocol.handler.pkgs weblogic.utils|weblogic.utils|org.apache.axis.transport|
+java.system.class.loader com.oracle.classloader.weblogic.LaunchClassLoader
+java.awt.printerjob sun.print.PSPrinterJob
+java.security.policy /u01/oracle/wlserver/server/lib/weblogic.policy
+sun.io.unicode.encoding UnicodeLittle
+awt.toolkit sun.awt.X11.XToolkit
+weblogic.nodemanager.ServiceEnabled true
+java.naming.factory.url.pkgs weblogic.jndi.factories:weblogic.corba.j2ee.naming.url:weblogic.jndi.factories:weblogic.corba.j2ee.naming.url
+acpParserIpSecundario 201.94.129.110
+user.home /home/oracle
+weblogic.management.server http://172.17.0.2:7001
+acpParserIpPrimario 201.94.129.110
+wls.home /u01/oracle/wlserver/server
+java.specification.vendor Oracle Corporation
+SascarEnvironment desenvolvimento
+java.library.path ::/u01/oracle/wlserver/server/native/linux/x86_64:/u01/oracle/wlserver/server/native/linux/x86_64/oci920_8:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.vendor.url http://java.oracle.com/
+java.vm.vendor Oracle Corporation
+java.runtime.name Java(TM) SE Runtime Environment
+sun.java.command weblogic.Server
+java.class.path /u01/jdk/lib/tools.jar:/u01/oracle/wlserver/server/lib/weblogic.jar:/u01/oracle/wlserver/../oracle_common/modules/thirdparty/ant-contrib-1.0b3.jar:/u01/oracle/wlserver/modules/features/oracle.wls.common.nodemanager.jar:/u01/oracle/wlserver/common/derby/lib/derbynet.jar:/u01/oracle/wlserver/common/derby/lib/derbyclient.jar:/u01/oracle/wlserver/common/derby/lib/derby.jar:/u01/jdk/lib/tools.jar
+java.vm.specification.name Java Virtual Machine Specification
+javax.rmi.CORBA.PortableRemoteObjectClass weblogic.iiop.PortableRemoteObjectDelegateImpl
+java.vm.specification.version 1.8
+sun.cpu.endian little
+sun.os.patch.level unknown
+weblogic.security.TrustKeyStore DemoTrust
+java.io.tmpdir /tmp
+java.vendor.url.bug http://bugreport.sun.com/bugreport/
+SascarPathWS http://172.18.0.1:8000/
+acpParserPortaPrimario 10025
+os.arch amd64
+java.awt.graphicsenv sun.awt.X11GraphicsEnvironment
+java.ext.dirs /u01/jdk/jre/lib/ext:/usr/java/packages/lib/ext
+user.dir /u01/oracle/user_projects/domains/domwebps01_dev
+line.separator 
+
+java.vm.name Java HotSpot(TM) 64-Bit Server VM
+weblogic.system.BootIdentityFile /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties
+urlPortalServicos http://172.18.0.1:8000/
+javax.management.builder.initial weblogic.management.jmx.mbeanserver.WLSMBeanServerBuilder
+org.omg.CORBA.ORBClass weblogic.corba.orb.ORB
+file.encoding UTF-8
+java.specification.version 1.8
+launch.use.env.classpath true
+java.vendor Oracle Corporation
+sun.java.launcher SUN_STANDARD
+sun.management.compiler HotSpot 64-Bit Tiered Compilers
+acpParserPortaSecundario 10025
+os.name Linux
+sun.boot.class.path /u01/jdk/jre/lib/resources.jar:/u01/jdk/jre/lib/rt.jar:/u01/jdk/jre/lib/sunrsasign.jar:/u01/jdk/jre/lib/jsse.jar:/u01/jdk/jre/lib/jce.jar:/u01/jdk/jre/lib/charsets.jar:/u01/jdk/jre/lib/jfr.jar:/u01/jdk/jre/classes
+java.vm.specification.vendor Oracle Corporation
+oracle.jms.useJmsNotification false
+java.runtime.version 1.8.0_241-b07
+SascarProperties /u01/oracle/user_projects/domains/domwebps01_dev/resources/portal_servicos/
+weblogic.Name mngnode1
+user.name oracle
+com.sun.jersey.server.impl.cdi.lookupExtensionInBeanManager true
+log4j.configuration file:/u01/weblogic/domains/domwebps01_dev/resources/portal_servicos/log4j.properties
+java.naming.factory.initial weblogic.jndi.WLInitialContextFactory
+user.language en
+sun.boot.library.path /u01/jdk/jre/lib/amd64
+java.version 1.8.0_241
+user.timezone GMT
+sun.arch.data.model 64
+oracle.jdbc.noImplicitBeginRequest true
+javax.rmi.CORBA.UtilClass weblogic.iiop.UtilDelegateImpl
+java.endorsed.dirs /u01/jdk/jre/lib/endorsed
+vde.home /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/ldap
+sun.cpu.isalist 
+sun.jnu.encoding UTF-8
+file.encoding.pkg sun.io
+file.separator /
+java.specification.name Java Platform API Specification
+java.class.version 52.0
+weblogic.home /u01/oracle/wlserver/server
+user.country US
+java.home /u01/jdk/jre
+java.vm.info mixed mode
+os.version 5.4.0-72-generic
+org.omg.CORBA.ORBSingletonClass weblogic.corba.orb.ORB
+path.separator :
+weblogic.nmservice.RotationEnabled true
+java.vm.version 25.241-b07
+java.protocol.handler.pkgs weblogic.utils|weblogic.utils|org.apache.axis.transport|
+java.system.class.loader com.oracle.classloader.weblogic.LaunchClassLoader
+java.awt.printerjob sun.print.PSPrinterJob
+java.security.policy /u01/oracle/wlserver/server/lib/weblogic.policy
+sun.io.unicode.encoding UnicodeLittle
+awt.toolkit sun.awt.X11.XToolkit
+weblogic.nodemanager.ServiceEnabled true
+java.naming.factory.url.pkgs weblogic.jndi.factories:weblogic.corba.j2ee.naming.url:weblogic.jndi.factories:weblogic.corba.j2ee.naming.url
+acpParserIpSecundario 201.94.129.110
+user.home /home/oracle
+weblogic.management.server http://172.17.0.2:7001
+acpParserIpPrimario 201.94.129.110
+wls.home /u01/oracle/wlserver/server
+java.specification.vendor Oracle Corporation
+SascarEnvironment desenvolvimento
+java.library.path ::/u01/oracle/wlserver/server/native/linux/x86_64:/u01/oracle/wlserver/server/native/linux/x86_64/oci920_8:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.vendor.url http://java.oracle.com/
+java.vm.vendor Oracle Corporation
+java.runtime.name Java(TM) SE Runtime Environment
+sun.java.command weblogic.Server
+java.class.path /u01/jdk/lib/tools.jar:/u01/oracle/wlserver/server/lib/weblogic.jar:/u01/oracle/wlserver/../oracle_common/modules/thirdparty/ant-contrib-1.0b3.jar:/u01/oracle/wlserver/modules/features/oracle.wls.common.nodemanager.jar:/u01/oracle/wlserver/common/derby/lib/derbynet.jar:/u01/oracle/wlserver/common/derby/lib/derbyclient.jar:/u01/oracle/wlserver/common/derby/lib/derby.jar:/u01/jdk/lib/tools.jar
+java.vm.specification.name Java Virtual Machine Specification
+javax.rmi.CORBA.PortableRemoteObjectClass weblogic.iiop.PortableRemoteObjectDelegateImpl
+java.vm.specification.version 1.8
+sun.cpu.endian little
+sun.os.patch.level unknown
+weblogic.security.TrustKeyStore DemoTrust
+java.io.tmpdir /tmp
+java.vendor.url.bug http://bugreport.sun.com/bugreport/
+SascarPathWS http://172.18.0.1:8000/
+acpParserPortaPrimario 10025
+os.arch amd64
+java.awt.graphicsenv sun.awt.X11GraphicsEnvironment
+java.ext.dirs /u01/jdk/jre/lib/ext:/usr/java/packages/lib/ext
+user.dir /u01/oracle/user_projects/domains/domwebps01_dev
+line.separator 
+
+java.vm.name Java HotSpot(TM) 64-Bit Server VM
+weblogic.system.BootIdentityFile /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties
+urlPortalServicos http://172.18.0.1:8000/
+javax.management.builder.initial weblogic.management.jmx.mbeanserver.WLSMBeanServerBuilder
+org.omg.CORBA.ORBClass weblogic.corba.orb.ORB
+file.encoding UTF-8
+java.specification.version 1.8
+launch.use.env.classpath true
+<Apr 20, 2021 4:45:05,636 PM GMT> <Warning> <Socket> <BEA-000449> <Closing the socket, as no data read from it on 172.17.0.1:46,740 during the configured idle timeout of 5 seconds.> 
+java.vendor Oracle Corporation
+sun.java.launcher SUN_STANDARD
+sun.management.compiler HotSpot 64-Bit Tiered Compilers
+acpParserPortaSecundario 10025
+os.name Linux
+sun.boot.class.path /u01/jdk/jre/lib/resources.jar:/u01/jdk/jre/lib/rt.jar:/u01/jdk/jre/lib/sunrsasign.jar:/u01/jdk/jre/lib/jsse.jar:/u01/jdk/jre/lib/jce.jar:/u01/jdk/jre/lib/charsets.jar:/u01/jdk/jre/lib/jfr.jar:/u01/jdk/jre/classes
+java.vm.specification.vendor Oracle Corporation
+oracle.jms.useJmsNotification false
+java.runtime.version 1.8.0_241-b07
+SascarProperties /u01/oracle/user_projects/domains/domwebps01_dev/resources/portal_servicos/
+weblogic.Name mngnode1
+user.name oracle
+com.sun.jersey.server.impl.cdi.lookupExtensionInBeanManager true
+log4j.configuration file:/u01/weblogic/domains/domwebps01_dev/resources/portal_servicos/log4j.properties
+java.naming.factory.initial weblogic.jndi.WLInitialContextFactory
+user.language en
+sun.boot.library.path /u01/jdk/jre/lib/amd64
+java.version 1.8.0_241
+user.timezone GMT
+sun.arch.data.model 64
+oracle.jdbc.noImplicitBeginRequest true
+javax.rmi.CORBA.UtilClass weblogic.iiop.UtilDelegateImpl
+java.endorsed.dirs /u01/jdk/jre/lib/endorsed
+vde.home /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/ldap
+sun.cpu.isalist 
+sun.jnu.encoding UTF-8
+file.encoding.pkg sun.io
+file.separator /
+java.specification.name Java Platform API Specification
+java.class.version 52.0
+weblogic.home /u01/oracle/wlserver/server
+user.country US
+java.home /u01/jdk/jre
+java.vm.info mixed mode
+os.version 5.4.0-72-generic
+org.omg.CORBA.ORBSingletonClass weblogic.corba.orb.ORB
+path.separator :
+weblogic.nmservice.RotationEnabled true
+java.vm.version 25.241-b07
+java.protocol.handler.pkgs weblogic.utils|weblogic.utils|org.apache.axis.transport|
+java.system.class.loader com.oracle.classloader.weblogic.LaunchClassLoader
+java.awt.printerjob sun.print.PSPrinterJob
+java.security.policy /u01/oracle/wlserver/server/lib/weblogic.policy
+sun.io.unicode.encoding UnicodeLittle
+awt.toolkit sun.awt.X11.XToolkit
+weblogic.nodemanager.ServiceEnabled true
+java.naming.factory.url.pkgs weblogic.jndi.factories:weblogic.corba.j2ee.naming.url:weblogic.jndi.factories:weblogic.corba.j2ee.naming.url
+acpParserIpSecundario 201.94.129.110
+user.home /home/oracle
+weblogic.management.server http://172.17.0.2:7001
+acpParserIpPrimario 201.94.129.110
+wls.home /u01/oracle/wlserver/server
+java.specification.vendor Oracle Corporation
+SascarEnvironment desenvolvimento
+java.library.path ::/u01/oracle/wlserver/server/native/linux/x86_64:/u01/oracle/wlserver/server/native/linux/x86_64/oci920_8:/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+java.vendor.url http://java.oracle.com/
+java.vm.vendor Oracle Corporation
+java.runtime.name Java(TM) SE Runtime Environment
+sun.java.command weblogic.Server
+java.class.path /u01/jdk/lib/tools.jar:/u01/oracle/wlserver/server/lib/weblogic.jar:/u01/oracle/wlserver/../oracle_common/modules/thirdparty/ant-contrib-1.0b3.jar:/u01/oracle/wlserver/modules/features/oracle.wls.common.nodemanager.jar:/u01/oracle/wlserver/common/derby/lib/derbynet.jar:/u01/oracle/wlserver/common/derby/lib/derbyclient.jar:/u01/oracle/wlserver/common/derby/lib/derby.jar:/u01/jdk/lib/tools.jar
+java.vm.specification.name Java Virtual Machine Specification
+javax.rmi.CORBA.PortableRemoteObjectClass weblogic.iiop.PortableRemoteObjectDelegateImpl
+java.vm.specification.version 1.8
+sun.cpu.endian little
+sun.os.patch.level unknown
+weblogic.security.TrustKeyStore DemoTrust
+java.io.tmpdir /tmp
+java.vendor.url.bug http://bugreport.sun.com/bugreport/
+SascarPathWS http://172.18.0.1:8000/
+acpParserPortaPrimario 10025
+os.arch amd64
+java.awt.graphicsenv sun.awt.X11GraphicsEnvironment
+java.ext.dirs /u01/jdk/jre/lib/ext:/usr/java/packages/lib/ext
+user.dir /u01/oracle/user_projects/domains/domwebps01_dev
+line.separator 
+
+java.vm.name Java HotSpot(TM) 64-Bit Server VM
+weblogic.system.BootIdentityFile /u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties
+urlPortalServicos http://172.18.0.1:8000/
+javax.management.builder.initial weblogic.management.jmx.mbeanserver.WLSMBeanServerBuilder
+org.omg.CORBA.ORBClass weblogic.corba.orb.ORB
+file.encoding UTF-8
+java.specification.version 1.8
+launch.use.env.classpath true
+<Apr 20, 2021 6:59:50,824 PM GMT> <Warning> <JDBC> <BEA-001129> <Received exception while creating connection for pool "mds-owsm": IO Error: The Network Adapter could not establish the connection.> 
+<Apr 20, 2021 7:00:00,835 PM GMT> <Warning> <JDBC> <BEA-001129> <Received exception while creating connection for pool "mds-owsm": IO Error: The Network Adapter could not establish the connection.> 
+<Apr 20, 2021 7:01:22,947 PM GMT> <Warning> <JDBC> <BEA-001129> <Received exception while creating connection for pool "postgresGerenciadora2": Connection refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections..> 
+<Apr 20, 2021 7:01:33,190 PM GMT> <Warning> <JDBC> <BEA-001129> <Received exception while creating connection for pool "postgresPortalServicos2": Connection refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections..> 
+<Apr 20, 2021 7:01:33,191 PM GMT> <Warning> <JDBC> <BEA-001129> <Received exception while creating connection for pool "postgresCentral": Connection refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections..> 
+<Apr 20, 2021 7:01:33,191 PM GMT> <Warning> <JDBC> <BEA-001129> <Received exception while creating connection for pool "postgresBlackbox": Connection refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections..> 
+<Apr 20, 2021 7:01:43,427 PM GMT> <Warning> <JDBC> <BEA-001129> <Received exception while creating connection for pool "postgresGerenciadora": Connection refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections..> 
+<Apr 20, 2021 7:03:13,539 PM GMT> <Warning> <JDBC> <BEA-001129> <Received exception while creating connection for pool "posicaoPortalOracle": IO Error: The Network Adapter could not establish the connection.> 
+<Apr 20, 2021 7:03:34,018 PM GMT> <Warning> <JDBC> <BEA-001129> <Received exception while creating connection for pool "postgresGerenciadora2": Connection refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections..> 
+<Apr 20, 2021 7:03:44,258 PM GMT> <Warning> <JDBC> <BEA-001129> <Received exception while creating connection for pool "postgresPortalServicos2": Connection refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections..> 
+<Apr 20, 2021 7:03:44,258 PM GMT> <Warning> <JDBC> <BEA-001129> <Received exception while creating connection for pool "postgresBlackbox": Connection refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections..> 
+<Apr 20, 2021 7:03:44,258 PM GMT> <Warning> <JDBC> <BEA-001129> <Received exception while creating connection for pool "postgresCentral": Connection refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections..> 
+<Apr 20, 2021 7:03:54,499 PM GMT> <Warning> <JDBC> <BEA-001129> <Received exception while creating connection for pool "postgresServidorComandos": Connection refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections..> 
+<Apr 20, 2021 7:03:54,499 PM GMT> <Warning> <JDBC> <BEA-001129> <Received exception while creating connection for pool "postgresServidorComandos": Connection refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections..> 
+<Apr 20, 2021 7:03:54,503 PM GMT> <Warning> <JDBC> <BEA-001129> <Received exception while creating connection for pool "postgresGerenciadora": Connection refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections..> 
+<Apr 20, 2021 7:03:54,503 PM GMT> <Warning> <JDBC> <BEA-001129> <Received exception while creating connection for pool "postgresServidorComandos": Connection refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections..> 
+<Apr 20, 2021 7:04:14,978 PM GMT> <Warning> <JDBC> <BEA-001129> <Received exception while creating connection for pool "postgresServidorComandos": Connection refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections..> 
+<Apr 20, 2021 7:07:35,687 PM GMT> <Warning> <JDBC> <BEA-001129> <Received exception while creating connection for pool "posicaoPortalOracle": IO Error: The Network Adapter could not establish the connection.> 
+log4j:ERROR Could not read configuration file from URL [file:/u01/weblogic/domains/domwebps01_dev/resources/portal_servicos/log4j.properties].
+java.io.FileNotFoundException: /u01/weblogic/domains/domwebps01_dev/resources/portal_servicos/log4j.properties (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at sun.net.www.protocol.file.FileURLConnection.connect(FileURLConnection.java:90)
+	at sun.net.www.protocol.file.FileURLConnection.getInputStream(FileURLConnection.java:188)
+	at org.apache.log4j.PropertyConfigurator.doConfigure(PropertyConfigurator.java:524)
+	at org.apache.log4j.helpers.OptionConverter.selectAndConfigure(OptionConverter.java:483)
+	at org.apache.log4j.LogManager.<clinit>(LogManager.java:127)
+	at org.apache.log4j.Logger.getLogger(Logger.java:104)
+	at org.apache.commons.logging.impl.Log4JLogger.getLogger(Log4JLogger.java:289)
+	at org.apache.commons.logging.impl.Log4JLogger.<init>(Log4JLogger.java:109)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.apache.commons.logging.impl.LogFactoryImpl.createLogFromClass(LogFactoryImpl.java:1116)
+	at org.apache.commons.logging.impl.LogFactoryImpl.discoverLogImplementation(LogFactoryImpl.java:914)
+	at org.apache.commons.logging.impl.LogFactoryImpl.newInstance(LogFactoryImpl.java:604)
+	at org.apache.commons.logging.impl.LogFactoryImpl.getInstance(LogFactoryImpl.java:336)
+	at org.apache.commons.logging.impl.LogFactoryImpl.getInstance(LogFactoryImpl.java:310)
+	at org.apache.commons.logging.LogFactory.getLog(LogFactory.java:685)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:269)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:111)
+	at weblogic.servlet.internal.EventsManager$FireContextListenerAction.run(EventsManager.java:705)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:326)
+	at weblogic.security.service.SecurityManager.runAsForUserCode(SecurityManager.java:197)
+	at weblogic.servlet.provider.WlsSecurityProvider.runAsForUserCode(WlsSecurityProvider.java:203)
+	at weblogic.servlet.provider.WlsSubjectHandle.run(WlsSubjectHandle.java:71)
+	at weblogic.servlet.internal.EventsManager.executeContextListener(EventsManager.java:251)
+	at weblogic.servlet.internal.EventsManager.notifyContextCreatedEvent(EventsManager.java:204)
+	at weblogic.servlet.internal.EventsManager.notifyContextCreatedEvent(EventsManager.java:189)
+	at weblogic.servlet.internal.WebAppServletContext.preloadResources(WebAppServletContext.java:1921)
+	at weblogic.servlet.internal.WebAppServletContext.start(WebAppServletContext.java:3101)
+	at weblogic.servlet.internal.WebAppModule.startContexts(WebAppModule.java:1843)
+	at weblogic.servlet.internal.WebAppModule.start(WebAppModule.java:884)
+	at weblogic.application.internal.ExtensibleModuleWrapper$StartStateChange.next(ExtensibleModuleWrapper.java:360)
+	at weblogic.application.internal.ExtensibleModuleWrapper$StartStateChange.next(ExtensibleModuleWrapper.java:356)
+	at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:45)
+	at weblogic.application.internal.ExtensibleModuleWrapper.start(ExtensibleModuleWrapper.java:138)
+	at weblogic.application.internal.flow.ModuleListenerInvoker.start(ModuleListenerInvoker.java:124)
+	at weblogic.application.internal.flow.ModuleStateDriver$3.next(ModuleStateDriver.java:233)
+	at weblogic.application.internal.flow.ModuleStateDriver$3.next(ModuleStateDriver.java:228)
+	at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:45)
+	at weblogic.application.internal.flow.ModuleStateDriver.start(ModuleStateDriver.java:78)
+	at weblogic.application.internal.flow.StartModulesFlow.activate(StartModulesFlow.java:52)
+	at weblogic.application.internal.BaseDeployment$2.next(BaseDeployment.java:752)
+	at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:45)
+	at weblogic.application.internal.BaseDeployment.activate(BaseDeployment.java:262)
+	at weblogic.application.internal.SingleModuleDeployment.activate(SingleModuleDeployment.java:52)
+	at weblogic.application.internal.DeploymentStateChecker.activate(DeploymentStateChecker.java:165)
+	at weblogic.deploy.internal.targetserver.AppContainerInvoker.activate(AppContainerInvoker.java:90)
+	at weblogic.deploy.internal.targetserver.operations.AbstractOperation.activate(AbstractOperation.java:631)
+	at weblogic.deploy.internal.targetserver.operations.ActivateOperation.activateDeployment(ActivateOperation.java:171)
+	at weblogic.deploy.internal.targetserver.operations.ActivateOperation.doCommit(ActivateOperation.java:121)
+	at weblogic.deploy.internal.targetserver.operations.AbstractOperation.commit(AbstractOperation.java:348)
+	at weblogic.deploy.internal.targetserver.DeploymentManager.handleDeploymentCommit(DeploymentManager.java:907)
+	at weblogic.deploy.internal.targetserver.DeploymentManager.activateDeploymentList(DeploymentManager.java:1468)
+	at weblogic.deploy.internal.targetserver.DeploymentManager.handleCommit(DeploymentManager.java:459)
+	at weblogic.deploy.internal.targetserver.DeploymentServiceDispatcher.commit(DeploymentServiceDispatcher.java:181)
+	at weblogic.deploy.service.internal.targetserver.DeploymentReceiverCallbackDeliverer.doCommitCallback(DeploymentReceiverCallbackDeliverer.java:217)
+	at weblogic.deploy.service.internal.targetserver.DeploymentReceiverCallbackDeliverer.access$100(DeploymentReceiverCallbackDeliverer.java:14)
+	at weblogic.deploy.service.internal.targetserver.DeploymentReceiverCallbackDeliverer$2.run(DeploymentReceiverCallbackDeliverer.java:69)
+	at weblogic.work.SelfTuningWorkManagerImpl$WorkAdapterImpl.run(SelfTuningWorkManagerImpl.java:670)
+	at weblogic.invocation.ComponentInvocationContextManager._runAs(ComponentInvocationContextManager.java:352)
+	at weblogic.invocation.ComponentInvocationContextManager.runAs(ComponentInvocationContextManager.java:337)
+	at weblogic.work.LivePartitionUtility.doRunWorkUnderContext(LivePartitionUtility.java:57)
+	at weblogic.work.PartitionUtility.runWorkUnderContext(PartitionUtility.java:41)
+	at weblogic.work.SelfTuningWorkManagerImpl.runWorkUnderContext(SelfTuningWorkManagerImpl.java:644)
+	at weblogic.work.ExecuteThread.execute(ExecuteThread.java:415)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:355)
+log4j:ERROR Ignoring configuration file [file:/u01/weblogic/domains/domwebps01_dev/resources/portal_servicos/log4j.properties].
+log4j:WARN No appenders could be found for logger (org.springframework.web.context.ContextLoader).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+<Apr 20, 2021 7:09:24,972 PM GMT> <Warning> <JNDI> <BEA-050007> <An attempt was made to look up the non-versioned global resource "jms" from an application version "SascarPortalWeb (1) [Version=v_DEV_20201112]". This can potentially cause conflict of the global resource usages among multiple application versions.> 
+<Apr 20, 2021 7:10:02,436 PM GMT> <Notice> <Server> <BEA-002638> <Force shutdown was issued remotely from 172.17.0.2:7001.> 
+<Apr 20, 2021 7:10:02,436 PM GMT> <Notice> <WebLogicServer> <BEA-000396> <Server shutdown has been requested by weblogic.> 
+<Apr 20, 2021 7:10:02,472 PM GMT> <Notice> <WebLogicServer> <BEA-000365> <Server state changed to FORCE_SUSPENDING.> 
+<Apr 20, 2021 7:10:02,510 PM GMT> <Notice> <Cluster> <BEA-000163> <Stopping "async" replication service> 
+<Apr 20, 2021 7:10:02,564 PM GMT> <Notice> <WebLogicServer> <BEA-000365> <Server state changed to ADMIN.> 
+<Apr 20, 2021 7:10:02,570 PM GMT> <Notice> <WebLogicServer> <BEA-000365> <Server state changed to FORCE_SHUTTING_DOWN.> 
+<Apr 20, 2021 7:10:02,584 PM GMT> <Notice> <Log Management> <BEA-170037> <The log monitoring service timer has been stopped.> 
+Apr 20, 2021 7:10:02 PM weblogic.wsee.WseeCoreMessages logWseeServiceHalting
+INFO: The Wsee Service is halting
+<Apr 20, 2021 7:10:32,463 PM GMT> <Notice> <WebLogicServer> <BEA-000378> <The server failed to shut down within the configured timeout of 30 seconds. The server process will now exit.> 
+<Apr 20, 2021 7:10:32,531 PM GMT> <Error> <> <BEA-000000> <THREAD DUMP from JVM taken at 'Tue Apr 20 19:10:32 2021'
+
+
+2021-04-20 19:10:32
+Full thread dump Java HotSpot(TM) 64-Bit Server VM (25.241-b07 mixed mode):
+
+"Thread-43" #157 daemon prio=9 os_prio=0 tid=0x00007f85ac072800 nid=0x222 waiting on condition [0x00007f856cbd0000]
+   java.lang.Thread.State: TIMED_WAITING (sleeping)
+	at java.lang.Thread.sleep(Native Method)
+	at weblogic.t3.srvr.ServerLifeCycleTimerThread$1.run(ServerLifeCycleTimerThread.java:156)
+
+"Thread-42" #156 daemon prio=9 os_prio=0 tid=0x00007f85a58b3800 nid=0x221 waiting on condition [0x00007f85630e7000]
+   java.lang.Thread.State: RUNNABLE
+	at weblogic.platform.SunVM.fileThreadDump0(Native Method)
+	- locked <0x00000000e086a018> (a weblogic.platform.SunVM)
+	at weblogic.platform.SunVM.threadDump(SunVM.java:109)
+	at weblogic.platform.SunVM.threadDump(SunVM.java:142)
+	at weblogic.t3.srvr.SrvrUtilities.logThreadDump(SrvrUtilities.java:46)
+	at weblogic.t3.srvr.ServerLifeCycleTimerThread.run(ServerLifeCycleTimerThread.java:171)
+
+"[STANDBY] ExecuteThread: '26' for queue: 'weblogic.kernel.Default (self-tuning)'" #155 daemon prio=9 os_prio=0 tid=0x00007f8588019800 nid=0x21c in Object.wait() [0x00007f85639e8000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:323)
+	- locked <0x00000000e6fff798> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:383)
+
+"[STANDBY] ExecuteThread: '25' for queue: 'weblogic.kernel.Default (self-tuning)'" #154 daemon prio=9 os_prio=0 tid=0x00007f8588018800 nid=0x21b in Object.wait() [0x00007f8563ae9000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:323)
+	- locked <0x00000000e7000120> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:383)
+
+"[STANDBY] ExecuteThread: '24' for queue: 'weblogic.kernel.Default (self-tuning)'" #153 daemon prio=9 os_prio=0 tid=0x00007f8588014000 nid=0x21a in Object.wait() [0x00007f8563bea000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:323)
+	- locked <0x00000000e6f705c8> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:383)
+
+"[ACTIVE] ExecuteThread: '23' for queue: 'weblogic.kernel.Default (self-tuning)'" #152 daemon prio=5 os_prio=0 tid=0x00007f8588012000 nid=0x219 runnable [0x00007f8563ce9000]
+   java.lang.Thread.State: RUNNABLE
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	- locked <0x00000000f8209fa0> (a java.net.SocksSocketImpl)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:60)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:101)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:64)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:136)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:29)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:21)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:31)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:397)
+	at org.postgresql.Driver.connect(Driver.java:267)
+	at weblogic.jdbc.common.internal.ConnectionEnvFactory.makeConnection0(ConnectionEnvFactory.java:319)
+	at weblogic.jdbc.common.internal.ConnectionEnvFactory.access$000(ConnectionEnvFactory.java:20)
+	at weblogic.jdbc.common.internal.ConnectionEnvFactory$1.run(ConnectionEnvFactory.java:219)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at weblogic.jdbc.common.internal.ConnectionEnvFactory.makeConnection(ConnectionEnvFactory.java:216)
+	at weblogic.jdbc.common.internal.ConnectionEnvFactory.setConnection(ConnectionEnvFactory.java:143)
+	at weblogic.jdbc.common.internal.JDBCResourceFactoryImpl.createResource(JDBCResourceFactoryImpl.java:200)
+	at weblogic.common.resourcepool.ResourcePoolImpl.makeResource(ResourcePoolImpl.java:1537)
+	at weblogic.jdbc.common.internal.ConnectionPool.makeResource(ConnectionPool.java:777)
+	at weblogic.common.resourcepool.ResourcePoolImpl.makeResources(ResourcePoolImpl.java:1397)
+	at weblogic.common.resourcepool.ResourcePoolImpl.makeResources(ResourcePoolImpl.java:1340)
+	at weblogic.common.resourcepool.ResourcePoolImpl$ResourcePoolMaintanenceTask.timerExpired(ResourcePoolImpl.java:3192)
+	at weblogic.timers.internal.TimerImpl.run(TimerImpl.java:301)
+	at weblogic.work.SelfTuningWorkManagerImpl$WorkAdapterImpl.run(SelfTuningWorkManagerImpl.java:670)
+	at weblogic.invocation.ComponentInvocationContextManager._runAs(ComponentInvocationContextManager.java:352)
+	at weblogic.invocation.ComponentInvocationContextManager.runAs(ComponentInvocationContextManager.java:337)
+	at weblogic.work.LivePartitionUtility.doRunWorkUnderContext(LivePartitionUtility.java:57)
+	at weblogic.work.PartitionUtility.runWorkUnderContext(PartitionUtility.java:41)
+	at weblogic.work.SelfTuningWorkManagerImpl.runWorkUnderContext(SelfTuningWorkManagerImpl.java:644)
+	at weblogic.work.ExecuteThread.execute(ExecuteThread.java:415)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:355)
+
+"[ACTIVE] ExecuteThread: '22' for queue: 'weblogic.kernel.Default (self-tuning)'" #151 daemon prio=5 os_prio=0 tid=0x00007f8588010000 nid=0x218 in Object.wait() [0x00007f8563dec000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:323)
+	- locked <0x00000000e6f71a78> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:383)
+
+"[STANDBY] ExecuteThread: '21' for queue: 'weblogic.kernel.Default (self-tuning)'" #150 daemon prio=9 os_prio=0 tid=0x00007f858800e800 nid=0x217 in Object.wait() [0x00007f8563eed000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:323)
+	- locked <0x00000000e6f745c8> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:383)
+
+"[STANDBY] ExecuteThread: '20' for queue: 'weblogic.kernel.Default (self-tuning)'" #149 daemon prio=9 os_prio=0 tid=0x00007f858800c000 nid=0x216 in Object.wait() [0x00007f8563fee000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:323)
+	- locked <0x00000000e6f75020> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:383)
+
+"[STANDBY] ExecuteThread: '19' for queue: 'weblogic.kernel.Default (self-tuning)'" #148 daemon prio=9 os_prio=0 tid=0x00007f858800a000 nid=0x215 in Object.wait() [0x00007f85640ef000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:323)
+	- locked <0x00000000e6f75a78> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:383)
+
+"[STANDBY] ExecuteThread: '18' for queue: 'weblogic.kernel.Default (self-tuning)'" #147 daemon prio=9 os_prio=0 tid=0x00007f8588008000 nid=0x214 in Object.wait() [0x00007f85641f0000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:323)
+	- locked <0x00000000e6f7a5c8> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:383)
+
+"[STANDBY] ExecuteThread: '17' for queue: 'weblogic.kernel.Default (self-tuning)'" #146 daemon prio=9 os_prio=0 tid=0x00007f8588007000 nid=0x213 in Object.wait() [0x00007f85653f2000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:323)
+	- locked <0x00000000e6f7afb8> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:383)
+
+"[STANDBY] ExecuteThread: '16' for queue: 'weblogic.kernel.Default (self-tuning)'" #145 daemon prio=5 os_prio=0 tid=0x00007f8588006000 nid=0x212 in Object.wait() [0x00007f85cf17b000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:323)
+	- locked <0x00000000e6f7b9a8> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:383)
+
+"[ACTIVE] ExecuteThread: '15' for queue: 'weblogic.kernel.Default (self-tuning)'" #144 daemon prio=5 os_prio=0 tid=0x00007f8578061000 nid=0x211 runnable [0x00007f85654f1000]
+   java.lang.Thread.State: RUNNABLE
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	- locked <0x00000000f8498d40> (a java.net.SocksSocketImpl)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:60)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:101)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:64)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:136)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:29)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:21)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:31)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:397)
+	at org.postgresql.Driver.connect(Driver.java:267)
+	at weblogic.jdbc.common.internal.ConnectionEnvFactory.makeConnection0(ConnectionEnvFactory.java:319)
+	at weblogic.jdbc.common.internal.ConnectionEnvFactory.access$000(ConnectionEnvFactory.java:20)
+	at weblogic.jdbc.common.internal.ConnectionEnvFactory$1.run(ConnectionEnvFactory.java:219)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at weblogic.jdbc.common.internal.ConnectionEnvFactory.makeConnection(ConnectionEnvFactory.java:216)
+	at weblogic.jdbc.common.internal.ConnectionEnvFactory.setConnection(ConnectionEnvFactory.java:143)
+	at weblogic.jdbc.common.internal.JDBCResourceFactoryImpl.createResource(JDBCResourceFactoryImpl.java:200)
+	at weblogic.common.resourcepool.ResourcePoolImpl.makeResource(ResourcePoolImpl.java:1537)
+	at weblogic.jdbc.common.internal.ConnectionPool.makeResource(ConnectionPool.java:777)
+	at weblogic.common.resourcepool.ResourcePoolImpl.makeResources(ResourcePoolImpl.java:1397)
+	at weblogic.common.resourcepool.ResourcePoolImpl.makeResources(ResourcePoolImpl.java:1340)
+	at weblogic.common.resourcepool.ResourcePoolImpl$ResourcePoolMaintanenceTask.timerExpired(ResourcePoolImpl.java:3192)
+	at weblogic.timers.internal.TimerImpl.run(TimerImpl.java:301)
+	at weblogic.work.SelfTuningWorkManagerImpl$WorkAdapterImpl.run(SelfTuningWorkManagerImpl.java:670)
+	at weblogic.invocation.ComponentInvocationContextManager._runAs(ComponentInvocationContextManager.java:352)
+	at weblogic.invocation.ComponentInvocationContextManager.runAs(ComponentInvocationContextManager.java:337)
+	at weblogic.work.LivePartitionUtility.doRunWorkUnderContext(LivePartitionUtility.java:57)
+	at weblogic.work.PartitionUtility.runWorkUnderContext(PartitionUtility.java:41)
+	at weblogic.work.SelfTuningWorkManagerImpl.runWorkUnderContext(SelfTuningWorkManagerImpl.java:644)
+	at weblogic.work.ExecuteThread.execute(ExecuteThread.java:415)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:355)
+
+"[STANDBY] ExecuteThread: '14' for queue: 'weblogic.kernel.Default (self-tuning)'" #143 daemon prio=9 os_prio=0 tid=0x00007f8588005800 nid=0x210 in Object.wait() [0x00007f85652f1000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:323)
+	- locked <0x00000000e6f7d020> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:383)
+
+"Thread-41" #81 daemon prio=5 os_prio=0 tid=0x00007f85a4ad7000 nid=0x1d2 runnable [0x00007f85663f4000]
+   java.lang.Thread.State: RUNNABLE
+	at sun.nio.fs.LinuxWatchService.poll(Native Method)
+	at sun.nio.fs.LinuxWatchService.access$600(LinuxWatchService.java:47)
+	at sun.nio.fs.LinuxWatchService$Poller.run(LinuxWatchService.java:314)
+	at java.lang.Thread.run(Thread.java:748)
+
+"Timer-13" #79 daemon prio=5 os_prio=0 tid=0x00007f85a4663800 nid=0x1ce in Object.wait() [0x00007f8566cf5000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.util.TimerThread.mainLoop(Timer.java:552)
+	- locked <0x00000000e603ec60> (a java.util.TaskQueue)
+	at java.util.TimerThread.run(Timer.java:505)
+
+"Timer-12" #78 daemon prio=5 os_prio=0 tid=0x00007f85a4661800 nid=0x1cd in Object.wait() [0x00007f8566df6000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.util.TimerThread.mainLoop(Timer.java:552)
+	- locked <0x00000000e60657c8> (a java.util.TaskQueue)
+	at java.util.TimerThread.run(Timer.java:505)
+
+"Timer-11" #77 daemon prio=5 os_prio=0 tid=0x00007f85a465f800 nid=0x1cc in Object.wait() [0x00007f8566ef7000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.util.TimerThread.mainLoop(Timer.java:552)
+	- locked <0x00000000e6066330> (a java.util.TaskQueue)
+	at java.util.TimerThread.run(Timer.java:505)
+
+"Timer-10" #76 daemon prio=5 os_prio=0 tid=0x00007f85a465d800 nid=0x1cb in Object.wait() [0x00007f8566ff8000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.util.TimerThread.mainLoop(Timer.java:552)
+	- locked <0x00000000e6066e98> (a java.util.TaskQueue)
+	at java.util.TimerThread.run(Timer.java:505)
+
+"Timer-9" #75 daemon prio=5 os_prio=0 tid=0x00007f85a464e800 nid=0x1ca in Object.wait() [0x00007f85670f9000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.util.TimerThread.mainLoop(Timer.java:552)
+	- locked <0x00000000e6067a20> (a java.util.TaskQueue)
+	at java.util.TimerThread.run(Timer.java:505)
+
+"Timer-8" #74 daemon prio=5 os_prio=0 tid=0x00007f85a464c800 nid=0x1c9 in Object.wait() [0x00007f85671fa000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.util.TimerThread.mainLoop(Timer.java:552)
+	- locked <0x00000000e6068588> (a java.util.TaskQueue)
+	at java.util.TimerThread.run(Timer.java:505)
+
+"Timer-7" #73 daemon prio=5 os_prio=0 tid=0x00007f85a464b000 nid=0x1c8 in Object.wait() [0x00007f85672fb000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.util.TimerThread.mainLoop(Timer.java:552)
+	- locked <0x00000000e6069100> (a java.util.TaskQueue)
+	at java.util.TimerThread.run(Timer.java:505)
+
+"Timer-6" #72 daemon prio=5 os_prio=0 tid=0x00007f85a4649000 nid=0x1c7 in Object.wait() [0x00007f85673fc000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.util.TimerThread.mainLoop(Timer.java:552)
+	- locked <0x00000000e6069c68> (a java.util.TaskQueue)
+	at java.util.TimerThread.run(Timer.java:505)
+
+"Timer-5" #71 daemon prio=5 os_prio=0 tid=0x00007f85a4669800 nid=0x1c6 in Object.wait() [0x00007f85674fd000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.util.TimerThread.mainLoop(Timer.java:552)
+	- locked <0x00000000e606a7d0> (a java.util.TaskQueue)
+	at java.util.TimerThread.run(Timer.java:505)
+
+"weblogic.cluster.MessageReceiver" #70 daemon prio=5 os_prio=0 tid=0x00007f8598632000 nid=0x1c5 in Object.wait() [0x00007f85675fe000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at weblogic.cluster.messaging.internal.server.UnicastFragmentSocket.receive(UnicastFragmentSocket.java:107)
+	- locked <0x00000000e213a2f8> (a java.util.ArrayList)
+	at weblogic.cluster.FragmentSocketWrapper.receive(FragmentSocketWrapper.java:91)
+	at weblogic.cluster.ClusterMessagesManager.run(ClusterMessagesManager.java:496)
+	at java.lang.Thread.run(Thread.java:748)
+
+"LDAPConnThread-1 ldaps://172.17.0.2:7001" #69 daemon prio=5 os_prio=0 tid=0x00007f85a0009000 nid=0x1c2 runnable [0x00007f856c19f000]
+   java.lang.Thread.State: RUNNABLE
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	- locked <0x00000000e53c45e8> (a java.io.BufferedInputStream)
+	at netscape.ldap.ber.stream.BERElement.getElement(Unknown Source)
+	at netscape.ldap.LDAPConnThread.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:748)
+
+"[ACTIVE] ExecuteThread: '13' for queue: 'weblogic.kernel.Default (self-tuning)'" #68 daemon prio=5 os_prio=0 tid=0x00007f8580f2a000 nid=0x1c1 in Object.wait() [0x00007f856c6a0000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:323)
+	- locked <0x00000000e3fa32f8> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:383)
+
+"[ACTIVE] ExecuteThread: '12' for queue: 'weblogic.kernel.Default (self-tuning)'" #67 daemon prio=5 os_prio=0 tid=0x00007f8580f28000 nid=0x1c0 runnable [0x00007f856c79f000]
+   java.lang.Thread.State: RUNNABLE
+	at sun.nio.ch.Net.connect0(Native Method)
+	at sun.nio.ch.Net.connect(Net.java:454)
+	at sun.nio.ch.Net.connect(Net.java:446)
+	at sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:648)
+	- locked <0x00000000f7c024f8> (a java.lang.Object)
+	- locked <0x00000000f7c02518> (a java.lang.Object)
+	- locked <0x00000000f7c02508> (a java.lang.Object)
+	at java.nio.channels.SocketChannel.open(SocketChannel.java:189)
+	at oracle.net.nt.TimeoutSocketChannel.<init>(TimeoutSocketChannel.java:81)
+	at oracle.net.nt.TcpNTAdapter.connect(TcpNTAdapter.java:169)
+	at oracle.net.nt.ConnOption.connect(ConnOption.java:161)
+	at oracle.net.nt.ConnStrategy.execute(ConnStrategy.java:470)
+	at oracle.net.resolver.AddrResolution.resolveAndExecute(AddrResolution.java:521)
+	at oracle.net.ns.NSProtocol.establishConnection(NSProtocol.java:660)
+	at oracle.net.ns.NSProtocol.connect(NSProtocol.java:286)
+	at oracle.jdbc.driver.T4CConnection.connect(T4CConnection.java:1438)
+	at oracle.jdbc.driver.T4CConnection.logon(T4CConnection.java:518)
+	at oracle.jdbc.driver.PhysicalConnection.connect(PhysicalConnection.java:702)
+	at oracle.jdbc.driver.T4CDriverExtension.getConnection(T4CDriverExtension.java:39)
+	at oracle.jdbc.driver.OracleDriver.connect(OracleDriver.java:691)
+	at weblogic.jdbc.common.internal.ConnectionEnvFactory.makeConnection0(ConnectionEnvFactory.java:319)
+	at weblogic.jdbc.common.internal.ConnectionEnvFactory.access$000(ConnectionEnvFactory.java:20)
+	at weblogic.jdbc.common.internal.ConnectionEnvFactory$1.run(ConnectionEnvFactory.java:219)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at weblogic.jdbc.common.internal.ConnectionEnvFactory.makeConnection(ConnectionEnvFactory.java:216)
+	at weblogic.jdbc.common.internal.ConnectionEnvFactory.setConnection(ConnectionEnvFactory.java:143)
+	at weblogic.jdbc.common.internal.JDBCResourceFactoryImpl.createResource(JDBCResourceFactoryImpl.java:200)
+	at weblogic.common.resourcepool.ResourcePoolImpl.makeResource(ResourcePoolImpl.java:1537)
+	at weblogic.jdbc.common.internal.ConnectionPool.makeResource(ConnectionPool.java:777)
+	at weblogic.common.resourcepool.ResourcePoolImpl.makeResources(ResourcePoolImpl.java:1397)
+	at weblogic.common.resourcepool.ResourcePoolImpl.makeResources(ResourcePoolImpl.java:1340)
+	at weblogic.common.resourcepool.ResourcePoolImpl$ResourcePoolMaintanenceTask.timerExpired(ResourcePoolImpl.java:3192)
+	at weblogic.timers.internal.TimerImpl.run(TimerImpl.java:301)
+	at weblogic.work.SelfTuningWorkManagerImpl$WorkAdapterImpl.run(SelfTuningWorkManagerImpl.java:670)
+	at weblogic.invocation.ComponentInvocationContextManager._runAs(ComponentInvocationContextManager.java:352)
+	at weblogic.invocation.ComponentInvocationContextManager.runAs(ComponentInvocationContextManager.java:337)
+	at weblogic.work.LivePartitionUtility.doRunWorkUnderContext(LivePartitionUtility.java:57)
+	at weblogic.work.PartitionUtility.runWorkUnderContext(PartitionUtility.java:41)
+	at weblogic.work.SelfTuningWorkManagerImpl.runWorkUnderContext(SelfTuningWorkManagerImpl.java:644)
+	at weblogic.work.ExecuteThread.execute(ExecuteThread.java:415)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:355)
+
+"[STANDBY] ExecuteThread: '11' for queue: 'weblogic.kernel.Default (self-tuning)'" #66 daemon prio=9 os_prio=0 tid=0x00007f8580f27800 nid=0x1bf in Object.wait() [0x00007f856c8a2000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:323)
+	- locked <0x00000000e3fa48c0> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:383)
+
+"GENERIC" #64 daemon prio=5 os_prio=0 tid=0x00007f8580ddf800 nid=0x1bb in Object.wait() [0x00007f856d6d3000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at java.util.TimerThread.mainLoop(Timer.java:526)
+	- locked <0x00000000e4239b58> (a java.util.TaskQueue)
+	at java.util.TimerThread.run(Timer.java:505)
+
+"InterruptTimer" #63 daemon prio=5 os_prio=0 tid=0x00007f8580bc1800 nid=0x1ba in Object.wait() [0x00007f856e1f4000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at java.util.TimerThread.mainLoop(Timer.java:526)
+	- locked <0x00000000e423a8c8> (a java.util.TaskQueue)
+	at java.util.TimerThread.run(Timer.java:505)
+
+"oracle.jdbc.driver.BlockSource.ThreadedCachingBlockSource.BlockReleaser" #62 daemon prio=4 os_prio=0 tid=0x00007f8580b6f000 nid=0x1b9 in Object.wait() [0x00007f856e2f5000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at oracle.jdbc.driver.BlockSource$ThreadedCachingBlockSource$BlockReleaser.run(BlockSource.java:329)
+	- locked <0x00000000e425d0f8> (a oracle.jdbc.driver.BlockSource$ThreadedCachingBlockSource$BlockReleaser)
+
+"Timer-4" #61 daemon prio=5 os_prio=0 tid=0x00007f8580b6a000 nid=0x1b8 in Object.wait() [0x00007f856e3f6000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000000e3eb9b00> (a java.util.TaskQueue)
+	at java.lang.Object.wait(Object.java:502)
+	at java.util.TimerThread.mainLoop(Timer.java:526)
+	- locked <0x00000000e3eb9b00> (a java.util.TaskQueue)
+	at java.util.TimerThread.run(Timer.java:505)
+
+"Abandoned connection cleanup thread" #60 daemon prio=5 os_prio=0 tid=0x00007f858054c800 nid=0x1b7 in Object.wait() [0x00007f856eaf7000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000000e3756b58> (a java.lang.ref.ReferenceQueue$Lock)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+	- locked <0x00000000e3756b58> (a java.lang.ref.ReferenceQueue$Lock)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:165)
+	at com.mysql.jdbc.NonRegisteringDriver$1.run(NonRegisteringDriver.java:93)
+
+"[STANDBY] ExecuteThread: '10' for queue: 'weblogic.kernel.Default (self-tuning)'" #59 daemon prio=9 os_prio=0 tid=0x00007f85809fd000 nid=0x1b6 in Object.wait() [0x00007f856eff8000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:323)
+	- locked <0x00000000e374aa78> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:383)
+
+"[ACTIVE] ExecuteThread: '9' for queue: 'weblogic.kernel.Default (self-tuning)'" #58 daemon prio=9 os_prio=0 tid=0x00007f8580a1f000 nid=0x1b5 waiting on condition [0x00007f856f0f8000]
+   java.lang.Thread.State: TIMED_WAITING (sleeping)
+	at java.lang.Thread.sleep(Native Method)
+	at weblogic.common.resourcepool.ResourcePoolImpl.syncWithPoolMaintTask(ResourcePoolImpl.java:2456)
+	at weblogic.common.resourcepool.ResourcePoolImpl.stopPoolMaintenance(ResourcePoolImpl.java:1605)
+	at weblogic.common.resourcepool.ResourcePoolImpl.shutdown(ResourcePoolImpl.java:320)
+	at weblogic.jdbc.common.internal.ConnectionPool.shutdown(ConnectionPool.java:381)
+	at weblogic.jdbc.common.internal.ConnectionPoolManager.shutdownAndRemoveConnectionPool(ConnectionPoolManager.java:772)
+	at weblogic.jdbc.common.internal.ConnectionPoolManager.shutdownConnectionPool(ConnectionPoolManager.java:753)
+	at weblogic.jdbc.common.internal.ConnectionPoolManager.shutdownAndDestroyPool(ConnectionPoolManager.java:719)
+	at weblogic.jdbc.common.internal.ConnectionPoolManager.shutdownAndDestroyPool(ConnectionPoolManager.java:630)
+	at weblogic.jdbc.module.JDBCModule.unprepare(JDBCModule.java:585)
+	at weblogic.application.internal.flow.ModuleListenerInvoker.unprepare(ModuleListenerInvoker.java:143)
+	at weblogic.application.internal.flow.ModuleStateDriver$1.previous(ModuleStateDriver.java:196)
+	at weblogic.application.internal.flow.ModuleStateDriver$1.previous(ModuleStateDriver.java:187)
+	at weblogic.application.utils.StateMachineDriver.previousState(StateMachineDriver.java:207)
+	at weblogic.application.utils.StateMachineDriver.previousState(StateMachineDriver.java:193)
+	at weblogic.application.internal.flow.ModuleStateDriver.unprepare(ModuleStateDriver.java:114)
+	at weblogic.application.internal.flow.DeploymentCallbackFlow.unprepare(DeploymentCallbackFlow.java:127)
+	at weblogic.application.internal.BaseDeployment$1.previous(BaseDeployment.java:735)
+	at weblogic.application.utils.StateMachineDriver.previousState(StateMachineDriver.java:207)
+	at weblogic.application.utils.StateMachineDriver.previousState(StateMachineDriver.java:193)
+	at weblogic.application.internal.BaseDeployment.unprepare(BaseDeployment.java:308)
+	at weblogic.application.internal.SingleModuleDeployment.unprepare(SingleModuleDeployment.java:52)
+	at weblogic.application.internal.DeploymentStateChecker.unprepare(DeploymentStateChecker.java:209)
+	at weblogic.deploy.internal.targetserver.AppContainerInvoker.unprepare(AppContainerInvoker.java:135)
+	at weblogic.deploy.internal.targetserver.BasicDeployment.unprepare(BasicDeployment.java:385)
+	at weblogic.deploy.internal.targetserver.BasicDeployment.unprepareFromServerLifecycle(BasicDeployment.java:673)
+	at weblogic.management.deploy.internal.DeploymentAdapter$1.doUnprepare(DeploymentAdapter.java:83)
+	at weblogic.management.deploy.internal.DeploymentAdapter.unprepare(DeploymentAdapter.java:226)
+	at weblogic.management.deploy.internal.AppTransition$7.transitionApp(AppTransition.java:106)
+	at weblogic.management.deploy.internal.ConfiguredDeployments.transitionApps(ConfiguredDeployments.java:794)
+	at weblogic.management.deploy.internal.ConfiguredDeployments.unprepare(ConfiguredDeployments.java:475)
+	at weblogic.management.deploy.internal.ConfiguredDeployments.undeploy(ConfiguredDeployments.java:454)
+	at weblogic.management.deploy.internal.DeploymentShutdownService.doShutdown(DeploymentShutdownService.java:103)
+	at weblogic.management.deploy.internal.DeploymentShutdownService.halt(DeploymentShutdownService.java:118)
+	at weblogic.server.AbstractServerService.preDestroy(AbstractServerService.java:117)
+	at sun.reflect.GeneratedMethodAccessor169.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.hk2.utilities.reflection.ReflectionHelper.invoke(ReflectionHelper.java:1287)
+	at org.jvnet.hk2.internal.ClazzCreator.preDestroyMe(ClazzCreator.java:346)
+	at org.jvnet.hk2.internal.ClazzCreator.dispose(ClazzCreator.java:405)
+	at org.jvnet.hk2.internal.SystemDescriptor.dispose(SystemDescriptor.java:542)
+	at org.glassfish.hk2.runlevel.internal.AsyncRunLevelContext.destroyOne(AsyncRunLevelContext.java:427)
+	at org.glassfish.hk2.runlevel.RunLevelContext.destroyOne(RunLevelContext.java:101)
+	at org.jvnet.hk2.internal.ServiceHandleImpl.destroy(ServiceHandleImpl.java:189)
+	at org.glassfish.hk2.runlevel.internal.CurrentTaskFuture$DownQueueRunner.run(CurrentTaskFuture.java:1294)
+	at weblogic.work.SelfTuningWorkManagerImpl$WorkAdapterImpl.run(SelfTuningWorkManagerImpl.java:670)
+	at weblogic.invocation.ComponentInvocationContextManager._runAs(ComponentInvocationContextManager.java:352)
+	at weblogic.invocation.ComponentInvocationContextManager.runAs(ComponentInvocationContextManager.java:337)
+	at weblogic.work.LivePartitionUtility.doRunWorkUnderContext(LivePartitionUtility.java:57)
+	at weblogic.work.PartitionUtility.runWorkUnderContext(PartitionUtility.java:41)
+	at weblogic.work.SelfTuningWorkManagerImpl.runWorkUnderContext(SelfTuningWorkManagerImpl.java:644)
+	at weblogic.work.ExecuteThread.execute(ExecuteThread.java:415)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:355)
+
+"[STANDBY] ExecuteThread: '8' for queue: 'weblogic.kernel.Default (self-tuning)'" #57 daemon prio=9 os_prio=0 tid=0x00007f8580a1d000 nid=0x1b4 in Object.wait() [0x00007f856f1fa000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:323)
+	- locked <0x00000000e374b048> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:383)
+
+"[ACTIVE] ExecuteThread: '7' for queue: 'weblogic.kernel.Default (self-tuning)'" #56 daemon prio=5 os_prio=0 tid=0x00007f8580a1b000 nid=0x1b3 runnable [0x00007f856f2f9000]
+   java.lang.Thread.State: RUNNABLE
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	- locked <0x00000000f84f6c10> (a java.net.SocksSocketImpl)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:60)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:101)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:64)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:136)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:29)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:21)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:31)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:397)
+	at org.postgresql.Driver.connect(Driver.java:267)
+	at weblogic.jdbc.common.internal.ConnectionEnvFactory.makeConnection0(ConnectionEnvFactory.java:319)
+	at weblogic.jdbc.common.internal.ConnectionEnvFactory.access$000(ConnectionEnvFactory.java:20)
+	at weblogic.jdbc.common.internal.ConnectionEnvFactory$1.run(ConnectionEnvFactory.java:219)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at weblogic.jdbc.common.internal.ConnectionEnvFactory.makeConnection(ConnectionEnvFactory.java:216)
+	at weblogic.jdbc.common.internal.ConnectionEnvFactory.setConnection(ConnectionEnvFactory.java:143)
+	at weblogic.jdbc.common.internal.JDBCResourceFactoryImpl.createResource(JDBCResourceFactoryImpl.java:200)
+	at weblogic.common.resourcepool.ResourcePoolImpl.makeResource(ResourcePoolImpl.java:1537)
+	at weblogic.jdbc.common.internal.ConnectionPool.makeResource(ConnectionPool.java:777)
+	at weblogic.common.resourcepool.ResourcePoolImpl.makeResources(ResourcePoolImpl.java:1397)
+	at weblogic.common.resourcepool.ResourcePoolImpl.makeResources(ResourcePoolImpl.java:1340)
+	at weblogic.common.resourcepool.ResourcePoolImpl$ResourcePoolMaintanenceTask.timerExpired(ResourcePoolImpl.java:3192)
+	at weblogic.timers.internal.TimerImpl.run(TimerImpl.java:301)
+	at weblogic.work.SelfTuningWorkManagerImpl$WorkAdapterImpl.run(SelfTuningWorkManagerImpl.java:670)
+	at weblogic.invocation.ComponentInvocationContextManager._runAs(ComponentInvocationContextManager.java:352)
+	at weblogic.invocation.ComponentInvocationContextManager.runAs(ComponentInvocationContextManager.java:337)
+	at weblogic.work.LivePartitionUtility.doRunWorkUnderContext(LivePartitionUtility.java:57)
+	at weblogic.work.PartitionUtility.runWorkUnderContext(PartitionUtility.java:41)
+	at weblogic.work.SelfTuningWorkManagerImpl.runWorkUnderContext(SelfTuningWorkManagerImpl.java:644)
+	at weblogic.work.ExecuteThread.execute(ExecuteThread.java:415)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:355)
+
+"[ACTIVE] ExecuteThread: '6' for queue: 'weblogic.kernel.Default (self-tuning)'" #55 daemon prio=5 os_prio=0 tid=0x00007f8580a19000 nid=0x1b2 runnable [0x00007f856f3fa000]
+   java.lang.Thread.State: RUNNABLE
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	- locked <0x00000000f84d2318> (a java.net.SocksSocketImpl)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:60)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:101)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:64)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:136)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:29)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:21)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:31)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:397)
+	at org.postgresql.Driver.connect(Driver.java:267)
+	at weblogic.jdbc.common.internal.ConnectionEnvFactory.makeConnection0(ConnectionEnvFactory.java:319)
+	at weblogic.jdbc.common.internal.ConnectionEnvFactory.access$000(ConnectionEnvFactory.java:20)
+	at weblogic.jdbc.common.internal.ConnectionEnvFactory$1.run(ConnectionEnvFactory.java:219)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at weblogic.jdbc.common.internal.ConnectionEnvFactory.makeConnection(ConnectionEnvFactory.java:216)
+	at weblogic.jdbc.common.internal.ConnectionEnvFactory.setConnection(ConnectionEnvFactory.java:143)
+	at weblogic.jdbc.common.internal.JDBCResourceFactoryImpl.createResource(JDBCResourceFactoryImpl.java:200)
+	at weblogic.common.resourcepool.ResourcePoolImpl.makeResource(ResourcePoolImpl.java:1537)
+	at weblogic.jdbc.common.internal.ConnectionPool.makeResource(ConnectionPool.java:777)
+	at weblogic.common.resourcepool.ResourcePoolImpl.makeResources(ResourcePoolImpl.java:1397)
+	at weblogic.common.resourcepool.ResourcePoolImpl.makeResources(ResourcePoolImpl.java:1340)
+	at weblogic.common.resourcepool.ResourcePoolImpl$ResourcePoolMaintanenceTask.timerExpired(ResourcePoolImpl.java:3192)
+	at weblogic.timers.internal.TimerImpl.run(TimerImpl.java:301)
+	at weblogic.work.SelfTuningWorkManagerImpl$WorkAdapterImpl.run(SelfTuningWorkManagerImpl.java:670)
+	at weblogic.invocation.ComponentInvocationContextManager._runAs(ComponentInvocationContextManager.java:352)
+	at weblogic.invocation.ComponentInvocationContextManager.runAs(ComponentInvocationContextManager.java:337)
+	at weblogic.work.LivePartitionUtility.doRunWorkUnderContext(LivePartitionUtility.java:57)
+	at weblogic.work.PartitionUtility.runWorkUnderContext(PartitionUtility.java:41)
+	at weblogic.work.SelfTuningWorkManagerImpl.runWorkUnderContext(SelfTuningWorkManagerImpl.java:644)
+	at weblogic.work.ExecuteThread.execute(ExecuteThread.java:415)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:355)
+
+"[ACTIVE] ExecuteThread: '5' for queue: 'weblogic.kernel.Default (self-tuning)'" #54 daemon prio=5 os_prio=0 tid=0x00007f8580a18800 nid=0x1b1 in Object.wait() [0x00007f856f4fd000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:323)
+	- locked <0x00000000e3679ff8> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:383)
+
+"weblogic.GCMonitor" #53 daemon prio=5 os_prio=0 tid=0x00007f858022b800 nid=0x1b0 in Object.wait() [0x00007f856f7fe000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+	- locked <0x00000000e367d280> (a java.lang.ref.ReferenceQueue$Lock)
+	at weblogic.platform.GCMonitorThread.waitForNotification(GCMonitorThread.java:86)
+	at weblogic.platform.GCMonitorThread.run(GCMonitorThread.java:62)
+
+"LDAPConnThread-0 ldaps://172.17.0.2:7001" #52 daemon prio=5 os_prio=0 tid=0x00007f8598609800 nid=0x1af runnable [0x00007f858c1d5000]
+   java.lang.Thread.State: RUNNABLE
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:171)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	- locked <0x00000000e367d4d8> (a java.io.BufferedInputStream)
+	at netscape.ldap.ber.stream.BERElement.getElement(Unknown Source)
+	at netscape.ldap.LDAPConnThread.run(Unknown Source)
+	at java.lang.Thread.run(Thread.java:748)
+
+"Thread-26" #51 prio=5 os_prio=0 tid=0x00007f859c301000 nid=0x1ac waiting on condition [0x00007f858dce7000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x00000000e31821a0> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at weblogic.utils.concurrent.JDK15ConcurrentBlockingQueue.take(JDK15ConcurrentBlockingQueue.java:89)
+	at weblogic.store.internal.PersistentStoreImpl.getOutstandingWork(PersistentStoreImpl.java:841)
+	at weblogic.store.internal.PersistentStoreImpl.synchronousFlush(PersistentStoreImpl.java:1241)
+	at weblogic.store.internal.PersistentStoreImpl.run(PersistentStoreImpl.java:1233)
+	at java.lang.Thread.run(Thread.java:748)
+
+"Timer-3" #50 daemon prio=5 os_prio=0 tid=0x00007f859821c800 nid=0x1ab in Object.wait() [0x00007f858dbd9000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.util.TimerThread.mainLoop(Timer.java:552)
+	- locked <0x00000000e2158a88> (a java.util.TaskQueue)
+	at java.util.TimerThread.run(Timer.java:505)
+
+"DoSManager" #49 daemon prio=6 os_prio=0 tid=0x00007f857800e000 nid=0x1aa waiting on condition [0x00007f858dad8000]
+   java.lang.Thread.State: TIMED_WAITING (sleeping)
+	at java.lang.Thread.sleep(Native Method)
+	at com.octetstring.vde.DoSManager.run(DoSManager.java:433)
+
+"Thread-23" #46 daemon prio=5 os_prio=0 tid=0x00007f859c3bf000 nid=0x1a8 runnable [0x00007f858dfe8000]
+   java.lang.Thread.State: RUNNABLE
+	at weblogic.nodemanager.NMService.rotateLogFiles0(Native Method)
+	at weblogic.nodemanager.NMService.access$1300(NMService.java:78)
+	at weblogic.nodemanager.NMService$1.run(NMService.java:576)
+
+"NM Reaper" #45 daemon prio=5 os_prio=0 tid=0x00007f859c3b9000 nid=0x1a7 in Object.wait() [0x00007f858e0e9000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.util.TimerThread.mainLoop(Timer.java:552)
+	- locked <0x00000000e23680d0> (a java.util.TaskQueue)
+	at java.util.TimerThread.run(Timer.java:505)
+
+"Thread-21" #44 prio=5 os_prio=0 tid=0x00007f859c3ac800 nid=0x1a6 waiting on condition [0x00007f858e3f0000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x00000000e1dbfe68> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.LinkedBlockingQueue.take(LinkedBlockingQueue.java:442)
+	at weblogic.utils.concurrent.JDK15ConcurrentBlockingQueue.take(JDK15ConcurrentBlockingQueue.java:89)
+	at weblogic.store.internal.PersistentStoreImpl.getOutstandingWork(PersistentStoreImpl.java:841)
+	at weblogic.store.internal.PersistentStoreImpl.synchronousFlush(PersistentStoreImpl.java:1241)
+	at weblogic.store.internal.PersistentStoreImpl.run(PersistentStoreImpl.java:1233)
+	at java.lang.Thread.run(Thread.java:748)
+
+"VDE Transaction Processor Thread" #43 daemon prio=2 os_prio=0 tid=0x00007f85802ee800 nid=0x1a5 in Object.wait() [0x00007f858e7f6000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at com.octetstring.vde.backend.standard.TransactionProcessor.waitChange(TransactionProcessor.java:429)
+	- locked <0x00000000e27c6bf8> (a com.octetstring.vde.backend.standard.TransactionProcessor)
+	at com.octetstring.vde.backend.standard.TransactionProcessor.run(TransactionProcessor.java:216)
+
+"weblogic.socket.ServerListenThread" #38 daemon prio=5 os_prio=0 tid=0x00007f85a453a800 nid=0x1a4 runnable [0x00007f858ecf7000]
+   java.lang.Thread.State: RUNNABLE
+	at sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+	at sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)
+	at sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+	- locked <0x00000000e25cf5c0> (a sun.nio.ch.Util$3)
+	- locked <0x00000000e25cf5b0> (a java.util.Collections$UnmodifiableSet)
+	- locked <0x00000000e25cf498> (a sun.nio.ch.EPollSelectorImpl)
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:101)
+	at weblogic.server.channels.ServerListenThread.selectFrom(ServerListenThread.java:241)
+	at weblogic.server.channels.ServerListenThread.processSockets(ServerListenThread.java:137)
+	at weblogic.server.channels.ServerListenThread.run(ServerListenThread.java:114)
+
+"[STANDBY] ExecuteThread: '4' for queue: 'weblogic.kernel.Default (self-tuning)'" #37 daemon prio=9 os_prio=0 tid=0x00007f8578001800 nid=0x1a3 in Object.wait() [0x00007f858edf8000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:323)
+	- locked <0x00000000e27c7068> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:383)
+
+"ExecuteThread: '3' for queue: 'weblogic.socket.Muxer'" #36 daemon prio=5 os_prio=0 tid=0x00007f859c1af800 nid=0x1a2 runnable [0x00007f858eef9000]
+   java.lang.Thread.State: RUNNABLE
+	at sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+	at sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)
+	at sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+	- locked <0x00000000e1ea2138> (a sun.nio.ch.Util$3)
+	- locked <0x00000000e1ea2128> (a java.util.Collections$UnmodifiableSet)
+	- locked <0x00000000e1ea2000> (a sun.nio.ch.EPollSelectorImpl)
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:101)
+	at weblogic.socket.NIOSocketMuxer.selectFrom(NIOSocketMuxer.java:653)
+	at weblogic.socket.NIOSocketMuxer.processSockets(NIOSocketMuxer.java:560)
+	at weblogic.socket.SocketReaderRequest.run(SocketReaderRequest.java:30)
+	at weblogic.socket.SocketReaderRequest.execute(SocketReaderRequest.java:43)
+	at weblogic.kernel.ExecuteThread.execute(ExecuteThread.java:147)
+	at weblogic.kernel.ExecuteThread.run(ExecuteThread.java:119)
+
+"ExecuteThread: '2' for queue: 'weblogic.socket.Muxer'" #35 daemon prio=5 os_prio=0 tid=0x00007f859c1ae000 nid=0x1a1 runnable [0x00007f858effa000]
+   java.lang.Thread.State: RUNNABLE
+	at sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+	at sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)
+	at sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+	- locked <0x00000000e1eabca0> (a sun.nio.ch.Util$3)
+	- locked <0x00000000e1eabc90> (a java.util.Collections$UnmodifiableSet)
+	- locked <0x00000000e1eabb78> (a sun.nio.ch.EPollSelectorImpl)
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:101)
+	at weblogic.socket.NIOSocketMuxer.selectFrom(NIOSocketMuxer.java:653)
+	at weblogic.socket.NIOSocketMuxer.processSockets(NIOSocketMuxer.java:560)
+	at weblogic.socket.SocketReaderRequest.run(SocketReaderRequest.java:30)
+	at weblogic.socket.SocketReaderRequest.execute(SocketReaderRequest.java:43)
+	at weblogic.kernel.ExecuteThread.execute(ExecuteThread.java:147)
+	at weblogic.kernel.ExecuteThread.run(ExecuteThread.java:119)
+
+"ExecuteThread: '1' for queue: 'weblogic.socket.Muxer'" #34 daemon prio=5 os_prio=0 tid=0x00007f859c1a2800 nid=0x1a0 runnable [0x00007f858f2fb000]
+   java.lang.Thread.State: RUNNABLE
+	at sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+	at sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)
+	at sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+	- locked <0x00000000e1ead888> (a sun.nio.ch.Util$3)
+	- locked <0x00000000e1ead878> (a java.util.Collections$UnmodifiableSet)
+	- locked <0x00000000e1ead760> (a sun.nio.ch.EPollSelectorImpl)
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:101)
+	at weblogic.socket.NIOSocketMuxer.selectFrom(NIOSocketMuxer.java:653)
+	at weblogic.socket.NIOSocketMuxer.processSockets(NIOSocketMuxer.java:560)
+	at weblogic.socket.SocketReaderRequest.run(SocketReaderRequest.java:30)
+	at weblogic.socket.SocketReaderRequest.execute(SocketReaderRequest.java:43)
+	at weblogic.kernel.ExecuteThread.execute(ExecuteThread.java:147)
+	at weblogic.kernel.ExecuteThread.run(ExecuteThread.java:119)
+
+"ExecuteThread: '0' for queue: 'weblogic.socket.Muxer'" #33 daemon prio=5 os_prio=0 tid=0x00007f859c1a1800 nid=0x19f runnable [0x00007f85cdb1c000]
+   java.lang.Thread.State: RUNNABLE
+	at sun.nio.ch.EPollArrayWrapper.epollWait(Native Method)
+	at sun.nio.ch.EPollArrayWrapper.poll(EPollArrayWrapper.java:269)
+	at sun.nio.ch.EPollSelectorImpl.doSelect(EPollSelectorImpl.java:93)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(SelectorImpl.java:86)
+	- locked <0x00000000e2602278> (a sun.nio.ch.Util$3)
+	- locked <0x00000000e2602268> (a java.util.Collections$UnmodifiableSet)
+	- locked <0x00000000e2602070> (a sun.nio.ch.EPollSelectorImpl)
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:97)
+	at sun.nio.ch.SelectorImpl.select(SelectorImpl.java:101)
+	at weblogic.socket.NIOSocketMuxer.selectFrom(NIOSocketMuxer.java:653)
+	at weblogic.socket.NIOSocketMuxer.processSockets(NIOSocketMuxer.java:560)
+	at weblogic.socket.SocketReaderRequest.run(SocketReaderRequest.java:30)
+	at weblogic.socket.SocketReaderRequest.execute(SocketReaderRequest.java:43)
+	at weblogic.kernel.ExecuteThread.execute(ExecuteThread.java:147)
+	at weblogic.kernel.ExecuteThread.run(ExecuteThread.java:119)
+
+"[STANDBY] ExecuteThread: '3' for queue: 'weblogic.kernel.Default (self-tuning)'" #32 daemon prio=9 os_prio=0 tid=0x00007f8580272000 nid=0x19e in Object.wait() [0x00007f85cdc1d000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at weblogic.work.ExecuteThread.waitForRequest(ExecuteThread.java:323)
+	- locked <0x00000000e27c6818> (a weblogic.work.ExecuteThread)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:383)
+
+"[ACTIVE] ExecuteThread: '2' for queue: 'weblogic.kernel.Default (self-tuning)'" #31 daemon prio=5 os_prio=0 tid=0x00007f8580270000 nid=0x19d runnable [0x00007f85cde1d000]
+   java.lang.Thread.State: RUNNABLE
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	- locked <0x00000000eb1d8508> (a java.net.SocksSocketImpl)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:60)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:101)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:64)
+	at org.postgresql.jdbc2.AbstractJdbc2Connection.<init>(AbstractJdbc2Connection.java:136)
+	at org.postgresql.jdbc3.AbstractJdbc3Connection.<init>(AbstractJdbc3Connection.java:29)
+	at org.postgresql.jdbc3g.AbstractJdbc3gConnection.<init>(AbstractJdbc3gConnection.java:21)
+	at org.postgresql.jdbc4.AbstractJdbc4Connection.<init>(AbstractJdbc4Connection.java:31)
+	at org.postgresql.jdbc4.Jdbc4Connection.<init>(Jdbc4Connection.java:24)
+	at org.postgresql.Driver.makeConnection(Driver.java:397)
+	at org.postgresql.Driver.connect(Driver.java:267)
+	at weblogic.jdbc.common.internal.ConnectionEnvFactory.makeConnection0(ConnectionEnvFactory.java:319)
+	at weblogic.jdbc.common.internal.ConnectionEnvFactory.access$000(ConnectionEnvFactory.java:20)
+	at weblogic.jdbc.common.internal.ConnectionEnvFactory$1.run(ConnectionEnvFactory.java:219)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at weblogic.jdbc.common.internal.ConnectionEnvFactory.makeConnection(ConnectionEnvFactory.java:216)
+	at weblogic.jdbc.common.internal.ConnectionEnvFactory.setConnection(ConnectionEnvFactory.java:143)
+	at weblogic.jdbc.common.internal.JDBCResourceFactoryImpl.createResource(JDBCResourceFactoryImpl.java:200)
+	at weblogic.common.resourcepool.ResourcePoolImpl.makeResource(ResourcePoolImpl.java:1537)
+	at weblogic.jdbc.common.internal.ConnectionPool.makeResource(ConnectionPool.java:777)
+	at weblogic.common.resourcepool.ResourcePoolImpl.makeResources(ResourcePoolImpl.java:1397)
+	at weblogic.common.resourcepool.ResourcePoolImpl.makeResources(ResourcePoolImpl.java:1340)
+	at weblogic.common.resourcepool.ResourcePoolImpl$ResourcePoolMaintanenceTask.timerExpired(ResourcePoolImpl.java:3192)
+	at weblogic.timers.internal.TimerImpl.run(TimerImpl.java:301)
+	at weblogic.work.SelfTuningWorkManagerImpl$WorkAdapterImpl.run(SelfTuningWorkManagerImpl.java:670)
+	at weblogic.invocation.ComponentInvocationContextManager._runAs(ComponentInvocationContextManager.java:352)
+	at weblogic.invocation.ComponentInvocationContextManager.runAs(ComponentInvocationContextManager.java:337)
+	at weblogic.work.LivePartitionUtility.doRunWorkUnderContext(LivePartitionUtility.java:57)
+	at weblogic.work.PartitionUtility.runWorkUnderContext(PartitionUtility.java:41)
+	at weblogic.work.SelfTuningWorkManagerImpl.runWorkUnderContext(SelfTuningWorkManagerImpl.java:644)
+	at weblogic.work.ExecuteThread.execute(ExecuteThread.java:415)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:355)
+
+"[ACTIVE] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'" #30 daemon prio=9 os_prio=0 tid=0x00007f8580001800 nid=0x19c in Object.wait() [0x00007f85cdd1d000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at org.glassfish.hk2.runlevel.internal.CurrentTaskFuture$DownAllTheWay.run(CurrentTaskFuture.java:972)
+	- locked <0x00000000f7e1a518> (a java.util.LinkedList)
+	at org.glassfish.hk2.runlevel.internal.CurrentTaskFuture.go(CurrentTaskFuture.java:164)
+	at org.glassfish.hk2.runlevel.internal.CurrentTaskFuture.go(CurrentTaskFuture.java:152)
+	at org.glassfish.hk2.runlevel.internal.AsyncRunLevelContext.proceedTo(AsyncRunLevelContext.java:535)
+	at org.glassfish.hk2.runlevel.internal.RunLevelControllerImpl.proceedTo(RunLevelControllerImpl.java:72)
+	at weblogic.t3.srvr.T3Srvr.shutdown(T3Srvr.java:1324)
+	at weblogic.t3.srvr.T3Srvr.shutdown(T3Srvr.java:1271)
+	at weblogic.t3.srvr.T3Srvr.forceShutdown(T3Srvr.java:1160)
+	at weblogic.t3.srvr.ServerRuntime.forceShutdown(ServerRuntime.java:421)
+	at weblogic.server.RemoteLifeCycleOperationsImpl.forceShutdown(RemoteLifeCycleOperationsImpl.java:90)
+	at weblogic.server.RemoteLifeCycleOperationsImpl_WLSkel.invoke(Unknown Source)
+	at weblogic.rmi.internal.BasicServerRef.invoke(BasicServerRef.java:645)
+	at weblogic.rmi.internal.BasicServerRef$2.run(BasicServerRef.java:534)
+	at weblogic.security.acl.internal.AuthenticatedSubject.doAs(AuthenticatedSubject.java:368)
+	at weblogic.security.service.SecurityManager.runAs(SecurityManager.java:163)
+	at weblogic.rmi.internal.BasicServerRef.handleRequest(BasicServerRef.java:531)
+	at weblogic.rmi.internal.wls.WLSExecuteRequest.run(WLSExecuteRequest.java:138)
+	at weblogic.invocation.ComponentInvocationContextManager._runAs(ComponentInvocationContextManager.java:352)
+	at weblogic.invocation.ComponentInvocationContextManager.runAs(ComponentInvocationContextManager.java:337)
+	at weblogic.work.LivePartitionUtility.doRunWorkUnderContext(LivePartitionUtility.java:57)
+	at weblogic.work.PartitionUtility.runWorkUnderContext(PartitionUtility.java:41)
+	at weblogic.work.SelfTuningWorkManagerImpl.runWorkUnderContext(SelfTuningWorkManagerImpl.java:644)
+	at weblogic.work.ExecuteThread.execute(ExecuteThread.java:415)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:355)
+
+"weblogic.timers.TimerThread" #28 daemon prio=9 os_prio=0 tid=0x00007f859c16d000 nid=0x19a in Object.wait() [0x00007f858f5fc000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at weblogic.timers.internal.TimerThread.doWait(TimerThread.java:115)
+	- locked <0x00000000e1ab6208> (a java.lang.Object)
+	at weblogic.timers.internal.TimerThread.access$000(TimerThread.java:21)
+	at weblogic.timers.internal.TimerThread$Thread.run(TimerThread.java:291)
+
+"weblogic.time.TimeEventGenerator" #27 daemon prio=9 os_prio=0 tid=0x00007f859c15b800 nid=0x199 in Object.wait() [0x00007f858f6fd000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at weblogic.time.common.internal.TimeTable.snooze(TimeTable.java:286)
+	- locked <0x00000000e1a898a0> (a weblogic.time.common.internal.TimeTable)
+	at weblogic.time.common.internal.TimeEventGenerator.run(TimeEventGenerator.java:121)
+	at java.lang.Thread.run(Thread.java:748)
+
+"[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'" #26 daemon prio=5 os_prio=0 tid=0x00007f859c14b800 nid=0x198 waiting on condition [0x00007f858f9fe000]
+   java.lang.Thread.State: WAITING (parking)
+	at sun.misc.Unsafe.park(Native Method)
+	- parking to wait for  <0x00000000e660eb40> (a java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject)
+	at java.util.concurrent.locks.LockSupport.park(LockSupport.java:175)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:2039)
+	at java.util.concurrent.LinkedBlockingDeque.takeFirst(LinkedBlockingDeque.java:492)
+	at java.util.concurrent.LinkedBlockingDeque.take(LinkedBlockingDeque.java:680)
+	at sun.nio.fs.AbstractWatchService.take(AbstractWatchService.java:118)
+	at com.oracle.weblogic.lifecycle.core.LifecycleConfigFileWatcher$MyWatchQueueReader.run(LifecycleConfigFileWatcher.java:170)
+	at java.lang.Thread.run(Thread.java:748)
+	at weblogic.work.SelfTuningWorkManagerImpl$WorkAdapterImpl.run(SelfTuningWorkManagerImpl.java:670)
+	at weblogic.invocation.ComponentInvocationContextManager._runAs(ComponentInvocationContextManager.java:352)
+	at weblogic.invocation.ComponentInvocationContextManager.runAs(ComponentInvocationContextManager.java:337)
+	at weblogic.work.LivePartitionUtility.doRunWorkUnderContext(LivePartitionUtility.java:57)
+	at weblogic.work.PartitionUtility.runWorkUnderContext(PartitionUtility.java:41)
+	at weblogic.work.SelfTuningWorkManagerImpl.runWorkUnderContext(SelfTuningWorkManagerImpl.java:644)
+	at weblogic.work.ExecuteThread.execute(ExecuteThread.java:415)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:355)
+
+"Timer-2" #25 daemon prio=5 os_prio=0 tid=0x00007f859c148000 nid=0x197 in Object.wait() [0x00007f85cc173000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.util.TimerThread.mainLoop(Timer.java:552)
+	- locked <0x00000000e1ab65c8> (a java.util.TaskQueue)
+	at java.util.TimerThread.run(Timer.java:505)
+
+"Timer-1" #24 daemon prio=5 os_prio=0 tid=0x00007f85a401d000 nid=0x196 in Object.wait() [0x00007f85cda18000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000000e07e0340> (a java.util.TaskQueue)
+	at java.lang.Object.wait(Object.java:502)
+	at java.util.TimerThread.mainLoop(Timer.java:526)
+	- locked <0x00000000e07e0340> (a java.util.TaskQueue)
+	at java.util.TimerThread.run(Timer.java:505)
+
+"Timer-0" #15 daemon prio=5 os_prio=0 tid=0x00007f85fe0fa000 nid=0x18d in Object.wait() [0x00007f85ce120000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	- waiting on <0x00000000e0dbf900> (a java.util.TaskQueue)
+	at java.lang.Object.wait(Object.java:502)
+	at java.util.TimerThread.mainLoop(Timer.java:526)
+	- locked <0x00000000e0dbf900> (a java.util.TaskQueue)
+	at java.util.TimerThread.run(Timer.java:505)
+
+"Service Thread" #12 daemon prio=9 os_prio=0 tid=0x00007f85fddae800 nid=0x18a runnable [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C1 CompilerThread2" #11 daemon prio=9 os_prio=0 tid=0x00007f85fdd81000 nid=0x189 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C2 CompilerThread1" #10 daemon prio=9 os_prio=0 tid=0x00007f85fdd7f000 nid=0x188 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"C2 CompilerThread0" #9 daemon prio=9 os_prio=0 tid=0x00007f85fdd7d000 nid=0x187 waiting on condition [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"JDWP Event Helper Thread" #8 daemon prio=10 os_prio=0 tid=0x00007f85fdd7a000 nid=0x186 runnable [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"JDWP Transport Listener: dt_socket" #7 daemon prio=10 os_prio=0 tid=0x00007f85fdd76800 nid=0x185 runnable [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Signal Dispatcher" #4 daemon prio=9 os_prio=0 tid=0x00007f85fdd20800 nid=0x183 runnable [0x0000000000000000]
+   java.lang.Thread.State: RUNNABLE
+
+"Finalizer" #3 daemon prio=8 os_prio=0 tid=0x00007f85fc151800 nid=0x17e in Object.wait() [0x00007f85ec3f2000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:144)
+	- locked <0x00000000e03dba08> (a java.lang.ref.ReferenceQueue$Lock)
+	at java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:165)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Finalizer.java:216)
+
+"Reference Handler" #2 daemon prio=10 os_prio=0 tid=0x00007f85fc14d000 nid=0x17c in Object.wait() [0x00007f85ec4f3000]
+   java.lang.Thread.State: WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at java.lang.Object.wait(Object.java:502)
+	at java.lang.ref.Reference.tryHandlePending(Reference.java:191)
+	- locked <0x00000000e03dba90> (a java.lang.ref.Reference$Lock)
+	at java.lang.ref.Reference$ReferenceHandler.run(Reference.java:153)
+
+"main" #1 prio=5 os_prio=0 tid=0x00007f85fc00e000 nid=0x16a in Object.wait() [0x00007f8605d50000]
+   java.lang.Thread.State: TIMED_WAITING (on object monitor)
+	at java.lang.Object.wait(Native Method)
+	at weblogic.t3.srvr.T3Srvr.waitForDeath(T3Srvr.java:1065)
+	- locked <0x00000000e1182b80> (a weblogic.t3.srvr.T3Srvr)
+	at weblogic.t3.srvr.T3ServerFuture.get(T3ServerFuture.java:79)
+	at weblogic.t3.srvr.T3ServerFuture.get(T3ServerFuture.java:61)
+	at weblogic.t3.srvr.T3ServerFuture.get(T3ServerFuture.java:15)
+	at weblogic.Server.main(Server.java:140)
+
+"VM Thread" os_prio=0 tid=0x00007f85fc143000 nid=0x178 runnable 
+
+"GC task thread#0 (ParallelGC)" os_prio=0 tid=0x00007f85fc023000 nid=0x16d runnable 
+
+"GC task thread#1 (ParallelGC)" os_prio=0 tid=0x00007f85fc025000 nid=0x16e runnable 
+
+"GC task thread#2 (ParallelGC)" os_prio=0 tid=0x00007f85fc026800 nid=0x173 runnable 
+
+"GC task thread#3 (ParallelGC)" os_prio=0 tid=0x00007f85fc028800 nid=0x174 runnable 
+
+"VM Periodic Task Thread" os_prio=0 tid=0x00007f85fddb9800 nid=0x18b waiting on condition 
+
+> 
+<Apr 20, 2021 7:10:33 PM GMT> <INFO> <NodeManager> <The server 'mngnode1' with process id 306 is no longer alive; waiting for the process to die.>
+<Apr 20, 2021 7:10:33 PM GMT> <FINEST> <NodeManager> <Process died.>
+<Apr 20, 2021 7:10:33 PM GMT> <INFO> <NodeManager> <Server was shut down normally>
+<Apr 20, 2021 7:10:33 PM GMT> <FINEST> <NodeManager> <runMonitor returned, setting finished=true and notifying waiters>

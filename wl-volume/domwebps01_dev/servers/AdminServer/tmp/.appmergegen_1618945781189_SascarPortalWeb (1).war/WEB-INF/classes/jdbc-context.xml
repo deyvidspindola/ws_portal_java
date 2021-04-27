@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+  	http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+	
+	<bean id="dsPortalServicos" class="org.springframework.jndi.JndiObjectFactoryBean" autowire="byName">
+		<property name="jndiName" value="jdbc/postgresPortalServicos2" />
+	</bean>
+	
+	<bean id="dsSasdb" class="org.springframework.jndi.JndiObjectFactoryBean" autowire="byName">
+		<property name="jndiName" value="jdbc/posicaoPortalOracle" />
+	</bean>
+	
+	<bean id="dsGerenciadora" class="org.springframework.jndi.JndiObjectFactoryBean" autowire="byName">
+		<property name="jndiName" value="jdbc/postgresGerenciadora" />
+	</bean>
+	
+	<bean id="dsGerenciadora2" class="org.springframework.jndi.JndiObjectFactoryBean" autowire="byName">
+		<property name="jndiName" value="jdbc/postgresGerenciadora2" />
+	</bean>
+	
+	<bean id="dsCentral" class="org.springframework.jndi.JndiObjectFactoryBean" autowire="byName">
+		<property name="jndiName" value="jdbc/postgresCentral" />
+	</bean>
+	
+	<bean id="dsServidorComandos" class="org.springframework.jndi.JndiObjectFactoryBean" autowire="byName">
+		<property name="jndiName" value="jdbc/postgresServidorComandos" />
+	</bean>
+	
+	<bean id="dsBlackbox" class="org.springframework.jndi.JndiObjectFactoryBean" autowire="byName">
+		<property name="jndiName" value="jdbc/blackbox" />
+	</bean>
+	
+	<bean id="jdbcTemplatePortalServicos" class="org.springframework.jdbc.core.JdbcTemplate" autowire="byName">
+		<property name="dataSource" ref="dsPortalServicos" />
+	</bean>
+	
+	<bean id="jdbcTemplateSasdb" class="org.springframework.jdbc.core.JdbcTemplate" autowire="byName">
+		<property name="dataSource" ref="dsSasdb" />
+	</bean>
+	
+	<bean id="jdbcTemplateCentral" class="org.springframework.jdbc.core.JdbcTemplate" autowire="byName">
+		<property name="dataSource" ref="dsCentral" />
+	</bean>
+	
+	<bean id="jdbcTemplateGerenciadora" class="org.springframework.jdbc.core.JdbcTemplate" autowire="byName">
+		<property name="dataSource" ref="dsGerenciadora" />
+	</bean>
+	
+	<bean id="jdbcTemplateGerenciadora2" class="org.springframework.jdbc.core.JdbcTemplate" autowire="byName">
+		<property name="dataSource" ref="dsGerenciadora2" />
+	</bean>
+	
+	<bean id="jdbcTemplateServidorComandos" class="org.springframework.jdbc.core.JdbcTemplate" autowire="byName">
+		<property name="dataSource" ref="dsServidorComandos" />
+	</bean>
+	
+	<bean id="jdbcTemplateBlackbox" class="org.springframework.jdbc.core.JdbcTemplate" autowire="byName">
+		<property name="dataSource" ref="dsBlackbox" />
+	</bean>
+	
+</beans>

@@ -1,0 +1,2181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portal:root xmlns:netuix="http://www.bea.com/servers/netuix/xsd/controls/netuix/1.0.0"
+       xmlns:html="http://www.w3.org/1999/xhtml-netuix-modified/1.0.0"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:portal="http://www.bea.com/servers/netuix/xsd/portal/support/1.0.0"
+       xsi:schemaLocation="http://www.bea.com/servers/netuix/xsd/portal/support/1.0.0 portal-support-1_0_0.xsd">
+<!--
+  Definition file for the pages for interacting with partition
+  configurations in WebLogic Server.
+
+  Copyright (c) 2015,2016 Oracle and/or its affiliates. All rights reserved.
+-->
+  <netuix:book definitionLabel="PartitionBook" title="book.title" markupName="book"
+           presentationClass="invisible">
+    <netuix:content>
+
+
+    <netuix:book definitionLabel="CorePartitionPartitionTableBook" markupName="book"
+                 backingFile="com.bea.console.utils.CorePartitionBackingFile"
+                 threadsafe="true"
+                 title="partitions.title"
+                 presentationClass="wlsc-frame">
+    <netuix:titlebar/>
+    <netuix:content>
+      <netuix:page markupName="page" definitionLabel="CorePartitionTablePages" title="not.used"
+                   hidden="true">
+      <netuix:content>
+      <netuix:layout type="no" markupName="NoLayout">
+      <netuix:placeholder usingFlow="false" markupName="ph1">
+        <netuix:book markupName="book" definitionLabel="CorePartitionPagesBook" title="partitions.title">
+          <netuix:singleLevelMenu markupType="Menu" markupName="singleLevelMenu"/>
+          <netuix:content>
+
+              <!-- Definition for the configuration tab -->
+              <netuix:page markupName="page" definitionLabel="PartitionTablePage"
+                           presentationClass="page-content"
+                           title="tab.configuration">
+                <netuix:meta name="helpid" content="Core-partition.core.partition.table.title;core-partition"/>
+                <netuix:meta name="breadcrumb" content="partitions.title;core-partition"/>
+                <netuix:content>
+                  <netuix:layout type="no" markupName="NoLayout">
+                    <netuix:placeholder usingFlow="false" markupName="ph1">
+                      <netuix:portlet definitionLabel="CorePartitionPartitionTablePortlet">
+                        <netuix:strutsContent module="/core-partition" action="PartitionTable" refreshAction="PartitionTable"/>
+                      </netuix:portlet>
+                    </netuix:placeholder>
+                  </netuix:layout>
+                </netuix:content>
+              </netuix:page>
+
+              <!-- Definition for the control tab -->
+              <netuix:page markupName="page" definitionLabel="PartitionControlTablePage"
+                           presentationClass="page-content"
+                           title="tab.control">
+                <netuix:meta name="helpid" content="Core-partition.core.partition.controltable.title;core-partition"/>
+                <netuix:meta name="breadcrumb" content="partitions.controltable.title;core-partition"/>
+                <netuix:content>
+                  <netuix:layout type="no" markupName="NoLayout">
+                    <netuix:placeholder usingFlow="false" markupName="ph1">
+                      <netuix:portlet definitionLabel="CorePartitionPartitionControlTablePortlet">
+                        <netuix:strutsContent module="/core-partition" action="PartitionControlTable" refreshAction="PartitionControlTable"/>
+                      </netuix:portlet>
+                    </netuix:placeholder>
+                  </netuix:layout>
+                </netuix:content>
+              </netuix:page>
+          </netuix:content>
+        </netuix:book>
+      </netuix:placeholder>
+      </netuix:layout>
+      </netuix:content>
+    </netuix:page>
+    </netuix:content>
+    </netuix:book>
+
+
+    <!-- Definition for the Partition HealthTable page -->
+    <netuix:book definitionLabel="CorePartitionHealthBook" markupName="book"
+                 backingFile="com.bea.console.utils.CorePartitionBackingFile"
+                 threadsafe="true"
+                 title="assistant.partition.healthtable.title"
+                 presentationClass="wlsc-frame">
+      <netuix:titlebar/>
+      <netuix:content>
+        <netuix:page markupName="page" definitionLabel="PartitionHealthTablePage" title="not.used"
+                     hidden="true"
+                     presentationClass="page-assistant">
+          <netuix:meta name="helpid" content="Core-partition.core.partition.healthtable.title;core-partition"/>
+          <netuix:meta name="breadcrumb-context" content="handle"/>
+          <netuix:content>
+            <netuix:layout type="no" markupName="NoLayout">
+              <netuix:placeholder usingFlow="false" markupName="ph1">
+                <netuix:portlet definitionLabel="PartitionHealthTablePortlet">
+                  <netuix:strutsContent module="/core-partition" action="PartitionHealthTable" refreshAction="PartitionHealthTable"/>
+                </netuix:portlet>
+              </netuix:placeholder>
+            </netuix:layout>
+          </netuix:content>
+        </netuix:page>
+      </netuix:content>
+    </netuix:book>
+
+      <!-- Definition for the Partition creation assistant page -->
+      <netuix:book definitionLabel="CorePartitionCreatePartitionBook" markupName="book"
+             backingFile="com.bea.console.utils.CorePartitionBackingFile"
+             threadsafe="true"
+             title="assistant.create.partition.title"
+             presentationClass="wlsc-frame">
+        <netuix:titlebar/>
+        <netuix:content>
+          <netuix:page markupName="page" definitionLabel="CreatePartition" title="not.used"
+                 hidden="true"
+                 presentationClass="page-assistant">
+            <netuix:meta name="helpid" content="Core-partition.core.partition.createpartition.title;core-partition"/>
+            <netuix:content>
+              <netuix:layout type="no" markupName="NoLayout">
+                <netuix:placeholder usingFlow="false" markupName="ph1">
+                  <netuix:portlet definitionLabel="CreatePartitionPortlet">
+                    <netuix:pageflowContent contentUri="/com/bea/console/actions/core/partition/createpartition/CreatePartition.jpf"
+                              action="begin"
+                              refreshAction="begin"/>
+                  </netuix:portlet>
+                </netuix:placeholder>
+              </netuix:layout>
+            </netuix:content>
+          </netuix:page>
+        </netuix:content>
+      </netuix:book>
+
+      <!-- Definition for the export Partition page -->
+      <netuix:book definitionLabel="CorePartitionExportPartitionBook" markupName="book"
+             backingFile="com.bea.console.utils.CorePartitionBackingFile"
+             threadsafe="true"
+             title="assistant.export.partition.title"
+             presentationClass="wlsc-frame">
+        <netuix:titlebar/>
+        <netuix:content>
+          <netuix:page markupName="page" definitionLabel="ExportPartitionPage" title="not.used"
+                 hidden="true"
+                 presentationClass="page-assistant">
+            <netuix:meta name="helpid" content="Core-partition.core.partition.exportpartition.title;core-partition"/>
+            <netuix:content>
+              <netuix:layout type="no" markupName="NoLayout">
+                <netuix:placeholder usingFlow="false" markupName="ph1">
+                  <netuix:portlet definitionLabel="ExportPartitionPortlet">
+                    <netuix:pageflowContent contentUri="/com/bea/console/actions/core/partition/exportpartition/ExportPartition.jpf"
+                                action="begin"
+                                refreshAction="begin"/>
+                  </netuix:portlet>
+                </netuix:placeholder>
+              </netuix:layout>
+            </netuix:content>
+          </netuix:page>
+        </netuix:content>
+      </netuix:book>
+
+      <!-- Definition for the import Partition page -->
+      <netuix:book definitionLabel="CorePartitionImportPartitionBook" markupName="book"
+                   backingFile="com.bea.console.utils.CorePartitionBackingFile"
+                   threadsafe="true"
+                   title="assistant.import.partition.title"
+                   presentationClass="wlsc-frame">
+        <netuix:titlebar/>
+        <netuix:content>
+          <netuix:page markupName="page" definitionLabel="ImportPartitionPage" title="not.used"
+                       hidden="true"
+                       presentationClass="page-assistant">
+            <netuix:meta name="helpid" content="Core-partition.core.partition.importpartition.title;core-partition"/>
+            <netuix:content>
+              <netuix:layout type="no" markupName="NoLayout">
+                <netuix:placeholder usingFlow="false" markupName="ph1">
+                  <netuix:portlet definitionLabel="ImportPartitionPortlet">
+                    <netuix:pageflowContent contentUri="/com/bea/console/actions/core/partition/importpartition/ImportPartition.jpf"
+                                            action="begin"
+                                            refreshAction="begin"/>
+                  </netuix:portlet>
+                </netuix:placeholder>
+              </netuix:layout>
+            </netuix:content>
+          </netuix:page>
+        </netuix:content>
+      </netuix:book>
+
+      <!-- Definition for the Partition deletion assistant page -->
+      <netuix:book definitionLabel="CorePartitionDeletePartitionBook" markupName="book"
+             backingFile="com.bea.console.utils.CorePartitionBackingFile"
+             threadsafe="true"
+             title="assistant.delete.partition.title"
+             presentationClass="wlsc-frame">
+      <netuix:titlebar/>
+      <netuix:content>
+        <netuix:page markupName="page" definitionLabel="DeletePartition" title="not.used"
+               hidden="true"
+               presentationClass="page-assistant">
+          <netuix:meta name="helpid" content="Core-partition.core.partition.deletepartition.title;core-partition"/>
+          <netuix:content>
+            <netuix:layout type="no" markupName="NoLayout">
+              <netuix:placeholder usingFlow="false" markupName="ph1">
+                <netuix:portlet definitionLabel="DeletePartitionPortlet">
+                <netuix:pageflowContent contentUri="/com/bea/console/actions/core/partition/deletepartition/DeletePartition.jpf"
+                            action="begin"
+                            refreshAction="begin"/>
+                </netuix:portlet>
+              </netuix:placeholder>
+            </netuix:layout>
+          </netuix:content>
+        </netuix:page>
+      </netuix:content>
+    </netuix:book>
+
+    <!--  Partition Lifecycle -->
+
+    <!-- Definition for the Start Partition assistant -->
+    <netuix:book definitionLabel="PartitionStartBook" markupName="book"
+                 backingFile="com.bea.console.utils.CorePartitionBackingFile"
+                 threadsafe="true"
+                 title="assistant.partition.lifecycle.title"
+                 presentationClass="wlsc-frame">
+      <netuix:titlebar/>
+      <netuix:content>
+        <netuix:page markupName="page" definitionLabel="StartPartitionPage" title="not.used"
+                     hidden="true">
+          <netuix:meta name="helpid" content="Core-partition.core.partition.lifecycle.title;core-partition"/>
+          <netuix:content>
+            <netuix:layout type="no" markupName="NoLayout">
+              <netuix:placeholder usingFlow="false" markupName="ph1">
+                <netuix:portlet definitionLabel="StartPartitionPortlet">
+                  <netuix:pageflowContent contentUri="/com/bea/console/actions/core/partition/lifecycle/PartitionLifecycle.jpf"
+                            action="start"
+                            refreshAction="start"/>
+                </netuix:portlet>
+              </netuix:placeholder>
+            </netuix:layout>
+          </netuix:content>
+        </netuix:page>
+      </netuix:content>
+    </netuix:book>
+
+    <netuix:book definitionLabel="PartitionResumeBook" markupName="book"
+                 backingFile="com.bea.console.utils.CorePartitionBackingFile"
+                 threadsafe="true"
+                 title="assistant.partition.lifecycle.title"
+                 presentationClass="wlsc-frame">
+      <netuix:titlebar/>
+      <netuix:content>
+        <netuix:page markupName="page" definitionLabel="ResumePartitionPage" title="not.used"
+                     hidden="true">
+          <netuix:meta name="helpid" content="Core-partition.core.partition.lifecycle.title;core-partition"/>
+          <netuix:content>
+            <netuix:layout type="no" markupName="NoLayout">
+              <netuix:placeholder usingFlow="false" markupName="ph1">
+                <netuix:portlet definitionLabel="ResumePartitionPortlet">
+                  <netuix:pageflowContent contentUri="/com/bea/console/actions/core/partition/lifecycle/PartitionLifecycle.jpf"
+                                          action="resume"
+                                          refreshAction="resume"/>
+                </netuix:portlet>
+              </netuix:placeholder>
+            </netuix:layout>
+          </netuix:content>
+        </netuix:page>
+      </netuix:content>
+    </netuix:book>
+
+    <!-- Definition for the Shutdown Partition assistant -->
+    <netuix:book definitionLabel="CorePartitionShutdownPartitionBook" markupName="book"
+                 backingFile="com.bea.console.utils.CorePartitionBackingFile"
+                 threadsafe="true"
+                 title="assistant.partition.lifecycle.title"
+                 presentationClass="wlsc-frame">
+      <netuix:titlebar/>
+      <netuix:content>
+        <netuix:page markupName="page" definitionLabel="ShutdownPartitionPage" title="not.used"
+                     hidden="true">
+          <netuix:meta name="helpid" content="Core-partition.core.partition.lifecycle.title;core-partition"/>
+          <netuix:content>
+            <netuix:layout type="no" markupName="NoLayout">
+              <netuix:placeholder usingFlow="false" markupName="ph1">
+                <netuix:portlet definitionLabel="ShutdownPartitionPortlet">
+                  <netuix:pageflowContent contentUri="/com/bea/console/actions/core/partition/lifecycle/PartitionLifecycle.jpf"
+                          action="shutdown"
+                          refreshAction="shutdown"/>
+                </netuix:portlet>
+              </netuix:placeholder>
+            </netuix:layout>
+          </netuix:content>
+        </netuix:page>
+      </netuix:content>
+    </netuix:book>
+
+    <!-- Definition for the Restart Partition assistant -->
+    <netuix:book definitionLabel="CorePartitionRestartPartitionBook" markupName="book"
+                 backingFile="com.bea.console.utils.CorePartitionBackingFile"
+                 threadsafe="true"
+                 title="assistant.partition.lifecycle.title"
+                 presentationClass="wlsc-frame">
+      <netuix:titlebar/>
+      <netuix:content>
+        <netuix:page markupName="page" definitionLabel="RestartPartitionPage" title="not.used"
+                     hidden="true">
+          <netuix:meta name="helpid" content="Core-partition.core.partition.lifecycle.title;core-partition"/>
+          <netuix:content>
+            <netuix:layout type="no" markupName="NoLayout">
+              <netuix:placeholder usingFlow="false" markupName="ph1">
+                <netuix:portlet definitionLabel="RestartPartitionPortlet">
+                  <netuix:pageflowContent contentUri="/com/bea/console/actions/core/partition/lifecycle/PartitionLifecycle.jpf"
+                                          action="restart"
+                                          refreshAction="restart"/>
+                </netuix:portlet>
+              </netuix:placeholder>
+            </netuix:layout>
+          </netuix:content>
+        </netuix:page>
+      </netuix:content>
+    </netuix:book>
+
+
+    <netuix:book definitionLabel="CorePartitionForceShutdownPartitionBook" markupName="book"
+                 backingFile="com.bea.console.utils.CorePartitionBackingFile"
+                 threadsafe="true"
+                 title="assistant.partition.lifecycle.title"
+                 presentationClass="wlsc-frame">
+      <netuix:titlebar/>
+      <netuix:content>
+        <netuix:page markupName="page" definitionLabel="ForceShutdownPartitionPage" title="not.used"
+                     hidden="true">
+          <netuix:meta name="helpid" content="Core-partition.core.partition.lifecycle.title;core-partition"/>
+          <netuix:content>
+            <netuix:layout type="no" markupName="NoLayout">
+              <netuix:placeholder usingFlow="false" markupName="ph1">
+                <netuix:portlet definitionLabel="ForceShutdownPartitionPortlet">
+                  <netuix:pageflowContent contentUri="/com/bea/console/actions/core/partition/lifecycle/PartitionLifecycle.jpf"
+                                          action="forceShutdown"
+                                          refreshAction="forceShutdown"/>
+                </netuix:portlet>
+              </netuix:placeholder>
+            </netuix:layout>
+          </netuix:content>
+        </netuix:page>
+      </netuix:content>
+    </netuix:book>
+
+    <netuix:book definitionLabel="CorePartitionHaltPartitionBook" markupName="book"
+                     backingFile="com.bea.console.utils.CorePartitionBackingFile"
+                     threadsafe="true"
+                     title="assistant.partition.lifecycle.title"
+                     presentationClass="wlsc-frame">
+          <netuix:titlebar/>
+          <netuix:content>
+            <netuix:page markupName="page" definitionLabel="HaltPartitionPage" title="not.used"
+                         hidden="true">
+              <netuix:meta name="helpid" content="Core-partition.core.partition.lifecycle.title;core-partition"/>
+              <netuix:content>
+                <netuix:layout type="no" markupName="NoLayout">
+                  <netuix:placeholder usingFlow="false" markupName="ph1">
+                    <netuix:portlet definitionLabel="HaltPartitionPortlet">
+                      <netuix:pageflowContent contentUri="/com/bea/console/actions/core/partition/lifecycle/PartitionLifecycle.jpf"
+                                              action="halt"
+                                              refreshAction="halt"/>
+                    </netuix:portlet>
+                  </netuix:placeholder>
+                </netuix:layout>
+              </netuix:content>
+            </netuix:page>
+          </netuix:content>
+        </netuix:book>
+
+
+
+    <!-- Definition for the Suspend Partition assistant -->
+    <netuix:book definitionLabel="CorePartitionSuspendPartitionBook" markupName="book"
+                 backingFile="com.bea.console.utils.CorePartitionBackingFile"
+                 threadsafe="true"
+                 title="assistant.partition.lifecycle.title"
+                 presentationClass="wlsc-frame">
+      <netuix:titlebar/>
+      <netuix:content>
+        <netuix:page markupName="page" definitionLabel="SuspendPartitionPage" title="not.used"
+                     hidden="true">
+          <netuix:meta name="helpid" content="Core-partition.core.partition.lifecycle.title;core-partition"/>
+          <netuix:content>
+            <netuix:layout type="no" markupName="NoLayout">
+              <netuix:placeholder usingFlow="false" markupName="ph1">
+                <netuix:portlet definitionLabel="SuspendPartitionPortlet">
+                  <netuix:pageflowContent contentUri="/com/bea/console/actions/core/partition/lifecycle/PartitionLifecycle.jpf"
+                                          action="suspend"
+                                          refreshAction="suspend"/>
+                </netuix:portlet>
+              </netuix:placeholder>
+            </netuix:layout>
+          </netuix:content>
+        </netuix:page>
+      </netuix:content>
+    </netuix:book>
+
+    <netuix:book definitionLabel="CorePartitionForceSuspendPartitionBook" markupName="book"
+                 backingFile="com.bea.console.utils.CorePartitionBackingFile"
+                 threadsafe="true"
+                 title="assistant.partition.lifecycle.title"
+                 presentationClass="wlsc-frame">
+      <netuix:titlebar/>
+      <netuix:content>
+        <netuix:page markupName="page" definitionLabel="ForceSuspendPartitionPage" title="not.used"
+                     hidden="true">
+          <netuix:meta name="helpid" content="Core-partition.core.partition.lifecycle.title;core-partition"/>
+          <netuix:content>
+            <netuix:layout type="no" markupName="NoLayout">
+              <netuix:placeholder usingFlow="false" markupName="ph1">
+                <netuix:portlet definitionLabel="ForceSuspendPartitionPortlet">
+                  <netuix:pageflowContent contentUri="/com/bea/console/actions/core/partition/lifecycle/PartitionLifecycle.jpf"
+                                          action="forceSuspend"
+                                          refreshAction="forceSuspend"/>
+                </netuix:portlet>
+              </netuix:placeholder>
+            </netuix:layout>
+          </netuix:content>
+        </netuix:page>
+      </netuix:content>
+    </netuix:book>
+
+
+      <!-- Definition for the JDBC System Resource Override creation assistant page-->
+    <netuix:book definitionLabel="CorePartitionCreateJDBCSystemResourceOverrideBook" markupName="book"
+                 backingFile="com.bea.console.utils.CorePartitionBackingFile"
+                 threadsafe="true"
+                 title="assistant.create.jdbcsystemresourceoverride.title"
+                 presentationClass="wlsc-frame">
+      <netuix:titlebar/>
+      <netuix:content>
+        <netuix:page markupName="page" definitionLabel="CreateJDBCSystemResourceOverride"
+                     title="not.used"
+                     hidden="true"
+                     presentationClass="page-assistant">
+          <netuix:meta name="helpid" content="Core-partition.core.partition.createjdbcsystemresourceoverride.title;core-partition"/>
+          <netuix:content>
+            <netuix:layout type="no" markupName="NoLayout">
+              <netuix:placeholder usingFlow="false" markupName="ph1">
+                <netuix:portlet definitionLabel="CreateJDBCSystemResourceOverridePortlet">
+                  <netuix:pageflowContent contentUri="/com/bea/console/actions/core/partition/createjdbcsystemresourceoverride/CreateJDBCSystemResourceOverride.jpf"
+                                          action="begin"
+                                          refreshAction="begin"/>
+                </netuix:portlet>
+              </netuix:placeholder>
+            </netuix:layout>
+          </netuix:content>
+        </netuix:page>
+      </netuix:content>
+    </netuix:book>
+
+    <!-- Definition for the JDBC System Resource Override edit assistant page-->
+    <netuix:book definitionLabel="CoreJDBCSystemResourceOverrideBook" title="book.title" markupName="book"
+                   backingFile="com.bea.console.utils.CorePartitionBackingFile"
+                   threadsafe="true"
+                   presentationClass="wlsc-frame">
+      <netuix:titlebar/>
+      <netuix:content>
+        <netuix:page markupName="page" definitionLabel="CoreJDBCSystemResourceOverridePages" title="not.used"
+               hidden="true">
+          <netuix:content>
+            <netuix:layout type="no" markupName="NoLayout">
+              <netuix:placeholder usingFlow="false" markupName="ph1">
+                <netuix:book markupName="book" definitionLabel="CoreJDBCSystemResourceOverrideTabsBook"
+                       title="CoreJDBCSystemResourceOverrideTabsBook">
+                  <netuix:singleLevelMenu markupType="Menu" markupName="singleLevelMenu"/>
+                  <netuix:content>
+                    <!-- Definition for the config tab -->
+                    <netuix:book markupName="book" definitionLabel="JDBCSystemResourceOverrideConfigTabPage"
+                           title="tab.config">
+                      <netuix:singleLevelMenu markupType="Menu" markupName="singleLevelMenu" presentationClass="menu-level1"/>
+                      <netuix:content>
+                        <!-- Definition for the general tab -->
+                        <netuix:page markupName="page" definitionLabel="JDBCSystemResourceOverrideConfigGeneral"
+                               presentationClass="page-content"
+                               title="tab.general">
+                          <netuix:meta name="helpid" content="Core-partition.core.partition.jdbcsystemresourceoverrideconfiggeneral.title;core-partition"/>
+                          <netuix:meta name="configuration-page" content="JDBCSystemResourceOverride"/>
+                          <netuix:meta name="breadcrumb-context" content="handle"/>
+                          <netuix:content>
+                            <netuix:layout type="no" markupName="NoLayout">
+                              <netuix:placeholder usingFlow="false" markupName="ph1">
+                                <netuix:portlet definitionLabel="JDBCSystemResourceOverrideConfigGeneralPortlet">
+                                  <netuix:strutsContent module="/core-partition" action="CoreJDBCSystemResourceOverrideConfigGeneral"
+                                            refreshAction="CoreJDBCSystemResourceOverrideConfigGeneral"/>
+                                </netuix:portlet>
+                              </netuix:placeholder>
+                            </netuix:layout>
+                          </netuix:content>
+                        </netuix:page>
+                      </netuix:content>
+                    </netuix:book>
+
+                  <!-- Definition for the notes tab -->
+                  <netuix:page markupName="page" definitionLabel="JDBCSystemResourceOverrideNotes"
+                         presentationClass="page-content"
+                         title="tab.notes">
+                    <netuix:meta name="helpid" content="Core-partition.core.partition.jdbcsystemresourceoverridenotes.title;core-partition"/>
+                    <netuix:content>
+                      <netuix:layout type="no" markupName="NoLayout">
+                        <netuix:placeholder usingFlow="false" markupName="ph1">
+                          <netuix:portletInstance markupType="Portlet" instanceLabel="JDBCSystemResourceOverrideNotesPortlet"
+                               contentUri="/PortalConfig/core/partition/PartitionNotes.portlet"/>
+                        </netuix:placeholder>
+                      </netuix:layout>
+                    </netuix:content>
+                  </netuix:page>
+
+                </netuix:content>
+              </netuix:book>
+            </netuix:placeholder>
+          </netuix:layout>
+        </netuix:content>
+      </netuix:page>
+    </netuix:content>
+  </netuix:book>
+
+  <!-- Definition for the JDBC System Resource Override deletion assistant page -->
+  <netuix:book definitionLabel="CorePartitionDeleteJDBCSystemResourceOverrideBook" markupName="book"
+               backingFile="com.bea.console.utils.CorePartitionBackingFile"
+               threadsafe="true"
+               title="assistant.delete.jdbcsystemresourceoverride.title"
+               presentationClass="wlsc-frame">
+    <netuix:titlebar/>
+    <netuix:content>
+      <netuix:page markupName="page" definitionLabel="DeleteJDBCSystemResourceOverride" title="not.used"
+                   hidden="true"
+                   presentationClass="page-assistant">
+        <netuix:meta name="helpid" content="Core-partition.core.partition.deletejdbcsystemresourceoverride.title;core-partition"/>
+        <netuix:content>
+          <netuix:layout type="no" markupName="NoLayout">
+            <netuix:placeholder usingFlow="false" markupName="ph1">
+              <netuix:portlet definitionLabel="DeleteJDBCSystemResourceOverridePortlet">
+                <netuix:pageflowContent contentUri="/com/bea/console/actions/core/partition/deletejdbcsystemresourceoverride/DeleteJDBCSystemResourceOverride.jpf"
+                                        action="begin"
+                                        refreshAction="begin"/>
+              </netuix:portlet>
+            </netuix:placeholder>
+          </netuix:layout>
+        </netuix:content>
+      </netuix:page>
+    </netuix:content>
+  </netuix:book>
+
+  <!-- Definition for the Partition resource group creation assistant page-->
+  <netuix:book definitionLabel="CorePartitionCreatePartitionResourceGroupBook" markupName="book"
+               backingFile="com.bea.console.utils.CorePartitionBackingFile"
+               threadsafe="true"
+               title="assistant.create.partitionresourcegroup.title"
+               presentationClass="wlsc-frame">
+    <netuix:titlebar/>
+    <netuix:content>
+      <netuix:page markupName="page" definitionLabel="CreatePartitionResourceGroup"
+                   title="not.used"
+                   hidden="true"
+                   presentationClass="page-assistant">
+        <netuix:meta name="helpid" content="Core-partition.core.partition.createpartitionresourcegroup.title;core-partition"/>
+        <netuix:content>
+          <netuix:layout type="no" markupName="NoLayout">
+            <netuix:placeholder usingFlow="false" markupName="ph1">
+              <netuix:portlet definitionLabel="CreatePartitionResourceGroupPortlet">
+                <netuix:pageflowContent contentUri="/com/bea/console/actions/core/partition/createpartitionresourcegroup/CreatePartitionResourceGroup.jpf"
+                                        action="begin"
+                                        refreshAction="begin"/>
+              </netuix:portlet>
+            </netuix:placeholder>
+          </netuix:layout>
+        </netuix:content>
+      </netuix:page>
+    </netuix:content>
+  </netuix:book>
+
+      <!-- Definition for the  Partition Resource group Deletion assistant page -->
+      <netuix:book definitionLabel="CorePartitionDeletePartitionResourceGroupBook" markupName="book"
+                   backingFile="com.bea.console.utils.CorePartitionBackingFile"
+                   threadsafe="true"
+                   title="assistant.delete.partitionresourcegroup.title"
+                   presentationClass="wlsc-frame">
+          <netuix:titlebar/>
+          <netuix:content>
+              <netuix:page markupName="page" definitionLabel="DeletePartitionResourceGroup" title="not.used"
+                           hidden="true"
+                           presentationClass="page-assistant">
+                  <netuix:meta name="helpid" content="Core-partition.core.partition.deletepartitionresourcegroup.title;core-partition"/>
+                  <netuix:content>
+                    <netuix:layout type="no" markupName="NoLayout">
+                      <netuix:placeholder usingFlow="false" markupName="ph1">
+                        <netuix:portlet definitionLabel="DeletePartitionResourceGroupPortlet">
+                          <netuix:pageflowContent contentUri="/com/bea/console/actions/core/partition/deletepartitionresourcegroup/DeletePartitionResourceGroup.jpf"
+                                                  action="begin"
+                                                  refreshAction="begin"/>
+                        </netuix:portlet>
+                      </netuix:placeholder>
+                    </netuix:layout>
+                  </netuix:content>
+              </netuix:page>
+          </netuix:content>
+      </netuix:book>
+
+      <!-- Definition for the Start PartitionResource Group assistant -->
+      <netuix:book definitionLabel="PartitionResourceGroupStartBook" markupName="book"
+                   backingFile="com.bea.console.utils.CorePartitionBackingFile"
+                   threadsafe="true"
+                   title="assistant.partitionresourcegroup.lifecycle.title"
+                   presentationClass="wlsc-frame">
+        <netuix:titlebar/>
+        <netuix:content>
+          <netuix:page markupName="page" definitionLabel="StartPartitionResourceGroupPage" title="not.used"
+                       hidden="true">
+            <netuix:meta name="helpid" content="Core-partition.core.partition.resourcegroup.lifecycle.title;core-partition"/>
+            <netuix:content>
+              <netuix:layout type="no" markupName="NoLayout">
+                <netuix:placeholder usingFlow="false" markupName="ph1">
+                  <netuix:portlet definitionLabel="StartPartitionResourceGroupPortlet">
+                    <netuix:pageflowContent contentUri="/com/bea/console/actions/core/partition/lifecycleresourcegroup/ResourceGroupLifecycle.jpf"
+                              action="start"
+                              refreshAction="start"/>
+                  </netuix:portlet>
+                </netuix:placeholder>
+              </netuix:layout>
+            </netuix:content>
+          </netuix:page>
+        </netuix:content>
+      </netuix:book>
+
+      <!-- Definition for the Resume PartitionResource Group assistant -->
+      <netuix:book definitionLabel="PartitionResourceGroupResumeBook" markupName="book"
+                   backingFile="com.bea.console.utils.CorePartitionBackingFile"
+                   threadsafe="true"
+                   title="assistant.partitionresourcegroup.lifecycle.title"
+                   presentationClass="wlsc-frame">
+        <netuix:titlebar/>
+        <netuix:content>
+          <netuix:page markupName="page" definitionLabel="ResumePartitionResourceGroupPage" title="not.used"
+                       hidden="true">
+            <netuix:meta name="helpid" content="Core-partition.core.partition.resourcegroup.lifecycle.title;core-partition"/>
+            <netuix:content>
+              <netuix:layout type="no" markupName="NoLayout">
+                <netuix:placeholder usingFlow="false" markupName="ph1">
+                  <netuix:portlet definitionLabel="ResumePartitionResourceGroupPortlet">
+                    <netuix:pageflowContent contentUri="/com/bea/console/actions/core/partition/lifecycleresourcegroup/ResourceGroupLifecycle.jpf"
+                                            action="resume"
+                                            refreshAction="resume"/>
+                  </netuix:portlet>
+                </netuix:placeholder>
+              </netuix:layout>
+            </netuix:content>
+          </netuix:page>
+        </netuix:content>
+      </netuix:book>
+
+
+      <!-- Definition for the Shutdown Partition Resource Group assistant -->
+      <netuix:book definitionLabel="PartitionResourceGroupShutdownBook" markupName="book"
+                   backingFile="com.bea.console.utils.CorePartitionBackingFile"
+                   threadsafe="true"
+                   title="assistant.partitionresourcegroup.lifecycle.title"
+                   presentationClass="wlsc-frame">
+        <netuix:titlebar/>
+        <netuix:content>
+          <netuix:page markupName="page" definitionLabel="ShutdownPartitionResourceGroupPage" title="not.used"
+                       hidden="true">
+            <netuix:meta name="helpid" content="Core-partition.core.partition.resourcegroup.lifecycle.title;core-partition"/>
+            <netuix:content>
+              <netuix:layout type="no" markupName="NoLayout">
+                <netuix:placeholder usingFlow="false" markupName="ph1">
+                  <netuix:portlet definitionLabel="ShutdownPartitionResourceGroupPortlet">
+                    <netuix:pageflowContent contentUri="/com/bea/console/actions/core/partition/lifecycleresourcegroup/ResourceGroupLifecycle.jpf"
+                              action="shutdown"
+                              refreshAction="shutdown"/>
+                  </netuix:portlet>
+                </netuix:placeholder>
+              </netuix:layout>
+            </netuix:content>
+          </netuix:page>
+        </netuix:content>
+      </netuix:book>
+
+      <!-- Definition for the ForceShutdown PartitionResource Group assistant -->
+      <netuix:book definitionLabel="PartitionResourceGroupForceShutdownBook" markupName="book"
+                   backingFile="com.bea.console.utils.CorePartitionBackingFile"
+                   threadsafe="true"
+                   title="assistant.partitionresourcegroup.lifecycle.title"
+                   presentationClass="wlsc-frame">
+        <netuix:titlebar/>
+        <netuix:content>
+          <netuix:page markupName="page" definitionLabel="ForceShutdownPartitionResourceGroupPage" title="not.used"
+                       hidden="true">
+            <netuix:meta name="helpid" content="Core-partition.core.partition.resourcegroup.lifecycle.title;core-partition"/>
+            <netuix:content>
+              <netuix:layout type="no" markupName="NoLayout">
+                <netuix:placeholder usingFlow="false" markupName="ph1">
+                  <netuix:portlet definitionLabel="ForceShutdownPartitionResourceGroupPortlet">
+                    <netuix:pageflowContent contentUri="/com/bea/console/actions/core/partition/lifecycleresourcegroup/ResourceGroupLifecycle.jpf"
+                                            action="forceShutdown"
+                                            refreshAction="forceShutdown"/>
+                  </netuix:portlet>
+                </netuix:placeholder>
+              </netuix:layout>
+            </netuix:content>
+          </netuix:page>
+        </netuix:content>
+      </netuix:book>
+
+
+
+      <!-- Definition for the Suspend Partition Resource Group assistant -->
+      <netuix:book definitionLabel="PartitionResourceGroupSuspendBook" markupName="book"
+                   backingFile="com.bea.console.utils.CorePartitionBackingFile"
+                   threadsafe="true"
+                   title="assistant.partitionresourcegroup.lifecycle.title"
+                   presentationClass="wlsc-frame">
+        <netuix:titlebar/>
+        <netuix:content>
+          <netuix:page markupName="page" definitionLabel="SuspendPartitionResourceGroupPage" title="not.used"
+                       hidden="true">
+            <netuix:meta name="helpid" content="Core-partition.core.partition.resourcegroup.lifecycle.title;core-partition"/>
+            <netuix:content>
+              <netuix:layout type="no" markupName="NoLayout">
+                <netuix:placeholder usingFlow="false" markupName="ph1">
+                  <netuix:portlet definitionLabel="SuspendPartitionResourceGroupPortlet">
+                    <netuix:pageflowContent contentUri="/com/bea/console/actions/core/partition/lifecycleresourcegroup/ResourceGroupLifecycle.jpf"
+                                            action="suspend"
+                                            refreshAction="suspend"/>
+                  </netuix:portlet>
+                </netuix:placeholder>
+              </netuix:layout>
+            </netuix:content>
+          </netuix:page>
+        </netuix:content>
+      </netuix:book>
+
+      <!-- Definition for the ForceSuspend PartitionResource Group assistant -->
+      <netuix:book definitionLabel="PartitionResourceGroupForceSuspendBook" markupName="book"
+                   backingFile="com.bea.console.utils.CorePartitionBackingFile"
+                   threadsafe="true"
+                   title="assistant.partitionresourcegroup.lifecycle.title"
+                   presentationClass="wlsc-frame">
+        <netuix:titlebar/>
+        <netuix:content>
+          <netuix:page markupName="page" definitionLabel="ForceSuspendPartitionResourceGroupPage" title="not.used"
+                       hidden="true">
+            <netuix:meta name="helpid" content="Core-partition.core.partition.resourcegroup.lifecycle.title;core-partition"/>
+            <netuix:content>
+              <netuix:layout type="no" markupName="NoLayout">
+                <netuix:placeholder usingFlow="false" markupName="ph1">
+                  <netuix:portlet definitionLabel="ForceSuspendPartitionResourceGroupPortlet">
+                    <netuix:pageflowContent contentUri="/com/bea/console/actions/core/partition/lifecycleresourcegroup/ResourceGroupLifecycle.jpf"
+                                            action="forceSuspend"
+                                            refreshAction="forceSuspend"/>
+                  </netuix:portlet>
+                </netuix:placeholder>
+              </netuix:layout>
+            </netuix:content>
+          </netuix:page>
+        </netuix:content>
+      </netuix:book>
+
+
+      <netuix:book definitionLabel="CorePartitionResourceGroupBook" title="book.title" markupName="book"
+               backingFile="com.bea.console.utils.CorePartitionBackingFile"
+               threadsafe="true"
+               presentationClass="wlsc-frame">
+    <netuix:titlebar/>
+    <netuix:content>
+      <netuix:page markupName="page" definitionLabel="CorePartitionResourceGroupPages" title="not.used"
+                   hidden="true">
+        <netuix:content>
+          <netuix:layout type="no" markupName="NoLayout">
+            <netuix:placeholder usingFlow="false" markupName="ph1">
+              <netuix:book markupName="book" definitionLabel="CorePartitionResourceGroupTabsBook"
+                       title="CorePartitionResourceGroupTabsBook">
+                <netuix:singleLevelMenu markupType="Menu" markupName="singleLevelMenu"/>
+                <netuix:content>
+
+                  <!-- Definition for the general tab -->
+                  <netuix:page markupName="page" definitionLabel="PartitionResourceGroupConfigGeneral"
+                        presentationClass="page-content" title="tab.general">
+                    <netuix:meta name="helpid" content="Core-partition.core.partition.partitionresourcegroupconfiggeneral.title;core-partition"/>
+                    <netuix:meta name="breadcrumb-context" content="handle"/>
+                    <netuix:content>
+                      <netuix:layout type="no" markupName="NoLayout">
+                        <netuix:placeholder usingFlow="false" markupName="ph1">
+                          <netuix:portlet definitionLabel="PartitionResourceGroupConfigGeneralPortlet">
+                            <netuix:strutsContent module="/core-partition" action="CorePartitionResourceGroupConfigGeneral"
+                                refreshAction="CorePartitionResourceGroupConfigGeneral"/>
+                          </netuix:portlet>
+                        </netuix:placeholder>
+                      </netuix:layout>
+                    </netuix:content>
+                  </netuix:page>
+
+
+                  <!-- Definition for the Resource Group/App Deployment and Libraries tab -->
+                  <netuix:page markupName="page" definitionLabel="ResourceGroupDeployments"
+                               presentationClass="page-table"
+                               title="tab.deployments">
+                    <netuix:meta name="helpid" content="Core-partition.core.partition.resourcegroupdeployments.table.title;core-partition"/>
+                    <netuix:content>
+                      <netuix:layout type="no" markupType="Layout" markupName="NoLayout">
+                        <netuix:placeholder usingFlow="false" markupType="Placeholder" markupName="ph1">
+                          <netuix:portlet definitionLabel="ResourceGroupDeploymentsPortlet">
+                            <netuix:strutsContent module="/core-partition" action="ResourceGroupDeploymentsTable"
+                                  refreshAction="ResourceGroupDeploymentsTable"/>
+                          </netuix:portlet>
+                        </netuix:placeholder>
+                      </netuix:layout>
+                    </netuix:content>
+                  </netuix:page>
+
+                  <netuix:book markupName="book" definitionLabel="PartitionRGServiceTabPage"  title="tab.services">
+                    <netuix:singleLevelMenu markupType="Menu" markupName="singleLevelMenu" presentationClass="menu-level1"/>
+                    <netuix:content>
+
+                      <netuix:page markupName="page" definitionLabel="PartitionRGJDBCDataSourceTablePages"
+                                   presentationClass="page-content"
+                                   title="tab.JDBC">
+                        <netuix:meta name="helpid" content="Core-partition.core.partition.resourcegroupsservicesjdbc.title;core-partition"/>
+                        <netuix:content>
+                          <netuix:layout type="no" markupName="NoLayout">
+                            <netuix:placeholder usingFlow="false" markupName="ph1">
+                              <netuix:portlet definitionLabel="ResourceGroupServicesJDBCPortlet">
+                                <netuix:strutsContent module="/core-partition" action="ResourceGroupServicesJDBC"
+                                    refreshAction="ResourceGroupServicesJDBC"/>
+                              </netuix:portlet>
+                            </netuix:placeholder>
+                          </netuix:layout>
+                        </netuix:content>
+                      </netuix:page>
+
+                      <netuix:page markupName="page" definitionLabel="PartitionRGJMSServers"
+                                   title="tab.JMS"
+                                   presentationClass="page-table">
+                        <netuix:meta name="helpid" content="Core-partition.core.partition.resourcegroupsservicesjms.title;jms"/>
+                        <netuix:content>
+                          <netuix:layout type="no" markupName="NoLayout">
+                            <netuix:placeholder usingFlow="false" markupName="ph1">
+                              <netuix:portlet definitionLabel="PartitionRGJMSServersPortlet">
+                                <netuix:strutsContent module="/core-partition" action="PartitionRGJMSServersTable"
+                                                      refreshAction="PartitionRGJMSServersTable"/>
+                              </netuix:portlet>
+                            </netuix:placeholder>
+                          </netuix:layout>
+                        </netuix:content>
+                      </netuix:page>
+
+
+                      <!-- Definition for the Bridges tab -->
+                      <netuix:book markupName="book" definitionLabel="PartitionRGbridgeTabPage"  title="tree.bridges">
+                        <netuix:singleLevelMenu markupType="Menu" markupName="singleLevelMenu" presentationClass="menu-level1"/>
+                        <netuix:content>
+                          <!-- Definition for the Bridge tab -->
+                          <netuix:page markupName="page" definitionLabel="PartitionRGMessagingBridges"
+                                       presentationClass="page-content"
+                                       title="tab.MessagingBridges">
+                            <netuix:meta name="helpid" content="Core-partition.core.partition.PartitionRGMessagingBridge.title;core-partition"/>
+                            <netuix:content>
+                              <netuix:layout type="no" markupName="NoLayout">
+                                <netuix:placeholder usingFlow="false" markupName="ph1">
+                                  <netuix:portlet definitionLabel="RGServiceMessagingBridgeTablePortlet">
+                                    <netuix:strutsContent module="/core-partition" action="RGServiceMessagingBridgeTable"
+                                                          refreshAction="RGServiceMessagingBridgeTable"/>
+                                  </netuix:portlet>
+                                </netuix:placeholder>
+                              </netuix:layout>
+                            </netuix:content>
+                          </netuix:page>
+
+                          <!-- Definition for the JMS Bridge Destinations tab -->
+                          <netuix:page markupName="page" definitionLabel="PartitionRGJMSBridgeDestination"
+                                       presentationClass="page-content"
+                                       title="tree.bridgedestinations">
+                            <netuix:meta name="helpid" content="Core-partition.core.partition.PartitionRGJMSBridgeDestination.title;core-partition"/>
+                            <netuix:meta name="breadcrumb-context" content="handle"/>
+                            <netuix:content>
+                              <netuix:layout type="no" markupName="NoLayout">
+                                <netuix:placeholder usingFlow="false" markupName="ph1">
+                                  <netuix:portlet definitionLabel="RGServiceJMSBridgeDestinationTablePortlet">
+                                    <netuix:strutsContent module="/core-partition" action="RGServiceJMSBridgeDestinationTable"
+                                                          refreshAction="RGServiceJMSBridgeDestinationTable"/>
+                                  </netuix:portlet>
+                                </netuix:placeholder>
+                              </netuix:layout>
+                            </netuix:content>
+                          </netuix:page>
+                        </netuix:content>
+                      </netuix:book>
+
+                    <netuix:page markupName="page" definitionLabel="PRGServiceMailSessions"
+                                 presentationClass="page-content"
+                                 title="tab.MailSessions">
+                      <netuix:meta name="helpid" content="Core-partition.core.partition.resourcegroup.mailsessions.title;core-partition"/>
+                      <netuix:content>
+                        <netuix:layout type="no" markupName="NoLayout">
+                          <netuix:placeholder usingFlow="false" markupName="ph1">
+                            <netuix:portlet definitionLabel="PRGServiceMailSessionTablePortlet">
+                              <netuix:strutsContent module="/core-partition" action="PRGServiceMailSessionTable"
+                                                    refreshAction="PRGServiceMailSessionTable"/>
+                            </netuix:portlet>
+                          </netuix:placeholder>
+                        </netuix:layout>
+                      </netuix:content>
+                    </netuix:page>
+
+                    <netuix:page markupName="page" definitionLabel="PRGServicePersistentStores"
+                                 presentationClass="page-content"
+                                 title="tree.persistentstores">
+                      <netuix:meta name="helpid" content="Core-partition.core.partition.resourcegroup.jmsstoretable.title;core-partition"/>
+                      <netuix:content>
+                        <netuix:layout type="no" markupName="NoLayout">
+                          <netuix:placeholder usingFlow="false" markupName="ph1">
+                            <netuix:portlet definitionLabel="PRGServiceJMSStoreTablePortlet">
+                              <netuix:strutsContent module="/core-partition" action="PRGServiceJMSStoreTable"
+                                                    refreshAction="PRGServiceJMSStoreTable"/>
+                            </netuix:portlet>
+                          </netuix:placeholder>
+                        </netuix:layout>
+                      </netuix:content>
+                    </netuix:page>
+
+                    <netuix:page markupName="page" definitionLabel="RGPathServices"
+                                 presentationClass="page-content"
+                                 title="tab.PathServices">
+                      <netuix:meta name="helpid" content="Core-partition.core.partition.partitionresourcegroups.pathservice.title;core-partition"/>
+                      <netuix:content>
+                        <netuix:layout type="no" markupName="NoLayout">
+                          <netuix:placeholder usingFlow="false" markupName="ph1">
+                            <netuix:portlet definitionLabel="PRGServicesPathServiceTablePortlet">
+                              <netuix:strutsContent module="/core-partition" action="PRGServicesPathServiceTable"
+                                                    refreshAction="PRGServicesPathServiceTable"/>
+                            </netuix:portlet>
+                          </netuix:placeholder>
+                        </netuix:layout>
+                      </netuix:content>
+                    </netuix:page>
+
+                    <netuix:page markupName="page" definitionLabel="PRGServiceForeignJNDIProviders"
+                               presentationClass="page-content"
+                               title="tab.ForeignJNDIProviders">
+                    <netuix:meta name="helpid" content="Core-partition.core.partition.resourcegroup.foreignjndiprovidertable.title;core-partition"/>
+                      <netuix:content>
+                        <netuix:layout type="no" markupName="NoLayout">
+                          <netuix:placeholder usingFlow="false" markupName="ph1">
+                            <netuix:portlet definitionLabel="PRGServiceForeignJNDIProviderTablePortlet">
+                              <netuix:strutsContent module="/core-partition" action="PRGServiceForeignJNDIProviderTable"
+                                                    refreshAction="PRGServiceForeignJNDIProviderTable"/>
+                            </netuix:portlet>
+                          </netuix:placeholder>
+                        </netuix:layout>
+                      </netuix:content>
+                    </netuix:page>
+
+                    <netuix:page markupName="page" definitionLabel="PRGServiceWLDFSystemResources"
+                                 presentationClass="page-content"
+                                 title="tab.WLDFSystemResources">
+                      <netuix:meta name="helpid" content="Core-partition.core.partition.resourcegroup.moduletable.title;core-partition"/>
+                      <netuix:content>
+                        <netuix:layout type="no" markupName="NoLayout">
+                          <netuix:placeholder usingFlow="false" markupName="ph1">
+                            <netuix:portlet definitionLabel="PRGServiceWLDFSystemResourceTablePortlet">
+                              <netuix:strutsContent module="/core-partition" action="PRGServiceWLDFSystemResourceTable"
+                                                    refreshAction="PRGServiceWLDFSystemResourceTable"/>
+                            </netuix:portlet>
+                          </netuix:placeholder>
+                        </netuix:layout>
+                      </netuix:content>
+                    </netuix:page>
+
+                    <netuix:page markupName="page" definitionLabel="PartitionRGServiceSAFAgents"
+                                 presentationClass="page-content"
+                                 title="tab.SAFAgents">
+                      <netuix:meta name="helpid" content="Core-partition.core.partition.resourcegroupservicesafagents.title;core-partition"/>
+                      <netuix:content>
+                        <netuix:layout type="no" markupName="NoLayout">
+                          <netuix:placeholder usingFlow="false" markupName="ph1">
+                            <netuix:portlet definitionLabel="RGServiceSAFAgentTablePortlet">
+                              <netuix:strutsContent module="/core-partition" action="RGServiceSAFAgentTable"
+                                                    refreshAction="RGServiceSAFAgentTable"/>
+                            </netuix:portlet>
+                          </netuix:placeholder>
+                        </netuix:layout>
+                      </netuix:content>
+                    </netuix:page>
+
+                    <netuix:page markupName="page" definitionLabel="PartitionRGServiceOsgiFramework"
+                                 presentationClass="page-content"
+                                 title="tab.OsgiFrameworks">
+                      <netuix:meta name="helpid" content="Core-partition.core.partition.resourcegrouposgiframework.title;core-partition"/>
+                      <netuix:content>
+                        <netuix:layout type="no" markupName="NoLayout">
+                          <netuix:placeholder usingFlow="false" markupName="ph1">
+                            <netuix:portlet definitionLabel="RGServiceOsgiFrameworkTablePortlet">
+                              <netuix:strutsContent module="/core-partition" action="RGServiceOsgiFrameworkTable"
+                                                    refreshAction="RGServiceOsgiFrameworkTable"/>
+                            </netuix:portlet>
+                          </netuix:placeholder>
+                        </netuix:layout>
+                      </netuix:content>
+                    </netuix:page>
+
+                  </netuix:content>
+                </netuix:book>
+
+
+
+                <!-- Definition for the notes tab -->
+                <netuix:page markupName="page" definitionLabel="PartitionResourceGroupNotes"
+                             presentationClass="page-content"
+                             title="tab.notes">
+                  <netuix:meta name="helpid" content="Core-partition.core.partition.partitionresourcegroupsnotes.title;core-partition"/>
+                  <netuix:content>
+                    <netuix:layout type="no" markupName="NoLayout">
+                      <netuix:placeholder usingFlow="false" markupName="ph1">
+                        <netuix:portletInstance markupType="Portlet" instanceLabel="PartitionResourceGroupsNotesPortlet"
+                                                contentUri="/PortalConfig/core/partition/PartitionNotes.portlet"/>
+                      </netuix:placeholder>
+                    </netuix:layout>
+                  </netuix:content>
+                </netuix:page>
+
+              </netuix:content>
+            </netuix:book>
+          </netuix:placeholder>
+          </netuix:layout>
+        </netuix:content>
+      </netuix:page>
+    </netuix:content>
+  </netuix:book>
+
+    <netuix:book definitionLabel="CorePartitionBook" title="book.title" markupName="book"
+         backingFile="com.bea.console.utils.CorePartitionBackingFile"
+         threadsafe="true"
+         presentationClass="wlsc-frame">
+      <netuix:titlebar/>
+      <netuix:content>
+        <netuix:page markupName="page" definitionLabel="CorePartitionPages" title="not.used"
+             hidden="true">
+          <netuix:content>
+            <netuix:layout type="no" markupName="NoLayout">
+              <netuix:placeholder usingFlow="false" markupName="ph1">
+                <netuix:book markupName="book" definitionLabel="CorePartitionTabsBook"
+                     title="CorePartitionTabsBook">
+                  <netuix:singleLevelMenu markupType="Menu" markupName="singleLevelMenu"/>
+                  <netuix:content>
+                    <!-- Definition for the config tab -->
+                    <netuix:book markupName="book" definitionLabel="PartitionconfigTabPage"  title="tab.config">
+                    <netuix:singleLevelMenu markupType="Menu" markupName="singleLevelMenu" presentationClass="menu-level1"/>
+                      <netuix:content>
+                        <!-- Definition for the general tab -->
+                        <netuix:page markupName="page" definitionLabel="PartitionConfigGeneral"
+                              presentationClass="page-content" title="tab.general">
+                          <netuix:meta name="helpid" content="Core-partition.core.partition.partitionconfiggeneral.title;core-partition"/>
+                          <netuix:meta name="configuration-page" content="Partition"/>
+                          <netuix:meta name="breadcrumb-context" content="handle"/>
+                          <netuix:content>
+                            <netuix:layout type="no" markupName="NoLayout">
+                              <netuix:placeholder usingFlow="false" markupName="ph1">
+                                <netuix:portlet definitionLabel="PartitionConfigGeneralPortlet">
+                                  <netuix:strutsContent module="/core-partition" action="CorePartitionConfigGeneral"
+                                      refreshAction="CorePartitionConfigGeneral"/>
+                                </netuix:portlet>
+                              </netuix:placeholder>
+                            </netuix:layout>
+                          </netuix:content>
+                        </netuix:page>
+
+                        <!-- Definition for the Available Targets tab -->
+                        <netuix:page markupName="page" definitionLabel="PartitionAvailableTargetsPage"
+                                     presentationClass="page-content"
+                                     title="tab.availabletargets">
+                          <netuix:meta name="helpid" content="Core-partition.core.partition.availableTargets.title;core-partition"/>
+                          <netuix:content>
+                            <netuix:layout type="no"  markupName="NoLayout">
+                              <netuix:placeholder usingFlow="false"  markupName="ph1">
+                                <netuix:portlet definitionLabel="PartitionAvailableTargetsPortlet">
+                                  <netuix:strutsContent module="/core-partition" action="PartitionAvailableTargets"
+                                                        refreshAction="PartitionAvailableTargets"/>
+                                </netuix:portlet>
+                              </netuix:placeholder>
+                            </netuix:layout>
+                          </netuix:content>
+                        </netuix:page>
+
+                        <!-- Definition for the File System tab -->
+                        <netuix:page markupName="page" definitionLabel="PartitionFileSystemPage"
+                                     presentationClass="page-content"
+                                     title="tab.partitionfilesystems">
+                          <netuix:meta name="helpid" content="Core-partition.core.partition.partitionfilesystem.title;core-partition"/>
+                          <netuix:content>
+                            <netuix:layout type="no"  markupName="NoLayout">
+                              <netuix:placeholder usingFlow="false"  markupName="ph1">
+                                <netuix:portlet definitionLabel="PartitionFilesystemPortlet">
+                                  <netuix:strutsContent module="/core-partition" action="PartitionFileSystem"
+                                                        refreshAction="PartitionFileSystem"/>
+                                </netuix:portlet>
+                              </netuix:placeholder>
+                            </netuix:layout>
+                          </netuix:content>
+                        </netuix:page>
+
+                        <!-- Definition for Partition LoggingDebug tab -->
+                        <netuix:page markupName="page" definitionLabel="PartitionLoggingDebugPage"
+                                     presentationClass="page-content"
+                                     title="tab.partitionloggingdebug">
+                          <netuix:meta name="helpid" content="Core-partition.core.partition.partitionloggingdebug.title;core-partition"/>
+                          <netuix:content>
+                            <netuix:layout type="no" markupName="NoLayout">
+                              <netuix:placeholder usingFlow="false" markupName="ph1">
+                                <netuix:portlet definitionLabel="PartitionLoggingDebugPortlet">
+                                  <netuix:strutsContent module="/core-partition" action="PartitionLoggingDebug"
+                                                        refreshAction="PartitionLoggingDebug"/>
+                                </netuix:portlet>
+                              </netuix:placeholder>
+                            </netuix:layout>
+                          </netuix:content>
+                        </netuix:page>
+
+                        <!-- Definition for the JTA tab -->
+                        <netuix:page markupName="page" definitionLabel="PartitionConfigJtaPage"
+                                     presentationClass="page-content"
+                                     title="tab.partitionconfigjta">
+                          <netuix:meta name="helpid" content="Core-partition.core.partition.partitionconfigjta.title;core-partition"/>
+                          <netuix:meta name="breadcrumb-context" content="handle"/>
+                          <netuix:content>
+                            <netuix:layout type="no" markupName="NoLayout">
+                              <netuix:placeholder usingFlow="false" markupName="ph1">
+                                <netuix:portlet definitionLabel="PartitionConfigJtaPortlet">
+                                  <netuix:strutsContent module="/core-partition" action="PartitionConfigJtaAction"
+                                                        refreshAction="PartitionConfigJtaAction"/>
+                                </netuix:portlet>
+                              </netuix:placeholder>
+                            </netuix:layout>
+                          </netuix:content>
+                        </netuix:page>
+
+                        <!-- Definition for the Concurrency tab -->
+                        <netuix:page markupName="page" definitionLabel="PartitionConfigConcurrencyPage"
+                                     presentationClass="page-content"
+                                     title="tab.partitionconfigconcurrency">
+                          <netuix:meta name="helpid" content="Core-partition.core.partition.partitionconfigconcurrency.title;core-partition"/>
+                          <netuix:meta name="breadcrumb-context" content="handle"/>
+                          <netuix:content>
+                            <netuix:layout type="no" markupName="NoLayout">
+                              <netuix:placeholder usingFlow="false" markupName="ph1">
+                                <netuix:portlet definitionLabel="PartitionConfigConcurrencyPortlet">
+                                  <netuix:strutsContent module="/core-partition" action="PartitionConfigConcurrencyAction"
+                                                        refreshAction="PartitionConfigConcurrencyAction"/>
+                                </netuix:portlet>
+                              </netuix:placeholder>
+                            </netuix:layout>
+                          </netuix:content>
+                        </netuix:page>
+
+                        <!-- Definition for the partition work manager tab -->
+                        <netuix:page markupName="page" definitionLabel="PartitionWorkManagerPage"
+                                     presentationClass="page-content" title="tab.paritionworkmanager">
+                          <netuix:meta name="helpid" content="Core-partition.core.partition.partitionconfigworkmanager.title;core-partition"/>
+                          <netuix:meta name="breadcrumb-context" content="handle"/>
+                          <netuix:content>
+                            <netuix:layout type="no" markupName="NoLayout">
+                              <netuix:placeholder usingFlow="false" markupName="ph1">
+                                <netuix:portlet definitionLabel="CorePartitionWorkManagerPortlet">
+                                  <netuix:strutsContent module="/core-partition" action="CorePartitionWorkManager"
+                                                        refreshAction="CorePartitionWorkManager"/>
+                                </netuix:portlet>
+                              </netuix:placeholder>
+                            </netuix:layout>
+                          </netuix:content>
+                        </netuix:page>
+
+                        <!--  Definition for the RCM management tab -->
+                        <netuix:page definitionLabel="CorePartitionRCMManagerPage"
+                                     markupName="page"
+                                     presentationClass="page-content"
+                                     title="tab.rcm.management">
+                          <netuix:meta name="helpid"
+                                       content="Core-partition.core.partition.rcm.management.title;core-partition"/>
+                          <netuix:content>
+                            <netuix:flowLayout orientation="vertical" markupType="Layout" markupName="singleColumnLayout">
+                              <netuix:placeholder flow="vertical" markupName="singleColumn_columnOne">
+                                <netuix:portlet definitionLabel="CorePartitionRCMManagementPortlet">
+                                  <netuix:strutsContent module="/core-partition" action="CorePartitionRCMManagement"
+                                                        refreshAction="CorePartitionRCMManagement"/>
+                                </netuix:portlet>
+                              </netuix:placeholder>
+                            </netuix:flowLayout>
+                          </netuix:content>
+                        </netuix:page>
+                    </netuix:content>
+                  </netuix:book>
+
+                    <!-- Definition for the Resource Group table page -->
+                    <netuix:book definitionLabel="PartitionResourceGroupTableBook" markupName="book"
+                                 backingFile="com.bea.console.utils.GeneralBackingFile"
+                                 threadsafe="true"
+                                 title="tab.resourcegroups">
+                      <netuix:singleLevelMenu markupType="Menu" markupName="singleLevelMenu"/>
+                      <netuix:content>
+                        <!-- Definition for the Resource Groups configuration tab -->
+                        <netuix:page markupName="page" definitionLabel="PartitionResourceGroupsTablePage"
+                                     presentationClass="page-content"
+                                     title="tab.configuration">
+                          <netuix:meta name="helpid" content="Core-partition.core.partition.partitionresourcegroups.table.title;core-partition"/>
+                          <netuix:content>
+                            <netuix:layout type="no" markupType="Layout" markupName="NoLayout">
+                              <netuix:placeholder usingFlow="false" markupType="Placeholder" markupName="ph1">
+                                <netuix:portlet definitionLabel="PartitionResourceGroupsTablePortlet">
+                                  <netuix:strutsContent module="/core-partition" action="PartitionResourceGroupsTable"
+                                                        refreshAction="PartitionResourceGroupsTable"/>
+                                </netuix:portlet>
+                              </netuix:placeholder>
+                            </netuix:layout>
+                          </netuix:content>
+                        </netuix:page>
+
+                        <!-- Definition for the control tab -->
+                        <netuix:page markupName="page" definitionLabel="PartitionResourceGroupsControlTablePage"
+                                     presentationClass="page-content"
+                                     title="tab.control">
+                          <netuix:meta name="helpid" content="Core-partition.core.partition.partitionresourcegroups.controltable.title;core-partition"/>
+                          <netuix:content>
+                            <netuix:layout type="no" markupType="Layout" markupName="NoLayout">
+                              <netuix:placeholder usingFlow="false" markupType="Placeholder" markupName="ph1">
+                                <netuix:portlet definitionLabel="PartitionResourceGroupsControlTablePortlet">
+                                  <netuix:strutsContent module="/core-partition" action="PartitionResourceGroupsControlTable"
+                                                        refreshAction="PartitionResourceGroupsControlTable"/>
+                                </netuix:portlet>
+                              </netuix:placeholder>
+                            </netuix:layout>
+                          </netuix:content>
+                        </netuix:page>
+
+                      </netuix:content>
+                    </netuix:book>
+
+
+                    <!-- Definition for the App Deployment and Libraries tab -->
+                  <netuix:page markupName="page" definitionLabel="PartitionDeployments"
+                               presentationClass="page-table"
+                               title="tab.deployments">
+                    <netuix:meta name="helpid" content="Core-partition.core.partition.partitiondeployments.table.title;core-partition"/>
+                    <netuix:content>
+                      <netuix:layout type="no" markupType="Layout" markupName="NoLayout">
+                        <netuix:placeholder usingFlow="false" markupType="Placeholder" markupName="ph1">
+                          <netuix:portlet definitionLabel="PartitionDeploymentsPortlet">
+                            <netuix:strutsContent module="/core-partition" action="PartitionDeploymentsTable"
+                                refreshAction="PartitionDeploymentsTable"/>
+                          </netuix:portlet>
+                        </netuix:placeholder>
+                      </netuix:layout>
+                    </netuix:content>
+                  </netuix:page>
+
+                    <netuix:book markupName="book" definitionLabel="PartitionServiceTabPage"  title="tab.services">
+                      <netuix:singleLevelMenu markupType="Menu" markupName="singleLevelMenu" presentationClass="menu-level1"/>
+                      <netuix:content>
+
+                      <netuix:page markupName="page" definitionLabel="PartitionServicesJDBCDatasource"
+                                   presentationClass="page-content"
+                                   title="tab.JDBC">
+                        <netuix:meta name="helpid" content="Core-partition.core.partition.partitionservicesjdbc.title;core-partition"/>
+                        <netuix:content>
+                          <netuix:layout type="no" markupName="NoLayout">
+                            <netuix:placeholder usingFlow="false" markupName="ph1">
+                              <netuix:portlet definitionLabel="PartitionServicesJDBCPortlet">
+                                <netuix:strutsContent module="/core-partition" action="PartitionServicesJDBC"
+                                      refreshAction="PartitionServicesJDBC"/>
+                              </netuix:portlet>
+                            </netuix:placeholder>
+                          </netuix:layout>
+                        </netuix:content>
+                      </netuix:page>
+
+
+                      <netuix:page markupName="page" definitionLabel="PartitionJMSServers"
+                                   title="tab.JMS"
+                                   presentationClass="page-table">
+                        <netuix:meta name="helpid" content="Core-partition.core.partition.jmsservertable.title;core-partition"/>
+                        <netuix:content>
+                          <netuix:layout type="no" markupName="NoLayout">
+                            <netuix:placeholder usingFlow="false" markupName="ph1">
+                              <netuix:portlet definitionLabel="PartitionServiceJMSServersPortlet">
+                                <netuix:strutsContent module="/core-partition" action="PartitionServicesJMSTable"
+                                                      refreshAction="PartitionServicesJMSTable"/>
+                              </netuix:portlet>
+                            </netuix:placeholder>
+                          </netuix:layout>
+                        </netuix:content>
+                      </netuix:page>
+
+                      <!-- Definition for the Bridges tab -->
+                      <netuix:book markupName="book" definitionLabel="PartitionbridgeTabPage"  title="tree.bridges">
+                        <netuix:singleLevelMenu markupType="Menu" markupName="singleLevelMenu" presentationClass="menu-level1"/>
+                        <netuix:content>
+                          <!-- Definition for the Bridge tab -->
+                          <netuix:page markupName="page" definitionLabel="PartitionMessagingBridges"
+                                        presentationClass="page-content"
+                                        title="tab.MessagingBridges">
+                          <netuix:meta name="helpid" content="Core-partition.core.partition.PartitionMessagingBridges.title;core-partition"/>
+                          <netuix:content>
+                            <netuix:layout type="no" markupName="NoLayout">
+                              <netuix:placeholder usingFlow="false" markupName="ph1">
+                                <netuix:portlet definitionLabel="PartitionServiceMessagingBridgePortlet">
+                                  <netuix:strutsContent module="/core-partition" action="PartitionServiceMessagingBridgeTable"
+                                                        refreshAction="PartitionServiceMessagingBridgeTable"/>
+                                </netuix:portlet>
+                              </netuix:placeholder>
+                            </netuix:layout>
+                          </netuix:content>
+                        </netuix:page>
+
+                        <!-- Definition for the JMS Bridge Destinations tab -->
+                        <netuix:page markupName="page" definitionLabel="PartitionJMSBridgeDestination"
+                                     presentationClass="page-content"
+                                     title="tree.bridgedestinations">
+                          <netuix:meta name="helpid" content="Core-partition.core.partition.PartitionJMSBridgeDestination.title;core-partition"/>
+                          <netuix:meta name="breadcrumb-context" content="handle"/>
+                          <netuix:content>
+                            <netuix:layout type="no" markupName="NoLayout">
+                              <netuix:placeholder usingFlow="false" markupName="ph1">
+                                <netuix:portlet definitionLabel="PartitionServiceJMSBridgeDestinationPortlet">
+                                  <netuix:strutsContent module="/core-partition" action="PartitionServiceJMSBridgeDestinationTable"
+                                                        refreshAction="PartitionServiceJMSBridgeDestinationTable"/>
+                                  </netuix:portlet>
+                              </netuix:placeholder>
+                            </netuix:layout>
+                          </netuix:content>
+                        </netuix:page>
+                        </netuix:content>
+                      </netuix:book>
+
+                      <netuix:page markupName="page" definitionLabel="PartitionServiceMailSessions"
+                                   presentationClass="page-content"
+                                   title="tab.MailSessions">
+                        <netuix:meta name="helpid" content="Core-partition.core.partition.mailsessions.title;core-partition"/>
+                        <netuix:content>
+                          <netuix:layout type="no" markupName="NoLayout">
+                            <netuix:placeholder usingFlow="false" markupName="ph1">
+                              <netuix:portlet definitionLabel="PartitionServiceMailSessionTablePortlet">
+                                <netuix:strutsContent module="/core-partition" action="PartitionServiceMailSessionTable"
+                                                      refreshAction="PartitionServiceMailSessionTable"/>
+                              </netuix:portlet>
+                            </netuix:placeholder>
+                          </netuix:layout>
+                        </netuix:content>
+                      </netuix:page>
+
+                      <netuix:page markupName="page" definitionLabel="PartitionServicePersistentStores"
+                                   presentationClass="page-content"
+                                   title="tree.persistentstores">
+                        <netuix:meta name="helpid" content="Core-partition.core.partition.jmsstoretable.title;core-partition"/>
+                        <netuix:content>
+                          <netuix:layout type="no" markupName="NoLayout">
+                            <netuix:placeholder usingFlow="false" markupName="ph1">
+                              <netuix:portlet definitionLabel="PartitionServiceJMSStoreTablePortlet">
+                                <netuix:strutsContent module="/core-partition" action="PartitionServiceJMSStoreTable"
+                                                      refreshAction="PartitionServiceJMSStoreTable"/>
+                              </netuix:portlet>
+                            </netuix:placeholder>
+                          </netuix:layout>
+                        </netuix:content>
+                      </netuix:page>
+
+                      <netuix:page markupName="page" definitionLabel="PartitionPathServices"
+                                   presentationClass="page-content"
+                                   title="tab.PathServices">
+                        <netuix:meta name="helpid" content="Core-partition.core.partition.pathservice.title;core-partition"/>
+                        <netuix:content>
+                          <netuix:layout type="no" markupName="NoLayout">
+                            <netuix:placeholder usingFlow="false" markupName="ph1">
+                              <netuix:portlet definitionLabel="PartitionServicePathTablePortlet">
+                                <netuix:strutsContent module="/core-partition" action="PartitionServicesPathTable"
+                                                      refreshAction="PartitionServicesPathTable"/>
+                                </netuix:portlet>
+                            </netuix:placeholder>
+                          </netuix:layout>
+                        </netuix:content>
+                      </netuix:page>
+
+                      <netuix:page markupName="page" definitionLabel="PartitionServiceForeignJNDIProviders"
+                                   presentationClass="page-content"
+                                   title="tab.ForeignJNDIProviders">
+                        <netuix:meta name="helpid" content="Core-partition.core.partition.foreignjndiprovidertable.title;core-partition"/>
+                        <netuix:content>
+                          <netuix:layout type="no" markupName="NoLayout">
+                            <netuix:placeholder usingFlow="false" markupName="ph1">
+                              <netuix:portlet definitionLabel="PartitionServiceForeignJNDIProviderTablePortlet">
+                                <netuix:strutsContent module="/core-partition" action="PartitionServiceForeignJNDIProviderTable"
+                                                      refreshAction="PartitionServiceForeignJNDIProviderTable"/>
+                              </netuix:portlet>
+                            </netuix:placeholder>
+                          </netuix:layout>
+                        </netuix:content>
+                      </netuix:page>
+
+                      <netuix:page markupName="page" definitionLabel="PartitionServiceWLDFSystemResources"
+                                   presentationClass="page-content"
+                                   title="tab.WLDFSystemResources">
+                        <netuix:meta name="helpid" content="Core-partition.core.partition.moduletable.title;core-partition"/>
+                        <netuix:content>
+                          <netuix:layout type="no" markupName="NoLayout">
+                            <netuix:placeholder usingFlow="false" markupName="ph1">
+                              <netuix:portlet definitionLabel="PartitionServiceWLDFSystemResourceTablePortlet">
+                                <netuix:strutsContent module="/core-partition" action="PartitionServiceWLDFSystemResourceTable"
+                                                      refreshAction="PartitionServiceWLDFSystemResourceTable"/>
+                              </netuix:portlet>
+                            </netuix:placeholder>
+                          </netuix:layout>
+                        </netuix:content>
+                      </netuix:page>
+
+                      <netuix:page markupName="page" definitionLabel="PartitionServiceSAFAgents"
+                                   presentationClass="page-content"
+                                   title="tab.SAFAgents">
+                        <netuix:meta name="helpid" content="Core-partition.core.partition.safagents.title;core-partition"/>
+                        <netuix:content>
+                          <netuix:layout type="no" markupName="NoLayout">
+                            <netuix:placeholder usingFlow="false" markupName="ph1">
+                              <netuix:portlet definitionLabel="PartitionServiceSAFAgentTablePortlet">
+                                <netuix:strutsContent module="/core-partition" action="PartitionServiceSAFAgentTable"
+                                        refreshAction="PartitionServiceSAFAgentTable"/>
+                              </netuix:portlet>
+                            </netuix:placeholder>
+                          </netuix:layout>
+                        </netuix:content>
+                      </netuix:page>
+
+                      <netuix:page markupName="page" definitionLabel="PartitionServiceOsgiFramework"
+                                                         presentationClass="page-content"
+                                                         title="tab.OsgiFrameworks">
+                        <netuix:meta name="helpid" content="Core-partition.core.partition.osgiframework.title;core-partition"/>
+                        <netuix:content>
+                          <netuix:layout type="no" markupName="NoLayout">
+                            <netuix:placeholder usingFlow="false" markupName="ph1">
+                              <netuix:portlet definitionLabel="PartitionServiceOsgiFrameworkTablePortlet">
+                                <netuix:strutsContent module="/core-partition" action="PartitionServiceOsgiFrameworkTable"
+                                        refreshAction="PartitionServiceOsgiFrameworkTable"/>
+                              </netuix:portlet>
+                            </netuix:placeholder>
+                          </netuix:layout>
+                        </netuix:content>
+                      </netuix:page>
+
+                    </netuix:content>
+                  </netuix:book>
+
+                  <!-- Definition for the Resources Override tab -->
+                  <netuix:book markupName="book" definitionLabel="PartitionResourcesOverrideTabPage"  title="tab.partitionresourcesoverride">
+                    <netuix:singleLevelMenu markupType="Menu" markupName="singleLevelMenu" presentationClass="menu-level1"/>
+                    <netuix:content>
+
+                        <netuix:page markupName="page" definitionLabel="JDBCSystemResourceOverrideTablePage"
+                                     presentationClass="page-content"
+                                     title="tab.partitionjdbcsystemresouceoverride">
+                          <netuix:meta name="helpid" content="Core-partition.core.partition.jdbcsystemresourceoverride.title;core-partition"/>
+                          <netuix:content>
+                            <netuix:layout type="no" markupName="NoLayout">
+                              <netuix:placeholder usingFlow="false" markupName="ph1">
+                                <netuix:portlet definitionLabel="JDBCSystemResourceOverrideTablePortlet">
+                                  <netuix:strutsContent module="/core-partition" action="JDBCSystemResourceOverrideTable"
+                                                refreshAction="JDBCSystemResourceOverrideTable"/>
+                                </netuix:portlet>
+                              </netuix:placeholder>
+                            </netuix:layout>
+                          </netuix:content>
+                        </netuix:page>
+
+                      <netuix:page markupName="page" definitionLabel="MailSessionOverrideTablePage"
+                                   presentationClass="page-content"
+                                   title="tab.partitionmailsessionoverride">
+                        <netuix:meta name="helpid" content="Core-partition.core.partition.mailsessionoverride.title;core-partition"/>
+                        <netuix:meta name="breadcrumb" content="tab.partitionmailsessionoverride"/>
+                        <netuix:content>
+                          <netuix:layout type="no" markupName="NoLayout">
+                            <netuix:placeholder usingFlow="false" markupName="ph1">
+                              <netuix:portlet definitionLabel="MailSessionOverrideTablePortlet">
+                                <netuix:strutsContent module="/core-partition" action="MailSessionOverrideTable"
+                                                      refreshAction="MailSessionOverrideTable"/>
+                              </netuix:portlet>
+                            </netuix:placeholder>
+                          </netuix:layout>
+                        </netuix:content>
+                      </netuix:page>
+
+                      <netuix:book definitionLabel="JMSModulesOverrideTablePages" markupName="book"
+                                   backingFile="com.bea.console.utils.GeneralBackingFile"
+                                   threadsafe="true"
+                                   title="tab.partitionjmsmoduleoverride"
+                                   presentationClass="wlsc-frame">
+                        <netuix:titlebar/>
+                        <netuix:content>
+                          <netuix:page markupName="page" definitionLabel="JmsModulesOverrideTablePage" title="not.used"
+                                       hidden="true"
+                                       presentationClass="page-table">
+                            <netuix:meta name="helpid" content="JMS.jms.modulesoverride.title;core-partition"/>
+                            <netuix:meta name="breadcrumb" content="tab.partitionjmsmoduleoverride"/>
+                            <netuix:content>
+                              <netuix:layout type="no" markupName="NoLayout">
+                                <netuix:placeholder usingFlow="false" markupName="ph1">
+                                  <netuix:portlet definitionLabel="JmsModulesOverrideTablePortlet">
+                                    <netuix:strutsContent module="/core-partition" action="JMSModulesOverrideTableAction"
+                                                          refreshAction="JMSModulesOverrideTableAction"/>
+                                  </netuix:portlet>
+                                </netuix:placeholder>
+                              </netuix:layout>
+                            </netuix:content>
+                          </netuix:page>
+                        </netuix:content>
+                      </netuix:book>
+                    </netuix:content>
+                  </netuix:book>
+
+                    <!-- Definition for the CoherenceMTCacheConfig tab -->
+                  <netuix:page markupName="page" definitionLabel="PartitionCoherenceMTCacheTablePage"
+                               presentationClass="page-content"
+                               title="tab.CoherenceMTCaches">
+                    <netuix:meta name="helpid" content="Core-partition.core.partition.coherencecachetable.title;core-partition"/>
+                    <netuix:content>
+                      <netuix:layout type="no" markupName="NoLayout">
+                        <netuix:placeholder usingFlow="false" markupName="ph1">
+                          <netuix:portlet definitionLabel="PartitionCoherenceMTCacheTablePortlet">
+                            <netuix:strutsContent module="/core-partition" action="PartitionCoherenceMTCacheTable"
+                                                  refreshAction="PartitionCoherenceMTCacheTable"/>
+                          </netuix:portlet>
+                        </netuix:placeholder>
+                      </netuix:layout>
+                    </netuix:content>
+                  </netuix:page>
+
+                  <!-- Definition for the Partition Work Manager tab -->
+                  <netuix:page markupName="page" definitionLabel="PartitionWorkManagerTablePage"
+                       presentationClass="page-content"
+                       title="tab.workmanager">
+                    <netuix:meta name="helpid" content="Core-partition.core.partition.partitionworkmanager.title;core-partition"/>
+                    <netuix:content>
+                    <netuix:layout type="no" markupName="NoLayout">
+                      <netuix:placeholder usingFlow="false" markupName="ph1">
+                      <netuix:portlet definitionLabel="PartitionWorkManagerPortlet">
+                        <netuix:strutsContent module="/core-partition" action="PartitionWorkManagerTable"
+                                              refreshAction="PartitionWorkManagerTable"/>
+                      </netuix:portlet>
+                      </netuix:placeholder>
+                    </netuix:layout>
+                    </netuix:content>
+                  </netuix:page>
+
+                  <!-- Definition for the Partition Concurrent Templates tab -->
+                  <netuix:page markupName="page" definitionLabel="PartitionCMOTemplateTablePage"
+                       presentationClass="page-content"
+                       title="tab.cmotemplates">
+                    <netuix:meta name="helpid" content="Core-partition.core.partition.partitioncmotemplate.title;core-partition"/>
+                    <netuix:content>
+                    <netuix:layout type="no" markupName="NoLayout">
+                      <netuix:placeholder usingFlow="false" markupName="ph1">
+                      <netuix:portlet definitionLabel="PartitionCMOTemplateTablePortlet">
+                        <netuix:strutsContent module="/core-partition" action="PartitionCMOTemplateTable"
+                                              refreshAction="PartitionCMOTemplateTable"/>
+                      </netuix:portlet>
+                      </netuix:placeholder>
+                    </netuix:layout>
+                    </netuix:content>
+                  </netuix:page>
+
+                  <!-- Definition for the Monitoring tab -->
+                  <netuix:book markupName="book" definitionLabel="PartitionMonitoringTabPage"  title="tab.monitor">
+                    <netuix:singleLevelMenu markupType="Menu" markupName="singleLevelMenu" presentationClass="menu-level1"/>
+                      <netuix:content>
+
+                        <netuix:page markupName="page" definitionLabel="PartitionMonitorHealth"
+                                     presentationClass="page-content"
+                                     title="tab.health">
+                          <netuix:meta name="helpid"
+                                       content="Core-partition.core.partition.healthtable.title;core-partition"/>
+                          <netuix:content>
+                            <netuix:layout type="no" markupName="NoLayout">
+                              <netuix:placeholder usingFlow="false" markupName="ph1">
+                                <netuix:portlet definitionLabel="PartitionMonitorHealthTablePortlet">
+                                  <netuix:strutsContent module="/core-partition" action="PartitionHealthTable"
+                                                        refreshAction="PartitionHealthTable"/>
+                                </netuix:portlet>
+                              </netuix:placeholder>
+                            </netuix:layout>
+                          </netuix:content>
+                        </netuix:page>
+
+                        <netuix:book markupName="book" definitionLabel="PartitionRCMMonitoringTabPage"  title="tab.rcm.management">
+                          <netuix:singleLevelMenu markupType="Menu" markupName="singleLevelMenu" presentationClass="menu-level1"/>
+                            <netuix:content>
+                              <netuix:page markupName="page" definitionLabel="RCMMonitoringFilePage"
+                                           presentationClass="page-content"
+                                           title="tab.monitoringrcm.file">
+                                <netuix:meta name="helpid" content="Core-partition.core.partition.monitoringrcm.file.title;core-partition"/>
+                                  <netuix:content>
+                                    <netuix:layout type="no" markupName="NoLayout">
+                                      <netuix:placeholder usingFlow="false" markupName="ph1">
+                                        <netuix:portlet definitionLabel="PartitionMonitoringRCMFilePortlet">
+                                          <netuix:strutsContent module="/core-partition" action="PartitionMonitoringRCMFileTable"
+                                                    refreshAction="PartitionMonitoringRCMFileTable"/>
+                                        </netuix:portlet>
+                                      </netuix:placeholder>
+                                    </netuix:layout>
+                                  </netuix:content>
+                              </netuix:page>
+
+                              <netuix:page markupName="page" definitionLabel="RCMMonitoringCPUPage"
+                                           presentationClass="page-content"
+                                           title="tab.monitoringrcm.cpu">
+                                <netuix:meta name="helpid" content="Core-partition.core.partition.monitoringrcm.cpu.title;core-partition"/>
+                                  <netuix:content>
+                                    <netuix:layout type="no" markupName="NoLayout">
+                                      <netuix:placeholder usingFlow="false" markupName="ph1">
+                                        <netuix:portlet definitionLabel="PartitionMonitoringRCMCPUPortlet">
+                                          <netuix:strutsContent module="/core-partition" action="PartitionMonitoringRCMCPUTable"
+                                                    refreshAction="PartitionMonitoringRCMCPUTable"/>
+                                        </netuix:portlet>
+                                      </netuix:placeholder>
+                                    </netuix:layout>
+                                  </netuix:content>
+                              </netuix:page>
+
+                              <netuix:page markupName="page" definitionLabel="RCMMonitoringHeapPage"
+                                           presentationClass="page-content"
+                                           title="tab.monitoringrcm.heap">
+                                <netuix:meta name="helpid" content="Core-partition.core.partition.monitoringrcm.heap.title;core-partition"/>
+                                  <netuix:content>
+                                    <netuix:layout type="no" markupName="NoLayout">
+                                      <netuix:placeholder usingFlow="false" markupName="ph1">
+                                        <netuix:portlet definitionLabel="PartitionMonitoringRCMHeapPortlet">
+                                          <netuix:strutsContent module="/core-partition" action="PartitionMonitoringRCMHeapTable"
+                                                                refreshAction="PartitionMonitoringRCMHeapTable"/>
+                                        </netuix:portlet>
+                                      </netuix:placeholder>
+                                    </netuix:layout>
+                                  </netuix:content>
+                              </netuix:page>
+                          </netuix:content>
+                        </netuix:book>
+
+                        <!-- Definition for the Batch jobs tab -->
+                        <netuix:page markupName="page" definitionLabel="PartitionBatchJobsPage"
+                                     presentationClass="page-content"
+                                     title="tab.batchjobs">
+                          <netuix:meta name="helpid"
+                                       content="Core-partition.core.partition.batchjobstable.title;core-partition"/>
+                          <netuix:content>
+                            <netuix:layout type="no" markupName="NoLayout">
+                              <netuix:placeholder usingFlow="false" markupName="ph1">
+                                <netuix:portlet definitionLabel="PartitionBatchJobsTablePortlet">
+                                  <netuix:strutsContent module="/core-partition" action="PartitionBatchJobsTable"
+                                                        refreshAction="PartitionBatchJobsTable"/>
+                                </netuix:portlet>
+                              </netuix:placeholder>
+                            </netuix:layout>
+                          </netuix:content>
+                        </netuix:page>
+                    </netuix:content>
+                  </netuix:book>
+
+                  <!-- Definition for the notes tab -->
+                  <netuix:page markupName="page" definitionLabel="PartitionNotes"
+                       presentationClass="page-content"
+                       title="tab.notes">
+                    <netuix:meta name="helpid" content="Core-partition.core.partition.partitionnotes.title;core-partition"/>
+                    <netuix:content>
+                    <netuix:layout type="no" markupName="NoLayout">
+                      <netuix:placeholder usingFlow="false" markupName="ph1">
+                        <netuix:portletInstance markupType="Portlet" instanceLabel="PartitionNotesPortlet"
+                               contentUri="/PortalConfig/core/partition/PartitionNotes.portlet"/>
+                      </netuix:placeholder>
+                    </netuix:layout>
+                    </netuix:content>
+                  </netuix:page>
+
+                  </netuix:content>
+                </netuix:book>
+              </netuix:placeholder>
+            </netuix:layout>
+          </netuix:content>
+        </netuix:page>
+      </netuix:content>
+    </netuix:book>
+
+
+      <!-- Definition for the Coherence MT Cache  creation assistant page -->
+      <netuix:book definitionLabel="CorePartitionCreateCoherenceMTCacheBook" markupName="book"
+                   backingFile="com.bea.console.utils.CorePartitionBackingFile"
+                   threadsafe="true"
+                   title="assistant.create.partition.coherencemtcache.title"
+                   presentationClass="wlsc-frame">
+        <netuix:titlebar/>
+        <netuix:content>
+          <netuix:page markupName="page" definitionLabel="CreateCoherenceMTCachePage" title="not.used"
+                       hidden="true"
+                       presentationClass="page-assistant">
+            <netuix:meta name="helpid" content="Core-partition.core.partition.createcoherencemtcache.title;core-partition"/>
+            <netuix:content>
+              <netuix:layout type="no" markupName="NoLayout">
+                <netuix:placeholder usingFlow="false" markupName="ph1">
+                  <netuix:portlet definitionLabel="CreateCoherenceMTCachePortlet">
+                    <netuix:pageflowContent contentUri="/com/bea/console/actions/core/partition/coherencemtcache/createcoherencemtcache/CreateCoherenceMTCache.jpf"
+                                            action="begin"
+                                            refreshAction="begin"/>
+                  </netuix:portlet>
+                </netuix:placeholder>
+              </netuix:layout>
+            </netuix:content>
+          </netuix:page>
+        </netuix:content>
+      </netuix:book>
+
+      <!-- Definition for the Coherence MT Cache  deletion assistant page -->
+      <netuix:book definitionLabel="CorePartitionDeleteCoherenceMTCacheBook" markupName="book"
+                   backingFile="com.bea.console.utils.CorePartitionBackingFile"
+                   threadsafe="true"
+                   title="assistant.delete.partition.coherencecache.title"
+                   presentationClass="wlsc-frame">
+        <netuix:titlebar/>
+        <netuix:content>
+          <netuix:page markupName="page" definitionLabel="DeleteCoherenceMTCachePage" title="not.used"
+                       hidden="true"
+                       presentationClass="page-assistant">
+            <netuix:meta name="helpid" content="Core-partition.core.partition.deletecoherencecache.title;core-partition"/>
+            <netuix:content>
+              <netuix:layout type="no" markupName="NoLayout">
+                <netuix:placeholder usingFlow="false" markupName="ph1">
+                  <netuix:portlet definitionLabel="DeleteCoherenceMTCachePortlet">
+                    <netuix:pageflowContent contentUri="/com/bea/console/actions/core/partition/coherencemtcache/deletecoherencemtcache/DeleteCoherenceMTCache.jpf"
+                                            action="begin"
+                                            refreshAction="begin"/>
+                  </netuix:portlet>
+                </netuix:placeholder>
+              </netuix:layout>
+            </netuix:content>
+          </netuix:page>
+        </netuix:content>
+      </netuix:book>
+
+
+
+      <!-- Definition for the Coherence MT Cache edit assistant page -->
+      <netuix:book definitionLabel="CorePartitionCoherenceCacheBook" title="book.title" markupName="book"
+                   backingFile="com.bea.console.utils.CorePartitionBackingFile"
+                   threadsafe="true"
+                   presentationClass="wlsc-frame">
+        <netuix:titlebar/>
+        <netuix:content>
+          <netuix:page markupName="page" definitionLabel="CorePartitionCocherenceCachePages" title="not.used"
+                       hidden="true">
+            <netuix:content>
+              <netuix:layout type="no" markupName="NoLayout">
+                <netuix:placeholder usingFlow="false" markupName="ph1">
+                  <netuix:book markupName="book" definitionLabel="CorePartitionCoherenceMTCacheTabsBook"
+                               title="CorePartitionCoherenceMTCacheTabsBook">
+                    <netuix:singleLevelMenu markupType="Menu" markupName="singleLevelMenu"/>
+                    <netuix:content>
+                      <!-- Definition for the config tab -->
+                      <netuix:page markupName="page" definitionLabel="PartitionCoherenceMTCacheConfig"
+                                   presentationClass="page-content"
+                                   title="tab.config">
+                        <netuix:meta name="helpid" content="Core-partition.core.partition.coherencecacheconfiggeneral.title;core-partition"/>
+                        <netuix:meta name="configuration-page" content="CoherencePartitionCacheConfig"/>
+                        <netuix:meta name="breadcrumb-context" content="handle"/>
+                        <netuix:content>
+                          <netuix:layout type="no" markupName="NoLayout">
+                            <netuix:placeholder usingFlow="false" markupName="ph1">
+                              <netuix:portlet definitionLabel="PartitionCoherenceMTCacheConfigPortlet">
+                                <netuix:strutsContent module="/core-partition" action="CorePartitionCoherenceMTCacheConfig"
+                                                      refreshAction="CorePartitionCoherenceMTCacheConfig"/>
+                              </netuix:portlet>
+                            </netuix:placeholder>
+                          </netuix:layout>
+                        </netuix:content>
+                      </netuix:page>
+
+                      <!-- Definition for the notes tab -->
+                      <netuix:page markupName="page" definitionLabel="PartitionCoherenceCacheNotes"
+                                   presentationClass="page-content"
+                                   title="tab.notes">
+                        <netuix:meta name="helpid" content="Core-partition.core.partition.coherencemtcache.title;core-partition"/>
+                        <netuix:content>
+                          <netuix:layout type="no" markupName="NoLayout">
+                            <netuix:placeholder usingFlow="false" markupName="ph1">
+                              <netuix:portletInstance markupType="Portlet" instanceLabel="PartitionCoherenceCacheNotesPortlet"
+                                     contentUri="/PortalConfig/core/partition/PartitionNotes.portlet"/>
+                            </netuix:placeholder>
+                          </netuix:layout>
+                        </netuix:content>
+                      </netuix:page>
+                    </netuix:content>
+                  </netuix:book>
+
+                </netuix:placeholder>
+              </netuix:layout>
+            </netuix:content>
+          </netuix:page>
+        </netuix:content>
+      </netuix:book>
+
+      <!-- Definition for the Coherence MT Cache Property page -->
+      <netuix:book definitionLabel="CorePartitionCoherenceMTCachePropertyBook" markupName="book"
+                   backingFile="com.bea.console.utils.CorePartitionBackingFile"
+                   threadsafe="true"
+                   title="book.title"
+                   presentationClass="wlsc-frame">
+        <netuix:titlebar/>
+        <netuix:content>
+          <!-- Definition for the config tab -->
+          <netuix:page markupName="page" definitionLabel="CoherenceMTCachePropertyPage"
+                       title="not.used"
+                       hidden="true"
+                       presentationClass="page-assistant">
+            <netuix:meta name="helpid"
+                         content="Core-partition.core.partition.coherencemtcacch.property.title;core-partition"/>
+            <netuix:meta name="breadcrumb-context" content="handle"/>
+            <netuix:meta name="configuration-page" content="CoherencePartitionCacheProperty"/>
+            <netuix:content>
+              <netuix:layout type="no" markupName="NoLayout">
+                <netuix:placeholder usingFlow="false" markupName="ph1">
+                  <netuix:portlet definitionLabel="PartitionCoherenceMTCachePropertyPortlet">
+                    <netuix:strutsContent module="/core-partition" action="CoherenceMTCachePropertyConfigGeneral"
+                                          refreshAction="CoherenceMTCachePropertyConfigGeneral"/>
+                  </netuix:portlet>
+                </netuix:placeholder>
+              </netuix:layout>
+            </netuix:content>
+          </netuix:page>
+        </netuix:content>
+      </netuix:book>
+
+      <!-- Definition for the CoherenceMTCacheProperty creation assistant page -->
+      <netuix:book definitionLabel="CorePartitionCreateCoherenceMTCachePropertyBook" markupName="book" markupType="Book"
+                   backingFile="com.bea.console.utils.CorePartitionBackingFile"
+                   threadsafe="true"
+                   title="assistant.create.coherencemtcache.property.title"
+                   presentationClass="wlsc-frame">
+        <netuix:titlebar/>
+        <netuix:content>
+          <netuix:page markupName="page" markupType="Page" definitionLabel="CreateCoherenceMTCacheProperty"
+                       title="not.used"
+                       hidden="true"
+                       presentationClass="page-assistant">
+            <netuix:meta name="helpid" content="Core-partition.core.partition.createcoherencemtcacheproperty.title;core-partition"/>
+            <netuix:content>
+              <netuix:layout type="no" markupType="Layout" markupName="NoLayout">
+                <netuix:placeholder usingFlow="false" markupType="Placeholder" markupName="ph1">
+                  <netuix:portlet definitionLabel="CreateCoherenceMTCachePropertyPortlet">
+                    <netuix:pageflowContent contentUri="/com/bea/console/actions/core/partition/coherencemtcache/createproperty/CreateCoherenceMTCacheProperty.jpf"
+                                            action="begin"
+                                            refreshAction="begin"/>
+                  </netuix:portlet>
+                </netuix:placeholder>
+              </netuix:layout>
+            </netuix:content>
+          </netuix:page>
+        </netuix:content>
+      </netuix:book>
+
+      <!-- Definition for the Coherence MT Cache Property deletion assistant page -->
+      <netuix:book definitionLabel="CorePartitionDeleteCoherenceMTCachePropertyBook" markupName="book"
+                   backingFile="com.bea.console.utils.CorePartitionBackingFile"
+                   threadsafe="true"
+                   title="assistant.delete.coherencemtcache.property.title"
+                   presentationClass="wlsc-frame">
+        <netuix:titlebar/>
+        <netuix:content>
+          <netuix:page markupName="page" definitionLabel="DeleteCoherenceMTCacheProperty" title="not.used"
+                       hidden="true"
+                       presentationClass="page-assistant">
+            <netuix:meta name="helpid" content="Core-partition.core.partition.deletecoherencemtcacheproperty.title;core-partition"/>
+            <netuix:content>
+              <netuix:layout type="no" markupName="NoLayout">
+                <netuix:placeholder usingFlow="false" markupName="ph1">
+                  <netuix:portlet definitionLabel="DeleteCoherenceMTCachePropertyPortlet">
+                    <netuix:pageflowContent contentUri="/com/bea/console/actions/core/partition/coherencemtcache/deleteproperty/DeleteCoherenceMTCacheProperty.jpf"
+                                            action="begin"
+                                            refreshAction="begin"/>
+                  </netuix:portlet>
+                </netuix:placeholder>
+              </netuix:layout>
+            </netuix:content>
+          </netuix:page>
+        </netuix:content>
+      </netuix:book>
+
+      <!-- Pages for Batch Job details -->
+      <netuix:book definitionLabel="PartitionBatchJobBook" title="book.title" markupName="book"
+                   backingFile="com.bea.console.utils.GeneralBackingFile"
+                   threadsafe="true"
+                   presentationClass="wlsc-frame">
+        <netuix:titlebar/>
+        <netuix:content>
+          <netuix:page markupName="page" definitionLabel="PartitionBatchJobPages" title="not.used" hidden="true">
+            <netuix:content>
+              <netuix:layout type="no" markupName="NoLayout">
+                <netuix:placeholder usingFlow="false" markupName="ph1">
+                  <netuix:book markupName="book" definitionLabel="PartitionBatchJobPagesBook" title="PartitionBatchJobBook">
+                    <netuix:singleLevelMenu markupType="Menu" markupName="singleLevelMenu"/>
+                    <netuix:content>
+                      <!-- Definition for the Job Executions tab -->
+                      <netuix:page markupName="page" definitionLabel="PartitionBatchJobExecutionsTabPage"
+                                       presentationClass="page-content"
+                                       title="tab.batchjobexecutions">
+                        <netuix:meta name="helpid" content="Core-partition.core.partition.batchjobexecutionstable.title;core-partition"/>
+                        <netuix:meta name="breadcrumb-context" content="handle"/>
+                        <netuix:content>
+                          <netuix:layout type="no" markupName="NoLayout">
+                            <netuix:placeholder usingFlow="false" markupName="ph1">
+                              <netuix:portlet definitionLabel="PartitionBatchJobExecutionsTablePortlet">
+                                <netuix:strutsContent module="/core-partition" action="PartitionBatchJobExecutionsTable" refreshAction="PartitionBatchJobExecutionsTable"/>
+                              </netuix:portlet>
+                            </netuix:placeholder>
+                          </netuix:layout>
+                        </netuix:content>
+                      </netuix:page>
+                      <!-- Definition for the Job Step Executions tab -->
+                      <netuix:page markupName="page" definitionLabel="PartitionBatchJobStepExecutionsTabPage"
+                                   presentationClass="page-content"
+                                   title="tab.batchjobstepexecutions">
+                        <netuix:meta name="helpid" content="Core-partition.core.partition.batchjobstepexecutionstable.title;core-partition"/>
+                        <netuix:meta name="breadcrumb-context" content="handle"/>
+                        <netuix:content>
+                          <netuix:layout type="no" markupName="NoLayout">
+                            <netuix:placeholder usingFlow="false" markupName="ph1">
+                              <netuix:portlet definitionLabel="PartitionBatchJobStepExecutionsTablePortlet">
+                                <netuix:strutsContent module="/core-partition" action="PartitionBatchJobStepExecutionsTable" refreshAction="PartitionBatchJobStepExecutionsTable"/>
+                              </netuix:portlet>
+                            </netuix:placeholder>
+                          </netuix:layout>
+                        </netuix:content>
+                      </netuix:page>
+                    </netuix:content>
+                  </netuix:book>
+                </netuix:placeholder>
+              </netuix:layout>
+            </netuix:content>
+          </netuix:page>
+        </netuix:content>
+      </netuix:book>
+
+      <netuix:book definitionLabel="PartitionMailBook" title="book.title" markupName="book"
+                   backingFile="com.bea.console.utils.GeneralBackingFile"
+                   threadsafe="true"
+                   presentationClass="wlsc-frame">
+        <netuix:titlebar/>
+        <netuix:content>
+          <netuix:page markupName="page" definitionLabel="PartitionMailPages" title="not.used" hidden="true">
+            <netuix:content>
+              <netuix:layout type="no" markupName="NoLayout">
+                <netuix:placeholder usingFlow="false" markupName="ph1">
+                  <netuix:book markupName="book" definitionLabel="PartitionMailPagesBook" title="MailBook">
+                    <netuix:singleLevelMenu markupType="Menu" markupName="singleLevelMenu"/>
+                    <netuix:content>
+
+                      <!-- Definition for the config tab -->
+                      <netuix:page markupName="page" definitionLabel="PartitionMailSessionOverrideConfigTabPage"
+                                   presentationClass="page-content"
+                                   title="tab.config">
+                        <netuix:meta name="helpid" content="core.partition.mailsessionoverrideconfig.title;core-partition"/>
+                        <netuix:meta name="configuration-page" content="MailSessionOverride"/>
+                        <netuix:meta name="breadcrumb-context" content="handle"/>
+                        <netuix:content>
+                          <netuix:layout type="no" markupName="NoLayout">
+                            <netuix:placeholder usingFlow="false" markupName="ph1">
+                              <netuix:portlet definitionLabel="PartitionMailSessionOverrideConfigPortlet">
+                                <netuix:strutsContent module="/core-partition" action="PartitionMailSessionOverrideConfig"
+                                                      refreshAction="PartitionMailSessionOverrideConfig"/>
+                              </netuix:portlet>
+                            </netuix:placeholder>
+                          </netuix:layout>
+                        </netuix:content>
+                      </netuix:page>
+
+                      <!-- Definition for the notes tab -->
+                      <netuix:page markupName="page" definitionLabel="MailSessionOverrideNotesTabPage"
+                                   presentationClass="page-content"
+                                   title="tab.notes">
+                        <netuix:meta name="helpid" content="Core-partition.core.partition.mailsessionoverridenotes.title;core-partition"/>
+                        <netuix:content>
+                          <netuix:layout type="no" markupName="NoLayout">
+                            <netuix:placeholder usingFlow="false" markupName="ph1">
+                              <netuix:portletInstance markupType="Portlet" instanceLabel="PartitionMailSessionOverrideNotesPortlet"
+                                   contentUri="/PortalConfig/core/partition/PartitionNotes.portlet"/>
+                            </netuix:placeholder>
+                          </netuix:layout>
+                        </netuix:content>
+                      </netuix:page>
+
+                    </netuix:content>
+                  </netuix:book>
+                </netuix:placeholder>
+              </netuix:layout>
+            </netuix:content>
+          </netuix:page>
+        </netuix:content>
+      </netuix:book>
+
+      <!-- Definition for the MailSession creation assistant page -->
+      <netuix:book definitionLabel="PartitionMailCreate" markupName="book"
+                   backingFile="com.bea.console.utils.GeneralBackingFile"
+                   threadsafe="true"
+                   title="assistant.create.mailsessionoverride.title"
+                   presentationClass="wlsc-frame">
+        <netuix:titlebar/>
+        <netuix:content>
+          <netuix:page markupName="page" definitionLabel="PartitionCreateMailSessionOverride" title="not.used"
+                       hidden="true"
+                       presentationClass="page-assistant">
+            <netuix:meta name="helpid" content="core.partition.createmailsessionoverride.page.title;core-partition"/>
+            <netuix:content>
+              <netuix:layout type="no" markupName="NoLayout">
+                <netuix:placeholder usingFlow="false" markupName="ph1">
+                  <netuix:portlet definitionLabel="PartitionCreateMailSessionOverridePortlet">
+                    <netuix:pageflowContent contentUri="/com/bea/console/actions/core/partition/createmailsessionoverride/CreateMailSessionOverride.jpf"
+                                            action="begin"
+                                            refreshAction="begin"/>
+                  </netuix:portlet>
+                </netuix:placeholder>
+              </netuix:layout>
+            </netuix:content>
+          </netuix:page>
+        </netuix:content>
+      </netuix:book>
+
+      <!-- Definition for the MailSession Override deletion assistant page -->
+      <netuix:book definitionLabel="PartitionMailDelete" markupName="book"
+                   backingFile="com.bea.console.utils.GeneralBackingFile"
+                   threadsafe="true"
+                   title="assistant.delete.mailsessionoverride.title"
+                   presentationClass="wlsc-frame">
+        <netuix:titlebar/>
+        <netuix:content>
+          <netuix:page markupName="page" definitionLabel="PartitionDeleteMailSessionOverride" title="not.used"
+                       hidden="true"
+                       presentationClass="page-assistant">
+            <netuix:meta name="helpid" content="core.partition.deletemailsessionoverride.page.title;core-partition"/>
+            <netuix:content>
+              <netuix:layout type="no" markupName="NoLayout">
+                <netuix:placeholder usingFlow="false" markupName="ph1">
+                  <netuix:portlet definitionLabel="PartitionDeleteMailSessionOverridePortlet">
+                    <netuix:pageflowContent contentUri="/com/bea/console/actions/core/partition/deletemailsessionoverride/DeleteMailSessionOverride.jpf"
+                                            action="begin"
+                                            refreshAction="begin"/>
+                  </netuix:portlet>
+                </netuix:placeholder>
+              </netuix:layout>
+            </netuix:content>
+          </netuix:page>
+        </netuix:content>
+      </netuix:book>
+
+      <!-- definition for the Partition RCM Manager Dispatcher -->
+      <netuix:book definitionLabel="PartitionConfigRCMDispatcherBook" markupName="book"
+                   backingFile="com.bea.console.utils.GeneralBackingFile"
+                   threadsafe="true"
+                   hidden="true"
+                   presentationClass="wlsc-frame">
+        <netuix:titlebar/>
+        <netuix:content>
+          <netuix:page markupName="page" definitionLabel="PartitionConfigRCMDispatcherPage"
+                       title="not.used"
+                       presentationClass="page-content">
+            <netuix:content>
+             <netuix:layout type="no" markupName="NoLayout">
+               <netuix:placeholder usingFlow="false" markupName="ph1">
+                 <netuix:portlet definitionLabel="PartitionConfigRCMDispatcherPortlet">
+                   <netuix:strutsContent module="/core-partition" action="PartitionConfigRCMDispatcher"
+                                         refreshAction="PartitionConfigRCMDispatcher"/>
+                 </netuix:portlet>
+               </netuix:placeholder>
+             </netuix:layout>
+            </netuix:content>
+          </netuix:page>
+        </netuix:content>
+      </netuix:book>
+
+      <!-- Definition for the RCM Manager dispatcher create assistant page -->
+      <netuix:book definitionLabel="PartitionRCMDispatcherForCreateBook" markupName="book"
+                   backingFile="com.bea.console.utils.GeneralBackingFile"
+                   threadsafe="true"
+                   hidden="true"
+                   presentationClass="wlsc-frame">
+        <netuix:titlebar/>
+        <netuix:content>
+          <netuix:page markupName="page" definitionLabel="PartitionRCMDispatcherForCreatePage" title="not.used"
+                       hidden="true"
+                       presentationClass="page-assistant">
+            <netuix:content>
+              <netuix:layout type="no" markupName="NoLayout">
+                <netuix:placeholder usingFlow="false" markupName="ph1">
+                  <netuix:portlet definitionLabel="PartitionRCMDispatcherForCreatePortlet">
+                    <netuix:pageflowContent contentUri="/com/bea/console/actions/core/partition/rcmmanager/RCMDispatcherForCreate.jpf"
+                                            action="begin"
+                                            refreshAction="begin"/>
+                  </netuix:portlet>
+                </netuix:placeholder>
+              </netuix:layout>
+            </netuix:content>
+          </netuix:page>
+        </netuix:content>
+      </netuix:book>
+
+      <netuix:book definitionLabel="EnablePartitionDebugBook" markupName="book"
+                   backingFile="com.bea.console.utils.GeneralBackingFile"
+                   threadsafe="true"
+                   title="assistant.partition.loggingdebug.enabledebug.title"
+                   presentationClass="wlsc-frame">
+        <netuix:titlebar/>
+        <netuix:content>
+          <netuix:page markupName="page" definitionLabel="PartitionEnableDebug" title="not.used"
+                       hidden="true"
+                       presentationClass="page-assistant">
+            <netuix:meta name="helpid" content="core.partition.loggingdebug.changedebug.page.title;core-partition"/>
+            <netuix:content>
+              <netuix:layout type="no" markupName="NoLayout">
+                <netuix:placeholder usingFlow="false" markupName="ph1">
+                  <netuix:portlet definitionLabel="PartitionEnableDebugPortlet">
+                    <netuix:pageflowContent contentUri="/com/bea/console/actions/core/partition/debug/PartitionDebug.jpf"
+                                            action="enable"
+                                            refreshAction="enable"/>
+                  </netuix:portlet>
+                </netuix:placeholder>
+              </netuix:layout>
+            </netuix:content>
+          </netuix:page>
+        </netuix:content>
+      </netuix:book>
+
+      <netuix:book definitionLabel="DisablePartitionDebugBook" markupName="book"
+                   backingFile="com.bea.console.utils.GeneralBackingFile"
+                   threadsafe="true"
+                   title="assistant.partition.loggingdebug.disabledebug.title"
+                   presentationClass="wlsc-frame">
+        <netuix:titlebar/>
+        <netuix:content>
+          <netuix:page markupName="page" definitionLabel="PartitionDisableDebug" title="not.used"
+                       hidden="true"
+                       presentationClass="page-assistant">
+            <netuix:meta name="helpid" content="core.partition.loggingdebug.changedebug.page.title;core-partition"/>
+            <netuix:content>
+              <netuix:layout type="no" markupName="NoLayout">
+                <netuix:placeholder usingFlow="false" markupName="ph1">
+                  <netuix:portlet definitionLabel="PartitionDisableDebugPortlet">
+                    <netuix:pageflowContent contentUri="/com/bea/console/actions/core/partition/debug/PartitionDebug.jpf"
+                                            action="disable"
+                                            refreshAction="disable"/>
+                  </netuix:portlet>
+                </netuix:placeholder>
+              </netuix:layout>
+            </netuix:content>
+          </netuix:page>
+        </netuix:content>
+      </netuix:book>
+
+      <!-- Definition for the assistant that creates a new encrypted property for the JDBC Resource Override  -->
+      <netuix:book markupName="book" definitionLabel="AddJDBCResourceOverrideEncryptedPropertyBook"
+                   backingFile="com.bea.console.utils.GeneralBackingFile"
+                   threadsafe="true"
+                   title="assistant.add.jdbc.resourceoverride.encrypted.property.title"
+                   presentationClass="wlsc-frame">
+        <netuix:titlebar/>
+        <netuix:content>
+          <netuix:page markupName="page" definitionLabel="AddJDBCResourceOverrideEncryptedProperty" title="not.used"
+                       hidden="true"
+                       presentationClass="page-assistant">
+            <netuix:meta name="helpid" content="Core-partition.core.partition.jdbcsystemresourceoverride.addjdbcencryptedproperty.title;core-partition"/>
+
+            <netuix:content>
+              <netuix:layout type="no" markupName="NoLayout">
+                <netuix:placeholder usingFlow="false" markupName="ph1">
+                  <netuix:portlet definitionLabel="AddJDBCResourceOverrideEncryptedPropertyPortlet">
+                    <netuix:pageflowContent contentUri="/com/bea/console/actions/core/partition/jdbresourceoverridecencryptedproperty/AddJdbcResourceOverrideEncryptedProperty.jpf"
+                                            action="begin"
+                                            refreshAction="begin"/>
+                  </netuix:portlet>
+                </netuix:placeholder>
+              </netuix:layout>
+            </netuix:content>
+          </netuix:page>
+        </netuix:content>
+      </netuix:book>
+
+    </netuix:content>
+  </netuix:book>
+</portal:root>

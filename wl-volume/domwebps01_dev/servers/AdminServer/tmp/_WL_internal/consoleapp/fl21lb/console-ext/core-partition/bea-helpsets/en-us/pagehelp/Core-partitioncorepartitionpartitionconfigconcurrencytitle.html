@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="help ID" content="Core-partition.core.partition.partitionconfigconcurrency.title">
+<title>Domain Partition: Configuration: Concurrent
+  Contraints</title>
+<script language="JavaScript" src="/consolehelp/en-us/topicInfo.js"></script><script language="JavaScript" src="/consolehelp/en-us/CookieClass.js"></script>
+</head>
+<body class="base">
+<blockquote>
+<h1 class="Title">Domain Partition: Configuration: Concurrent
+  Contraints</h1>
+<p>
+<a href="#attributes">Configuration Options</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#tasks">Related Tasks</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#concepts">Related Topics</a>
+</p>
+<p>Use this page to define the concurrent constraints for this domain
+    partition.</p>
+<p>Long-running tasks submitted to the managed executor service (MES) and
+    managed scheduled executor service (MSES), and by calling the
+    <tt>newThread()</tt> method of the managed thread factory (MTF), need to
+    create new threads that will not be managed as a part of the self-tuning
+    thread pool. Because an excessive number of running threads can have a
+    negative affect on server performance and stability, you can specify the
+    maximum number of running threads that are created by the concurrency
+    utilities API.</p>
+<h4>
+<a name="attributes">Configuration Options</a>
+</h4>
+<div class="tblmargin">
+<table class="edocshelp">
+<thead>
+<tr>
+<th valign="top" style="padding:0px"> Name</th><th valign="top" style="padding:0px"> Description</th>
+</tr>
+</thead>
+<tbody>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.partitionconfigconcurrency.maxconcurrentnewthreads">Max Concurrent New Threads</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getMaxConcurrentNewThreads"></a><a name="MaxConcurrentNewThreads"></a>
+<p>The maximum number of running threads that can be created by all the Managed Thread Factories in the partition on the current server.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/PartitionMBean.html#MaxConcurrentNewThreads">PartitionMBean.MaxConcurrentNewThreads</a></code>
+</p>
+<p>Minimum value: <code>0</code>
+</p>
+<p>Maximum value: <code>65534</code>
+</p>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.partitionconfigconcurrency.maxconcurrentlongrunningrequests">Max Concurrent Long Requests</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getMaxConcurrentLongRunningRequests"></a><a name="MaxConcurrentLongRunningRequests"></a>
+<p>The maximum number of running long-running requests that can be submitted to all the Managed Executor Services or Managed Scheduled Executor Services in the partition on the current server.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/PartitionMBean.html#MaxConcurrentLongRunningRequests">PartitionMBean.MaxConcurrentLongRunningRequests</a></code>
+</p>
+<p>Minimum value: <code>0</code>
+</p>
+<p>Maximum value: <code>65534</code>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="relatedtopics">
+<a name="tasks">Related Tasks</a>
+</p>
+<ul>
+<li>
+<a href="/consolehelp/console-help.portal?_nfpb=true&amp;_pageLabel=page&amp;helpId=partition.ConfigurePartitionsConcurrency">Configure domain
+  partition concurrent constraints</a>
+</li>
+</ul>
+<p class="relatedtopics">
+<a name="concepts">Related Topics</a>
+</p>
+<ul>
+<li>
+<a href="http://docs.oracle.com/middleware/12213/wls/CNFGD/concurrent-utils.htm">Configuring
+    Concurrent Managed Objects</a>
+</li>
+</ul>
+</blockquote>
+</body>
+</html>

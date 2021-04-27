@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE struts-config PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 1.1//EN"
+	"struts-config_1_1.dtd">
+<struts-config>
+  <form-beans>
+    <form-bean name="genericTableForm"
+      type="org.apache.struts.action.DynaActionForm">
+      <form-property name="name" type="java.lang.String" />
+      <form-property name="running" type="java.lang.Boolean" />
+      <form-property name="contents" type="java.util.Collection" />
+      <form-property name="chosenContents" type="java.util.Collection" />
+      <form-property name="handle" type="com.bea.console.handles.Handle" />
+      <form-property name="tablePreferences"
+        type="com.bea.console.cvo.preferences.TablePreferences" />
+    </form-bean>
+    <form-bean name="customizedForm"
+               type="com.bea.console.actionforms.CustomizerForm">
+      <form-property name="handle" type="com.bea.console.handles.Handle" />
+      <form-property name="name" type="java.lang.String" />
+      <form-property name="tablePrefererences"
+                     type="com.bea.console.cvo.preferences.TablePreferences" />
+    </form-bean>
+    <form-bean name="genericDiagnosticsTableForm"
+               type="org.apache.struts.validator.DynaValidatorForm">
+        <form-property name="name" type="java.lang.String" />
+        <form-property name="contents" type="java.util.Collection" />
+        <form-property name="chosenContents" type="java.util.Collection" />
+        <form-property name="handle" type="com.bea.console.handles.Handle" />
+        <form-property name="tablePreferences"
+                       type="com.bea.console.cvo.preferences.TablePreferences" />
+        <form-property name="serverName" type="java.lang.String" />
+        <form-property name="logicalName" type="java.lang.String" />
+        <form-property name="extendedLog" type="java.lang.Boolean" />
+        <form-property name="selector" type="java.lang.String" />
+        <form-property name="metadata"
+                       type="com.bea.console.taglib.html.metadata.CursorTableMetaData" />
+    </form-bean>
+    <form-bean name="notesForm"
+      type="org.apache.struts.validator.DynaValidatorForm">
+      <form-property name="name" type="java.lang.String" />
+      <form-property name="handle" type="com.bea.console.handles.Handle" />
+      <form-property name="interfaceClassName" type="java.lang.String" />
+      <form-property name="notes" type="com.bea.console.cvo.NotesBean" />
+    </form-bean>
+    <form-bean name="targetsForm"
+         type="org.apache.struts.validator.DynaValidatorForm">
+      <form-property name="name" type="java.lang.String" />
+      <form-property name="handle" type="com.bea.console.handles.Handle" />
+      <form-property name="targets" type="com.bea.console.cvo.TargetBean" />
+    </form-bean>
+    <form-bean name="partitionFileSystemForm"
+           type="org.apache.struts.validator.DynaValidatorForm">
+      <form-property name="name" type="java.lang.String" />
+      <form-property name="handle" type="com.bea.console.handles.Handle" />
+      <form-property name="partitionFileSystem" type="com.bea.console.cvo.core.partition.PartitionFileSystemBean" />
+    </form-bean>
+    <form-bean name="partitionLoggingDebugForm"
+               type="org.apache.struts.validator.DynaValidatorForm">
+      <form-property name="name" type="java.lang.String" />
+      <form-property name="handle" type="com.bea.console.handles.Handle" />
+      <form-property name="partitionLoggingDebug"
+                     type="com.bea.console.cvo.core.partition.PartitionLoggingDebugBean" />
+      <form-property name="contents" type="java.util.Collection" />
+      <form-property name="chosenContents" type="[Ljava.lang.String;" />
+    </form-bean>
+    <form-bean name="partitionConfigGeneralForm"
+               type="org.apache.struts.validator.DynaValidatorForm">
+      <form-property name="name" type="java.lang.String" />
+      <form-property name="handle" type="com.bea.console.handles.Handle" />
+      <form-property name="partitionConfigGeneral"
+                     type="com.bea.console.cvo.core.partition.PartitionConfigGeneralBean" />
+    </form-bean>
+
+    <form-bean name="partitionConfigJtaForm"
+               type="org.apache.struts.validator.DynaValidatorForm">
+      <form-property name="name" type="java.lang.String" />
+      <form-property name="handle" type="com.bea.console.handles.Handle" />
+      <form-property name="partitionConfigJta"
+                     type="com.bea.console.cvo.core.partition.PartitionConfigJtaBean" />
+    </form-bean>
+
+    <form-bean name="partitionConfigConcurrencyForm"
+               type="org.apache.struts.validator.DynaValidatorForm">
+      <form-property name="name" type="java.lang.String" />
+      <form-property name="handle" type="com.bea.console.handles.Handle" />
+      <form-property name="partitionConfigConcurrency"
+                     type="com.bea.console.cvo.core.partition.PartitionConfigConcurrencyBean" />
+    </form-bean>
+
+    <form-bean name="partitionResourceGroupConfigGeneralForm"
+               type="org.apache.struts.validator.DynaValidatorForm">
+        <form-property name="name" type="java.lang.String" />
+        <form-property name="handle" type="com.bea.console.handles.Handle" />
+        <form-property name="resourceGroupConfigGeneral"
+                       type="com.bea.console.cvo.core.partition.ResourceGroupConfigGeneralBean" />
+    </form-bean>
+    <form-bean name="CoherenceMTCachePropertyConfigGeneralForm"
+               type="org.apache.struts.validator.DynaValidatorForm">
+      <form-property name="name" type="java.lang.String" />
+      <form-property name="handle" type="com.bea.console.handles.Handle" />
+      <form-property name="coherenceMTCachePropertyConfigGeneral"
+                     type="com.bea.console.cvo.core.partition.CoherenceMTCachePropertyBean" />
+    </form-bean>
+
+    <form-bean name="jdbcSystemResourceOverrideConfigGeneralForm"
+             type="org.apache.struts.validator.DynaValidatorForm">
+      <form-property name="name" type="java.lang.String" />
+      <form-property name="handle" type="com.bea.console.handles.Handle" />
+      <form-property name="jdbcSystemResourceOverrideConfigGeneral"
+                     type="com.bea.console.cvo.core.partition.JDBCSystemResourceOverrideConfigGeneralBean" />
+    </form-bean>
+
+    <form-bean name="coherenceMTCacheConfigForm"
+               type="org.apache.struts.validator.DynaValidatorForm">
+      <form-property name="name" type="java.lang.String" />
+      <form-property name="contents" type="java.util.Collection" />
+      <form-property name="chosenContents" type="java.util.Collection" />
+      <form-property name="handle" type="com.bea.console.handles.Handle" />
+      <form-property name="coherenceMTCacheConfig"
+                     type="com.bea.console.cvo.core.partition.CoherenceMTCacheBean" />
+    </form-bean>
+
+    <!--
+    <form-bean name="JMSModuleOverrideConfigForm"
+               type="org.apache.struts.validator.DynaValidatorForm">
+      <form-property name="name" type="java.lang.String" />
+      <form-property name="contents" type="java.util.Collection" />
+      <form-property name="chosenContents" type="java.util.Collection" />
+      <form-property name="handle" type="com.bea.console.handles.Handle" />
+      <form-property name="jmsModuleOverrideConfigGeneral"
+                     type="com.bea.console.cvo.core.partition.jmsoverride.JMSModuleOverrideConfigBean" />
+    </form-bean>
+    -->
+
+
+    <form-bean name="ForeignServerOverrideConfigForm"
+               type="org.apache.struts.validator.DynaValidatorForm">
+      <form-property name="name" type="java.lang.String" />
+      <form-property name="handle" type="com.bea.console.handles.Handle" />
+      <form-property name="foreignServerOverrideConfig"
+                     type="com.bea.console.cvo.core.partition.jmsoverride.ForeignServerOverrideConfigBean" />
+    </form-bean>
+
+
+
+    <form-bean name="JMSServicesForm"
+               type="org.apache.struts.validator.DynaValidatorForm">
+      <form-property name="name" type="java.lang.String" />
+      <form-property name="handle" type="com.bea.console.handles.Handle" />
+      <form-property name="modules" type="java.util.Collection" />
+      <form-property name="servers" type="java.util.Collection" />
+      <form-property name="chosenContents" type="java.util.Collection" />
+    </form-bean>
+    <form-bean name="batchJobDetailsForm"
+               type="org.apache.struts.action.DynaActionForm">
+        <form-property name="name" type="java.lang.String" />
+        <form-property name="contents" type="java.util.Collection" />
+        <form-property name="chosenContents" type="[Ljava.lang.String;" />
+        <form-property name="handle" type="com.bea.console.handles.Handle" />
+        <form-property name="batchJobDetailsForm"
+                       type="com.bea.console.cvo.core.domain.BatchJobsTableBean" />
+    </form-bean>
+    <form-bean name="mailSessionOverrideConfigForm"
+               type="org.apache.struts.validator.DynaValidatorForm">
+      <form-property name="name" type="java.lang.String" />
+      <form-property name="handle" type="com.bea.console.handles.Handle" />
+      <form-property name="mailSessionOverrideConfig"
+                     type="com.bea.console.cvo.mail.MailSessionConfigBean" />
+    </form-bean>
+    <form-bean name="foreignDestinationOverrideConfigForm"
+               type="org.apache.struts.validator.DynaValidatorForm">
+      <form-property name="name" type="java.lang.String" />
+      <form-property name="handle" type="com.bea.console.handles.Handle" />
+      <form-property name="foreignDestinationOverrideConfig"
+                     type="com.bea.console.cvo.core.partition.jmsoverride.ForeignDestinationOverrideBean" />
+    </form-bean>
+    <form-bean name="foreignConnectionFactoryOverrideConfigForm"
+               type="org.apache.struts.validator.DynaValidatorForm">
+      <form-property name="name" type="java.lang.String" />
+      <form-property name="handle" type="com.bea.console.handles.Handle" />
+      <form-property name="foreignConnectionFactoryOverrideConfig"
+                     type="com.bea.console.cvo.core.partition.jmsoverride.ForeignConnectionFactoryOverrideBean" />
+    </form-bean>
+    <form-bean name="partitionPartitionWorkManagerConfigForm"
+               type="org.apache.struts.validator.DynaValidatorForm">
+      <form-property name="name" type="java.lang.String" />
+      <form-property name="handle" type="com.bea.console.handles.Handle" />
+      <form-property name="partitionPartitionWorkManagerConfigForm"
+                     type="com.bea.console.cvo.core.partition.PartitionWorkManagerConfigBean" />
+    </form-bean>
+
+    <form-bean name="partitionConfigRCMManagementForm"
+               type="org.apache.struts.validator.DynaValidatorForm">
+      <form-property name="name" type="java.lang.String" />
+      <form-property name="handle" type="com.bea.console.handles.Handle" />
+      <form-property name="fairshareContents" type="java.util.Collection" />
+      <form-property name="triggerContents" type="java.util.Collection" />
+      <form-property name="partitionConfigRCMManagement"
+                     type="com.bea.console.cvo.core.partition.PartitionRCMManagementConfigBean" />
+    </form-bean>
+
+    <form-bean name="partitionMonitoringRCMFileTableForm"
+               type="org.apache.struts.validator.DynaValidatorForm">
+      <form-property name="name" type="java.lang.String" />
+      <form-property name="handle" type="com.bea.console.handles.Handle" />
+      <form-property name="triggers" type="java.util.Collection" />
+      <form-property name="partitionMonitoringRCMFile"
+                     type="com.bea.console.cvo.core.partition.MonitoringRCMConfigBean" />
+    </form-bean>
+
+    <form-bean name="partitionMonitoringRCMCPUTableForm"
+               type="org.apache.struts.validator.DynaValidatorForm">
+        <form-property name="name" type="java.lang.String" />
+        <form-property name="handle" type="com.bea.console.handles.Handle" />
+        <form-property name="triggers" type="java.util.Collection" />
+        <form-property name="partitionMonitoringRCMCPU"
+                       type="com.bea.console.cvo.core.partition.MonitoringRCMConfigBean" />
+    </form-bean>
+
+    <form-bean name="partitionMonitoringRCMHeapTableForm"
+               type="org.apache.struts.validator.DynaValidatorForm">
+      <form-property name="name" type="java.lang.String" />
+      <form-property name="handle" type="com.bea.console.handles.Handle" />
+      <form-property name="triggers" type="java.util.Collection" />
+      <form-property name="partitionMonitoringRCMHeap"
+                     type="com.bea.console.cvo.core.partition.MonitoringRCMConfigBean" />
+    </form-bean>
+    <form-bean name="globalPartitionWorkManagerConfigForm"
+               type="org.apache.struts.validator.DynaValidatorForm">
+      <form-property name="name" type="java.lang.String" />
+      <form-property name="handle" type="com.bea.console.handles.Handle" />
+      <form-property name="partitionWorkManagerConfig"
+                     type="com.bea.console.cvo.core.globalpartitionworkmgr.PartitionWorkManagerConfigBean" />
+    </form-bean>
+
+    <form-bean name="dispatcherForm"
+               type="org.apache.struts.validator.DynaValidatorForm">
+      <form-property name="name" type="java.lang.String" />
+      <form-property name="handle" type="com.bea.console.handles.Handle" />
+    </form-bean>
+  </form-beans>
+  <!-- Global Exception Handlers for this module -->
+  <global-exceptions>
+    <exception key="global" type="java.lang.Exception"
+      handler="com.bea.console.utils.UnexpectedExceptionHandler" />
+  </global-exceptions>
+  <global-forwards>
+    <forward name="providerchanged" contextRelative="true"
+      path="/jsp/security/ProviderChanged.jsp" />
+    <forward name="serverrestartrequired" contextRelative="true"
+      path="/jsp/security/ServerRestartRequired.jsp" />
+    <forward name="samlidentityasserterv2notcreated" contextRelative="true"
+      path="/jsp/security/SAMLIdentityAsserterV2NotCreated.jsp" />
+    <forward name="samlcredentialmapperv2notcreated" contextRelative="true"
+      path="/jsp/security/SAMLCredentialMapperV2NotCreated.jsp" />
+  </global-forwards>
+  <action-mappings>
+    <action path="/TablePreferencesUpdatedAction"
+            type="com.bea.console.actions.preferences.TablePreferencesUpdatedAction"
+            scope="request" validate="false" name="customizedForm">
+    </action>
+    <action path="/PartitionTable"
+            type="com.bea.console.actions.core.partition.PartitionTable"
+            name="genericTableForm" scope="request" validate="false">
+      <forward name="success" contextRelative="true"
+               path="/jsp/core/partition/PartitionTable.jsp" />
+    </action>
+    <action path="/PartitionControlTable"
+            type="com.bea.console.actions.core.partition.PartitionTable"
+            name="genericTableForm" scope="request" validate="false">
+      <forward name="success" contextRelative="true"
+               path="/jsp/core/partition/PartitionControlTable.jsp" />
+    </action>
+    <action path="/PartitionHealthTable"
+            type="com.bea.console.actions.core.partition.PartitionHealthTable"
+            name="genericTableForm" scope="request" validate="false">
+      <forward name="success" contextRelative="true"
+               path="/jsp/core/partition/PartitionHealthTable.jsp" />
+    </action>
+    <action path="/JDBCSystemResourceOverrideTable"
+          type="com.bea.console.actions.core.partition.JDBCSystemResourceOverrideTable"
+          name="genericTableForm" scope="request" validate="false">
+      <forward name="success" contextRelative="true"
+               path="/jsp/core/partition/resourceoverride/JDBCSystemResourceOverrideTable.jsp" />
+    </action>
+    <action path="/PartitionCoherenceMTCacheTable"
+            type="com.bea.console.actions.core.partition.coherencemtcache.CoherenceMTCacheTable"
+            name="genericTableForm" scope="request" validate="false">
+      <forward name="success" contextRelative="true"
+               path="/jsp/core/partition/coherencemtcache/CoherenceMTCacheTable.jsp" />
+    </action>
+    <action path="/PartitionDeploymentsTable"
+            type="com.bea.console.actions.app.DeploymentsCommonTableAction"
+            name="genericTableForm" scope="session" validate="false">
+      <forward name="success" contextRelative="true"
+               path="/jsp/core/partition/PartitionDeployments.jsp" />
+    </action>
+    <action path="/PartitionWorkManagerTable"
+            type="com.bea.console.actions.core.partition.PartitionWorkManagerTableAction"
+            name="genericTableForm" scope="session" validate="false">
+      <forward name="success" contextRelative="true"
+               path="/jsp/core/partition/PartitionWorkManagerTable.jsp" />
+    </action>
+    <action path="/PartitionCMOTemplateTable"
+            type="com.bea.console.actions.core.cmotemplate.ManagedObjectTemplateTableAction"
+            name="genericTableForm" scope="request" validate="false">
+      <forward name="success" contextRelative="true"
+               path="/jsp/core/partition/PartitionCMOTemplateTable.jsp" />
+    </action>
+    <action path="/ResourceGroupDeploymentsTable"
+            type="com.bea.console.actions.app.DeploymentsCommonTableAction"
+            name="genericTableForm" scope="session" validate="false">
+      <forward name="success" contextRelative="true"
+               path="/jsp/core/partition/resourcegroup/ResourceGroupDeployments.jsp" />
+    </action>
+    <action path="/PartitionServicesJDBC"
+            type="com.bea.console.actions.jdbc.datasources.GlobalDataSourceTableAction"
+            name="genericTableForm" scope="session" validate="false">
+      <forward name="success" contextRelative="true"
+               path="/jsp/core/partition/PartitionServicesJDBC.jsp" />
+    </action>
+    <action path="/ResourceGroupServicesJDBC"
+            type="com.bea.console.actions.jdbc.datasources.GlobalDataSourceTableAction"
+            name="genericTableForm" scope="session" validate="false">
+      <forward name="success" contextRelative="true"
+               path="/jsp/core/partition/resourcegroup/ResourceGroupServicesJDBC.jsp" />
+    </action>
+    <action path="/PartitionResourceGroupsTable"
+            type="com.bea.console.actions.core.partition.ResourceGroupTable"
+            name="genericTableForm" scope="request" validate="false">
+       <forward name="success" contextRelative="true"
+                path="/jsp/core/partition/PartitionResourceGroupTable.jsp" />
+    </action>
+    <action path="/PartitionResourceGroupsControlTable"
+            type="com.bea.console.actions.core.partition.ResourceGroupTable"
+            name="genericTableForm" scope="request" validate="false">
+      <forward name="success" contextRelative="true"
+               path="/jsp/core/partition/PartitionResourceGroupControlTable.jsp" />
+    </action>
+    <action path="/PartitionServiceMailSessionTable"
+            type="com.bea.console.actions.mail.MailSessionTableAction"
+            name="genericTableForm" scope="request" validate="false">
+        <forward name="success" contextRelative="true"
+                 path="/jsp/core/partition/PartitionMailSessionTable.jsp" />
+    </action>
+    <action path="/PartitionServicesPathTable"
+            type="com.bea.console.actions.jms.pathservice.PathServiceTableAction"
+            name="genericTableForm" scope="request" validate="false">
+        <forward name="success" contextRelative="true"
+                 path="/jsp/core/partition/PartitionServicesPathTable.jsp" />
+    </action>
+    <action path="/PartitionServiceJMSStoreTable"
+            type="com.bea.console.actions.jms.stores.JMSStoreTableAction"
+            name="genericTableForm" scope="request" validate="false">
+        <forward name="success" contextRelative="true"
+                 path="/jsp/core/partition/PartitionServiceJMSStoreTable.jsp" />
+    </action>
+    <action path="/PartitionServiceForeignJNDIProviderTable"
+            type="com.bea.console.actions.core.jndi.ForeignJNDIProviderTableAction"
+            name="genericTableForm" scope="request" validate="false">
+        <forward name="success" contextRelative="true"
+                 path="/jsp/core/partition/PartitionServiceForeignJNDIProviderTable.jsp" />
+    </action>
+    <action path="/PartitionRGJMSServersTable"
+            type="com.bea.console.actions.jms.JMSServicesAction"
+            name="JMSServicesForm" scope="request" validate="false">
+      <forward name="success" contextRelative="true"
+               path="/jsp/core/partition/PartitionRGJmsForm.jsp" />
+    </action>
+    <action path="/PRGServiceMailSessionTable"
+            type="com.bea.console.actions.mail.MailSessionTableAction"
+            name="genericTableForm" scope="request" validate="false">
+        <forward name="success" contextRelative="true"
+                 path="/jsp/core/partition/PartitionRGMailSessionTable.jsp" />
+    </action>
+    <action path="/PRGServiceJMSStoreTable"
+            type="com.bea.console.actions.jms.stores.JMSStoreTableAction"
+            name="genericTableForm" scope="request" validate="false">
+        <forward name="success" contextRelative="true"
+                 path="/jsp/core/partition/resourcegroup/PRGServiceJMSStoreTable.jsp" />
+    </action>
+    <action path="/PRGServiceForeignJNDIProviderTable"
+            type="com.bea.console.actions.core.jndi.ForeignJNDIProviderTableAction"
+            name="genericTableForm" scope="request" validate="false">
+        <forward name="success" contextRelative="true"
+                 path="/jsp/core/partition/PRGServiceForeignJNDIProviderTable.jsp" />
+    </action>
+    <action path="/PRGServicesPathServiceTable"
+            type="com.bea.console.actions.jms.pathservice.PathServiceTableAction"
+            name="genericTableForm" scope="request" validate="false">
+        <forward name="success" contextRelative="true"
+                 path="/jsp/core/partition/ResourceGroupServicesPathTable.jsp" />
+    </action>
+    <action path="/PRGServiceWLDFSystemResourceTable"
+            type="com.bea.console.actions.diagnostics.ModuleTableAction"
+            name="genericDiagnosticsTableForm" scope="request" validate="false">
+        <forward name="success" contextRelative="true"
+                 path="/jsp/core/partition/resourcegroup/PRGServiceModuleTable.jsp" />
+    </action>
+    <action path="/PartitionServiceSAFAgentTable"
+            type="com.bea.console.actions.jms.safagent.SAFAgentTableAction"
+            name="genericTableForm" scope="request" validate="false">
+      <forward name="success" contextRelative="true"
+               path="/jsp/core/partition/PartitionServiceSAFAgentTable.jsp" />
+    </action>
+    <action path="/PartitionServiceOsgiFrameworkTable"
+            type="com.bea.console.actions.osgiframework.OsgiFrameworkTableAction"
+            name="genericTableForm" scope="request" validate="false">
+        <forward name="success" contextRelative="true"
+                 path="/jsp/core/partition/PartitionServiceOsgiFrameworkTable.jsp" />
+    </action>
+    <action path="/PartitionServiceJMSBridgeDestinationTable"
+            type="com.bea.console.actions.jms.bridgedestination.JMSBridgeDestinationTableAction"
+            name="genericTableForm" scope="request" validate="false">
+        <forward name="success" contextRelative="true"
+                 path="/jsp/core/partition/PartitionServiceJMSBridgeDestinationTable.jsp" />
+    </action>
+    <action path="/PartitionServiceMessagingBridgeTable"
+            type="com.bea.console.actions.bridge.MessagingBridgeTableAction"
+            name="genericTableForm" scope="request" validate="false">
+        <forward name="success" contextRelative="true"
+                 path="/jsp/core/partition/PartitionServicesMessagingBridgeTable.jsp" />
+    </action>
+    <action path="/PartitionServicesJMSTable"
+            type="com.bea.console.actions.jms.JMSServicesAction"
+            name="JMSServicesForm" scope="request" validate="false">
+        <forward name="success" contextRelative="true"
+                 path="/jsp/core/partition/PartitionServicesJmsForm.jsp" />
+    </action>
+    <action path="/PartitionServiceWLDFSystemResourceTable"
+            type="com.bea.console.actions.diagnostics.ModuleTableAction"
+            name="genericDiagnosticsTableForm" scope="request" validate="false">
+        <forward name="success" contextRelative="true"
+                 path="/jsp/core/partition/PartitionServiceModuleTable.jsp" />
+    </action>
+    <action path="/RGServiceSAFAgentTable"
+            type="com.bea.console.actions.jms.safagent.SAFAgentTableAction"
+            name="genericTableForm" scope="request" validate="false">
+      <forward name="success" contextRelative="true"
+               path="/jsp/core/partition/ResourceGroupServiceSAFAgentTable.jsp" />
+    </action>
+    <action path="/RGServiceOsgiFrameworkTable"
+            type="com.bea.console.actions.osgiframework.OsgiFrameworkTableAction"
+            name="genericTableForm" scope="request" validate="false">
+        <forward name="success" contextRelative="true"
+                 path="/jsp/core/partition/ResourceGroupServiceOsgiFrameworkTable.jsp" />
+    </action>
+    <action path="/RGServiceJMSBridgeDestinationTable"
+            type="com.bea.console.actions.jms.bridgedestination.JMSBridgeDestinationTableAction"
+            name="genericTableForm" scope="request" validate="false">
+        <forward name="success" contextRelative="true"
+                 path="/jsp/core/partition/ResourceGroupServiceJMSBridgeDestinationTable.jsp" />
+    </action>
+    <action path="/RGServiceMessagingBridgeTable"
+            type="com.bea.console.actions.bridge.MessagingBridgeTableAction"
+            name="genericTableForm" scope="request" validate="false">
+        <forward name="success" contextRelative="true"
+                 path="/jsp/core/partition/PartitionRGMessagingBridgeTable.jsp" />
+    </action>
+    <action path="/CorePartitionConfigGeneral"
+            type="com.bea.console.actions.core.partition.PartitionConfigGeneral"
+            name="partitionConfigGeneralForm" scope="request" validate="false">
+      <forward name="success" contextRelative="true"
+               path="/jsp/core/partition/PartitionConfigGeneralForm.jsp" />
+    </action>
+    <action path="/CorePartitionConfigGeneralUpdated"
+            type="com.bea.console.actions.core.partition.PartitionConfigGeneralUpdated"
+            name="partitionConfigGeneralForm" scope="request" validate="false"
+            input="success">
+      <forward name="success" path="/CorePartitionConfigGeneral.do" />
+    </action>
+    <action path="/CorePartitionWorkManager"
+            type="com.bea.console.actions.core.partition.PartitionWorkManagerAction"
+            name="partitionPartitionWorkManagerConfigForm" scope="request" validate="false">
+      <forward name="success" contextRelative="true"
+               path="/jsp/core/partition/PartitionConfigWorkManager.jsp" />
+    </action>
+    <action path="/CorePartitionWorkManagerUpdated"
+            type="com.bea.console.actions.core.partition.PartitionWorkManagerActionUpdated"
+            name="partitionPartitionWorkManagerConfigForm" scope="request" validate="false"
+            input="success">
+        <forward name="success" path="/CorePartitionWorkManager.do" />
+    </action>
+
+    <action path="/CorePartitionRCMManagement"
+            type="com.bea.console.actions.core.partition.PartitionRCMManagementAction"
+            name="partitionConfigRCMManagementForm" scope="request" validate="false">
+      <forward name="success" contextRelative="true"
+               path="/jsp/core/partition/PartitionConfigRCMManagement.jsp" />
+    </action>
+    <action path="/CorePartitionRCMManagementUpdated"
+            type="com.bea.console.actions.core.partition.PartitionRCMManagementActionUpdated"
+            name="partitionConfigRCMManagementForm" scope="request" validate="false"
+            input="success">
+      <forward name="success" path="/CorePartitionRCMManagement.do" />
+    </action>
+    <action path="/PartitionConfigRCMDispatcher"
+              type="com.bea.console.actions.core.partition.PartitionRCMDispatcher"
+              name="dispatcherForm" scope="session" validate="false">
+    </action>
+
+    <action path="/PartitionConfigJtaAction"
+            type="com.bea.console.actions.core.partition.PartitionConfigJtaAction"
+            name="partitionConfigJtaForm" scope="request" validate="false">
+      <forward name="success" contextRelative="true"
+               path="/jsp/core/partition/PartitionConfigJtaForm.jsp" />
+    </action>
+    <action path="/PartitionConfigJtaActionUpdated"
+            type="com.bea.console.actions.core.partition.PartitionConfigJtaActionUpdated"
+            name="partitionConfigJtaForm" scope="request" validate="false"
+            input="success">
+      <forward name="success" path="/PartitionConfigJtaAction.do" />
+    </action>
+
+    <action path="/PartitionConfigConcurrencyAction"
+            type="com.bea.console.actions.core.partition.PartitionConfigConcurrencyAction"
+            name="partitionConfigConcurrencyForm" scope="request" validate="false">
+      <forward name="success" contextRelative="true"
+               path="/jsp/core/partition/PartitionConfigConcurrencyForm.jsp" />
+    </action>
+    <action path="/PartitionConfigConcurrencyActionUpdated"
+            type="com.bea.console.actions.core.partition.PartitionConfigConcurrencyActionUpdated"
+            name="partitionConfigConcurrencyForm" scope="request" validate="false"
+            input="success">
+      <forward name="success" path="/PartitionConfigConcurrencyAction.do" />
+    </action>
+
+    <action path="/PartitionAvailableTargets"
+            type="com.bea.console.actions.core.partition.PartitionAvailableTargetsAction"
+            name="targetsForm" scope="request" validate="false">
+      <forward name="success" contextRelative="true"
+               path="/jsp/core/partition/PartitionAvailableTargets.jsp" />
+    </action>
+    <action path="/PartitionAvailableTargetsUpdated"
+            type="com.bea.console.actions.core.partition.PartitionAvailableTargetsUpdatedAction"
+            name="targetsForm" scope="request" validate="false" input="success">
+      <forward name="retry" contextRelative="true"
+               path="/jsp/core/partition/PartitionAvailableTargets.jsp" />
+      <forward name="success" path="/PartitionAvailableTargets.do" />
+    </action>
+
+    <action path="/PartitionFileSystem"
+            type="com.bea.console.actions.core.partition.PartitionFileSystemAction"
+            name="partitionFileSystemForm" scope="request" validate="false">
+      <forward name="success" contextRelative="true"
+               path="/jsp/core/partition/PartitionFileSystem.jsp" />
+    </action>
+    <action path="/PartitionFileSystemUpdated"
+            type="com.bea.console.actions.core.partition.PartitionFileSystemActionUpdated"
+            name="partitionFileSystemForm" scope="request" validate="false" input="success">
+      <forward name="retry" contextRelative="true"
+               path="/jsp/core/partition/PartitionFileSystem.jsp" />
+      <forward name="success" path="/PartitionFileSystem.do" />
+    </action>
+
+    <action path="/PartitionLoggingDebug"
+            type="com.bea.console.actions.core.partition.PartitionLoggingDebugAction"
+            name="partitionLoggingDebugForm" scope="request" validate="false">
+      <forward name="success" contextRelative="true"
+               path="/jsp/core/partition/loggingdebug/PartitionLoggingDebug.jsp" />
+    </action>
+    <action path="/PartitionLoggingDebugUpdated"
+            type="com.bea.console.actions.core.partition.PartitionLoggingDebugActionUpdated"
+            name="partitionLoggingDebugForm" scope="request" validate="false"
+            input="success">
+      <forward name="success" path="/PartitionLoggingDebug.do" />
+    </action>
+
+
+    <action path="/CorePartitionResourceGroupConfigGeneral"
+            type="com.bea.console.actions.core.partition.ResourceGroupConfigGeneral"
+            name="partitionResourceGroupConfigGeneralForm" scope="request" validate="false">
+        <forward name="success" contextRelative="true"
+                 path="/jsp/core/partition/PartitionResourceGroupConfigGeneralForm.jsp" />
+    </action>
+    <action path="/CorePartitionResourceGroupConfigGeneralUpdated"
+            type="com.bea.console.actions.core.partition.ResourceGroupConfigGeneralUpdated"
+            name="partitionResourceGroupConfigGeneralForm" scope="request" validate="false"
+            input="success">
+        <forward name="success" path="/CorePartitionResourceGroupConfigGeneral.do" />
+    </action>
+    <action path="/CoherenceMTCachePropertyConfigGeneral"
+            type="com.bea.console.actions.core.partition.coherencemtcache.CoherenceMTCachePropertyConfigGeneral"
+            name="CoherenceMTCachePropertyConfigGeneralForm" scope="request" validate="false">
+      <forward name="success" contextRelative="true"
+               path="/jsp/core/partition/coherencemtcache/CoherenceMTCacheConfigProperty.jsp" />
+    </action>
+    <action path="/CoherenceMTCachePropertyConfigGeneralUpdate"
+            type="com.bea.console.actions.core.partition.coherencemtcache.CoherenceMTCachePropertyConfigGeneralUpdate"
+            name="CoherenceMTCachePropertyConfigGeneralForm" scope="request" validate="false"
+            input="success">
+      <forward name="success" path="/CoherenceMTCachePropertyConfigGeneral.do" />
+    </action>
+
+
+    <action path="/CoreJDBCSystemResourceOverrideConfigGeneral"
+          type="com.bea.console.actions.core.partition.JDBCSystemResourceOverrideConfigGeneral"
+          name="jdbcSystemResourceOverrideConfigGeneralForm" scope="request" validate="false">
+      <forward name="success" contextRelative="true"
+               path="/jsp/core/partition/resourceoverride/JDBCSystemResourceOverrideConfigGeneralForm.jsp" />
+    </action>
+    <action path="/CoreJDBCSystemResourceOverrideConfigGeneralUpdated"
+          type="com.bea.console.actions.core.partition.JDBCSystemResourceOverrideConfigGeneralUpdated"
+          name="jdbcSystemResourceOverrideConfigGeneralForm" scope="request" validate="false"
+          input="success">
+      <forward name="success" path="/CoreJDBCSystemResourceOverrideConfigGeneral.do" />
+    </action>
+
+    <action path="/CorePartitionCoherenceMTCacheConfig"
+            type="com.bea.console.actions.core.partition.coherencemtcache.CoherenceMTCacheConfigAction"
+            name="coherenceMTCacheConfigForm" scope="request" validate="false">
+      <forward name="success" contextRelative="true"
+               path="/jsp/core/partition/coherencemtcache/CoherenceMTCacheConfig.jsp" />
+    </action>
+    <action path="/CorePartitionCoherenceMTCacheConfigUpdated"
+            type="com.bea.console.actions.core.partition.coherencemtcache.CoherenceMTCacheConfigUpdatedAction"
+            name="coherenceMTCacheConfigForm" scope="request" validate="false"
+            input="success">
+      <forward name="retry" contextRelative="true"
+               path="/jsp/core/partition/coherencemtcache/CoherenceMTCacheConfig.jsp" />
+      <forward name="success" path="/CorePartitionCoherenceMTCacheConfig.do" />
+    </action>
+    <action path="/PartitionBatchJobsTable"
+            type="com.bea.console.actions.core.domain.BatchJobsTableAction"
+            name="genericTableForm" scope="request" validate="false">
+      <forward name="success" contextRelative="true"
+               path="/jsp/core/partition/PartitionBatchJobsTable.jsp" />
+    </action>
+    <action path="/PartitionMonitoringRCMFileTable"
+            type="com.bea.console.actions.core.partition.MonitoringRCMFileTableAction"
+            name="partitionMonitoringRCMFileTableForm" scope="request" validate="false">
+        <forward name="success" contextRelative="true"
+                 path="/jsp/core/partition/PartitionMonitoringRCMFileTable.jsp" />
+    </action>
+    <action path="/PartitionMonitoringRCMCPUTable"
+            type="com.bea.console.actions.core.partition.MonitoringRCMCPUTableAction"
+            name="partitionMonitoringRCMCPUTableForm" scope="request" validate="false">
+        <forward name="success" contextRelative="true"
+                 path="/jsp/core/partition/PartitionMonitoringRCMCPUTable.jsp" />
+    </action>
+    <action path="/PartitionMonitoringRCMHeapTable"
+            type="com.bea.console.actions.core.partition.MonitoringRCMHeapTableAction"
+            name="partitionMonitoringRCMHeapTableForm" scope="request" validate="false">
+        <forward name="success" contextRelative="true"
+                 path="/jsp/core/partition/PartitionMonitoringRCMHeapTable.jsp" />
+    </action>
+    <action path="/CorePartitionNotes" type="com.bea.console.actions.NotesAction"
+      name="notesForm" scope="request" validate="false">
+      <forward name="success" contextRelative="true"
+        path="/jsp/core/partition/PartitionNotesForm.jsp" />
+    </action>
+    <action path="/CorePartitionNotesUpdated"
+      type="com.bea.console.actions.NotesUpdatedAction" name="notesForm"
+      scope="request" validate="false" input="success">
+      <forward name="success" path="/CorePartitionNotes.do" />
+    </action>
+    <action path="/PartitionBatchJobExecutionsTable"
+            type="com.bea.console.actions.core.domain.BatchJobExecutionsTableAction"
+            name="batchJobDetailsForm" scope="session" validate="false">
+        <forward name="success" contextRelative="true"
+                 path="/jsp/core/partition/PartitionBatchJobExecutionsTable.jsp" />
+    </action>
+    <action path="/PartitionBatchJobStepExecutionsTable"
+            type="com.bea.console.actions.core.domain.BatchJobStepExecutionsTableAction"
+            name="batchJobDetailsForm" scope="session" validate="false">
+        <forward name="success" contextRelative="true"
+                 path="/jsp/core/partition/PartitionBatchJobStepExecutionsTable.jsp" />
+    </action>
+
+
+    <action path="/MailSessionOverrideTable"
+            type="com.bea.console.actions.core.partition.MailSessionOverrideTable"
+            name="genericTableForm" scope="request" validate="false">
+      <forward name="success" contextRelative="true"
+               path="/jsp/core/partition/resourceoverride/MailSessionOverrideTable.jsp" />
+    </action>
+    <action path="/PartitionMailSessionOverrideConfig"
+            type="com.bea.console.actions.core.partition.MailSessionOverrideConfigAction"
+            name="mailSessionOverrideConfigForm" scope="request" validate="false">
+      <forward name="success" contextRelative="true"
+               path="/jsp/core/partition/resourceoverride/MailSessionOverrideConfigForm.jsp" />
+    </action>
+    <action path="/PartitionMailSessionOverrideConfigUpdated"
+            type="com.bea.console.actions.core.partition.MailSessionOverrideConfigUpdatedAction"
+            name="mailSessionOverrideConfigForm" scope="request" validate="false"
+            input="success">
+      <forward name="retry" contextRelative="true"
+               path="/jsp/core/partition/resourceoverride/MailSessionOverrideConfigForm.jsp" />
+      <forward name="success" path="/PartitionMailSessionOverrideConfig.do" />
+    </action>
+
+    <action path="/JMSModulesOverrideTableAction"
+            type="com.bea.console.actions.core.partition.jmsoverride.JMSModulesOverrideTableAction"
+            scope="request" validate="false" name="genericTableForm">
+      <forward name="success" contextRelative="true"
+               path="/jsp/core/partition/jmsoverride/JMSModulesOverrideTableForm.jsp" />
+    </action>
+
+    <action path="/JMSForeignServersOverrideTableAction"
+            type="com.bea.console.actions.core.partition.jmsoverride.ForeignServerOverrideTableAction"
+            scope="request" validate="false" name="genericTableForm">
+      <forward name="success" contextRelative="true"
+               path="/jsp/core/partition/jmsoverride/ForeignServerOverrideTable.jsp" />
+    </action>
+
+    <!--
+    <action path="/JMSModuleOverrideConfigAction"
+            type="com.bea.console.actions.core.partition.jmsoverride.JMSModuleOverrideConfigAction"
+            name="JMSModuleOverrideConfigForm" scope="request" validate="false" >
+      <forward name="success" contextRelative="true"
+               path="/jsp/core/partition/jmsoverride/JMSModuleOverrideConfigGeneral.jsp" />
+    </action>
+
+    <action path="/JMSModuleOverrideConfigActionUpdated"
+            type="com.bea.console.actions.core.partition.jmsoverride.JMSModuleOverrideConfigActionUpdated"
+            name="JMSModuleOverrideConfigForm" scope="request" validate="false"
+            input="success">
+      <forward name="success" path="/JMSModuleOverrideConfigAction.do" />
+    </action>
+    -->
+
+    <action path="/ForeignServerOverrideConfigAction"
+            type="com.bea.console.actions.core.partition.jmsoverride.ForeignServerOverrideConfigAction"
+            name="ForeignServerOverrideConfigForm" scope="request" validate="false">
+      <forward name="success" contextRelative="true"
+               path="/jsp/core/partition/jmsoverride/ForeignServerOverrideConfig.jsp" />
+    </action>
+
+    <action path="/ForeignServerOverrideConfigActionUpdated"
+            type="com.bea.console.actions.core.partition.jmsoverride.ForeignServerOverrideConfigActionUpdated"
+            name="ForeignServerOverrideConfigForm" scope="request" validate="false"
+            input="success">
+      <forward name="success" path="/ForeignServerOverrideConfigAction.do" />
+    </action>
+
+    <action path="/ForeignServerDestinationOverrideTable"
+            type="com.bea.console.actions.core.partition.jmsoverride.ForeignDestinationOverrideTable"
+            scope="request" validate="false" name="genericTableForm">
+      <forward name="success" contextRelative="true"
+               path="/jsp/core/partition/jmsoverride/ForeignDestinationOverrideTable.jsp" />
+    </action>
+
+    <action path="/ForeignServerConnectionFactoryOverrideTable"
+            type="com.bea.console.actions.core.partition.jmsoverride.ForeignConnectionFactoryOverrideTable"
+            scope="request" validate="false" name="genericTableForm">
+      <forward name="success" contextRelative="true"
+               path="/jsp/core/partition/jmsoverride/ForeignConnectionFactoryOverrideTable.jsp" />
+    </action>
+
+    <action path="/ForeignDestinationOverrideConfig"
+            type="com.bea.console.actions.core.partition.jmsoverride.ForeignDestinationOverrideConfigAction"
+            name="foreignDestinationOverrideConfigForm" scope="request" validate="false">
+      <forward name="success" contextRelative="true"
+               path="/jsp/core/partition/jmsoverride/ForeignDestinationOverrideConfig.jsp" />
+    </action>
+    <action path="/ForeignDestinationOverrideConfigUpdated"
+            type="com.bea.console.actions.core.partition.jmsoverride.ForeignDestinationOverrideConfigActionUpdated"
+            name="foreignDestinationOverrideConfigForm" scope="request" validate="false"
+            input="success">
+      <forward name="success" path="/ForeignDestinationOverrideConfig.do" />
+    </action>
+
+    <action path="/ForeignConnectionFactoryOverrideConfig"
+            type="com.bea.console.actions.core.partition.jmsoverride.ForeignConnectionFactoryOverrideConfigAction"
+            name="foreignConnectionFactoryOverrideConfigForm" scope="request" validate="false">
+      <forward name="success" contextRelative="true"
+               path="/jsp/core/partition/jmsoverride/ForeignConnectionFactoryOverrideConfig.jsp" />
+    </action>
+    <action path="/ForeignConnectionFactoryOverrideConfigUpdated"
+            type="com.bea.console.actions.core.partition.jmsoverride.ForeignConnectionFactoryOverrideConfigActionUpdated"
+            name="foreignConnectionFactoryOverrideConfigForm" scope="request" validate="false"
+            input="success">
+      <forward name="success" path="/ForeignConnectionFactoryOverrideConfig.do" />
+    </action>
+    <action path="/CorePartitionWorkManagerTable"
+            type="com.bea.console.actions.core.globalpartitionworkmgr.PartitionWorkManagerTableAction"
+            name="genericTableForm" scope="request" validate="false">
+      <forward name="success" contextRelative="true"
+               path="/jsp/core/globalpartitionworkmgr/PartitionWorkManagerTable.jsp" />
+    </action>
+    <action path="/CorePartitionWorkManagerConfig"
+            type="com.bea.console.actions.core.globalpartitionworkmgr.PartitionWorkManagerConfigAction"
+            name="globalPartitionWorkManagerConfigForm" scope="request" validate="false">
+      <forward name="success" contextRelative="true"
+               path="/jsp/core/globalpartitionworkmgr/PartitionWorkManagerConfigForm.jsp" />
+    </action>
+    <action path="/CorePartitionWorkManagerConfigUpdated"
+            type="com.bea.console.actions.core.globalpartitionworkmgr.PartitionWorkManagerConfigUpdatedAction"
+            name="globalPartitionWorkManagerConfigForm" scope="request" validate="false"
+            input="success">
+      <forward name="success" path="/CorePartitionWorkManagerConfig.do" />
+    </action>
+
+
+  </action-mappings>
+  <controller
+    processorClass="com.bea.console.internal.ConsolePageFlowRequestProcessor">
+    <set-property property="nocache" value="true" />
+    <set-property property="contentType" value="text/html;charset=UTF-8" />
+  </controller>
+</struts-config>

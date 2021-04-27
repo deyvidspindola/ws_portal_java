@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE map PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Map Version 2.0//EN" "http://java.sun.com/products/javahelp/map_2_0.dtd">
+<map xml:lang="en-US" version="2.0">
+<mapID target="intro" url="index.html"/>
+<mapID target="blank" url="index.html"/>
+<mapID target="Homehomehomepagetitle" url="pagehelp/Homehomehomepagetitle.html"/>
+
+  
+    
+    
+  
+    <mapID target="partition.CreatePartitions" url="taskhelp/partition/CreatePartitions.html"/>
+
+
+    <mapID target="partition.DeletePartitions" url="taskhelp/partition/DeletePartitions.html"/>
+
+
+    <mapID target="partition.ExportPartitions" url="taskhelp/partition/ExportPartitions.html"/>
+
+
+    <mapID target="partition.ImportPartitions" url="taskhelp/partition/ImportPartitions.html"/>
+
+
+    <mapID target="partition.ConfigurePartitions" url="taskhelp/partition/ConfigurePartitions.html"/>
+
+
+    <mapID target="partition.ConfigureRDP" url="taskhelp/partition/ConfigureRDP.html"/>
+
+
+    <mapID target="partition.ConfigurePartitionsResourceGroups" url="taskhelp/partition/ConfigurePartitionsResourceGroups.html"/>
+
+
+    <mapID target="partition.ConfigurePartitionsFileSystems" url="taskhelp/partition/ConfigurePartitionsFileSystems.html"/>
+
+
+    <mapID target="partition.ConfigurePartitionsJTA" url="taskhelp/partition/ConfigurePartitionsJTA.html"/>
+
+
+    <mapID target="partition.ConfigurePartitionsConcurrency" url="taskhelp/partition/ConfigurePartitionsConcurrency.html"/>
+
+
+    <mapID target="partition.ConfigurePartitionsTargets" url="taskhelp/partition/ConfigurePartitionsTargets.html"/>
+
+
+    <mapID target="partition.StartStopPartitions" url="taskhelp/partition/StartStopPartitions.html"/>
+
+  
+
+
+    
+  
+    <mapID target="partition.resourcegroup.PartResourceGroups" url="taskhelp/partition/resourcegroup/PartResourceGroups.html"/>
+
+
+    <mapID target="partition.resourcegroup.PartCreateResourceGroups" url="taskhelp/partition/resourcegroup/PartCreateResourceGroups.html"/>
+
+
+    <mapID target="partition.resourcegroup.PartDeleteResourceGroups" url="taskhelp/partition/resourcegroup/PartDeleteResourceGroups.html"/>
+
+
+    <mapID target="partition.resourcegroup.PartConfigureResourceGroups" url="taskhelp/partition/resourcegroup/PartConfigureResourceGroups.html"/>
+
+
+    <mapID target="partition.resourcegroup.PartControlResourceGroups" url="taskhelp/partition/resourcegroup/PartControlResourceGroups.html"/>
+
+
+    <mapID target="partition.resourcegroup.PartStartResourceGroups" url="taskhelp/partition/resourcegroup/PartStartResourceGroups.html"/>
+
+
+    <mapID target="partition.resourcegroup.PartTargetResourceGroups" url="taskhelp/partition/resourcegroup/PartTargetResourceGroups.html"/>
+
+
+    <mapID target="partition.resourcegroup.PartCreateOSGiFrameworks" url="taskhelp/partition/resourcegroup/PartCreateOSGiFrameworks.html"/>
+
+
+    <mapID target="partition.resourcegroup.PartCloneOSGiFrameworks" url="taskhelp/partition/resourcegroup/PartCloneOSGiFrameworks.html"/>
+
+
+    <mapID target="partition.resourcegroup.PartDeleteOSGiFrameworks" url="taskhelp/partition/resourcegroup/PartDeleteOSGiFrameworks.html"/>
+
+
+    <mapID target="partition.resourcegroup.PartTargetOSGiFrameworks" url="taskhelp/partition/resourcegroup/PartTargetOSGiFrameworks.html"/>
+
+  
+
+
+    
+  
+    <mapID target="partition.work.CreatePartitionWorkManagers" url="taskhelp/partition/work/CreatePartitionWorkManagers.html"/>
+
+
+    <mapID target="partition.work.ConfigurePartitionWorkManagers" url="taskhelp/partition/work/ConfigurePartitionWorkManagers.html"/>
+
+
+    <mapID target="partition.work.AssignPartitionWorkManagers" url="taskhelp/partition/work/AssignPartitionWorkManagers.html"/>
+
+  
+
+
+    
+  
+    <mapID target="partition.rcm.ConfigurePartitionRcmManagers" url="taskhelp/partition/rcm/ConfigurePartitionRcmManagers.html"/>
+<mapID target="partition.rcm.CreatePartitionRcmManagers" url="taskhelp/partition/rcm/CreatePartitionRcmManagers.html"/>
+
+
+    <mapID target="partition.rcm.MonitorPartitionRcmFiles" url="taskhelp/partition/rcm/MonitorPartitionRcmFiles.html"/>
+
+
+    <mapID target="partition.rcm.MonitorPartitionRcmCPU" url="taskhelp/partition/rcm/MonitorPartitionRcmCPU.html"/>
+
+
+    <mapID target="partition.rcm.MonitorPartitionRcmHeap" url="taskhelp/partition/rcm/MonitorPartitionRcmHeap.html"/>
+
+  
+
+
+    
+  
+    <mapID target="partition.jdbcoverride.CreateJDBCOverrides" url="taskhelp/partition/jdbcoverride/CreateJDBCOverrides.html"/>
+
+
+    <mapID target="partition.jdbcoverride.ConfigureJDBCOverrides" url="taskhelp/partition/jdbcoverride/ConfigureJDBCOverrides.html"/>
+
+
+    <mapID target="partition.jdbcoverride.DeleteJDBCOverrides" url="taskhelp/partition/jdbcoverride/DeleteJDBCOverrides.html"/>
+
+  
+
+
+    
+  
+    <mapID target="partition.mailsessionoverride.CreateMailSessionOverrides" url="taskhelp/partition/mailsessionoverride/CreateMailSessionOverrides.html"/>
+
+
+    <mapID target="partition.mailsessionoverride.ConfigureMailSessionOverrides" url="taskhelp/partition/mailsessionoverride/ConfigureMailSessionOverrides.html"/>
+
+
+    <mapID target="partition.mailsessionoverride.DeleteMailSessionOverrides" url="taskhelp/partition/mailsessionoverride/DeleteMailSessionOverrides.html"/>
+
+  
+
+
+    
+  
+    <mapID target="partition.jmsoverride.CreateJMSModuleOverrides" url="taskhelp/partition/jmsoverride/CreateJMSModuleOverrides.html"/>
+
+
+    <mapID target="partition.jmsoverride.ConfigureJMSModuleOverrides" url="taskhelp/partition/jmsoverride/ConfigureJMSModuleOverrides.html"/>
+
+
+    <mapID target="partition.jmsoverride.DeleteJMSModuleOverrides" url="taskhelp/partition/jmsoverride/DeleteJMSModuleOverrides.html"/>
+
+
+    <mapID target="partition.jmsoverride.CreateForeignServerOverrides" url="taskhelp/partition/jmsoverride/CreateForeignServerOverrides.html"/>
+
+
+    <mapID target="partition.jmsoverride.ConfigureForeignServerOverrides" url="taskhelp/partition/jmsoverride/ConfigureForeignServerOverrides.html"/>
+
+
+    <mapID target="partition.jmsoverride.DeleteForeignServerOverrides" url="taskhelp/partition/jmsoverride/DeleteForeignServerOverrides.html"/>
+
+
+    <mapID target="partition.jmsoverride.CreateForeignDestinationOverrides" url="taskhelp/partition/jmsoverride/CreateForeignDestinationOverrides.html"/>
+
+
+    <mapID target="partition.jmsoverride.ConfigureForeignDestinationOverrides" url="taskhelp/partition/jmsoverride/ConfigureForeignDestinationOverrides.html"/>
+
+
+    <mapID target="partition.jmsoverride.DeleteForeignDestinationOverrides" url="taskhelp/partition/jmsoverride/DeleteForeignDestinationOverrides.html"/>
+
+
+    <mapID target="partition.jmsoverride.CreateForeignConnectionFactoryOverrides" url="taskhelp/partition/jmsoverride/CreateForeignConnectionFactoryOverrides.html"/>
+
+
+    <mapID target="partition.jmsoverride.ConfigureForeignConnectionFactoryOverrides" url="taskhelp/partition/jmsoverride/ConfigureForeignConnectionFactoryOverrides.html"/>
+
+
+    <mapID target="partition.jmsoverride.DeleteForeignConnectionFactoryOverrides" url="taskhelp/partition/jmsoverride/DeleteForeignConnectionFactoryOverrides.html"/>
+
+  
+
+
+    
+  
+    <mapID target="partition.coherencecache.CreateCoherenceCache" url="taskhelp/partition/coherencecache/CreateCoherenceCache.html"/>
+
+
+    <mapID target="partition.coherencecache.OverrideCoherenceCacheProperties" url="taskhelp/partition/coherencecache/OverrideCoherenceCacheProperties.html"/>
+
+
+    <mapID target="partition.coherencecache.ShareCoherenceCache" url="taskhelp/partition/coherencecache/ShareCoherenceCache.html"/>
+
+
+    <mapID target="partition.coherencecache.DeleteCoherenceCache" url="taskhelp/partition/coherencecache/DeleteCoherenceCache.html"/>
+
+  
+
+  
+
+    
+    
+  <mapID target="Core-partitioncorepartitiontabletitle" url="pagehelp/Core-partitioncorepartitiontabletitle.html"/>
+<mapID target="Core-partitioncorepartitioncontroltabletitle" url="pagehelp/Core-partitioncorepartitioncontroltabletitle.html"/>
+<mapID target="Core-partitioncorepartitionhealthtabletitle" url="pagehelp/Core-partitioncorepartitionhealthtabletitle.html"/>
+<mapID target="Core-partitioncorepartitioncreatepartitiontitle" url="pagehelp/Core-partitioncorepartitioncreatepartitiontitle.html"/>
+<mapID target="Core-partitioncorepartitiondeletepartitiontitle" url="pagehelp/Core-partitioncorepartitiondeletepartitiontitle.html"/>
+<mapID target="Core-partitioncorepartitionimportpartitiontitle" url="pagehelp/Core-partitioncorepartitionimportpartitiontitle.html"/>
+<mapID target="Core-partitioncorepartitionexportpartitiontitle" url="pagehelp/Core-partitioncorepartitionexportpartitiontitle.html"/>
+<mapID target="Core-partitioncorepartitionlifecycletitle" url="pagehelp/Core-partitioncorepartitionlifecycletitle.html"/>
+
+      <mapID target="Core-partitioncorepartitionpartitionconfiggeneraltitle" url="pagehelp/Core-partitioncorepartitionpartitionconfiggeneraltitle.html"/>
+
+
+      <mapID target="Core-partitioncorepartitionavailableTargetstitle" url="pagehelp/Core-partitioncorepartitionavailableTargetstitle.html"/>
+
+
+      <mapID target="Core-partitioncorepartitionpartitionfilesystemtitle" url="pagehelp/Core-partitioncorepartitionpartitionfilesystemtitle.html"/>
+
+
+      <mapID target="Core-partitioncorepartitionpartitionloggingdebugtitle" url="pagehelp/Core-partitioncorepartitionpartitionloggingdebugtitle.html"/>
+<mapID target="corepartitionloggingdebugchangedebugpagetitle" url="pagehelp/corepartitionloggingdebugchangedebugpagetitle.html"/>
+
+
+      <mapID target="Core-partitioncorepartitionpartitionconfigjtatitle" url="pagehelp/Core-partitioncorepartitionpartitionconfigjtatitle.html"/>
+
+
+      <mapID target="Core-partitioncorepartitionpartitionconfigconcurrencytitle" url="pagehelp/Core-partitioncorepartitionpartitionconfigconcurrencytitle.html"/>
+
+
+      <mapID target="Core-partitioncorepartitionpartitionconfigworkmanagertitle" url="pagehelp/Core-partitioncorepartitionpartitionconfigworkmanagertitle.html"/>
+
+
+      <mapID target="Core-partitioncorepartitionrcmmanagementtitle" url="pagehelp/Core-partitioncorepartitionrcmmanagementtitle.html"/>
+
+    
+
+  <mapID target="Core-partitioncorepartitionpartitionresourcegroupstabletitle" url="pagehelp/Core-partitioncorepartitionpartitionresourcegroupstabletitle.html"/>
+<mapID target="Core-partitioncorepartitionpartitionresourcegroupscontroltabletitle" url="pagehelp/Core-partitioncorepartitionpartitionresourcegroupscontroltabletitle.html"/>
+<mapID target="Core-partitioncorepartitioncreatepartitionresourcegrouptitle" url="pagehelp/Core-partitioncorepartitioncreatepartitionresourcegrouptitle.html"/>
+<mapID target="Core-partitioncorepartitiondeletepartitionresourcegrouptitle" url="pagehelp/Core-partitioncorepartitiondeletepartitionresourcegrouptitle.html"/>
+<mapID target="Core-partitioncorepartitionresourcegrouplifecycletitle" url="pagehelp/Core-partitioncorepartitionresourcegrouplifecycletitle.html"/>
+<mapID target="Core-partitioncorepartitionpartitionresourcegroupconfiggeneraltitle" url="pagehelp/Core-partitioncorepartitionpartitionresourcegroupconfiggeneraltitle.html"/>
+<mapID target="Core-partitioncorepartitionresourcegroupdeploymentstabletitle" url="pagehelp/Core-partitioncorepartitionresourcegroupdeploymentstabletitle.html"/>
+
+      <mapID target="Core-partitioncorepartitionresourcegroupsservicesjdbctitle" url="pagehelp/Core-partitioncorepartitionresourcegroupsservicesjdbctitle.html"/>
+
+
+      <mapID target="Core-partitioncorepartitionresourcegroupsservicesjmstitle" url="pagehelp/Core-partitioncorepartitionresourcegroupsservicesjmstitle.html"/>
+
+
+      <mapID target="Core-partitioncorepartitionPartitionRGMessagingBridgetitle" url="pagehelp/Core-partitioncorepartitionPartitionRGMessagingBridgetitle.html"/>
+<mapID target="Core-partitioncorepartitionPartitionRGJMSBridgeDestinationtitle" url="pagehelp/Core-partitioncorepartitionPartitionRGJMSBridgeDestinationtitle.html"/>
+
+
+      <mapID target="Core-partitioncorepartitionresourcegroupmailsessionstitle" url="pagehelp/Core-partitioncorepartitionresourcegroupmailsessionstitle.html"/>
+
+
+      <mapID target="Core-partitioncorepartitionresourcegroupjmsstoretabletitle" url="pagehelp/Core-partitioncorepartitionresourcegroupjmsstoretabletitle.html"/>
+
+
+      <mapID target="Core-partitioncorepartitionpartitionresourcegroupspathservicetitle" url="pagehelp/Core-partitioncorepartitionpartitionresourcegroupspathservicetitle.html"/>
+
+
+      <mapID target="Core-partitioncorepartitionresourcegroupforeignjndiprovidertabletitle" url="pagehelp/Core-partitioncorepartitionresourcegroupforeignjndiprovidertabletitle.html"/>
+
+
+      <mapID target="Core-partitioncorepartitionresourcegroupmoduletabletitle" url="pagehelp/Core-partitioncorepartitionresourcegroupmoduletabletitle.html"/>
+
+
+      <mapID target="Core-partitioncorepartitionresourcegroupservicesafagentstitle" url="pagehelp/Core-partitioncorepartitionresourcegroupservicesafagentstitle.html"/>
+
+
+      <mapID target="Core-partitioncorepartitionresourcegrouposgiframeworktitle" url="pagehelp/Core-partitioncorepartitionresourcegrouposgiframeworktitle.html"/>
+
+    <mapID target="Core-partitioncorepartitionpartitionresourcegroupsnotestitle" url="pagehelp/Core-partitioncorepartitionpartitionresourcegroupsnotestitle.html"/>
+
+
+  <mapID target="Core-partitioncorepartitionpartitiondeploymentstabletitle" url="pagehelp/Core-partitioncorepartitionpartitiondeploymentstabletitle.html"/>
+
+
+  
+    <mapID target="Core-partitioncorepartitionpartitionservicesjdbctitle" url="pagehelp/Core-partitioncorepartitionpartitionservicesjdbctitle.html"/>
+
+
+    <mapID target="Core-partitioncorepartitionjmsservertabletitle" url="pagehelp/Core-partitioncorepartitionjmsservertabletitle.html"/>
+
+
+    <mapID target="Core-partitioncorepartitionPartitionMessagingBridgestitle" url="pagehelp/Core-partitioncorepartitionPartitionMessagingBridgestitle.html"/>
+<mapID target="Core-partitioncorepartitionPartitionJMSBridgeDestinationtitle" url="pagehelp/Core-partitioncorepartitionPartitionJMSBridgeDestinationtitle.html"/>
+
+
+    <mapID target="Core-partitioncorepartitionmailsessionstitle" url="pagehelp/Core-partitioncorepartitionmailsessionstitle.html"/>
+
+
+    <mapID target="Core-partitioncorepartitionjmsstoretabletitle" url="pagehelp/Core-partitioncorepartitionjmsstoretabletitle.html"/>
+
+
+    <mapID target="Core-partitioncorepartitionpathservicetitle" url="pagehelp/Core-partitioncorepartitionpathservicetitle.html"/>
+
+
+    <mapID target="Core-partitioncorepartitionforeignjndiprovidertabletitle" url="pagehelp/Core-partitioncorepartitionforeignjndiprovidertabletitle.html"/>
+
+
+    <mapID target="Core-partitioncorepartitionmoduletabletitle" url="pagehelp/Core-partitioncorepartitionmoduletabletitle.html"/>
+
+
+    <mapID target="Core-partitioncorepartitionsafagentstitle" url="pagehelp/Core-partitioncorepartitionsafagentstitle.html"/>
+
+
+    <mapID target="Core-partitioncorepartitionosgiframeworktitle" url="pagehelp/Core-partitioncorepartitionosgiframeworktitle.html"/>
+
+  
+
+  
+    <mapID target="Core-partitioncorepartitionjdbcsystemresourceoverridetitle" url="pagehelp/Core-partitioncorepartitionjdbcsystemresourceoverridetitle.html"/>
+<mapID target="Core-partitioncorepartitioncreatejdbcsystemresourceoverridetitle" url="pagehelp/Core-partitioncorepartitioncreatejdbcsystemresourceoverridetitle.html"/>
+<mapID target="Core-partitioncorepartitiondeletejdbcsystemresourceoverridetitle" url="pagehelp/Core-partitioncorepartitiondeletejdbcsystemresourceoverridetitle.html"/>
+<mapID target="Core-partitioncorepartitionjdbcsystemresourceoverrideconfiggeneraltitle" url="pagehelp/Core-partitioncorepartitionjdbcsystemresourceoverrideconfiggeneraltitle.html"/>
+<mapID target="Core-partitioncorepartitionjdbcsystemresourceoverridenotestitle" url="pagehelp/Core-partitioncorepartitionjdbcsystemresourceoverridenotestitle.html"/>
+<mapID target="Core-partitioncorepartitionjdbcsystemresourceoverrideaddjdbcencryptedpropertytitle" url="pagehelp/Core-partitioncorepartitionjdbcsystemresourceoverrideaddjdbcencryptedpropertytitle.html"/>
+
+
+    <mapID target="Core-partitioncorepartitionmailsessionoverridetitle" url="pagehelp/Core-partitioncorepartitionmailsessionoverridetitle.html"/>
+<mapID target="corepartitioncreatemailsessionoverridepagetitle" url="pagehelp/corepartitioncreatemailsessionoverridepagetitle.html"/>
+<mapID target="corepartitiondeletemailsessionoverridepagetitle" url="pagehelp/corepartitiondeletemailsessionoverridepagetitle.html"/>
+<mapID target="corepartitionmailsessionoverrideconfigtitle" url="pagehelp/corepartitionmailsessionoverrideconfigtitle.html"/>
+<mapID target="Core-partitioncorepartitionmailsessionoverridenotestitle" url="pagehelp/Core-partitioncorepartitionmailsessionoverridenotestitle.html"/>
+
+
+    <mapID target="JMSjmsmodulesoverridetitle" url="pagehelp/JMSjmsmodulesoverridetitle.html"/>
+<mapID target="JMSjmsmodulessystemcreatejmsmoduleoverridetitle" url="pagehelp/JMSjmsmodulessystemcreatejmsmoduleoverridetitle.html"/>
+<mapID target="JMSjmsmodulesoverridesystemdeletejmsmoduleoverridetitle" url="pagehelp/JMSjmsmodulesoverridesystemdeletejmsmoduleoverridetitle.html"/>
+<mapID target="jmssystemmoduleoverrideconfignotestitle" url="pagehelp/jmssystemmoduleoverrideconfignotestitle.html"/>
+<mapID target="JMSjmsforeignserveroverridetabletitle" url="pagehelp/JMSjmsforeignserveroverridetabletitle.html"/>
+<mapID target="corepartitioncreateforeignserveroverridepagetitle" url="pagehelp/corepartitioncreateforeignserveroverridepagetitle.html"/>
+<mapID target="jmsmodulesoverridedeleteforeignserveroverridetitle" url="pagehelp/jmsmodulesoverridedeleteforeignserveroverridetitle.html"/>
+<mapID target="jmsmoduleoverrideforeignserveroverrideconfigtitle" url="pagehelp/jmsmoduleoverrideforeignserveroverrideconfigtitle.html"/>
+<mapID target="jmsforeignjmsserveroverridenotesnotestitle" url="pagehelp/jmsforeignjmsserveroverridenotesnotestitle.html"/>
+<mapID target="jmsmoduleoverrideforeignserverdestinationoverridetabletitle" url="pagehelp/jmsmoduleoverrideforeignserverdestinationoverridetabletitle.html"/>
+<mapID target="corepartitioncreateforeigndestinationoverridepagetitle" url="pagehelp/corepartitioncreateforeigndestinationoverridepagetitle.html"/>
+<mapID target="jmsmodulesoverridedeleteforeigndestinationoverridetitle" url="pagehelp/jmsmodulesoverridedeleteforeigndestinationoverridetitle.html"/>
+<mapID target="jmsforeigndestinationoverrideconfigtitle" url="pagehelp/jmsforeigndestinationoverrideconfigtitle.html"/>
+<mapID target="jmsforeigndestinationoverridenotestitle" url="pagehelp/jmsforeigndestinationoverridenotestitle.html"/>
+<mapID target="jmsmoduleoverrideforeignserverconnectionfactoryoverridetabletitle" url="pagehelp/jmsmoduleoverrideforeignserverconnectionfactoryoverridetabletitle.html"/>
+<mapID target="corepartitioncreateforeignconnectionfactoryoverridepagetitle" url="pagehelp/corepartitioncreateforeignconnectionfactoryoverridepagetitle.html"/>
+<mapID target="jmsmodulesoverridedeleteforeignconnectionfactoryoverridetitle" url="pagehelp/jmsmodulesoverridedeleteforeignconnectionfactoryoverridetitle.html"/>
+<mapID target="jmsforeignconnectionfactoryoverrideconfigtitle" url="pagehelp/jmsforeignconnectionfactoryoverrideconfigtitle.html"/>
+<mapID target="jmsforeignconnectionfactoryoverridenotestitle" url="pagehelp/jmsforeignconnectionfactoryoverridenotestitle.html"/>
+
+  
+
+  <mapID target="Core-partitioncorepartitioncoherencecachetabletitle" url="pagehelp/Core-partitioncorepartitioncoherencecachetabletitle.html"/>
+<mapID target="Core-partitioncorepartitioncreatecoherencemtcachetitle" url="pagehelp/Core-partitioncorepartitioncreatecoherencemtcachetitle.html"/>
+<mapID target="Core-partitioncorepartitiondeletecoherencecachetitle" url="pagehelp/Core-partitioncorepartitiondeletecoherencecachetitle.html"/>
+<mapID target="Core-partitioncorepartitioncoherencecacheconfiggeneraltitle" url="pagehelp/Core-partitioncorepartitioncoherencecacheconfiggeneraltitle.html"/>
+<mapID target="Core-partitioncorepartitioncreatecoherencemtcachepropertytitle" url="pagehelp/Core-partitioncorepartitioncreatecoherencemtcachepropertytitle.html"/>
+<mapID target="Core-partitioncorepartitiondeletecoherencemtcachepropertytitle" url="pagehelp/Core-partitioncorepartitiondeletecoherencemtcachepropertytitle.html"/>
+<mapID target="Core-partitioncorepartitioncoherencemtcacchpropertytitle" url="pagehelp/Core-partitioncorepartitioncoherencemtcacchpropertytitle.html"/>
+<mapID target="Core-partitioncorepartitioncoherencemtcachetitle" url="pagehelp/Core-partitioncorepartitioncoherencemtcachetitle.html"/>
+
+
+  <mapID target="Core-partitioncorepartitionpartitionworkmanagertitle" url="pagehelp/Core-partitioncorepartitionpartitionworkmanagertitle.html"/>
+
+
+  <mapID target="Core-partitioncorepartitionpartitioncmotemplatetitle" url="pagehelp/Core-partitioncorepartitionpartitioncmotemplatetitle.html"/>
+
+
+  
+
+    <mapID target="Core-partitioncorepartitionhealthtabletitle" url="pagehelp/Core-partitioncorepartitionhealthtabletitle.html"/>
+
+
+    
+      <mapID target="Core-partitioncorepartitionmonitoringrcmcputitle" url="pagehelp/Core-partitioncorepartitionmonitoringrcmcputitle.html"/>
+
+
+      <mapID target="Core-partitioncorepartitionmonitoringrcmfiletitle" url="pagehelp/Core-partitioncorepartitionmonitoringrcmfiletitle.html"/>
+
+
+      <mapID target="Core-partitioncorepartitionmonitoringrcmheaptitle" url="pagehelp/Core-partitioncorepartitionmonitoringrcmheaptitle.html"/>
+
+    
+
+    <mapID target="Core-partitioncorepartitionbatchjobstabletitle" url="pagehelp/Core-partitioncorepartitionbatchjobstabletitle.html"/>
+<mapID target="Core-partitioncorepartitionbatchjobexecutionstabletitle" url="pagehelp/Core-partitioncorepartitionbatchjobexecutionstabletitle.html"/>
+<mapID target="Core-partitioncorepartitionbatchjobstepexecutionstabletitle" url="pagehelp/Core-partitioncorepartitionbatchjobstepexecutionstabletitle.html"/>
+
+  
+
+  <mapID target="Core-partitioncorepartitionpartitionnotestitle" url="pagehelp/Core-partitioncorepartitionpartitionnotestitle.html"/>
+
+
+  <mapID target="Core-Partitionglobalpartitionworkmgrtabletitle" url="pagehelp/Core-Partitionglobalpartitionworkmgrtabletitle.html"/>
+<mapID target="Core-Partitionglobalpartitionworkmgrcreatetitle" url="pagehelp/Core-Partitionglobalpartitionworkmgrcreatetitle.html"/>
+<mapID target="Core-Partitionglobalpartitionworkmgrdeletetitle" url="pagehelp/Core-Partitionglobalpartitionworkmgrdeletetitle.html"/>
+<mapID target="Core-Partitionglobalpartitionworkmgrconfigtitle" url="pagehelp/Core-Partitionglobalpartitionworkmgrconfigtitle.html"/>
+
+
+  
+  
+</map>

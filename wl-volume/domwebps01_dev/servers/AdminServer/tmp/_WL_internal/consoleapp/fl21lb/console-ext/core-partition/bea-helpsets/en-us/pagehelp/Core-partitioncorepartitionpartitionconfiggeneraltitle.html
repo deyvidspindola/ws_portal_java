@@ -1,0 +1,157 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="help ID" content="Core-partition.core.partition.partitionconfiggeneral.title">
+<title>Domain Partition: Configuration: General</title>
+<script language="JavaScript" src="/consolehelp/en-us/topicInfo.js"></script><script language="JavaScript" src="/consolehelp/en-us/CookieClass.js"></script>
+</head>
+<body class="base">
+<blockquote>
+<h1 class="Title">Domain Partition: Configuration: General</h1>
+<p>
+<a href="#attributes">Configuration Options</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#tasks">Related Tasks</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#concepts">Related Topics</a>
+</p>
+<p>Use this page to view or change the configuration of a domain
+    partition. Only the targets that have been selected on the Targets page
+    will be available and shown on this page.</p>
+<h4>
+<a name="attributes">Configuration Options</a>
+</h4>
+<div class="tblmargin">
+<table class="edocshelp">
+<thead>
+<tr>
+<th valign="top" style="padding:0px"> Name</th><th valign="top" style="padding:0px"> Description</th>
+</tr>
+</thead>
+<tbody>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.partitionconfiggeneral.name">Name</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>The name of this domain partition.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/PartitionMBean.html#Name">PartitionMBean.Name</a></code>
+</p>
+<p>
+<a href="en-us/restart.html" onClick="return popup(this,'glossarypopup')"> 
+                                                    Changes take effect after you redeploy the module or restart the server.</a>
+</p>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.partitionconfiggeneral.defaulttargets">Select Default Targets</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>Select default targets for this domain partition. These targets
+        will be applied for any resource group that does not specify a
+        target.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/PartitionMBean.html#DefaultTargets">PartitionMBean.DefaultTargets</a></code>
+</p>
+</td>
+</tr>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.partitionconfiggeneral.realm">Use Realm</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>Select a realm to use for this domain partition.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/PartitionMBean.html#Realm">PartitionMBean.Realm</a></code>
+</p>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.partitionconfiggeneral.primaryidentitydomain">Primary Identity Domain</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getPrimaryIdentityDomain"></a><a name="PrimaryIdentityDomain"></a>
+<p>The partition's primary identity domain.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/PartitionMBean.html#PrimaryIdentityDomain">PartitionMBean.PrimaryIdentityDomain</a></code>
+</p>
+</td>
+</tr>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.partitionconfiggeneral.resourcedeploymentplanpath">Resource Deployment Plan Path</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getResourceDeploymentPlanPath"></a><a name="ResourceDeploymentPlanPath"></a>
+<p>The resource deployment plan path.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/PartitionMBean.html#ResourceDeploymentPlanPath">PartitionMBean.ResourceDeploymentPlanPath</a></code>
+</p>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.partitionconfiggeneral.defaultdatasource">Default Datasource JNDI Name</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getDefaultDatasource"></a><a name="DefaultDatasource"></a>
+<p>The JNDI name of a system resource data source used to override the default datasource.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/DataSourcePartitionMBean.html#DefaultDatasource">DataSourcePartitionMBean.DefaultDatasource</a></code>
+</p>
+<p>
+<a href="en-us/restart.html" onClick="return popup(this,'glossarypopup')"> 
+                                                    Changes take effect after you redeploy the module or restart the server.</a>
+</p>
+</td>
+</tr>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.partitionconfiggeneral.dataSourceForJobScheduler">DataSource</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getDataSourceForJobScheduler"></a><a name="DataSourceForJobScheduler"></a>
+<p>The data source required to support the persistence of jobs scheduled with the job scheduler.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/PartitionMBean.html#DataSourceForJobScheduler">PartitionMBean.DataSourceForJobScheduler</a></code>
+</p>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.partitionconfiggeneral.jobSchedulerTableName">Table Name</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getJobSchedulerTableName"></a><a name="JobSchedulerTableName"></a>
+<p>The table name to use for storing timers active with the Job Scheduler.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/PartitionMBean.html#JobSchedulerTableName">PartitionMBean.JobSchedulerTableName</a></code>
+</p>
+</td>
+</tr>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.partitionconfiggeneral.executorservicetemplate">Executor Service Template</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getBatchJobsExecutorServiceName"></a><a name="BatchJobsExecutorServiceName"></a>
+<p>The name of the application-scoped Managed Executor Service instance that will be used to run Batch jobs that are submitted from applications deployed to the partition. A Managed Executor Service Template by the same name must exist for the domain when a Batch job is submitted in the partition. If this name returns null, then the Batch runtime will use the default Java EE Managed Executor Service that is bound to the default JNDI name of: <code>java:comp/DefaultManagedExecutorService</code>.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/PartitionMBean.html#BatchJobsExecutorServiceName">PartitionMBean.BatchJobsExecutorServiceName</a></code>
+</p>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.partitionconfiggeneral.batchJobsDataSourceJndiName">Datasource JNDI Name </a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getBatchJobsDataSourceJndiName"></a><a name="BatchJobsDataSourceJndiName"></a>
+<p>The JNDI name of the Batch runtime's JobRepository data source, which will be used to store data for Batch jobs submitted from applications deployed to the partition. When a Java EE component submits a Batch job, the Batch runtime updates the JobRepository tables using this data source, which is obtained by looking up the data source's JNDI name.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/PartitionMBean.html#BatchJobsDataSourceJndiName">PartitionMBean.BatchJobsDataSourceJndiName</a></code>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="relatedtopics">
+<a name="tasks">Related Tasks</a>
+</p>
+<ul>
+<li>
+<a href="/consolehelp/console-help.portal?_nfpb=true&amp;_pageLabel=page&amp;helpId=partition.ConfigurePartitions">Configure domain
+  partition general settings</a>
+</li>
+<li>
+<a href="/consolehelp/console-help.portal?_nfpb=true&amp;_pageLabel=page&amp;helpId=partition.ConfigureRDP">Configure resource
+  deployment plans</a>
+</li>
+</ul>
+<p class="relatedtopics">
+<a name="concepts">Related Topics</a>
+</p>
+<ul>
+<li>
+<a href="http://docs.oracle.com/middleware/12213/wls/WLSMT/config_domain_part.htm#WLSMT585">Configuring Domain Partitions</a>
+</li>
+</ul>
+</blockquote>
+</body>
+</html>

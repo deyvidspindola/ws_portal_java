@@ -1,0 +1,1095 @@
+<Feb 9, 2021 2:33:18 AM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Feb 9, 2021 2:33:54 AM GMT> <INFO> <Upgrade> <Setting NodeManager properties version to 12.2.1.3.0>
+<Feb 9, 2021 2:33:54 AM GMT> <INFO> <Upgrade> <Saving upgraded NodeManager properties to '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Feb 9, 2021 2:33:54 AM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Feb 9, 2021 2:33:54 AM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Feb 9, 2021 2:33:54 AM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Feb 9, 2021 2:33:54 AM GMT> <INFO> <12.2.1.3.0>
+<Feb 9, 2021 2:33:54 AM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Feb 9, 2021 2:33:54 AM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Feb 9, 2021 2:37:23 AM GMT> <INFO> <domwebps01_dev> <mngnode1> <Creating directory "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager">
+<Feb 9, 2021 2:37:29 AM GMT> <INFO> <domwebps01_dev> <mngnode1> <Creating directory "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs">
+<Feb 9, 2021 2:37:29 AM GMT> <INFO> <domwebps01_dev> <mngnode1> <Creating directory "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/security">
+<Feb 9, 2021 2:37:29 AM GMT> <INFO> <domwebps01_dev> <mngnode1> <Creating directory "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/tmp">
+<Feb 9, 2021 2:37:29 AM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Feb 9, 2021 2:37:29 AM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Feb 9, 2021 2:37:29 AM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Feb 9, 2021 2:37:29 AM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Feb 9, 2021 2:37:29 AM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Feb 9, 2021 2:37:29 AM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Feb 9, 2021 2:37:48 AM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Feb 9, 2021 3:02:24 AM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' with process id 753 is no longer alive; waiting for the process to die.>
+<Feb 9, 2021 3:02:24 AM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server was shut down normally>
+<Feb 9, 2021 3:02:28 AM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Feb 9, 2021 3:02:28 AM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Feb 9, 2021 3:02:28 AM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00001">
+<Feb 9, 2021 3:02:28 AM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Feb 9, 2021 3:02:28 AM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Feb 9, 2021 3:02:28 AM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Feb 9, 2021 3:02:28 AM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Feb 9, 2021 3:02:38 AM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Feb 9, 2021 3:03:35 AM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Feb 9, 2021 3:03:35 AM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Feb 9, 2021 3:03:35 AM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Feb 9, 2021 3:03:35 AM GMT> <INFO> <12.2.1.3.0>
+<Feb 9, 2021 3:03:35 AM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Feb 9, 2021 3:03:36 AM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from RUNNING to FAILED_NOT_RESTARTABLE>
+<Feb 9, 2021 3:03:36 AM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Feb 9, 2021 3:03:36 AM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Feb 9, 2021 1:01:40 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Feb 9, 2021 1:01:40 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Feb 9, 2021 1:01:40 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00002">
+<Feb 9, 2021 1:01:40 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Feb 9, 2021 1:01:40 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Feb 9, 2021 1:01:40 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Feb 9, 2021 1:01:40 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Feb 9, 2021 1:02:02 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Feb 12, 2021 2:01:20 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Feb 12, 2021 2:01:21 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Feb 12, 2021 2:01:21 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Feb 12, 2021 2:01:21 PM GMT> <INFO> <12.2.1.3.0>
+<Feb 12, 2021 2:01:21 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Feb 12, 2021 2:01:21 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from RUNNING to FAILED_NOT_RESTARTABLE>
+<Feb 12, 2021 2:01:21 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Feb 12, 2021 2:01:22 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Feb 12, 2021 2:03:51 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Feb 12, 2021 2:04:12 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Feb 12, 2021 2:04:12 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Feb 12, 2021 2:04:12 PM GMT> <INFO> <12.2.1.3.0>
+<Feb 12, 2021 2:04:12 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Feb 12, 2021 2:04:12 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Feb 12, 2021 2:04:12 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Feb 23, 2021 8:44:52 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Feb 23, 2021 8:44:52 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Feb 23, 2021 8:44:52 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Feb 23, 2021 8:44:52 PM GMT> <INFO> <12.2.1.3.0>
+<Feb 23, 2021 8:44:52 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Feb 23, 2021 8:44:52 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Feb 23, 2021 8:44:53 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Feb 23, 2021 8:49:49 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Feb 23, 2021 8:49:49 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Feb 23, 2021 8:49:49 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00003">
+<Feb 23, 2021 8:49:49 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Feb 23, 2021 8:49:49 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Feb 23, 2021 8:49:49 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Feb 23, 2021 8:49:49 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Feb 23, 2021 8:50:25 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Feb 23, 2021 8:58:27 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Feb 23, 2021 8:58:28 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Feb 23, 2021 8:58:28 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Feb 23, 2021 8:58:28 PM GMT> <INFO> <12.2.1.3.0>
+<Feb 23, 2021 8:58:28 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Feb 23, 2021 8:58:28 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from RUNNING to FAILED_NOT_RESTARTABLE>
+<Feb 23, 2021 8:58:28 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Feb 23, 2021 8:58:28 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Feb 23, 2021 9:02:30 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Feb 23, 2021 9:02:30 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Feb 23, 2021 9:02:30 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Feb 23, 2021 9:02:30 PM GMT> <INFO> <12.2.1.3.0>
+<Feb 23, 2021 9:02:30 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Feb 23, 2021 9:02:30 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Feb 23, 2021 9:02:31 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Feb 23, 2021 9:05:24 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Feb 23, 2021 9:05:24 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Feb 23, 2021 9:05:24 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00004">
+<Feb 23, 2021 9:05:24 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Feb 23, 2021 9:05:24 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Feb 23, 2021 9:05:25 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Feb 23, 2021 9:05:25 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Feb 23, 2021 9:06:00 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Feb 23, 2021 9:28:11 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Feb 23, 2021 9:28:11 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Feb 23, 2021 9:31:46 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' with process id 322 is no longer alive; waiting for the process to die.>
+<Feb 23, 2021 9:31:46 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server was shut down normally>
+<Feb 23, 2021 9:31:48 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Feb 23, 2021 9:31:48 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Feb 23, 2021 9:31:48 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00005">
+<Feb 23, 2021 9:31:48 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Feb 23, 2021 9:31:48 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Feb 23, 2021 9:31:48 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Feb 23, 2021 9:31:48 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Feb 23, 2021 9:32:22 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Feb 24, 2021 3:46:48 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Feb 24, 2021 3:46:49 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Feb 24, 2021 3:46:49 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Feb 24, 2021 3:46:49 PM GMT> <INFO> <12.2.1.3.0>
+<Feb 24, 2021 3:46:49 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Feb 24, 2021 3:46:49 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from FORCE_SHUTTING_DOWN to SHUTDOWN>
+<Feb 24, 2021 3:46:49 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Feb 24, 2021 3:46:49 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Feb 24, 2021 3:47:57 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Feb 24, 2021 3:47:57 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Feb 24, 2021 3:47:57 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00006">
+<Feb 24, 2021 3:47:57 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Feb 24, 2021 3:47:57 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Feb 24, 2021 3:47:57 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Feb 24, 2021 3:47:57 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Feb 24, 2021 3:48:34 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Mar 1, 2021 2:28:37 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Mar 1, 2021 2:28:37 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Mar 1, 2021 2:28:37 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Mar 1, 2021 2:28:37 PM GMT> <INFO> <12.2.1.3.0>
+<Mar 1, 2021 2:28:37 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 1, 2021 2:28:37 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from FORCE_SHUTTING_DOWN to SHUTDOWN>
+<Mar 1, 2021 2:28:37 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Mar 1, 2021 2:28:38 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Mar 1, 2021 2:29:57 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Mar 1, 2021 2:29:57 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 1, 2021 2:29:57 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00007">
+<Mar 1, 2021 2:29:57 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Mar 1, 2021 2:29:57 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Mar 1, 2021 2:29:57 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Mar 1, 2021 2:29:57 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Mar 1, 2021 2:30:31 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Mar 4, 2021 12:20:56 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Mar 4, 2021 12:20:57 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Mar 4, 2021 12:20:57 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Mar 4, 2021 12:20:57 PM GMT> <INFO> <12.2.1.3.0>
+<Mar 4, 2021 12:20:57 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 4, 2021 12:20:57 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from FORCE_SHUTTING_DOWN to SHUTDOWN>
+<Mar 4, 2021 12:20:57 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Mar 4, 2021 12:20:57 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Mar 4, 2021 12:21:22 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Mar 4, 2021 12:21:22 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Mar 4, 2021 12:21:22 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Mar 4, 2021 12:21:22 PM GMT> <INFO> <12.2.1.3.0>
+<Mar 4, 2021 12:21:22 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 4, 2021 12:21:22 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Mar 4, 2021 12:21:22 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Mar 4, 2021 12:23:33 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Mar 4, 2021 12:23:33 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 4, 2021 12:23:33 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00008">
+<Mar 4, 2021 12:23:33 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Mar 4, 2021 12:23:33 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Mar 4, 2021 12:23:33 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Mar 4, 2021 12:23:33 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Mar 4, 2021 12:24:06 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Mar 4, 2021 8:19:41 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' with process id 291 is no longer alive; waiting for the process to die.>
+<Mar 4, 2021 8:19:41 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server was shut down normally>
+<Mar 4, 2021 8:19:43 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Mar 4, 2021 8:19:43 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 4, 2021 8:19:43 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00009">
+<Mar 4, 2021 8:19:43 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Mar 4, 2021 8:19:43 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Mar 4, 2021 8:19:43 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Mar 4, 2021 8:19:43 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Mar 4, 2021 8:20:14 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Mar 8, 2021 2:58:47 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Mar 8, 2021 2:58:47 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Mar 8, 2021 2:58:48 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Mar 8, 2021 2:58:48 PM GMT> <INFO> <12.2.1.3.0>
+<Mar 8, 2021 2:58:48 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 8, 2021 2:58:48 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from FORCE_SHUTTING_DOWN to SHUTDOWN>
+<Mar 8, 2021 2:58:48 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Mar 8, 2021 2:58:48 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Mar 8, 2021 3:56:14 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Mar 8, 2021 3:56:14 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 8, 2021 3:56:14 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00024">
+<Mar 8, 2021 3:56:14 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Mar 8, 2021 3:56:14 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Mar 8, 2021 3:56:14 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Mar 8, 2021 3:56:14 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Mar 8, 2021 3:56:51 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Mar 9, 2021 5:39:33 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Mar 9, 2021 5:39:34 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Mar 9, 2021 5:39:34 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Mar 9, 2021 5:39:34 PM GMT> <INFO> <12.2.1.3.0>
+<Mar 9, 2021 5:39:34 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 9, 2021 5:39:34 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from FORCE_SUSPENDING to FAILED_NOT_RESTARTABLE>
+<Mar 9, 2021 5:39:34 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Mar 9, 2021 5:39:34 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Mar 9, 2021 5:42:46 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Mar 9, 2021 5:42:46 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 9, 2021 5:42:46 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00025">
+<Mar 9, 2021 5:42:46 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Mar 9, 2021 5:42:46 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Mar 9, 2021 5:42:46 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Mar 9, 2021 5:42:46 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Mar 9, 2021 5:46:10 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' with process id 301 is no longer alive; waiting for the process to die.>
+<Mar 9, 2021 5:46:10 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server failed during startup. It may be retried according to the auto restart configuration.>
+<Mar 9, 2021 5:46:10 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server was shut down normally>
+<Mar 9, 2021 5:46:10 PM GMT> <WARNING> <Server start command for WebLogic server 'mngnode1' failed due to: [Server failed to start up but Node Manager was not aware of the reason]. Please check Node Manager log and/or server 'mngnode1' log for detailed information.>
+<Mar 9, 2021 5:46:45 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Mar 9, 2021 5:46:45 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 9, 2021 5:46:45 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00026">
+<Mar 9, 2021 5:46:45 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Mar 9, 2021 5:46:45 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Mar 9, 2021 5:46:45 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Mar 9, 2021 5:46:45 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Mar 9, 2021 5:59:52 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Mar 9, 2021 5:59:52 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Mar 9, 2021 5:59:52 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Mar 9, 2021 5:59:52 PM GMT> <INFO> <12.2.1.3.0>
+<Mar 9, 2021 5:59:53 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 9, 2021 5:59:53 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from STARTING to FAILED_NOT_RESTARTABLE>
+<Mar 9, 2021 5:59:53 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Mar 9, 2021 5:59:53 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Mar 9, 2021 6:01:17 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Mar 9, 2021 6:01:17 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 9, 2021 6:01:17 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00027">
+<Mar 9, 2021 6:01:17 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Mar 9, 2021 6:01:17 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Mar 9, 2021 6:01:17 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Mar 9, 2021 6:01:17 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Mar 9, 2021 6:05:11 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' with process id 290 is no longer alive; waiting for the process to die.>
+<Mar 9, 2021 6:05:11 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server failed during startup. It may be retried according to the auto restart configuration.>
+<Mar 9, 2021 6:05:11 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server was shut down normally>
+<Mar 9, 2021 6:05:11 PM GMT> <WARNING> <Server start command for WebLogic server 'mngnode1' failed due to: [Server failed to start up but Node Manager was not aware of the reason]. Please check Node Manager log and/or server 'mngnode1' log for detailed information.>
+<Mar 9, 2021 6:05:11 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Mar 9, 2021 6:05:11 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 9, 2021 6:05:11 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00028">
+<Mar 9, 2021 6:05:11 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Mar 9, 2021 6:05:11 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Mar 9, 2021 6:05:11 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Mar 9, 2021 6:05:11 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Mar 9, 2021 6:14:14 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Mar 9, 2021 6:14:15 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Mar 9, 2021 6:14:15 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Mar 9, 2021 6:14:15 PM GMT> <INFO> <12.2.1.3.0>
+<Mar 9, 2021 6:14:15 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 9, 2021 6:14:15 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from FORCE_SHUTTING_DOWN to SHUTDOWN>
+<Mar 9, 2021 6:14:15 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Mar 9, 2021 6:14:16 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Mar 9, 2021 6:14:53 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Mar 9, 2021 6:14:53 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 9, 2021 6:14:53 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00029">
+<Mar 9, 2021 6:14:53 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Mar 9, 2021 6:14:53 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Mar 9, 2021 6:14:53 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Mar 9, 2021 6:14:53 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Mar 10, 2021 12:35:43 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Mar 10, 2021 12:35:43 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Mar 10, 2021 12:35:43 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Mar 10, 2021 12:35:43 PM GMT> <INFO> <12.2.1.3.0>
+<Mar 10, 2021 12:35:43 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 10, 2021 12:35:43 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from STARTING to FAILED_NOT_RESTARTABLE>
+<Mar 10, 2021 12:35:43 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Mar 10, 2021 12:35:43 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Mar 10, 2021 12:36:06 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Mar 10, 2021 12:36:06 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 10, 2021 12:36:06 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00030">
+<Mar 10, 2021 12:36:06 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Mar 10, 2021 12:36:06 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Mar 10, 2021 12:36:06 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Mar 10, 2021 12:36:06 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Mar 10, 2021 12:40:55 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' with process id 292 is no longer alive; waiting for the process to die.>
+<Mar 10, 2021 12:40:55 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server failed during startup. It may be retried according to the auto restart configuration.>
+<Mar 10, 2021 12:40:55 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server was shut down normally>
+<Mar 10, 2021 12:40:55 PM GMT> <WARNING> <Server start command for WebLogic server 'mngnode1' failed due to: [Server failed to start up but Node Manager was not aware of the reason]. Please check Node Manager log and/or server 'mngnode1' log for detailed information.>
+<Mar 10, 2021 12:41:27 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Mar 10, 2021 12:41:28 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Mar 10, 2021 12:41:28 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Mar 10, 2021 12:41:28 PM GMT> <INFO> <12.2.1.3.0>
+<Mar 10, 2021 12:41:28 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 10, 2021 12:41:28 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Mar 10, 2021 12:41:28 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Mar 10, 2021 1:38:06 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Mar 10, 2021 1:38:08 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Mar 10, 2021 1:38:08 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Mar 10, 2021 1:38:08 PM GMT> <INFO> <12.2.1.3.0>
+<Mar 10, 2021 1:38:08 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 10, 2021 1:38:08 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Mar 10, 2021 1:38:08 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Mar 10, 2021 2:49:20 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Mar 10, 2021 2:49:20 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 10, 2021 2:49:20 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00031">
+<Mar 10, 2021 2:49:20 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Mar 10, 2021 2:49:20 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Mar 10, 2021 2:49:20 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Mar 10, 2021 2:49:20 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Mar 10, 2021 2:49:53 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Mar 11, 2021 1:12:19 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Mar 11, 2021 1:12:20 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Mar 11, 2021 1:12:20 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Mar 11, 2021 1:12:20 PM GMT> <INFO> <12.2.1.3.0>
+<Mar 11, 2021 1:12:20 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 11, 2021 1:12:20 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from RUNNING to FAILED_NOT_RESTARTABLE>
+<Mar 11, 2021 1:12:20 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Mar 11, 2021 1:12:20 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Mar 11, 2021 1:36:32 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Mar 11, 2021 1:36:32 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 11, 2021 1:36:32 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00032">
+<Mar 11, 2021 1:36:32 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Mar 11, 2021 1:36:32 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Mar 11, 2021 1:36:32 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Mar 11, 2021 1:36:32 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Mar 11, 2021 1:46:30 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' with process id 298 is no longer alive; waiting for the process to die.>
+<Mar 11, 2021 1:46:30 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server failed during startup. It may be retried according to the auto restart configuration.>
+<Mar 11, 2021 1:46:30 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server was shut down normally>
+<Mar 11, 2021 1:46:30 PM GMT> <WARNING> <Server start command for WebLogic server 'mngnode1' failed due to: [Server failed to start up but Node Manager was not aware of the reason]. Please check Node Manager log and/or server 'mngnode1' log for detailed information.>
+<Mar 11, 2021 1:50:33 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Mar 11, 2021 1:50:33 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 11, 2021 1:50:33 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00033">
+<Mar 11, 2021 1:50:33 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Mar 11, 2021 1:50:33 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Mar 11, 2021 1:50:33 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Mar 11, 2021 1:50:33 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Mar 11, 2021 1:51:08 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Mar 15, 2021 3:41:20 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Mar 15, 2021 3:41:21 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Mar 15, 2021 3:41:21 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Mar 15, 2021 3:41:21 PM GMT> <INFO> <12.2.1.3.0>
+<Mar 15, 2021 3:41:21 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 15, 2021 3:41:21 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from FORCE_SHUTTING_DOWN to SHUTDOWN>
+<Mar 15, 2021 3:41:21 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Mar 15, 2021 3:41:21 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Mar 15, 2021 3:42:05 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Mar 15, 2021 3:42:05 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 15, 2021 3:42:05 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00035">
+<Mar 15, 2021 3:42:05 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Mar 15, 2021 3:42:05 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Mar 15, 2021 3:42:05 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Mar 15, 2021 3:42:05 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Mar 15, 2021 3:52:56 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' with process id 295 is no longer alive; waiting for the process to die.>
+<Mar 15, 2021 3:52:56 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server failed during startup. It may be retried according to the auto restart configuration.>
+<Mar 15, 2021 3:52:56 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server was shut down normally>
+<Mar 15, 2021 3:52:56 PM GMT> <WARNING> <Server start command for WebLogic server 'mngnode1' failed due to: [Server failed to start up but Node Manager was not aware of the reason]. Please check Node Manager log and/or server 'mngnode1' log for detailed information.>
+<Mar 15, 2021 3:53:31 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Mar 15, 2021 3:53:31 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 15, 2021 3:53:31 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00036">
+<Mar 15, 2021 3:53:31 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Mar 15, 2021 3:53:31 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Mar 15, 2021 3:53:31 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Mar 15, 2021 3:53:31 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Mar 15, 2021 3:54:02 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Mar 17, 2021 6:40:11 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' with process id 597 is no longer alive; waiting for the process to die.>
+<Mar 17, 2021 6:40:11 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server was shut down normally>
+<Mar 17, 2021 6:40:16 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Mar 17, 2021 6:40:16 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 17, 2021 6:40:16 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00037">
+<Mar 17, 2021 6:40:16 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Mar 17, 2021 6:40:16 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Mar 17, 2021 6:40:16 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Mar 17, 2021 6:40:16 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Mar 17, 2021 6:40:51 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Mar 19, 2021 4:48:57 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Mar 19, 2021 4:48:58 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Mar 19, 2021 4:48:58 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Mar 19, 2021 4:48:58 PM GMT> <INFO> <12.2.1.3.0>
+<Mar 19, 2021 4:48:58 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 19, 2021 4:48:58 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from FORCE_SUSPENDING to FAILED_NOT_RESTARTABLE>
+<Mar 19, 2021 4:48:58 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Mar 19, 2021 4:48:59 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Mar 19, 2021 4:58:43 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Mar 19, 2021 4:58:43 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 19, 2021 4:58:43 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00038">
+<Mar 19, 2021 4:58:43 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Mar 19, 2021 4:58:43 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Mar 19, 2021 4:58:43 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Mar 19, 2021 4:58:43 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Mar 19, 2021 4:59:16 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Mar 22, 2021 12:16:30 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Mar 22, 2021 12:16:30 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Mar 22, 2021 12:16:31 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Mar 22, 2021 12:16:31 PM GMT> <INFO> <12.2.1.3.0>
+<Mar 22, 2021 12:16:31 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 22, 2021 12:16:31 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from FORCE_SHUTTING_DOWN to SHUTDOWN>
+<Mar 22, 2021 12:16:31 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Mar 22, 2021 12:16:31 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Mar 22, 2021 12:48:04 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Mar 22, 2021 12:48:04 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 22, 2021 12:48:04 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00039">
+<Mar 22, 2021 12:48:04 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Mar 22, 2021 12:48:04 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Mar 22, 2021 12:48:04 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Mar 22, 2021 12:48:04 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Mar 22, 2021 12:48:46 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Mar 23, 2021 12:01:36 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Mar 23, 2021 12:01:36 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Mar 23, 2021 12:01:36 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Mar 23, 2021 12:01:36 PM GMT> <INFO> <12.2.1.3.0>
+<Mar 23, 2021 12:01:36 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 23, 2021 12:01:36 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from FORCE_SHUTTING_DOWN to SHUTDOWN>
+<Mar 23, 2021 12:01:36 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Mar 23, 2021 12:01:37 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Mar 23, 2021 12:03:00 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Mar 23, 2021 12:03:00 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 23, 2021 12:03:00 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00040">
+<Mar 23, 2021 12:03:00 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Mar 23, 2021 12:03:00 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Mar 23, 2021 12:03:00 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Mar 23, 2021 12:03:00 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Mar 23, 2021 12:06:12 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Mar 26, 2021 6:10:11 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' with process id 297 is no longer alive; waiting for the process to die.>
+<Mar 26, 2021 6:10:11 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server was shut down normally>
+<Mar 26, 2021 6:10:33 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Mar 26, 2021 6:10:33 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 26, 2021 6:10:33 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00042">
+<Mar 26, 2021 6:10:33 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Mar 26, 2021 6:10:33 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Mar 26, 2021 6:10:33 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Mar 26, 2021 6:10:33 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Mar 26, 2021 6:11:08 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Mar 26, 2021 6:17:01 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Mar 26, 2021 6:17:02 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Mar 26, 2021 6:17:02 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Mar 26, 2021 6:17:02 PM GMT> <INFO> <12.2.1.3.0>
+<Mar 26, 2021 6:17:02 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 26, 2021 6:17:02 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from RUNNING to FAILED_NOT_RESTARTABLE>
+<Mar 26, 2021 6:17:02 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Mar 26, 2021 6:17:03 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Mar 26, 2021 7:06:05 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Mar 26, 2021 7:06:06 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Mar 26, 2021 7:06:06 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Mar 26, 2021 7:06:06 PM GMT> <INFO> <12.2.1.3.0>
+<Mar 26, 2021 7:06:06 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 26, 2021 7:06:06 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Mar 26, 2021 7:06:06 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Mar 26, 2021 7:09:44 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Mar 26, 2021 7:09:44 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 26, 2021 7:09:44 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00043">
+<Mar 26, 2021 7:09:44 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Mar 26, 2021 7:09:44 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Mar 26, 2021 7:09:44 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Mar 26, 2021 7:09:44 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Mar 26, 2021 7:10:18 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Mar 29, 2021 3:06:49 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Mar 29, 2021 3:06:49 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Mar 29, 2021 3:06:49 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Mar 29, 2021 3:06:49 PM GMT> <INFO> <12.2.1.3.0>
+<Mar 29, 2021 3:06:49 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 29, 2021 3:06:49 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from RUNNING to FAILED_NOT_RESTARTABLE>
+<Mar 29, 2021 3:06:49 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Mar 29, 2021 3:06:49 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Mar 29, 2021 3:10:16 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Mar 29, 2021 3:10:16 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 29, 2021 3:10:16 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00044">
+<Mar 29, 2021 3:10:16 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Mar 29, 2021 3:10:16 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Mar 29, 2021 3:10:16 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Mar 29, 2021 3:10:16 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Mar 29, 2021 3:19:45 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Mar 29, 2021 3:19:46 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Mar 29, 2021 3:19:46 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Mar 29, 2021 3:19:46 PM GMT> <INFO> <12.2.1.3.0>
+<Mar 29, 2021 3:19:46 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 29, 2021 3:19:46 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from STARTING to FAILED_NOT_RESTARTABLE>
+<Mar 29, 2021 3:19:46 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Mar 29, 2021 3:19:47 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Mar 29, 2021 3:21:20 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Mar 29, 2021 3:21:20 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 29, 2021 3:21:20 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00045">
+<Mar 29, 2021 3:21:20 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Mar 29, 2021 3:21:20 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Mar 29, 2021 3:21:20 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Mar 29, 2021 3:21:20 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Mar 29, 2021 3:23:59 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Mar 29, 2021 3:33:25 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' with process id 302 is no longer alive; waiting for the process to die.>
+<Mar 29, 2021 3:33:25 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server was shut down normally>
+<Mar 29, 2021 3:33:36 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Mar 29, 2021 3:33:36 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 29, 2021 3:33:36 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00046">
+<Mar 29, 2021 3:33:36 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Mar 29, 2021 3:33:36 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Mar 29, 2021 3:33:36 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Mar 29, 2021 3:33:36 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Mar 29, 2021 3:34:12 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Mar 29, 2021 3:38:59 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Mar 29, 2021 3:39:00 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Mar 29, 2021 3:39:00 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Mar 29, 2021 3:39:00 PM GMT> <INFO> <12.2.1.3.0>
+<Mar 29, 2021 3:39:00 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 29, 2021 3:39:00 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from RUNNING to FAILED_NOT_RESTARTABLE>
+<Mar 29, 2021 3:39:00 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Mar 29, 2021 3:39:00 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Mar 29, 2021 3:42:11 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Mar 29, 2021 3:42:11 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 29, 2021 3:42:11 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00047">
+<Mar 29, 2021 3:42:11 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Mar 29, 2021 3:42:11 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Mar 29, 2021 3:42:11 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Mar 29, 2021 3:42:11 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Mar 29, 2021 3:43:15 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Mar 29, 2021 3:49:03 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Mar 29, 2021 3:49:04 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Mar 29, 2021 3:49:04 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Mar 29, 2021 3:49:04 PM GMT> <INFO> <12.2.1.3.0>
+<Mar 29, 2021 3:49:04 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 29, 2021 3:49:04 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from RUNNING to FAILED_NOT_RESTARTABLE>
+<Mar 29, 2021 3:49:04 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Mar 29, 2021 3:49:04 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Mar 29, 2021 3:49:41 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Mar 29, 2021 3:49:41 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 29, 2021 3:49:41 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00048">
+<Mar 29, 2021 3:49:41 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Mar 29, 2021 3:49:41 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Mar 29, 2021 3:49:41 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Mar 29, 2021 3:49:41 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Mar 29, 2021 3:50:44 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Mar 29, 2021 5:04:22 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Mar 29, 2021 5:04:23 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Mar 29, 2021 5:04:23 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Mar 29, 2021 5:04:23 PM GMT> <INFO> <12.2.1.3.0>
+<Mar 29, 2021 5:04:23 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 29, 2021 5:04:23 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from RUNNING to FAILED_NOT_RESTARTABLE>
+<Mar 29, 2021 5:04:23 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Mar 29, 2021 5:04:23 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Mar 29, 2021 5:06:37 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Mar 29, 2021 5:06:37 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 29, 2021 5:06:37 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00049">
+<Mar 29, 2021 5:06:37 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Mar 29, 2021 5:06:37 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Mar 29, 2021 5:06:37 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Mar 29, 2021 5:06:37 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Mar 29, 2021 5:11:22 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Mar 29, 2021 5:11:23 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Mar 29, 2021 5:11:23 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Mar 29, 2021 5:11:23 PM GMT> <INFO> <12.2.1.3.0>
+<Mar 29, 2021 5:11:23 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 29, 2021 5:11:23 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from STARTING to FAILED_NOT_RESTARTABLE>
+<Mar 29, 2021 5:11:23 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Mar 29, 2021 5:11:23 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Mar 29, 2021 5:12:20 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Mar 29, 2021 5:12:20 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 29, 2021 5:12:20 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00050">
+<Mar 29, 2021 5:12:20 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Mar 29, 2021 5:12:20 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Mar 29, 2021 5:12:20 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Mar 29, 2021 5:12:20 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Mar 29, 2021 5:19:17 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Mar 29, 2021 5:54:29 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' with process id 293 is no longer alive; waiting for the process to die.>
+<Mar 29, 2021 5:54:29 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server was shut down normally>
+<Mar 29, 2021 5:54:31 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Mar 29, 2021 5:54:31 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 29, 2021 5:54:31 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00051">
+<Mar 29, 2021 5:54:31 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Mar 29, 2021 5:54:31 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Mar 29, 2021 5:54:31 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Mar 29, 2021 5:54:31 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Mar 29, 2021 5:54:58 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Mar 29, 2021 6:35:29 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Mar 29, 2021 6:35:30 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Mar 29, 2021 6:35:30 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Mar 29, 2021 6:35:30 PM GMT> <INFO> <12.2.1.3.0>
+<Mar 29, 2021 6:35:30 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 29, 2021 6:35:30 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from RUNNING to FAILED_NOT_RESTARTABLE>
+<Mar 29, 2021 6:35:30 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Mar 29, 2021 6:35:30 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Mar 29, 2021 6:36:31 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Mar 29, 2021 6:36:31 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 29, 2021 6:36:31 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00052">
+<Mar 29, 2021 6:36:31 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Mar 29, 2021 6:36:31 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Mar 29, 2021 6:36:31 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Mar 29, 2021 6:36:31 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Mar 29, 2021 6:37:03 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Mar 29, 2021 7:05:48 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Mar 29, 2021 7:05:49 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Mar 29, 2021 7:05:49 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Mar 29, 2021 7:05:49 PM GMT> <INFO> <12.2.1.3.0>
+<Mar 29, 2021 7:05:49 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 29, 2021 7:05:49 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from RUNNING to FAILED_NOT_RESTARTABLE>
+<Mar 29, 2021 7:05:49 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Mar 29, 2021 7:05:49 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Mar 29, 2021 7:22:17 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Mar 29, 2021 7:22:17 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Mar 29, 2021 7:22:17 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Mar 29, 2021 7:22:17 PM GMT> <INFO> <12.2.1.3.0>
+<Mar 29, 2021 7:22:17 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 29, 2021 7:22:17 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Mar 29, 2021 7:22:17 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Mar 29, 2021 7:23:26 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Mar 29, 2021 7:23:26 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 29, 2021 7:23:26 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00053">
+<Mar 29, 2021 7:23:26 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Mar 29, 2021 7:23:26 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Mar 29, 2021 7:23:27 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Mar 29, 2021 7:23:27 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Mar 29, 2021 7:24:00 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Mar 29, 2021 7:40:03 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Mar 29, 2021 7:40:04 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Mar 29, 2021 7:40:04 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Mar 29, 2021 7:40:04 PM GMT> <INFO> <12.2.1.3.0>
+<Mar 29, 2021 7:40:04 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 29, 2021 7:40:04 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from RUNNING to FAILED_NOT_RESTARTABLE>
+<Mar 29, 2021 7:40:04 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Mar 29, 2021 7:40:04 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Mar 29, 2021 7:41:06 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Mar 29, 2021 7:41:06 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 29, 2021 7:41:06 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00054">
+<Mar 29, 2021 7:41:06 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Mar 29, 2021 7:41:06 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Mar 29, 2021 7:41:06 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Mar 29, 2021 7:41:06 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Mar 29, 2021 7:41:53 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Mar 30, 2021 11:54:32 AM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Mar 30, 2021 11:54:32 AM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Mar 30, 2021 11:54:32 AM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Mar 30, 2021 11:54:32 AM GMT> <INFO> <12.2.1.3.0>
+<Mar 30, 2021 11:54:32 AM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 30, 2021 11:54:32 AM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from RUNNING to FAILED_NOT_RESTARTABLE>
+<Mar 30, 2021 11:54:32 AM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Mar 30, 2021 11:54:33 AM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Mar 30, 2021 11:58:14 AM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Mar 30, 2021 11:58:14 AM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 30, 2021 11:58:14 AM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00055">
+<Mar 30, 2021 11:58:14 AM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Mar 30, 2021 11:58:14 AM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Mar 30, 2021 11:58:14 AM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Mar 30, 2021 11:58:14 AM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Mar 30, 2021 11:58:50 AM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Mar 30, 2021 1:01:36 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Mar 30, 2021 1:01:37 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Mar 30, 2021 1:01:37 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Mar 30, 2021 1:01:37 PM GMT> <INFO> <12.2.1.3.0>
+<Mar 30, 2021 1:01:37 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 30, 2021 1:01:38 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from RUNNING to FAILED_NOT_RESTARTABLE>
+<Mar 30, 2021 1:01:38 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Mar 30, 2021 1:01:38 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Mar 30, 2021 1:15:55 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Mar 30, 2021 1:15:55 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 30, 2021 1:15:55 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00056">
+<Mar 30, 2021 1:15:55 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Mar 30, 2021 1:15:55 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Mar 30, 2021 1:15:55 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Mar 30, 2021 1:15:55 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Mar 30, 2021 1:16:30 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Mar 30, 2021 3:10:41 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Mar 30, 2021 3:10:42 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Mar 30, 2021 3:10:42 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Mar 30, 2021 3:10:42 PM GMT> <INFO> <12.2.1.3.0>
+<Mar 30, 2021 3:10:42 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 30, 2021 3:10:42 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from RUNNING to FAILED_NOT_RESTARTABLE>
+<Mar 30, 2021 3:10:42 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Mar 30, 2021 3:10:42 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Mar 30, 2021 3:11:44 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Mar 30, 2021 3:11:44 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 30, 2021 3:11:44 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00057">
+<Mar 30, 2021 3:11:44 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Mar 30, 2021 3:11:44 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Mar 30, 2021 3:11:44 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Mar 30, 2021 3:11:44 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Mar 30, 2021 3:12:20 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Mar 31, 2021 12:54:59 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Mar 31, 2021 12:55:00 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Mar 31, 2021 12:55:00 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Mar 31, 2021 12:55:00 PM GMT> <INFO> <12.2.1.3.0>
+<Mar 31, 2021 12:55:00 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 31, 2021 12:55:00 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from RUNNING to FAILED_NOT_RESTARTABLE>
+<Mar 31, 2021 12:55:00 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Mar 31, 2021 12:55:00 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Mar 31, 2021 12:56:08 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Mar 31, 2021 12:56:08 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 31, 2021 12:56:08 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00058">
+<Mar 31, 2021 12:56:08 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Mar 31, 2021 12:56:08 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Mar 31, 2021 12:56:08 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Mar 31, 2021 12:56:08 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Mar 31, 2021 12:56:40 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Mar 31, 2021 1:16:35 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Mar 31, 2021 1:16:36 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Mar 31, 2021 1:16:36 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Mar 31, 2021 1:16:36 PM GMT> <INFO> <12.2.1.3.0>
+<Mar 31, 2021 1:16:36 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 31, 2021 1:16:37 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from RUNNING to FAILED_NOT_RESTARTABLE>
+<Mar 31, 2021 1:16:37 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Mar 31, 2021 1:16:37 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Mar 31, 2021 1:19:34 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Mar 31, 2021 1:19:34 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Mar 31, 2021 1:19:34 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00059">
+<Mar 31, 2021 1:19:34 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Mar 31, 2021 1:19:34 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Mar 31, 2021 1:19:34 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Mar 31, 2021 1:19:34 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Mar 31, 2021 1:20:09 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Apr 1, 2021 4:00:43 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Apr 1, 2021 4:00:43 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Apr 1, 2021 4:00:43 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Apr 1, 2021 4:00:43 PM GMT> <INFO> <12.2.1.3.0>
+<Apr 1, 2021 4:00:43 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 1, 2021 4:00:43 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from FORCE_SHUTTING_DOWN to SHUTDOWN>
+<Apr 1, 2021 4:00:43 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Apr 1, 2021 4:00:43 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Apr 1, 2021 4:02:31 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Apr 1, 2021 4:02:31 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 1, 2021 4:02:31 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00060">
+<Apr 1, 2021 4:02:31 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Apr 1, 2021 4:02:31 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Apr 1, 2021 4:02:32 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Apr 1, 2021 4:02:32 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Apr 1, 2021 4:03:04 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Apr 5, 2021 1:05:05 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Apr 5, 2021 1:05:06 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Apr 5, 2021 1:05:06 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Apr 5, 2021 1:05:06 PM GMT> <INFO> <12.2.1.3.0>
+<Apr 5, 2021 1:05:06 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 5, 2021 1:05:07 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from RUNNING to FAILED_NOT_RESTARTABLE>
+<Apr 5, 2021 1:05:07 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Apr 5, 2021 1:05:07 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Apr 5, 2021 1:18:43 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Apr 5, 2021 1:18:43 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 5, 2021 1:18:43 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00061">
+<Apr 5, 2021 1:18:43 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Apr 5, 2021 1:18:43 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Apr 5, 2021 1:18:43 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Apr 5, 2021 1:18:43 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Apr 5, 2021 1:25:30 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' with process id 326 is no longer alive; waiting for the process to die.>
+<Apr 5, 2021 1:25:30 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server failed during startup. It may be retried according to the auto restart configuration.>
+<Apr 5, 2021 1:25:30 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server was shut down normally>
+<Apr 5, 2021 1:25:30 PM GMT> <WARNING> <Server start command for WebLogic server 'mngnode1' failed due to: [Server failed to start up but Node Manager was not aware of the reason]. Please check Node Manager log and/or server 'mngnode1' log for detailed information.>
+<Apr 5, 2021 1:26:07 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Apr 5, 2021 1:26:07 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 5, 2021 1:26:07 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00062">
+<Apr 5, 2021 1:26:07 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Apr 5, 2021 1:26:07 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Apr 5, 2021 1:26:07 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Apr 5, 2021 1:26:07 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Apr 5, 2021 1:32:43 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Apr 5, 2021 1:32:44 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Apr 5, 2021 1:32:44 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Apr 5, 2021 1:32:44 PM GMT> <INFO> <12.2.1.3.0>
+<Apr 5, 2021 1:32:44 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 5, 2021 1:32:44 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from STARTING to FAILED_NOT_RESTARTABLE>
+<Apr 5, 2021 1:32:44 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Apr 5, 2021 1:32:44 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Apr 5, 2021 1:36:32 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Apr 5, 2021 1:36:32 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 5, 2021 1:36:32 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00063">
+<Apr 5, 2021 1:36:32 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Apr 5, 2021 1:36:32 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Apr 5, 2021 1:36:32 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Apr 5, 2021 1:36:32 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Apr 5, 2021 1:41:33 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Apr 5, 2021 1:41:34 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Apr 5, 2021 1:41:34 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Apr 5, 2021 1:41:34 PM GMT> <INFO> <12.2.1.3.0>
+<Apr 5, 2021 1:41:34 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 5, 2021 1:41:34 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from STARTING to FAILED_NOT_RESTARTABLE>
+<Apr 5, 2021 1:41:34 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Apr 5, 2021 1:41:34 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Apr 5, 2021 1:49:47 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Apr 5, 2021 1:49:48 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Apr 5, 2021 1:49:48 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Apr 5, 2021 1:49:48 PM GMT> <INFO> <12.2.1.3.0>
+<Apr 5, 2021 1:49:48 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 5, 2021 1:49:48 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Apr 5, 2021 1:49:48 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Apr 5, 2021 1:51:05 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Apr 5, 2021 1:51:05 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 5, 2021 1:51:05 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00064">
+<Apr 5, 2021 1:51:05 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Apr 5, 2021 1:51:05 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Apr 5, 2021 1:51:05 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Apr 5, 2021 1:51:05 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Apr 5, 2021 1:51:38 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Apr 5, 2021 2:04:15 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Apr 5, 2021 2:04:16 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Apr 5, 2021 2:04:16 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Apr 5, 2021 2:04:16 PM GMT> <INFO> <12.2.1.3.0>
+<Apr 5, 2021 2:04:16 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 5, 2021 2:04:16 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from RUNNING to FAILED_NOT_RESTARTABLE>
+<Apr 5, 2021 2:04:16 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Apr 5, 2021 2:04:16 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Apr 5, 2021 2:04:49 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Apr 5, 2021 2:04:49 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 5, 2021 2:04:49 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00065">
+<Apr 5, 2021 2:04:49 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Apr 5, 2021 2:04:49 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Apr 5, 2021 2:04:49 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Apr 5, 2021 2:04:49 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Apr 5, 2021 2:05:24 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Apr 7, 2021 1:06:25 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Apr 7, 2021 1:06:25 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Apr 7, 2021 1:06:26 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Apr 7, 2021 1:06:26 PM GMT> <INFO> <12.2.1.3.0>
+<Apr 7, 2021 1:06:26 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 7, 2021 1:06:26 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from RUNNING to FAILED_NOT_RESTARTABLE>
+<Apr 7, 2021 1:06:26 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Apr 7, 2021 1:06:26 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Apr 7, 2021 1:12:53 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Apr 7, 2021 1:12:53 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 7, 2021 1:12:53 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00066">
+<Apr 7, 2021 1:12:53 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Apr 7, 2021 1:12:53 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Apr 7, 2021 1:12:53 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Apr 7, 2021 1:12:53 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Apr 7, 2021 1:13:33 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Apr 9, 2021 1:20:28 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Apr 9, 2021 1:20:29 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Apr 9, 2021 1:20:29 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Apr 9, 2021 1:20:29 PM GMT> <INFO> <12.2.1.3.0>
+<Apr 9, 2021 1:20:29 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 9, 2021 1:20:29 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from RUNNING to FAILED_NOT_RESTARTABLE>
+<Apr 9, 2021 1:20:29 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Apr 9, 2021 1:20:29 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Apr 9, 2021 1:22:47 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Apr 9, 2021 1:22:47 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 9, 2021 1:22:47 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00067">
+<Apr 9, 2021 1:22:47 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Apr 9, 2021 1:22:47 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Apr 9, 2021 1:22:47 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Apr 9, 2021 1:22:47 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Apr 9, 2021 1:23:23 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Apr 9, 2021 1:35:22 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Apr 9, 2021 1:35:23 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Apr 9, 2021 1:35:23 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Apr 9, 2021 1:35:23 PM GMT> <INFO> <12.2.1.3.0>
+<Apr 9, 2021 1:35:23 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 9, 2021 1:35:23 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from RUNNING to FAILED_NOT_RESTARTABLE>
+<Apr 9, 2021 1:35:23 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Apr 9, 2021 1:35:24 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Apr 9, 2021 1:46:07 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Apr 9, 2021 1:46:07 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 9, 2021 1:46:07 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00068">
+<Apr 9, 2021 1:46:07 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Apr 9, 2021 1:46:07 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Apr 9, 2021 1:46:07 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Apr 9, 2021 1:46:07 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Apr 9, 2021 1:46:44 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Apr 9, 2021 6:27:38 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Apr 9, 2021 6:27:38 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Apr 9, 2021 6:27:38 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Apr 9, 2021 6:27:38 PM GMT> <INFO> <12.2.1.3.0>
+<Apr 9, 2021 6:27:38 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 9, 2021 6:27:38 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from RUNNING to FAILED_NOT_RESTARTABLE>
+<Apr 9, 2021 6:27:38 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Apr 9, 2021 6:27:39 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Apr 9, 2021 6:28:09 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Apr 9, 2021 6:28:09 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 9, 2021 6:28:09 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00069">
+<Apr 9, 2021 6:28:09 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Apr 9, 2021 6:28:09 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Apr 9, 2021 6:28:09 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Apr 9, 2021 6:28:09 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Apr 9, 2021 6:29:18 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Apr 9, 2021 9:33:44 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Apr 9, 2021 9:33:44 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Apr 9, 2021 9:33:44 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Apr 9, 2021 9:33:44 PM GMT> <INFO> <12.2.1.3.0>
+<Apr 9, 2021 9:33:44 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 9, 2021 9:33:44 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from RUNNING to FAILED_NOT_RESTARTABLE>
+<Apr 9, 2021 9:33:44 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Apr 9, 2021 9:33:45 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Apr 9, 2021 9:34:54 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Apr 9, 2021 9:34:54 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 9, 2021 9:34:54 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00070">
+<Apr 9, 2021 9:34:54 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Apr 9, 2021 9:34:54 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Apr 9, 2021 9:34:54 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Apr 9, 2021 9:34:54 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Apr 9, 2021 9:35:27 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Apr 12, 2021 1:31:52 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Apr 12, 2021 1:31:53 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Apr 12, 2021 1:31:53 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Apr 12, 2021 1:31:53 PM GMT> <INFO> <12.2.1.3.0>
+<Apr 12, 2021 1:31:53 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 12, 2021 1:31:53 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from RUNNING to FAILED_NOT_RESTARTABLE>
+<Apr 12, 2021 1:31:53 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Apr 12, 2021 1:31:54 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Apr 12, 2021 1:34:44 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Apr 12, 2021 1:34:44 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 12, 2021 1:34:44 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00071">
+<Apr 12, 2021 1:34:44 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Apr 12, 2021 1:34:44 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Apr 12, 2021 1:34:44 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Apr 12, 2021 1:34:44 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Apr 12, 2021 1:35:19 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Apr 12, 2021 1:38:05 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Apr 12, 2021 1:38:06 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Apr 12, 2021 1:38:06 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Apr 12, 2021 1:38:06 PM GMT> <INFO> <12.2.1.3.0>
+<Apr 12, 2021 1:38:06 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 12, 2021 1:38:06 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from RUNNING to FAILED_NOT_RESTARTABLE>
+<Apr 12, 2021 1:38:06 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Apr 12, 2021 1:38:06 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Apr 12, 2021 1:38:58 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Apr 12, 2021 1:38:58 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 12, 2021 1:38:58 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00072">
+<Apr 12, 2021 1:38:58 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Apr 12, 2021 1:38:58 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Apr 12, 2021 1:38:58 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Apr 12, 2021 1:38:58 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Apr 12, 2021 1:39:35 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Apr 14, 2021 8:52:56 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Apr 14, 2021 8:52:57 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Apr 14, 2021 8:52:57 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Apr 14, 2021 8:52:57 PM GMT> <INFO> <12.2.1.3.0>
+<Apr 14, 2021 8:52:57 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 14, 2021 8:52:57 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from RUNNING to FAILED_NOT_RESTARTABLE>
+<Apr 14, 2021 8:52:57 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Apr 14, 2021 8:52:57 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Apr 14, 2021 8:55:20 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Apr 14, 2021 8:55:20 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 14, 2021 8:55:20 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00059">
+<Apr 14, 2021 8:55:20 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Apr 14, 2021 8:55:20 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Apr 14, 2021 8:55:20 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Apr 14, 2021 8:55:20 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Apr 14, 2021 8:55:53 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Apr 15, 2021 1:46:28 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Apr 15, 2021 1:46:29 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Apr 15, 2021 1:46:29 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Apr 15, 2021 1:46:29 PM GMT> <INFO> <12.2.1.3.0>
+<Apr 15, 2021 1:46:29 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 15, 2021 1:46:29 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from RUNNING to FAILED_NOT_RESTARTABLE>
+<Apr 15, 2021 1:46:29 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Apr 15, 2021 1:46:29 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Apr 15, 2021 2:02:48 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Apr 15, 2021 2:02:48 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 15, 2021 2:02:48 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00060">
+<Apr 15, 2021 2:02:48 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Apr 15, 2021 2:02:48 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Apr 15, 2021 2:02:48 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Apr 15, 2021 2:02:48 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Apr 15, 2021 2:03:35 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Apr 15, 2021 7:20:32 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Apr 15, 2021 7:20:33 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Apr 15, 2021 7:20:33 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Apr 15, 2021 7:20:33 PM GMT> <INFO> <12.2.1.3.0>
+<Apr 15, 2021 7:20:33 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 15, 2021 7:20:33 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from RUNNING to FAILED_NOT_RESTARTABLE>
+<Apr 15, 2021 7:20:33 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Apr 15, 2021 7:20:33 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Apr 15, 2021 7:46:47 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Apr 15, 2021 7:46:47 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 15, 2021 7:46:47 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00061">
+<Apr 15, 2021 7:46:47 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Apr 15, 2021 7:46:47 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Apr 15, 2021 7:46:47 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Apr 15, 2021 7:46:47 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Apr 15, 2021 7:47:20 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Apr 16, 2021 2:40:50 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Apr 16, 2021 2:40:51 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Apr 16, 2021 2:40:51 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Apr 16, 2021 2:40:51 PM GMT> <INFO> <12.2.1.3.0>
+<Apr 16, 2021 2:40:51 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 16, 2021 2:40:51 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from RUNNING to FAILED_NOT_RESTARTABLE>
+<Apr 16, 2021 2:40:51 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Apr 16, 2021 2:40:52 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Apr 16, 2021 2:44:28 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Apr 16, 2021 2:44:28 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 16, 2021 2:44:28 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00062">
+<Apr 16, 2021 2:44:28 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Apr 16, 2021 2:44:28 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Apr 16, 2021 2:44:28 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Apr 16, 2021 2:44:28 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Apr 16, 2021 2:47:04 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Apr 19, 2021 1:03:10 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Apr 19, 2021 1:03:11 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Apr 19, 2021 1:03:11 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Apr 19, 2021 1:03:11 PM GMT> <INFO> <12.2.1.3.0>
+<Apr 19, 2021 1:03:11 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 19, 2021 1:03:11 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from FORCE_SUSPENDING to FAILED_NOT_RESTARTABLE>
+<Apr 19, 2021 1:03:11 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Apr 19, 2021 1:03:12 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Apr 19, 2021 1:03:53 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Apr 19, 2021 1:03:53 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 19, 2021 1:03:53 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00063">
+<Apr 19, 2021 1:03:53 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Apr 19, 2021 1:03:53 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Apr 19, 2021 1:03:53 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Apr 19, 2021 1:03:53 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Apr 19, 2021 1:04:29 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Apr 20, 2021 7:10:33 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' with process id 306 is no longer alive; waiting for the process to die.>
+<Apr 20, 2021 7:10:33 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server was shut down normally>
+<Apr 20, 2021 7:19:54 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Apr 20, 2021 7:19:54 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 20, 2021 7:19:54 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00065">
+<Apr 20, 2021 7:19:54 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Apr 20, 2021 7:19:54 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Apr 20, 2021 7:19:54 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Apr 20, 2021 7:19:54 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Apr 20, 2021 7:30:46 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Apr 20, 2021 7:30:47 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Apr 20, 2021 7:30:47 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Apr 20, 2021 7:30:47 PM GMT> <INFO> <12.2.1.3.0>
+<Apr 20, 2021 7:30:47 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 20, 2021 7:30:47 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from STARTING to FAILED_NOT_RESTARTABLE>
+<Apr 20, 2021 7:30:47 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Apr 20, 2021 7:30:47 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Apr 20, 2021 7:32:47 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Apr 20, 2021 7:32:47 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 20, 2021 7:32:47 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00066">
+<Apr 20, 2021 7:32:47 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Apr 20, 2021 7:32:47 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Apr 20, 2021 7:32:47 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Apr 20, 2021 7:32:47 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Apr 20, 2021 7:33:21 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Apr 20, 2021 8:30:42 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' with process id 300 is no longer alive; waiting for the process to die.>
+<Apr 20, 2021 8:30:42 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server was shut down normally>
+<Apr 20, 2021 8:33:50 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Apr 20, 2021 8:33:50 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 20, 2021 8:33:50 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00067">
+<Apr 20, 2021 8:33:50 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Apr 20, 2021 8:33:50 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Apr 20, 2021 8:33:50 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Apr 20, 2021 8:33:50 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Apr 20, 2021 8:34:21 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Apr 22, 2021 4:21:57 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' with process id 589 is no longer alive; waiting for the process to die.>
+<Apr 22, 2021 4:21:57 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server failed so attempting to restart (restart count = 1)>
+<Apr 22, 2021 4:21:57 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00068">
+<Apr 22, 2021 4:21:57 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Apr 22, 2021 4:21:57 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Apr 22, 2021 4:21:57 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Apr 22, 2021 4:21:57 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Apr 22, 2021 4:22:30 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Apr 23, 2021 2:03:56 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Apr 23, 2021 2:03:57 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Apr 23, 2021 2:03:57 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Apr 23, 2021 2:03:57 PM GMT> <INFO> <12.2.1.3.0>
+<Apr 23, 2021 2:03:57 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 23, 2021 2:03:57 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from RUNNING to FAILED_NOT_RESTARTABLE>
+<Apr 23, 2021 2:03:57 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Apr 23, 2021 2:03:57 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Apr 23, 2021 5:52:03 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Apr 23, 2021 5:52:04 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Apr 23, 2021 5:52:04 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Apr 23, 2021 5:52:04 PM GMT> <INFO> <12.2.1.3.0>
+<Apr 23, 2021 5:52:04 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 23, 2021 5:52:04 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Apr 23, 2021 5:52:04 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Apr 23, 2021 5:55:04 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Apr 23, 2021 5:55:04 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 23, 2021 5:55:04 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00070">
+<Apr 23, 2021 5:55:04 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Apr 23, 2021 5:55:04 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Apr 23, 2021 5:55:05 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Apr 23, 2021 5:55:05 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Apr 23, 2021 5:55:40 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Apr 26, 2021 12:41:33 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Apr 26, 2021 12:41:34 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Apr 26, 2021 12:41:34 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Apr 26, 2021 12:41:34 PM GMT> <INFO> <12.2.1.3.0>
+<Apr 26, 2021 12:41:34 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 26, 2021 12:41:34 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from FORCE_SHUTTING_DOWN to SHUTDOWN>
+<Apr 26, 2021 12:41:34 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Apr 26, 2021 12:41:35 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Apr 26, 2021 12:50:38 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Apr 26, 2021 12:50:38 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 26, 2021 12:50:38 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00071">
+<Apr 26, 2021 12:50:38 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Apr 26, 2021 12:50:38 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Apr 26, 2021 12:50:38 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Apr 26, 2021 12:50:38 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Apr 26, 2021 12:51:13 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Apr 26, 2021 2:17:17 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Apr 26, 2021 2:17:18 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Apr 26, 2021 2:17:18 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Apr 26, 2021 2:17:18 PM GMT> <INFO> <12.2.1.3.0>
+<Apr 26, 2021 2:17:18 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 26, 2021 2:17:18 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from RUNNING to FAILED_NOT_RESTARTABLE>
+<Apr 26, 2021 2:17:18 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Apr 26, 2021 2:17:18 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Apr 26, 2021 2:18:46 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Apr 26, 2021 2:18:46 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 26, 2021 2:18:46 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00072">
+<Apr 26, 2021 2:18:46 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Apr 26, 2021 2:18:46 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Apr 26, 2021 2:18:47 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Apr 26, 2021 2:18:47 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>
+<Apr 26, 2021 2:28:22 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <The server 'mngnode1' is running now.>
+<Apr 27, 2021 1:47:08 PM GMT> <INFO> <Loading domains file: /u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains>
+<Apr 27, 2021 1:47:08 PM GMT> <INFO> <Loading identity key store: FileName=/u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks, Type=jks, PassPhraseUsed=true>
+<Apr 27, 2021 1:47:08 PM GMT> <INFO> <Loaded NodeManager configuration properties from '/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.properties'>
+<Apr 27, 2021 1:47:08 PM GMT> <INFO> <12.2.1.3.0>
+<Apr 27, 2021 1:47:08 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties loaded from "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 27, 2021 1:47:08 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Adjusted state of server 'mngnode1 ' from FORCE_SUSPENDING to FAILED_NOT_RESTARTABLE>
+<Apr 27, 2021 1:47:08 PM GMT> <INFO> <Server Implementation Class: weblogic.nodemanager.server.NMServer$ClassicServer.>
+<Apr 27, 2021 1:47:09 PM GMT> <INFO> <Secure socket listener started on port 5556, host localhost/127.0.0.1>
+<Apr 27, 2021 2:18:44 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Boot identity properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/boot.properties">
+<Apr 27, 2021 2:18:44 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Startup configuration properties saved to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/data/nodemanager/startup.properties">
+<Apr 27, 2021 2:18:44 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Rotated server output log to "/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out00073">
+<Apr 27, 2021 2:18:44 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server error log also redirected to server log>
+<Apr 27, 2021 2:18:44 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Starting WebLogic server with command line: /u01/oracle/user_projects/domains/domwebps01_dev/bin/startWebLogic.sh >
+<Apr 27, 2021 2:18:44 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Working directory is '/u01/oracle/user_projects/domains/domwebps01_dev'>
+<Apr 27, 2021 2:18:44 PM GMT> <INFO> <domwebps01_dev> <mngnode1> <Server output log file is '/u01/oracle/user_projects/domains/domwebps01_dev/servers/mngnode1/logs/mngnode1.out'>

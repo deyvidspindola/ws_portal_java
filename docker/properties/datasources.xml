@@ -1,0 +1,34 @@
+<datasources>
+    <ds>
+        <name>postgresPortalServicos</name>
+        <dbname>default;create=true</dbname>
+        <jndi>jdbc/postgresPortalServicos</jndi>
+        <driver>org.postgresql.Driver</driver>
+        <url>jdbc:postgresql://10.1.110.14:5432/sascar_desenvolvimento</url>
+        <user></user>
+        <password></password>
+        <test>SQL SELECT 1</test>
+        <maxCapacity>1</maxCapacity>
+    </ds>
+    <ds>
+        <name>mds-owsm</name>
+        <dbname>default;create=true</dbname>
+        <jndi>jdbc/mds/owsm</jndi>
+        <driver>oracle.jdbc.OracleDriver</driver>
+        <url>jdbc:oracle:thin:@10.1.110.25:1521/sasdbdv</url>
+        <user>DEVWC_MDS</user>
+        <password></password>
+        <test>SQL SELECT 1</test>
+        <maxCapacity>1</maxCapacity>
+        <properties>
+            <property>
+                <key>oracle.net.CONNECT_TIMEOUT</key>
+                <value>1000</value>
+            </property>
+            <property>
+                <key>SendStreamAsBlob</key>
+                <value>true</value>
+            </property>
+        </properties>
+    </ds>
+</datasources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN" "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+
+    <servlet>
+      <servlet-name>StateDumpServlet</servlet-name>
+      <servlet-class>weblogic.cluster.StateDumpServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+      <servlet-name>StateDumpServlet</servlet-name>
+      <url-pattern>/a2e2gp2r2/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+      <servlet-name>MulticastSessionDataRecoveryServlet</servlet-name>
+      <servlet-class>weblogic.cluster.MulticastSessionDataRecoveryServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+      <servlet-name>MulticastSessionDataRecoveryServlet</servlet-name>
+      <url-pattern>/psquare/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+      <servlet-name>GroupMessageHandlerServlet</servlet-name>
+      <servlet-class>weblogic.cluster.GroupMessageHandlerServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+      <servlet-name>GroupMessageHandlerServlet</servlet-name>
+      <!-- this is the md5 signature for the above string -->
+      <url-pattern>/0056FABC093BDF49C8AE091F74400598</url-pattern>
+    </servlet-mapping>
+
+</web-app>

@@ -1,0 +1,42 @@
+[27/Apr/2021 14:18:55 GMT] conn=1 !fd=0_slot=0_connection_from__21!172.17.0.2 to 172.17.0.2
+[27/Apr/2021 14:18:55 GMT] conn=1 op=0 BIND dn="cn=admin" method=0 version=2
+[27/Apr/2021 14:18:55 GMT] conn=1 op=0 RESULT err=0 tag=0 nentries=0 etime=0
+[27/Apr/2021 14:18:55 GMT] conn=1 op=1 MOD dn="cn=urn@Lbea@Lxacml@L2.0@Lentitlement@Lrole@L@AK@AK@Ltype@AE@AFurl@AG@AM@AOapplication@AEbea_wls_internal@AM@AOcontextPath@AE@AUbea_wls_internal@AM@AOuri@AE@AU+xacmlVersion=1.0,ou=Policies,ou=XACMLRole,ou=myrealm,dc=domwebps01_dev"
+[27/Apr/2021 14:18:55 GMT] conn=1 op=1 RESULT err=0 tag=0 nentries=0 etime=0
+[27/Apr/2021 14:18:55 GMT] conn=1 op=2 MOD dn="cn=urn@Lbea@Lxacml@L2.0@Lentitlement@Lrole@L@AK@AK@Ltype@AE@AFurl@AG@AM@AOapplication@AEbea_wls_internal@AM@AOcontextPath@AE@AUbea_wls_internal@AM@AOuri@AE@AU+xacmlVersion=1.0,ou=Policies,ou=XACMLRole,ou=myrealm,dc=domwebps01_dev"
+[27/Apr/2021 14:18:55 GMT] conn=1 op=2 RESULT err=0 tag=0 nentries=0 etime=0
+[27/Apr/2021 14:19:14 GMT] conn=2 !fd=0_slot=0_connection_from__21!172.17.0.2 to 172.17.0.2
+[27/Apr/2021 14:19:14 GMT] conn=2 op=3 BIND dn="cn=admin" method=0 version=2
+[27/Apr/2021 14:19:14 GMT] conn=2 op=3 RESULT err=0 tag=0 nentries=0 etime=0
+[27/Apr/2021 14:19:14 GMT] conn=2 op=4 MOD dn="cn=urn@Lbea@Lxacml@L2.0@Lentitlement@Lrole@L@AK@AK@Ltype@AE@AFurl@AG@AM@AOapplication@AEbea_wls_cluster_internal@AM@AOcontextPath@AE@AUbea_wls_cluster_internal@AM@AOuri@AE@AU+xacmlVersion=1.0,ou=Policies,ou=XACMLRole,ou=myrealm,dc=domwebps01_dev"
+[27/Apr/2021 14:19:14 GMT] conn=2 op=4 RESULT err=0 tag=0 nentries=0 etime=0
+[27/Apr/2021 14:19:14 GMT] conn=2 op=5 MOD dn="cn=urn@Lbea@Lxacml@L2.0@Lentitlement@Lrole@L@AK@AK@Ltype@AE@AFurl@AG@AM@AOapplication@AEbea_wls_cluster_internal@AM@AOcontextPath@AE@AUbea_wls_cluster_internal@AM@AOuri@AE@AU+xacmlVersion=1.0,ou=Policies,ou=XACMLRole,ou=myrealm,dc=domwebps01_dev"
+[27/Apr/2021 14:19:14 GMT] conn=2 op=5 RESULT err=0 tag=0 nentries=0 etime=0
+[27/Apr/2021 14:19:17 GMT] conn=1 op=6 MOD dn="cn=urn@Lbea@Lxacml@L2.0@Lentitlement@Lrole@L@AK@AK@Ltype@AE@AFurl@AG@AM@AOapplication@AESascarPortalWeb@AXv_12345@AM@AOcontextPath@AE@AUSascarPortalWeb@AM@AOuri@AE@AU+xacmlVersion=1.0,ou=Policies,ou=XACMLRole,ou=myrealm,dc=domwebps01_dev"
+[27/Apr/2021 14:19:17 GMT] conn=1 op=6 RESULT err=0 tag=0 nentries=0 etime=0
+[27/Apr/2021 14:19:17 GMT] conn=1 op=7 MOD dn="cn=urn@Lbea@Lxacml@L2.0@Lentitlement@Lrole@L@AK@AK@Ltype@AE@AFurl@AG@AM@AOapplication@AESascarPortalWeb@AXv_12345@AM@AOcontextPath@AE@AUSascarPortalWeb@AM@AOuri@AE@AU+xacmlVersion=1.0,ou=Policies,ou=XACMLRole,ou=myrealm,dc=domwebps01_dev"
+[27/Apr/2021 14:19:17 GMT] conn=1 op=7 RESULT err=0 tag=0 nentries=0 etime=0
+[27/Apr/2021 14:19:19 GMT] conn=2 op=8 MOD dn="cn=urn@Lbea@Lxacml@L2.0@Lentitlement@Lresource@Ltype@AE@AFurl@AG@AM@AOapplication@AEwls-management-services@AM@AOcontextPath@AE@AUmanagement@AM@AOuri@AE@AU+xacmlVersion=1.0,ou=Policies,ou=XACMLAuthorization,ou=myrealm,dc=domwebps01_dev"
+[27/Apr/2021 14:19:19 GMT] conn=2 op=8 RESULT err=0 tag=0 nentries=0 etime=0
+[27/Apr/2021 14:19:19 GMT] conn=2 op=9 MOD dn="cn=urn@Lbea@Lxacml@L2.0@Lentitlement@Lresource@Ltype@AE@AFurl@AG@AM@AOapplication@AEwls-management-services@AM@AOcontextPath@AE@AUmanagement@AM@AOuri@AE@AU+xacmlVersion=1.0,ou=Policies,ou=XACMLAuthorization,ou=myrealm,dc=domwebps01_dev"
+[27/Apr/2021 14:19:19 GMT] conn=2 op=9 RESULT err=0 tag=0 nentries=0 etime=0
+[27/Apr/2021 14:19:19 GMT] conn=2 op=10 MOD dn="cn=urn@Lbea@Lxacml@L2.0@Lentitlement@Lresource@Ltype@AE@AFurl@AG@AM@AOapplication@AEwls-management-services@AM@AOcontextPath@AE@AUmanagement@AM@AOuri@AE@AUlifecycle@AU@AK+xacmlVersion=1.0,ou=Policies,ou=XACMLAuthorization,ou=myrealm,dc=domwebps01_dev"
+[27/Apr/2021 14:19:19 GMT] conn=2 op=10 RESULT err=0 tag=0 nentries=0 etime=0
+[27/Apr/2021 14:19:19 GMT] conn=2 op=11 MOD dn="cn=urn@Lbea@Lxacml@L2.0@Lentitlement@Lresource@Ltype@AE@AFurl@AG@AM@AOapplication@AEwls-management-services@AM@AOcontextPath@AE@AUmanagement@AM@AOuri@AE@AUlifecycle@AU@AK+xacmlVersion=1.0,ou=Policies,ou=XACMLAuthorization,ou=myrealm,dc=domwebps01_dev"
+[27/Apr/2021 14:19:19 GMT] conn=2 op=11 RESULT err=0 tag=0 nentries=0 etime=0
+[27/Apr/2021 14:19:19 GMT] conn=2 op=12 MOD dn="cn=urn@Lbea@Lxacml@L2.0@Lentitlement@Lresource@Ltype@AE@AFurl@AG@AM@AOapplication@AEwls-management-services@AM@AOcontextPath@AE@AUmanagement@AM@AOuri@AE@AUelasticity-monitoring@AU@AK+xacmlVersion=1.0,ou=Policies,ou=XACMLAuthorization,ou=myrealm,dc=domwebps01_dev"
+[27/Apr/2021 14:19:19 GMT] conn=2 op=12 RESULT err=0 tag=0 nentries=0 etime=0
+[27/Apr/2021 14:19:19 GMT] conn=2 op=13 MOD dn="cn=urn@Lbea@Lxacml@L2.0@Lentitlement@Lresource@Ltype@AE@AFurl@AG@AM@AOapplication@AEwls-management-services@AM@AOcontextPath@AE@AUmanagement@AM@AOuri@AE@AUelasticity-monitoring@AU@AK+xacmlVersion=1.0,ou=Policies,ou=XACMLAuthorization,ou=myrealm,dc=domwebps01_dev"
+[27/Apr/2021 14:19:19 GMT] conn=2 op=13 RESULT err=0 tag=0 nentries=0 etime=0
+[27/Apr/2021 14:19:19 GMT] conn=2 op=14 MOD dn="cn=urn@Lbea@Lxacml@L2.0@Lentitlement@Lresource@Ltype@AE@AFurl@AG@AM@AOapplication@AEwls-management-services@AM@AOcontextPath@AE@AUmanagement@AM@AOuri@AE@AUtenant-monitoring@AU@AK+xacmlVersion=1.0,ou=Policies,ou=XACMLAuthorization,ou=myrealm,dc=domwebps01_dev"
+[27/Apr/2021 14:19:19 GMT] conn=2 op=14 RESULT err=0 tag=0 nentries=0 etime=0
+[27/Apr/2021 14:19:19 GMT] conn=2 op=15 MOD dn="cn=urn@Lbea@Lxacml@L2.0@Lentitlement@Lresource@Ltype@AE@AFurl@AG@AM@AOapplication@AEwls-management-services@AM@AOcontextPath@AE@AUmanagement@AM@AOuri@AE@AUtenant-monitoring@AU@AK+xacmlVersion=1.0,ou=Policies,ou=XACMLAuthorization,ou=myrealm,dc=domwebps01_dev"
+[27/Apr/2021 14:19:19 GMT] conn=2 op=15 RESULT err=0 tag=0 nentries=0 etime=0
+[27/Apr/2021 14:19:19 GMT] conn=2 op=16 MOD dn="cn=urn@Lbea@Lxacml@L2.0@Lentitlement@Lrole@L@AK@AK@Ltype@AE@AFurl@AG@AM@AOapplication@AEwls-management-services@AM@AOcontextPath@AE@AUmanagement@AM@AOuri@AE@AU+xacmlVersion=1.0,ou=Policies,ou=XACMLRole,ou=myrealm,dc=domwebps01_dev"
+[27/Apr/2021 14:19:19 GMT] conn=2 op=16 RESULT err=0 tag=0 nentries=0 etime=0
+[27/Apr/2021 14:19:19 GMT] conn=2 op=17 MOD dn="cn=urn@Lbea@Lxacml@L2.0@Lentitlement@Lrole@L@AK@AK@Ltype@AE@AFurl@AG@AM@AOapplication@AEwls-management-services@AM@AOcontextPath@AE@AUmanagement@AM@AOuri@AE@AU+xacmlVersion=1.0,ou=Policies,ou=XACMLRole,ou=myrealm,dc=domwebps01_dev"
+[27/Apr/2021 14:19:19 GMT] conn=2 op=17 RESULT err=0 tag=0 nentries=0 etime=0
+[27/Apr/2021 14:19:21 GMT] conn=1 op=18 MOD dn="cn=urn@Lbea@Lxacml@L2.0@Lentitlement@Lrole@L@AK@AK@Ltype@AE@AFurl@AG@AM@AOapplication@AEbea_wls_deployment_internal@AM@AOcontextPath@AE@AUbea_wls_deployment_internal@AM@AOuri@AE@AU+xacmlVersion=1.0,ou=Policies,ou=XACMLRole,ou=myrealm,dc=domwebps01_dev"
+[27/Apr/2021 14:19:21 GMT] conn=1 op=18 RESULT err=0 tag=0 nentries=0 etime=0
+[27/Apr/2021 14:19:21 GMT] conn=1 op=19 MOD dn="cn=urn@Lbea@Lxacml@L2.0@Lentitlement@Lrole@L@AK@AK@Ltype@AE@AFurl@AG@AM@AOapplication@AEbea_wls_deployment_internal@AM@AOcontextPath@AE@AUbea_wls_deployment_internal@AM@AOuri@AE@AU+xacmlVersion=1.0,ou=Policies,ou=XACMLRole,ou=myrealm,dc=domwebps01_dev"
+[27/Apr/2021 14:19:21 GMT] conn=1 op=19 RESULT err=0 tag=0 nentries=0 etime=0

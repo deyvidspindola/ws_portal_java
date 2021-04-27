@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NMProperties xmlns="http://xmlns.oracle.com/cie/nodemanager/properties">
+  <propertiesVersion>12.2.1</propertiesVersion>
+  <logFile>/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.log</logFile>
+  <domainsFile>/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager/nodemanager.domains</domainsFile>
+  <nodeManagerHome>/u01/oracle/user_projects/domains/domwebps01_dev/nodemanager</nodeManagerHome>
+  <javaHome>/u01/jdk</javaHome>
+  <startScriptName>startWebLogic.sh</startScriptName>
+  <listenAddress>localhost</listenAddress>
+  <listenPort>5556</listenPort>
+</NMProperties>

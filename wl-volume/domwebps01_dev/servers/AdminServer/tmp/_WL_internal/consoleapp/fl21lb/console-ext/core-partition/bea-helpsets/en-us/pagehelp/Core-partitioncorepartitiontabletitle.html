@@ -1,0 +1,188 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="help ID" content="Core-partition.core.partition.table.title">
+<title>Domain Partitions</title>
+<script language="JavaScript" src="/consolehelp/en-us/topicInfo.js"></script><script language="JavaScript" src="/consolehelp/en-us/CookieClass.js"></script>
+</head>
+<body class="base">
+<blockquote>
+<h1 class="Title">Domain Partitions</h1>
+<p>
+<a href="#table">Column Display</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#tasks">Related Tasks</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#concepts">Related Topics</a>
+</p>
+<p>Domain partitions are an administrative and runtime slice of a WebLogic
+    domain that is dedicated to running application instances and related
+    resources for a tenant.</p>
+<p>This page summarizes the domain partitions that have been configured in
+    the current WebLogic Server domain.</p>
+<p>Use this page to create, delete, import, or export partitions.</p>
+<h4>
+<a name="table">Column Display</a>
+</h4>
+<p>You can show fewer or additional data points on this page by expanding <b>Customize this table</b> and modifying the <b>Column Display</b> list. Each data point displays in its own table column.</p>
+<p>The following table lists all of the data points that you can display in columns on this page.</p>
+<div class="tblmargin">
+<table class="edocshelp">
+<thead>
+<tr>
+<th valign="top" style="padding:0px"> Name</th><th valign="top" style="padding:0px"> Description</th>
+</tr>
+</thead>
+<tbody>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.table.name">Name</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>The name that you specified when you created the domain
+        partition.</p>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.table.resourcegroups">Resource Groups</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getResourceGroups"></a><a name="ResourceGroups"></a>
+<p>All the resource groups in this partition.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/PartitionMBean.html#ResourceGroups">PartitionMBean.ResourceGroups</a></code>
+</p>
+</td>
+</tr>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.table.realm">Realm</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getRealm"></a><a name="Realm"></a>
+<p>The security realm for this partition.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/PartitionMBean.html#Realm">PartitionMBean.Realm</a></code>
+</p>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.table.defaulttargets">Default Target(s)</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getDefaultTargets"></a><a name="DefaultTargets"></a>
+<p>A list of default targets for the partition (if any).</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/PartitionMBean.html#DefaultTargets">PartitionMBean.DefaultTargets</a></code>
+</p>
+</td>
+</tr>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.table.partitionid">partition ID</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getPartitionID"></a><a name="PartitionID"></a>
+<p>The ID for this partition.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/PartitionMBean.html#PartitionID">PartitionMBean.PartitionID</a></code>
+</p>
+<p>
+<a href="en-us/restart.html" onClick="return popup(this,'glossarypopup')"> 
+                                                    Changes take effect after you redeploy the module or restart the server.</a>
+</p>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.table.notes">Notes</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getNotes"></a><a name="Notes"></a>
+<p>Optional information that you can include to describe this configuration.</p>
+<p>WebLogic Server saves this note in the domain's configuration file (<code>config.xml</code>) as XML PCDATA. All left angle brackets (&lt;) are converted to the XML entity <code>&amp;lt;</code>. Carriage returns/line feeds are preserved.</p>
+<p>Note: If you create or edit a note from the Administration Console, the Administration Console does not preserve carriage returns/line feeds.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/PartitionMBean.html#Notes">PartitionMBean.Notes</a></code>
+</p>
+</td>
+</tr>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.table.state">State</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getState"></a><a name="State"></a>
+<p>The current overall state of the partition.</p>
+<p>The value returned is the highest state for the partition on all servers where it is targeted. As a result, the overall partition state can change (for example, to <code>RUNNING</code>) as soon as the operation (such as start) has finished on one server, even while the operation is still in progress elsewhere.</p>
+<p>If the partition is not currently targeted to any running server then its reported state is the <a href="#desired">desired state</a> indicated by the most recent partition life cycle operation on the partition.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/PartitionLifeCycleRuntimeMBean.html#State">PartitionLifeCycleRuntimeMBean.State</a></code>
+</p>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.table.substate">Substate</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>The SHUTDOWN state has two substates: BOOTED and HALTED.</p>
+<p>Shutting down a partition takes it to the SHUTDOWN.BOOTED state.
+        When a partition is in the SHUTDOWN.BOOTED state, on the
+        Administration Server, administrative resource groups are running, but
+        all other resource groups are shutdown. </p>
+<p>When a partition is in the SHUTDOWN.HALTED state, all resource
+        groups in the partition are shutdown and the partition is fully
+        shutdown on all targets.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/PartitionLifeCycleRuntimeMBean.html#SubState">PartitionLifeCycleRuntimeMBean.SubState</a></code>
+</p>
+</td>
+</tr>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.table.root">File System Root</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getRoot"></a><a name="Root"></a>
+<p>The full path to the root of this file subsystem of the partition.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/PartitionFileSystemMBean.html#Root">PartitionFileSystemMBean.Root</a></code>
+</p>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.table.preserved">Preserved</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getPreserved"></a><a name="Preserved"></a>
+<p>Specifies whether the file system should be preserved when the partition is deleted.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/PartitionFileSystemMBean.html#Preserved">PartitionFileSystemMBean.Preserved</a></code>
+</p>
+</td>
+</tr>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.partition.table.createOnDemand">CreateOnDemand</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getCreateOnDemand"></a><a name="CreateOnDemand"></a>
+<p>Specifies whether the file system should be created on-demand when the partition is first started.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/PartitionFileSystemMBean.html#CreateOnDemand">PartitionFileSystemMBean.CreateOnDemand</a></code>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="relatedtopics">
+<a name="tasks">Related Tasks</a>
+</p>
+<ul>
+<li>
+<a href="/consolehelp/console-help.portal?_nfpb=true&amp;_pageLabel=page&amp;helpId=partition.CreatePartitions">Create domain
+  partitions</a>
+</li>
+<li>
+<a href="/consolehelp/console-help.portal?_nfpb=true&amp;_pageLabel=page&amp;helpId=partition.ConfigurePartitions">Configure domain
+  partition general settings</a>
+</li>
+<li>
+<a href="/consolehelp/console-help.portal?_nfpb=true&amp;_pageLabel=page&amp;helpId=partition.ExportPartitions">Export partitions</a>
+</li>
+<li>
+<a href="/consolehelp/console-help.portal?_nfpb=true&amp;_pageLabel=page&amp;helpId=partition.ImportPartitions">Import
+  partitions</a>
+</li>
+</ul>
+<p class="relatedtopics">
+<a name="concepts">Related Topics</a>
+</p>
+<ul>
+<li>
+<a href="http://docs.oracle.com/middleware/12213/wls/WLSMT/config_domain_part.htm#WLSMT585">Configuring Domain Partitions</a>
+</li>
+<li>
+<a href="http://docs.oracle.com/middleware/12213/wls/WLSMT/export_import.htm#WLSMT636">Exporting and
+    Importing Partitions</a>
+</li>
+<li>
+<a href="http://docs.oracle.com/middleware/12213/wls/WLSMT/config_resource_grp.htm#WLSMT1692">About
+    Partition Lifecycle States and Transitions</a>
+</li>
+</ul>
+</blockquote>
+</body>
+</html>

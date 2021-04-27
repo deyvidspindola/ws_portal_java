@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jdbc-data-source xmlns="http://xmlns.oracle.com/weblogic/jdbc-data-source" xmlns:sec="http://xmlns.oracle.com/weblogic/security" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wls="http://xmlns.oracle.com/weblogic/security/wls" xsi:schemaLocation="http://xmlns.oracle.com/weblogic/jdbc-data-source http://xmlns.oracle.com/weblogic/jdbc-data-source/1.0/jdbc-data-source.xsd">
+  <name>postgresPortalServicos</name>
+  <datasource-type>GENERIC</datasource-type>
+  <jdbc-driver-params>
+    <url>jdbc:postgresql://10.1.110.14:5432/sascar_desenvolvimento</url>
+    <driver-name>org.postgresql.Driver</driver-name>
+    <properties>
+      <property>
+        <name>user</name>
+        <value>deyvid.s.ext</value>
+      </property>
+    </properties>
+    <password-encrypted>{AES}kHHF8ku1w+zX7Vi9PADTfU+1oCr47QXxoeeiH17RJw8=</password-encrypted>
+  </jdbc-driver-params>
+  <jdbc-connection-pool-params>
+    <initial-capacity>1</initial-capacity>
+    <max-capacity>15</max-capacity>
+    <min-capacity>1</min-capacity>
+    <test-table-name>SQL SELECT 1</test-table-name>
+    <statement-cache-size>10</statement-cache-size>
+    <statement-cache-type>LRU</statement-cache-type>
+  </jdbc-connection-pool-params>
+  <jdbc-data-source-params>
+    <jndi-name>jdbc/postgresPortalServicos</jndi-name>
+    <global-transactions-protocol>OnePhaseCommit</global-transactions-protocol>
+  </jdbc-data-source-params>
+</jdbc-data-source>

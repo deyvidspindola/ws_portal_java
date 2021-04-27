@@ -1,0 +1,76 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--Composite DITA to XHTML application by IBM Corp., 2001, 2002, 2003--><!--Common DITA topic to HTML application by IBM Corp., 2001, 2002, 2003--><html lang="en-US"><head><META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="/consolehelp/wls.css" type="text/css" rel="stylesheet"><title>Configure domain
+  partition concurrent constraints</title>
+<script src="/consolehelp/en-us/topicInfo.js" language="JavaScript"></script>
+<script src="/consolehelp/en-us/CookieClass.js" language="JavaScript"></script>
+
+</head><body class="base"><a name="WLACH01123" id="WLACH01123"></a>
+
+
+  <h1 class="topictitle1">Configure domain
+  partition concurrent constraints</h1>
+
+  <div><!--topic body-->
+    <div><br>
+      <p>Long-running tasks submitted to the managed executor service, the
+      managed scheduled executor service, or the managed thread factory method
+      need to create new threads that will not be managed as a part of
+      WebLogic Server's self-tuning thread pool. Because an excessive number
+      of running threads can have a negative affect on server performance and
+      stability, you can specify the maximum number of running threads that
+      are created by the concurrency utilities API in the partition.</p>
+
+      <p>For information about configuring and using the concurrent managed
+      objects (CMOs) in Oracle WebLogic Server, see "<a href="http://docs.oracle.com/middleware/12213/wls/CNFGD/concurrent-utils.htm">Configuring Concurrent
+      Managed Objects</a>" in <i>Administering Server Environments for
+      Oracle WebLogic Server</i>.</p>
+
+      <p><a name="WLACH01123__startstop1198902" id="WLACH01123__startstop1198902"></a>To configure concurrent
+      contraints in the current partiion:</p>
+    </div>
+
+    <ol><li>If you have not already done so, in the Change Center of the Administration Console, click <b>Lock &amp; Edit</b> (see <a href="/consolehelp/console-help.portal?_nfpb=true&_pageLabel=page&helpId=console.UseTheChangeCenter">Use the Change Center</a>).</li>
+      <li>
+        <span><a name="WLACH01123__startstop1198904" id="WLACH01123__startstop1198904"></a>IIn the
+        <b>Domain Structure</b> tree, select <b>Domain Partitions</b>.</span>
+
+         
+          <p>The Domain Partitions table displays all of the partitions
+          defined in the domain scope.</p>
+        
+      </li>
+
+      <li>
+        <span>Select the partition in which you want to configure the
+        concurrent constraints.</span>
+      </li>
+
+      <li>
+        <span>Select <b>Configuration &gt; General &gt; Concurrency</b>.</span>
+
+        <ol type="a">
+          <li>
+            <span>In <b>Max Concurrent New Threads</b>, enter the maximum
+            number of concurrent new threads that can be created by all of the
+            Managed Thread Factories in this partition scope.</span>
+          </li>
+
+          <li>
+            <span>In <b>Max Concurrent Long Requests</b>, enter the maximum
+            number of concurrent long-running requests that can be submitted
+            to all of the Managed Executor Services or Managed Scheduled
+            Executor Services in this partition scope.</span>
+          </li>
+        </ol>
+      </li>
+
+      <li>
+        <span><a name="WLACH01123__startstop1198904" id="WLACH01123__startstop1198904"></a>Click
+        <b>Save</b>.</span>
+      </li>
+    <li>To activate these changes, in the Change Center of the Administration Console, click <b>Activate Changes</b>. <br>Not all changes take effect immediately&mdash;some require a restart (see <a href="/consolehelp/console-help.portal?_nfpb=true&_pageLabel=page&helpId=console.UseTheChangeCenter">Use the Change Center</a>).</li></ol>
+  </div>
+
+
+</body></html>

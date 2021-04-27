@@ -1,0 +1,83 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--Composite DITA to XHTML application by IBM Corp., 2001, 2002, 2003--><!--Common DITA topic to HTML application by IBM Corp., 2001, 2002, 2003--><html lang="en-US"><head><META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="/consolehelp/wls.css" type="text/css" rel="stylesheet"><title>Configure resource
+  deployment plans</title>
+<script src="/consolehelp/en-us/topicInfo.js" language="JavaScript"></script>
+<script src="/consolehelp/en-us/CookieClass.js" language="JavaScript"></script>
+
+</head><body class="base"><a name="WLACH06004" id="WLACH06004"></a>
+
+
+  <h1 class="topictitle1">Configure resource
+  deployment plans</h1>
+
+  <div><!--topic body-->
+    <div class="prereq"><p class="sectiontitle"><b>
+        Before you begin
+      </b></p>
+      <p>Prior to creating resource overrides in a domain partition, you must
+      have first defined the resource you want to override.</p>
+    </div>
+
+    <div><br>
+      <p><a name="WLACH06004__startstop1198902" id="WLACH06004__startstop1198902"></a>A resource deployment plan
+      is an XML file that overrides attributes for one or more resources
+      within a single partition. Each partition can have at most one resource
+      deployment plan which can override any resources in that partition. This
+      includes resources defined in resource group templates to which the
+      partition's resource groups refer as well as resources declared directly
+      in the resource groups. For more information about resource deployment
+      plans, see <a href="http://docs.oracle.com/middleware/12213/wls/WLSMT/config_resource_over.htm#WLSMT737">Configuring Resource Overrides</a>.</p>
+
+      <p>First you must create the resource deployment plan. See <a href="http://docs.oracle.com/middleware/12213/wls/WLSMT/config_resource_over.htm#WLSMT1261">resource-deployment-plan Syntax</a> and <a href="http://docs.oracle.com/middleware/12213/wls/WLSMT/config_resource_over.htm#WLSMT1262">Sample
+      Resource Deployment Plan</a> for more information. You then associate
+      the resource deployment plan with a pre-exisiting partition.</p>
+
+      <p>To associate a resource deployment plan with a pre-exisiting
+      partition:</p>
+    </div>
+
+    <ol>
+      <li>
+        <span><a name="WLACH06004__startstop1198904" id="WLACH06004__startstop1198904"></a>In the left
+        pane of the Console, select <b>Domain Partitions</b>.</span>
+
+         
+          <p>The Domain Partitions table displays all of the partitions
+          defined in the domain.</p>
+        
+      </li>
+
+      <li>
+        <span><a name="WLACH06004__startstop1213516" id="WLACH06004__startstop1213516"></a>Click on the
+        name of the domain partition with which you want to associate a
+        resource deployment plan.</span>
+      </li>
+
+      <li>
+        <span>Select the <b>Domain Partition Configuration &gt;
+        General</b> page.</span>
+      </li>
+
+      <li>
+        <span>In the <b>Resource Deployment Plan Path</b>
+        field, provide the by path to the resource deployment plan XML
+        file.</span>
+      </li>
+
+      <li>
+        <span><a name="WLACH06004__startstop1202599" id="WLACH06004__startstop1202599"></a>Click
+        <b>Save</b>.</span>
+      </li>
+    </ol>
+
+    <div class="postreq"><p class="sectiontitle"><b>
+        After you finish
+      </b></p>
+      <p>If the resource is running, you must restart the partition for the
+      overrides to take effect.</p>
+    </div>
+  </div>
+
+
+</body></html>

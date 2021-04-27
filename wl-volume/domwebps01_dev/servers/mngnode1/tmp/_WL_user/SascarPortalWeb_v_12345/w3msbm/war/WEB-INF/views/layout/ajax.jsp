@@ -1,0 +1,1 @@
+<jsp:directive.include file="/WEB-INF/views/common/detail.jsp"/>

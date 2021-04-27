@@ -1,0 +1,126 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="help ID" content="Core-partition.core.partition.jdbcsystemresourceoverride.title">
+<title>JDBC System Resource Overrides</title>
+<script language="JavaScript" src="/consolehelp/en-us/topicInfo.js"></script><script language="JavaScript" src="/consolehelp/en-us/CookieClass.js"></script>
+</head>
+<body class="base">
+<blockquote>
+<h1 class="Title">JDBC System Resource Overrides</h1>
+<p>
+<a href="#table">Column Display</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#tasks">Related Tasks</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#concepts">Related Topics</a>
+</p>
+<p>This page summarizes the JDBC system resource overrides that have been
+    configured in this domain partition.</p>
+<p>A JDBC system resource override defines a partition-specific JDBC data
+    source attribute override of a data source descriptor referenced by a
+    partition resource group definition. The system matches overrides with
+    JDBC system resources by comparing the data source name attribute from the
+    overriding configuration MBean with the name in the JDBCDataSourceBean
+    that is pointed to by the JDBCSystemResourceMBean.</p>
+<h4>
+<a name="table">Column Display</a>
+</h4>
+<p>You can show fewer or additional data points on this page by expanding <b>Customize this table</b> and modifying the <b>Column Display</b> list. Each data point displays in its own table column.</p>
+<p>The following table lists all of the data points that you can display in columns on this page.</p>
+<div class="tblmargin">
+<table class="edocshelp">
+<thead>
+<tr>
+<th valign="top" style="padding:0px"> Name</th><th valign="top" style="padding:0px"> Description</th>
+</tr>
+</thead>
+<tbody>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.jdbcsystemresourceoverride.table.jdbcsystemresourceoverridename">JDBC System Resource Override Name</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>The name of this JDBC system resource override.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/JDBCSystemResourceOverrideMBean.html#Name">JDBCSystemResourceOverrideMBean.Name</a></code>
+</p>
+<p>
+<a href="en-us/restart.html" onClick="return popup(this,'glossarypopup')"> 
+                                                    Changes take effect after you redeploy the module or restart the server.</a>
+</p>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.jdbcsystemresourceoverride.table.url">Url</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getURL"></a><a name="URL"></a>
+<p>The connection URL for the data source.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/JDBCSystemResourceOverrideMBean.html#URL">JDBCSystemResourceOverrideMBean.URL</a></code>
+</p>
+</td>
+</tr>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.jdbcsystemresourceoverride.table.user">User</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getUser"></a><a name="User"></a>
+<p>The name of the user for the data source.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/JDBCSystemResourceOverrideMBean.html#User">JDBCSystemResourceOverrideMBean.User</a></code>
+</p>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.jdbcsystemresourceoverride.table.initialcapacity">Initial Capacity</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getInitialCapacity"></a><a name="InitialCapacity"></a>
+<p>Returns the initial pool capacity for the partition datasource. The value -1 indicates that the attribute is not set.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/JDBCSystemResourceOverrideMBean.html#InitialCapacity">JDBCSystemResourceOverrideMBean.InitialCapacity</a></code>
+</p>
+</td>
+</tr>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.jdbcsystemresourceoverride.table.mincapacity">Min Capacity</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getMinCapacity"></a><a name="MinCapacity"></a>
+<p>Returns the min pool capacity for the partition datasource. The value -1 indicates that the attribute is not set.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/JDBCSystemResourceOverrideMBean.html#MinCapacity">JDBCSystemResourceOverrideMBean.MinCapacity</a></code>
+</p>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="core.jdbcsystemresourceoverride.table.maxcapacity">Max Capacity</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getMaxCapacity"></a><a name="MaxCapacity"></a>
+<p>Returns the max pool capacity for the partition datasource. The value -1 indicates that the attribute is not set.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/JDBCSystemResourceOverrideMBean.html#MaxCapacity">JDBCSystemResourceOverrideMBean.MaxCapacity</a></code>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="relatedtopics">
+<a name="tasks">Related Tasks</a>
+</p>
+<ul>
+<li>
+<a href="/consolehelp/console-help.portal?_nfpb=true&amp;_pageLabel=page&amp;helpId=partition.jdbcoverride.CreateJDBCOverrides">Create JDBC system
+  resource overrides</a>
+</li>
+<li>
+<a href="/consolehelp/console-help.portal?_nfpb=true&amp;_pageLabel=page&amp;helpId=partition.jdbcoverride.ConfigureJDBCOverrides">Configure JDBC system
+  resource overrides</a>
+</li>
+<li>
+<a href="/consolehelp/console-help.portal?_nfpb=true&amp;_pageLabel=page&amp;helpId=partition.jdbcoverride.DeleteJDBCOverrides">Delete JDBC system
+  resource overrides</a>
+</li>
+</ul>
+<p class="relatedtopics">
+<a name="concepts">Related Topics</a>
+</p>
+<ul>
+<li>
+<a href="http://docs.oracle.com/middleware/12213/wls/WLSMT/config_resource_over.htm#WLSMT737">Configuring Resource Overrides</a>
+</li>
+</ul>
+</blockquote>
+</body>
+</html>

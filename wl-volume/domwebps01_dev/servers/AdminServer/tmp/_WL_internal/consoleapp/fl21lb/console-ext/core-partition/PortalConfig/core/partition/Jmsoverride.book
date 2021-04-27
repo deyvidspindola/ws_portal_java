@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portal:root xmlns:netuix="http://www.bea.com/servers/netuix/xsd/controls/netuix/1.0.0"
+             xmlns:html="http://www.w3.org/1999/xhtml-netuix-modified/1.0.0"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xmlns:portal="http://www.bea.com/servers/netuix/xsd/portal/support/1.0.0"
+             xsi:schemaLocation="http://www.bea.com/servers/netuix/xsd/portal/support/1.0.0 portal-support-1_0_0.xsd">
+<!--
+    Definition file for the pages for interacting with partition
+    configurations in WebLogic Server.
+
+    Copyright (c) 2014, Oracle and/or its affiliates. All rights reserved.
+-->
+  <netuix:book definitionLabel="JmsoverrideBook" title="book.title" markupName="book"
+               presentationClass="invisible">
+    <netuix:content>
+
+  <!-- Create JMS System Resource Override -->
+  <netuix:book definitionLabel="CreateJMSModuleOverride" markupName="book"
+               backingFile="com.bea.console.utils.GeneralBackingFile"
+               threadsafe="true"
+               title="assistant.create.jms.systemmoduleoverride.title"
+               presentationClass="wlsc-frame">
+    <netuix:titlebar/>
+    <!-- Definition for the System Module creation assistant page -->
+    <netuix:content>
+      <netuix:page markupName="page" definitionLabel="CreateJMSModuleOverridePage"
+                   title="not.used"
+                   hidden="true"
+                   presentationClass="page-assistant">
+        <netuix:meta name="helpid" content="JMS.jms.modules.system.createjmsmoduleoverride.title;core-partition"/>
+        <netuix:content>
+          <netuix:layout type="no" markupName="NoLayout">
+            <netuix:placeholder usingFlow="false" markupName="ph1">
+              <netuix:portlet definitionLabel="CreateJMSModuleOverridePortlet">
+                <netuix:pageflowContent contentUri="/com/bea/console/actions/core/partition/createjmssystemmodule/CreateJMSSystemModuleOverride.jpf"
+                                        action="begin"
+                                        refreshAction="begin"/>
+              </netuix:portlet>
+            </netuix:placeholder>
+          </netuix:layout>
+        </netuix:content>
+      </netuix:page>
+    </netuix:content>
+  </netuix:book>
+
+  <!-- Delete of JMSSystemResourceOverride -->
+  <netuix:book definitionLabel="DeleteJMSSystemModuleOverride" markupName="book"
+               backingFile="com.bea.console.utils.GeneralBackingFile"
+               threadsafe="true"
+               title="assistant.delete.jms.systemmoduleoverride.title"
+               presentationClass="wlsc-frame">
+    <netuix:titlebar/>
+    <!-- Definition for the System ModuleOverride deletion assistant page -->
+    <netuix:content>
+      <netuix:page markupName="page" definitionLabel="DeleteJMSModuleOverridePage" title="not.used"
+                   hidden="true"
+                   presentationClass="page-assistant">
+        <netuix:meta name="helpid" content="JMS.jms.modulesoverride.system.deletejmsmoduleoverride.title;core-partition"/>
+        <netuix:content>
+          <netuix:layout type="no" markupName="NoLayout">
+            <netuix:placeholder usingFlow="false" markupName="ph1">
+              <netuix:portlet definitionLabel="DeleteJMSModuleOverridePortlet">
+                <netuix:pageflowContent contentUri="/com/bea/console/actions/core/partition/jmsoverride/deletejmssystemmodule/DeleteJMSSystemModuleOverride.jpf"
+                                        action="begin"
+                                        refreshAction="begin"/>
+              </netuix:portlet>
+            </netuix:placeholder>
+          </netuix:layout>
+        </netuix:content>
+      </netuix:page>
+    </netuix:content>
+  </netuix:book>
+
+
+  <netuix:book definitionLabel="JMSModulesOverrideBook" title="book.title" markupName="book"
+               backingFile="com.bea.console.utils.SystemModuleBacking"
+               threadsafe="true"
+               presentationClass="wlsc-frame">
+    <netuix:titlebar/>
+    <netuix:content>
+
+      <netuix:book markupName="book" definitionLabel="JMSModulesOverrideTabsBook"
+                   title="JMSModulesOverrideTabsBook">
+        <netuix:singleLevelMenu markupType="Menu" markupName="singleLevelMenu"/>
+        <netuix:content>
+          <!-- Definition for the general tab -->
+          <netuix:page markupName="page" definitionLabel="JMSModuleOverrideConfigPage"
+                       presentationClass="page-content"
+                       title="tab.configuration">
+            <netuix:meta name="helpid" content="JMS.jms.foreignserveroverride.table.title;core-partition"/>
+            <netuix:meta name="configuration-page" content="JMSSystemResourceOverride"/>
+            <netuix:meta name="breadcrumb-context" content="handle"/>
+            <netuix:content>
+              <netuix:layout type="no" markupName="NoLayout">
+                <netuix:placeholder usingFlow="false" markupName="ph1">
+                  <netuix:portlet definitionLabel="JMSModuleOverrideConfigPortlet">
+                    <netuix:strutsContent module="/core-partition" action="JMSForeignServersOverrideTableAction"
+                          refreshAction="JMSForeignServersOverrideTableAction"/>
+                  </netuix:portlet>
+                </netuix:placeholder>
+              </netuix:layout>
+            </netuix:content>
+          </netuix:page>
+
+          <!-- Definition for the notes tab -->
+          <netuix:page markupName="page" definitionLabel="JMSSystemModuleOverrideNotesTabPage"
+                       presentationClass="page-content"
+                       title="tab.notes">
+            <netuix:meta name="helpid" content="jms.systemmoduleoverride.confignotes.title;core-partitions"/>
+            <netuix:content>
+              <netuix:layout type="no" markupName="NoLayout">
+                <netuix:placeholder usingFlow="false" markupName="ph1">
+                  <netuix:portletInstance markupType="Portlet" instanceLabel="JMSSystemModuleOverrideNotesPortlet"
+                       contentUri="/PortalConfig/core/partition/PartitionNotes.portlet"/>
+                </netuix:placeholder>
+              </netuix:layout>
+            </netuix:content>
+          </netuix:page>
+        </netuix:content>
+      </netuix:book>
+    </netuix:content>
+  </netuix:book>
+
+  <!-- ================== Foreign Server Override ======================  -->
+  <netuix:book definitionLabel="CreateForeignServerOverride" markupName="book"
+           backingFile="com.bea.console.utils.GeneralBackingFile"
+           threadsafe="true"
+           title="assistant.create.jms.foreignserveroverride.title"
+           presentationClass="wlsc-frame">
+    <netuix:titlebar/>
+    <!-- Definition for the Foreign Server creation assistant page -->
+    <netuix:content>
+      <netuix:page markupName="page" definitionLabel="CreateForeignServerOverridePage"
+                   title="not.used"
+                   hidden="true"
+                   presentationClass="page-assistant">
+        <netuix:meta name="helpid" content="core.partition.createforeignserveroverride.page.title;core-partition"/>
+        <netuix:content>
+          <netuix:layout type="no" markupName="NoLayout">
+            <netuix:placeholder usingFlow="false" markupName="ph1">
+              <netuix:portlet definitionLabel="CreateForeignServerOverridePortlet">
+                <netuix:pageflowContent contentUri="/com/bea/console/actions/core/partition/createforeignserver/CreateForeignServerOverride.jpf"
+                      action="begin"
+                      refreshAction="begin"/>
+              </netuix:portlet>
+            </netuix:placeholder>
+          </netuix:layout>
+        </netuix:content>
+      </netuix:page>
+    </netuix:content>
+  </netuix:book>
+
+  <!-- Delete of Foreign Server Override -->
+  <netuix:book definitionLabel="DeleteForeignServerOverride" markupName="book"
+               backingFile="com.bea.console.utils.GeneralBackingFile"
+               threadsafe="true"
+               title="assistant.delete.jms.foreignserveroverride.title"
+               presentationClass="wlsc-frame">
+    <netuix:titlebar/>
+    <!-- Definition for the Foreign Server deletion assistant page -->
+    <netuix:content>
+      <netuix:page markupName="page" definitionLabel="DeleteForeignServerOverridePage" title="not.used"
+                   hidden="true"
+                   presentationClass="page-assistant">
+        <netuix:meta name="helpid" content="jms.modulesoverride.deleteforeignserveroverride.title;core-partition"/>
+        <netuix:content>
+          <netuix:layout type="no" markupName="NoLayout">
+            <netuix:placeholder usingFlow="false" markupName="ph1">
+              <netuix:portlet definitionLabel="DeleteForeignServerOverridePortlet">
+                <netuix:pageflowContent contentUri="/com/bea/console/actions/core/partition/deleteforeignserver/DeleteForeignServerOverride.jpf"
+                        action="begin"
+                        refreshAction="begin"/>
+              </netuix:portlet>
+            </netuix:placeholder>
+          </netuix:layout>
+        </netuix:content>
+      </netuix:page>
+    </netuix:content>
+  </netuix:book>
+
+  <!-- ================== Foreign Destination Override ======================  -->
+  <netuix:book definitionLabel="CreateForeignDestinationOverride" markupName="book"
+               backingFile="com.bea.console.utils.GeneralBackingFile"
+               threadsafe="true"
+               title="assistant.create.jms.foreigndestinationoverride.title"
+               presentationClass="wlsc-frame">
+    <netuix:titlebar/>
+    <!-- Definition for the Foreign Destination creation assistant page -->
+    <netuix:content>
+      <netuix:page markupName="page" definitionLabel="CreateForeignDestinationOverridePage"
+                   title="not.used"
+                   hidden="true"
+                   presentationClass="page-assistant">
+        <netuix:meta name="helpid" content="core.partition.createforeigndestinationoverride.page.title;core-partition"/>
+        <netuix:content>
+          <netuix:layout type="no" markupName="NoLayout">
+            <netuix:placeholder usingFlow="false" markupName="ph1">
+              <netuix:portlet definitionLabel="CreateForeignDestinationOverridePortlet">
+                <netuix:pageflowContent contentUri="/com/bea/console/actions/core/partition/createforeigndestinationoverride/CreateForeignDestinationOverride.jpf"
+                                        action="begin"
+                                        refreshAction="begin"/>
+              </netuix:portlet>
+            </netuix:placeholder>
+          </netuix:layout>
+        </netuix:content>
+      </netuix:page>
+    </netuix:content>
+  </netuix:book>
+
+  <!-- Delete of Foreign Destination Override -->
+  <netuix:book definitionLabel="DeleteForeignDestinationOverride" markupName="book"
+               backingFile="com.bea.console.utils.GeneralBackingFile"
+               threadsafe="true"
+               title="assistant.delete.jms.foreigndestinationoverride.title"
+               presentationClass="wlsc-frame">
+    <netuix:titlebar/>
+    <!-- Definition for the Foreign Destination deletion assistant page -->
+    <netuix:content>
+      <netuix:page markupName="page" definitionLabel="DeleteForeignDestinationOverridePage" title="not.used"
+                   hidden="true"
+                   presentationClass="page-assistant">
+        <netuix:meta name="helpid" content="jms.modulesoverride.deleteforeigndestinationoverride.title;core-partition"/>
+        <netuix:content>
+          <netuix:layout type="no" markupName="NoLayout">
+            <netuix:placeholder usingFlow="false" markupName="ph1">
+              <netuix:portlet definitionLabel="DeleteForeignDestinationOverridePortlet">
+                <netuix:pageflowContent contentUri="/com/bea/console/actions/core/partition/jmsoverride/deleteforeigndestination/DeleteForeignDestinationOverride.jpf"
+                                        action="begin"
+                                        refreshAction="begin"/>
+              </netuix:portlet>
+            </netuix:placeholder>
+          </netuix:layout>
+        </netuix:content>
+      </netuix:page>
+    </netuix:content>
+  </netuix:book>
+
+
+  <netuix:book definitionLabel="ForeignDestinationOverrideBook" title="book.title" markupName="book"
+               backingFile="com.bea.console.utils.GeneralBackingFile"
+               threadsafe="true"
+               presentationClass="wlsc-frame">
+    <netuix:titlebar/>
+    <netuix:content>
+      <netuix:page markupName="page" definitionLabel="DestPages" title="not.used" hidden="true">
+        <netuix:content>
+          <netuix:layout type="no" markupName="NoLayout">
+            <netuix:placeholder usingFlow="false" markupName="ph1">
+              <netuix:book markupName="book" definitionLabel="ForeignDestPagesBook" title="DestBook">
+                <netuix:singleLevelMenu markupType="Menu" markupName="singleLevelMenu"/>
+                <netuix:content>
+
+                  <!-- Definition for the config tab -->
+                  <netuix:page markupName="page" definitionLabel="ForeignDestinationOverrideConfigPage"
+                               presentationClass="page-content"
+                               title="tab.config">
+                    <netuix:meta name="helpid" content="jms.foreigndestinationoverrideconfig.title;core-partition"/>
+                    <netuix:meta name="configuration-page" content="ForeignDestinationOverride"/>
+                    <netuix:meta name="breadcrumb-context" content="handle"/>
+                    <netuix:content>
+                      <netuix:layout type="no" markupName="NoLayout">
+                        <netuix:placeholder usingFlow="false" markupName="ph1">
+                          <netuix:portlet definitionLabel="ForeignDestinationOverrideConfigPortlet">
+                            <netuix:strutsContent module="/core-partition" action="ForeignDestinationOverrideConfig"
+                                                  refreshAction="ForeignDestinationOverrideConfig"/>
+                          </netuix:portlet>
+                        </netuix:placeholder>
+                      </netuix:layout>
+                    </netuix:content>
+                  </netuix:page>
+
+                  <!-- Definition for the notes tab -->
+                  <netuix:page markupName="page" definitionLabel="ForeignDestinationOverrideNotesPage"
+                               presentationClass="page-content"
+                               title="tab.notes">
+                    <netuix:meta name="helpid" content="jms.foreigndestinationoverride.notes.title;core-partition"/>
+                    <netuix:content>
+                      <netuix:layout type="no" markupName="NoLayout">
+                        <netuix:placeholder usingFlow="false" markupName="ph1">
+                          <netuix:portletInstance markupType="Portlet" instanceLabel="ForeignDestinationOverrideNotesPortlet"
+                                                  contentUri="/PortalConfig/core/partition/PartitionNotes.portlet"/>
+                        </netuix:placeholder>
+                      </netuix:layout>
+                    </netuix:content>
+                  </netuix:page>
+
+                </netuix:content>
+              </netuix:book>
+            </netuix:placeholder>
+          </netuix:layout>
+        </netuix:content>
+      </netuix:page>
+    </netuix:content>
+  </netuix:book>
+
+
+
+
+  <!-- Foreign Servers -->
+  <netuix:book definitionLabel="ForeignServersOverrideBook" title="book.title" markupName="book"
+               backingFile="com.bea.console.utils.GeneralBackingFile"
+               threadsafe="true"
+               presentationClass="wlsc-frame">
+  <netuix:titlebar/>
+  <netuix:content>
+    <netuix:page markupName="page" definitionLabel="ForeignServersOverridePages" title="not.used" hidden="true">
+      <netuix:content>
+        <netuix:layout type="no" markupName="NoLayout">
+          <netuix:placeholder usingFlow="false" markupName="ph1">
+
+            <netuix:book markupName="book" definitionLabel="ForeignServersOverrideTabsBook" title="ForeignServersOverrideTabsBook">
+              <netuix:singleLevelMenu markupType="Menu" markupName="singleLevelMenu"/>
+              <netuix:content>
+                <!-- Definition for the config tab -->
+                <netuix:book markupName="book" definitionLabel="ForeignServerOverridecConfigTabPage"
+                             title="tab.config">
+                  <netuix:singleLevelMenu markupType="Menu" markupName="singleLevelMenu" presentationClass="menu-level1"/>
+                  <netuix:content>
+                    <!-- Definition for the general tab -->
+                    <netuix:page markupName="page" definitionLabel="ForeignServerOverrideConfigPage"
+                                 presentationClass="page-content"
+                                 title="tab.general">
+                      <netuix:meta name="helpid" content="jms.moduleoverride.foreignserveroverrideconfig.title;core-partition"/>
+                      <netuix:meta name="configuration-page" content="ForeignServerOverride"/>
+                      <netuix:meta name="breadcrumb-context" content="handle"/>
+                      <netuix:content>
+                        <netuix:layout type="no" markupName="NoLayout">
+                          <netuix:placeholder usingFlow="false" markupName="ph1">
+                            <netuix:portlet definitionLabel="ForeignServerOverrideConfigPortlet">
+                              <netuix:strutsContent module="/core-partition" action="ForeignServerOverrideConfigAction"
+                                                    refreshAction="ForeignServerOverrideConfigAction"/>
+                            </netuix:portlet>
+                          </netuix:placeholder>
+                        </netuix:layout>
+                      </netuix:content>
+                    </netuix:page>
+                    <!-- Definition for the ForeignDestinationOverride table page /tab -->
+                    <netuix:page markupName="page" definitionLabel="ForeignDestinationOverrideTablePage"
+                                 presentationClass="page-table"
+                                 title="tab.foreigndestinationoverrides">
+                      <netuix:meta name="helpid" content="jms.moduleoverride.foreignserver.destinationoverridetable.title;core-partition"/>
+                      <netuix:meta name="breadcrumb" content="tab.foreigndestinationoverrides"/>
+                      <netuix:content>
+                        <netuix:layout type="no" markupName="NoLayout">
+                          <netuix:placeholder usingFlow="false" markupName="ph1">
+                            <netuix:portlet definitionLabel="ForeignServerDestinationOverrideTablePortlet">
+                              <netuix:strutsContent module="/core-partition" action="ForeignServerDestinationOverrideTable"
+                                                    refreshAction="ForeignServerDestinationOverrideTable"/>
+                            </netuix:portlet>
+                          </netuix:placeholder>
+                        </netuix:layout>
+                      </netuix:content>
+                    </netuix:page>
+
+                <!-- Definition for the ForeignConnectionFactory Override table page /tab -->
+                    <netuix:page markupName="page" definitionLabel="ForeignConnectionFactoryOverrideTablePage"
+                                 presentationClass="page-table"
+                                 title="tab.foreignconnectionfactoryoverrides">
+                      <netuix:meta name="helpid" content="jms.moduleoverride.foreignserver.connectionfactoryoverridetable.title;core-partition"/>
+                      <netuix:meta name="breadcrumb" content="tab.foreignconnectionfactoryoverrides"/>
+                      <netuix:content>
+                        <netuix:layout type="no" markupName="NoLayout">
+                          <netuix:placeholder usingFlow="false" markupName="ph1">
+                            <netuix:portlet definitionLabel="ForeignServerConnectionFactoryOverrideTablePortlet">
+                              <netuix:strutsContent module="/core-partition" action="ForeignServerConnectionFactoryOverrideTable"
+                                                    refreshAction="ForeignServerConnectionFactoryOverrideTable"/>
+                            </netuix:portlet>
+                          </netuix:placeholder>
+                        </netuix:layout>
+                      </netuix:content>
+                    </netuix:page>
+                  </netuix:content>
+                </netuix:book>
+
+                <!-- Definition for the notes tab -->
+                <netuix:page markupName="page" definitionLabel="ForeignJMSServerNotesTabPage"
+                             presentationClass="page-content"
+                             title="tab.notes">
+                  <netuix:meta name="helpid" content="jms.foreignjmsserveroverridenotes.notes.title;core-partition"/>
+                  <netuix:content>
+                    <netuix:layout type="no" markupName="NoLayout">
+                      <netuix:placeholder usingFlow="false" markupName="ph1">
+                        <netuix:portletInstance markupType="Portlet" instanceLabel="ForeignDestinationOverrideNotesPortlet"
+                                                contentUri="/PortalConfig/core/partition/PartitionNotes.portlet"/>
+                      </netuix:placeholder>
+                    </netuix:layout>
+                  </netuix:content>
+                </netuix:page>
+
+              </netuix:content>
+            </netuix:book>
+          </netuix:placeholder>
+        </netuix:layout>
+      </netuix:content>
+    </netuix:page>
+  </netuix:content>
+  </netuix:book>
+
+
+  <!-- ================== Foreign Connection Factory Override ======================  -->
+  <netuix:book definitionLabel="CreateForeignConnectionFactoryOverride" markupName="book"
+               backingFile="com.bea.console.utils.GeneralBackingFile"
+               threadsafe="true"
+               title="assistant.create.jms.foreignconnectionfactoryoverride.title"
+               presentationClass="wlsc-frame">
+    <netuix:titlebar/>
+    <!-- Definition for the Foreign Connection Factory creation assistant page -->
+    <netuix:content>
+      <netuix:page markupName="page" definitionLabel="CreateForeignConnectionFactoryOverridePage"
+                   title="not.used"
+                   hidden="true"
+                   presentationClass="page-assistant">
+        <netuix:meta name="helpid" content="core.partition.createforeignconnectionfactoryoverride.page.title;core-partition"/>
+        <netuix:content>
+          <netuix:layout type="no" markupName="NoLayout">
+            <netuix:placeholder usingFlow="false" markupName="ph1">
+              <netuix:portlet definitionLabel="CreateForeignConnectionFactoryOverridePortlet">
+                <netuix:pageflowContent contentUri="/com/bea/console/actions/core/partition/jmsoverride/createforeignconnectionfactoryoverride/CreateForeignConnectionFactoryOverride.jpf"
+                                        action="begin"
+                                        refreshAction="begin"/>
+              </netuix:portlet>
+            </netuix:placeholder>
+          </netuix:layout>
+        </netuix:content>
+      </netuix:page>
+    </netuix:content>
+  </netuix:book>
+
+  <!-- Delete of Foreign Connection Factory Override -->
+  <netuix:book definitionLabel="DeleteForeignConnectionFactoryOverride" markupName="book"
+               backingFile="com.bea.console.utils.GeneralBackingFile"
+               threadsafe="true"
+               title="assistant.delete.jms.foreignconnectionfactoryoverride.title"
+               presentationClass="wlsc-frame">
+    <netuix:titlebar/>
+    <!-- Definition for the Foreign Connection Factory deletion assistant page -->
+    <netuix:content>
+      <netuix:page markupName="page" definitionLabel="DeleteForeignConnectionFactoryOverridePage" title="not.used"
+                   hidden="true"
+                   presentationClass="page-assistant">
+        <netuix:meta name="helpid" content="jms.modulesoverride.deleteforeignconnectionfactoryoverride.title;core-partition"/>
+        <netuix:content>
+          <netuix:layout type="no" markupName="NoLayout">
+            <netuix:placeholder usingFlow="false" markupName="ph1">
+              <netuix:portlet definitionLabel="DeleteForeignConnectionFactoryOverridePortlet">
+                <netuix:pageflowContent contentUri="/com/bea/console/actions/core/partition/jmsoverride/deleteforeignconnectionfactory/DeleteForeignConnectionFactoryOverride.jpf"
+                                        action="begin"
+                                        refreshAction="begin"/>
+              </netuix:portlet>
+            </netuix:placeholder>
+          </netuix:layout>
+        </netuix:content>
+      </netuix:page>
+    </netuix:content>
+  </netuix:book>
+
+  <netuix:book definitionLabel="ForeignConnectionFactoryOverrideBook" title="book.title" markupName="book"
+               backingFile="com.bea.console.utils.GeneralBackingFile"
+               threadsafe="true"
+               presentationClass="wlsc-frame">
+    <netuix:titlebar/>
+    <netuix:content>
+      <netuix:page markupName="page" definitionLabel="ConPages" title="not.used" hidden="true">
+        <netuix:content>
+          <netuix:layout type="no" markupName="NoLayout">
+            <netuix:placeholder usingFlow="false" markupName="ph1">
+              <netuix:book markupName="book" definitionLabel="ForeignConnectionPagesBook" title="ConnectionBook">
+                <netuix:singleLevelMenu markupType="Menu" markupName="singleLevelMenu"/>
+                <netuix:content>
+
+                  <!-- Definition for the config tab -->
+                  <netuix:page markupName="page" definitionLabel="ForeignConnectionFactoryOverrideConfigPage"
+                               presentationClass="page-content"
+                               title="tab.config">
+                    <netuix:meta name="helpid" content="jms.foreignconnectionfactoryoverrideconfig.title;core-partition"/>
+                    <netuix:meta name="configuration-page" content="ForeignConnectionFactoryOverride"/>
+                    <netuix:meta name="breadcrumb-context" content="handle"/>
+                    <netuix:content>
+                      <netuix:layout type="no" markupName="NoLayout">
+                        <netuix:placeholder usingFlow="false" markupName="ph1">
+                          <netuix:portlet definitionLabel="ForeignConnectionFactoryOverrideConfigPortlet">
+                            <netuix:strutsContent module="/core-partition" action="ForeignConnectionFactoryOverrideConfig"
+                                                  refreshAction="ForeignConnectionFactoryOverrideConfig"/>
+                          </netuix:portlet>
+                        </netuix:placeholder>
+                      </netuix:layout>
+                    </netuix:content>
+                  </netuix:page>
+
+                  <!-- Definition for the notes tab -->
+                  <netuix:page markupName="page" definitionLabel="ForeignConnectionFactoryOverrideNotesPage"
+                               presentationClass="page-content"
+                               title="tab.notes">
+                    <netuix:meta name="helpid" content="jms.foreignconnectionfactoryoverride.notes.title;core-partition"/>
+                    <netuix:content>
+                      <netuix:layout type="no" markupName="NoLayout">
+                        <netuix:placeholder usingFlow="false" markupName="ph1">
+                          <netuix:portletInstance markupType="Portlet" instanceLabel="ForeignConnectionFactoryOverrideNotesPortlet"
+                                                  contentUri="/PortalConfig/core/partition/PartitionNotes.portlet"/>
+                        </netuix:placeholder>
+                      </netuix:layout>
+                    </netuix:content>
+                  </netuix:page>
+
+                </netuix:content>
+              </netuix:book>
+            </netuix:placeholder>
+          </netuix:layout>
+        </netuix:content>
+      </netuix:page>
+    </netuix:content>
+  </netuix:book>
+
+  </netuix:content>
+ </netuix:book>
+</portal:root>

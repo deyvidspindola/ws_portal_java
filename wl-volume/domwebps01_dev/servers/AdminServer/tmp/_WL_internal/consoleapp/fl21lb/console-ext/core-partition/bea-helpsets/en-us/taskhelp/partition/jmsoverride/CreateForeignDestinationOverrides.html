@@ -1,0 +1,116 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--Composite DITA to XHTML application by IBM Corp., 2001, 2002, 2003--><!--Common DITA topic to HTML application by IBM Corp., 2001, 2002, 2003--><html lang="en-US"><head><META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="/consolehelp/wls.css" type="text/css" rel="stylesheet"><title>Create foreign
+  destination overrides</title>
+<script src="/consolehelp/en-us/topicInfo.js" language="JavaScript"></script>
+<script src="/consolehelp/en-us/CookieClass.js" language="JavaScript"></script>
+
+</head><body class="base"><a name="WLACH64005" id="WLACH64005"></a>
+
+
+  <h1 class="topictitle1">Create foreign
+  destination overrides</h1>
+
+  <div><!--topic body-->
+    <div class="prereq"><p class="sectiontitle"><b>
+        Before you begin
+      </b></p>
+      <div><ul>
+          <li><a href="/consolehelp/console-help.portal?_nfpb=true&_pageLabel=page&helpId=partition.jmsoverride.ConfigureJMSModuleOverrides">Configure JMS module
+  overrides</a></li>
+
+          <li><a href="/consolehelp/console-help.portal?_nfpb=true&_pageLabel=page&helpId=partition.jmsoverride.ConfigureForeignServerOverrides">Configure foreign server
+  overrides</a></li>
+        </ul></div>
+    </div>
+
+    <div><br>
+      <p><a name="WLACH64005__startstop1208194" id="WLACH64005__startstop1208194"></a>A foreign destination
+      override defines partition-specific overrides for the most commonly
+      overridden attributes in a ForeignDestination MBean. It overrides some
+      of the settings in a same-named ForeignDestination MBean instance in the
+      same multi-tenant scope to which this override MBean belongs.</p>
+
+      <p><a name="WLACH64005__startstop1198902" id="WLACH64005__startstop1198902"></a>To create a foreign
+      destination override:</p>
+    </div>
+
+    <ol>
+      <li>
+        <span><a name="WLACH64005__startstop1198904" id="WLACH64005__startstop1198904"></a>In the left
+        pane of the Console, select <b>Domain
+        Partitions</b>.</span>
+
+         
+          <p>The Domain Partitions table displays all the partitions defined
+          in the domain.</p>
+        
+      </li>
+
+      <li>
+        <span>Click on the name of the domain partition for which you want to
+        create a foreign destination override.</span>
+      </li>
+
+      <li>
+        <span><a name="WLACH64005__startstop1204881" id="WLACH64005__startstop1204881"></a>Select the
+        <b>Resource Overrides </b><b>&gt; JMS
+        Modules</b> configuration page.</span>
+
+         
+          <p>The JMS Module Overrides table displays all the JMS module
+          overrides that have been configured in this domain partition.</p>
+        
+      </li>
+
+      <li>
+        <span><a name="WLACH64005__startstop1213516" id="WLACH64005__startstop1213516"></a>Click on the
+        name of the JMS module override for which you want to create a foreign
+        destination override.</span>
+      </li>
+
+      <li>
+        <span><a name="WLACH64005__startstop1213516" id="WLACH64005__startstop1213516"></a>Click on the
+        name of the JMS foreign server override for which you want to create a
+        foreign destination override.</span>
+      </li>
+
+      <li>
+        <span><a name="WLACH64005__startstop1213516" id="WLACH64005__startstop1213516"></a>On the
+        <b>Configuration &gt; Destination Overrides</b> page,
+        click <b>New</b>.</span>
+      </li>
+
+      <li>
+        <span><a name="WLACH64005__startstop1204881" id="WLACH64005__startstop1204881"></a>On the Create
+        a Foreign Destination Override page, provide a <b>Foreign JMS
+        Destination Name</b> for the foreign destination
+        override.</span>
+
+         
+          <p>The name of this foreign destination override must match the name
+          of the actual resource to be overridden.</p>
+        
+      </li>
+
+      <li>
+        <span>In the <b>Remote JNDI Name</b> field, provide a
+        partition-specific value and click <b>OK</b>.</span>
+
+        <span>
+          <p>The new foreign destination override appears in the Foreign
+          Destination Overrides table.</p>
+        </span>
+      </li>
+    </ol>
+
+    <div class="postreq"><p class="sectiontitle"><b>
+        After you finish
+      </b></p>
+      <p>If the resource is running, you must restart the partition for the
+      overrides to take effect.</p>
+    </div>
+  </div>
+
+
+</body></html>

@@ -1,0 +1,12 @@
+#Generated property file
+#Tue Apr 27 13:46:58 GMT 2021
+replica.num=1
+replica.0.name=mngnode1
+replica.0.base=dc\=domwebps01_dev
+replica.0.port=8001
+replica.0.hostname=172.17.0.2
+replica.0.masterurl=ldap\://172.17.0.2\:7001/
+replica.0.masterid=AdminServer
+replica.0.secure=0
+replica.0.binddn=cn\=Admin
+replica.0.consumerid=mngnode1

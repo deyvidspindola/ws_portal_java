@@ -1,0 +1,139 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--Composite DITA to XHTML application by IBM Corp., 2001, 2002, 2003--><!--Common DITA topic to HTML application by IBM Corp., 2001, 2002, 2003--><html lang="en-US"><head><META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="/consolehelp/wls.css" type="text/css" rel="stylesheet"><title>Configure resource
+  groups at the partition level</title>
+<script src="/consolehelp/en-us/topicInfo.js" language="JavaScript"></script>
+<script src="/consolehelp/en-us/CookieClass.js" language="JavaScript"></script>
+
+</head><body class="base"><a name="WLACH06551" id="WLACH06551"></a>
+
+
+  <h1 class="topictitle1">Configure resource
+  groups at the partition level</h1>
+
+  <div><!--topic body-->
+    <div><br>
+      <p>After you create a resource group you can configure its resources.
+      All the resources in or referenced by a resource group are targeted
+      together to the same virtual target(s).</p>
+
+      <p>To configure the resources for a resource group at the partition
+      level:</p>
+    </div>
+
+    <ol><li>If you have not already done so, in the Change Center of the Administration Console, click <b>Lock &amp; Edit</b> (see <a href="/consolehelp/console-help.portal?_nfpb=true&_pageLabel=page&helpId=console.UseTheChangeCenter">Use the Change Center</a>).</li>
+      <li>
+        <span><a name="WLACH06551__messaging_bridge1111401" id="WLACH06551__messaging_bridge1111401"></a>In the
+        left pane of the Console, select <span>Domain
+        Partitions</span>.</span>
+      </li>
+
+      <li>
+        <span>Select the domain partition for which you want to configure the
+        resource groups.</span>
+      </li>
+
+      <li>
+        <span>Select the <b>Resource Groups </b>page.</span>
+      </li>
+
+      <li>
+        <span>On the <span>Resource Groups Configuration </span>page,
+        select the resource group you want to configure.</span>
+
+         
+          <p>If the table is empty, refer to <a href="/consolehelp/console-help.portal?_nfpb=true&_pageLabel=page&helpId=partition.resourcegroup.PartCreateResourceGroups">Create a new
+  resource group at the partition level</a>.</p>
+        
+      </li>
+
+      <li>
+        <span><a name="WLACH06551__messaging_bridge1111014" id="WLACH06551__messaging_bridge1111014"></a>Select
+        the <b>General</b> page and update as necessary:</span>
+
+        <ol type="a">
+          <li>
+            <span><b>Name</b> - The name you chose for the resource group when
+            you created it. You cannot change this name.</span>
+          </li>
+
+          <li>
+            <span><a name="WLACH06551__messaging_bridge1111016" id="WLACH06551__messaging_bridge1111016"></a><b>Resource Group
+            Template</b> - Optional. A named, domain-level collection
+            of deployable resources intended to be used as a pattern by
+            (usually) multiple resource groups. Each resource group that
+            refers to a given template will have its own runtime copies of the
+            resources defined in the template.</span>
+          </li>
+
+          <li>
+            <span><b>Leave this resource group running when the
+            partition is shutdown</b> - Optional. Select this check
+            box if the resource group contains <i>administrative</i>
+            applications and resources. Administrative resource groups are
+            handled in a unique manner by partition lifecycle operations. See
+            <a href="http://docs.oracle.com/middleware/12213/wls/WLSMT/config_resource_grp.htm#WLSMT1688">Managing Administrative Applications and Resources in
+            Partition Resource Groups</a> for additional information.</span>
+          </li>
+
+          <li>
+            <span><a name="WLACH06551__messaging_bridge1111020" id="WLACH06551__messaging_bridge1111020"></a><b>Targets </b>- Use
+            the default target or move one or more virtual targets from the
+            Available list to the Chosen list.</span>
+          </li>
+        </ol>
+
+         
+          <p>For more information on general attributes, see <a href="/consolehelp/console-help.portal?_nfpb=true&_pageLabel=page&helpId=Core-partitioncorepartitionpartitionresourcegroupconfiggeneraltitle">Configuration Options</a>.</p>
+        
+      </li>
+
+      <li>
+        <span>Select the <b>Deployments </b>page and override applications
+        deployed to this resource group as necessary. When you deploy an
+        application you can choose to deploy it to a resource group at the
+        partition level. See <a href="http://docs.oracle.com/middleware/12213/wls/WLSMT/deploying_apps.htm#WLSMT594">Deploying Applications to Resource Groups</a> for
+        information on deploying applications to resource groups at the
+        partition level.</span>
+      </li>
+
+      <li>
+        <span>Select the <b>Services </b>page and update the services as
+        necessary. You can update the following services:</span>
+
+         
+          <div><ul>
+              <li>JDBC</li>
+
+              <li>JMS</li>
+
+              <li>Bridges</li>
+
+              <li>Mail</li>
+
+              <li>Concurrent Utilities</li>
+
+              <li>Persistent Stores</li>
+
+              <li>Path Services</li>
+
+              <li>Foreign JNDI Providers</li>
+
+              <li>WLDF</li>
+
+              <li>SAF Agents</li>
+
+              <li>OSGi Frameworks</li>
+            </ul>See <a href="http://docs.oracle.com/middleware/12213/wls/WLSMT/config_resource_grp.htm#WLSMT583">Configuring Resource Groups</a> for more
+          information.</div>
+        
+      </li>
+
+      <li>
+        <span>Save your changes.</span>
+      </li>
+    <li>To activate these changes, in the Change Center of the Administration Console, click <b>Activate Changes</b>. <br>Not all changes take effect immediately&mdash;some require a restart (see <a href="/consolehelp/console-help.portal?_nfpb=true&_pageLabel=page&helpId=console.UseTheChangeCenter">Use the Change Center</a>).</li></ol>
+  </div>
+
+
+</body></html>

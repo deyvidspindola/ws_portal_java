@@ -1,0 +1,182 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--Composite DITA to XHTML application by IBM Corp., 2001, 2002, 2003--><!--Common DITA topic to HTML application by IBM Corp., 2001, 2002, 2003--><html lang="en-US"><head><META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="/consolehelp/wls.css" type="text/css" rel="stylesheet"><title>Create domain
+  partitions</title>
+<script src="/consolehelp/en-us/topicInfo.js" language="JavaScript"></script>
+<script src="/consolehelp/en-us/CookieClass.js" language="JavaScript"></script>
+
+</head><body class="base"><a name="WLACH06000" id="WLACH06000"></a>
+
+
+  <h1 class="topictitle1">Create domain
+  partitions</h1>
+
+  <div><!--topic body-->
+    <div class="prereq"><p class="sectiontitle"><b>
+        Before you begin
+      </b></p>
+      <div>Prior to creating a domain partition:<ul>
+          <li>Create the domain you plan to use.</li>
+
+          <li>Create the security realm for the partition.</li>
+
+          <li>Create one or more virtual targets.</li>
+
+          <li>If you want to use a resource group template with this domain
+          partition, create the resource group template first.</li>
+        </ul></div>
+
+      <p>See <a href="http://docs.oracle.com/middleware/12213/wls/WLSMT/config_domain_part.htm#WLSMT585">Configuring Domain Partitions</a> for additional
+      information on prerequisites.</p>
+    </div>
+
+    <div><br>
+      <p><a name="WLACH06000__startstop1198902" id="WLACH06000__startstop1198902"></a>To create a domain
+      partition:</p>
+    </div>
+
+    <ol><li>If you have not already done so, in the Change Center of the Administration Console, click <b>Lock &amp; Edit</b> (see <a href="/consolehelp/console-help.portal?_nfpb=true&_pageLabel=page&helpId=console.UseTheChangeCenter">Use the Change Center</a>).</li>
+      <li>
+        <span><a name="WLACH06000__startstop1198904" id="WLACH06000__startstop1198904"></a>In the left
+        pane of the Console, select <b>Domain Partitions</b>.</span>
+
+         
+          <p>The Domain Partitions table displays all of the partitions
+          defined in the domain.</p>
+        
+      </li>
+
+      <li>
+        <span><a name="WLACH06000__startstop1213516" id="WLACH06000__startstop1213516"></a>Click
+        <b>New</b>.</span>
+      </li>
+
+      <li>
+        <span><a name="WLACH06000__startstop1204881" id="WLACH06000__startstop1204881"></a>On the Domain
+        Partition Properties page, enter the partition name. The partition
+        name must be unique within the domain.</span>
+      </li>
+
+      <li>
+        <span><a name="WLACH06000__startstop1208210" id="WLACH06000__startstop1208210"></a>Unless you
+        have a specific reason to not do so, accept the default (set) for the
+        <b>Default Resource Group</b> control. Creating a default resource
+        group saves time later on.</span>
+      </li>
+
+      <li>
+        <span><a name="WLACH06000__startstop1202695" id="WLACH06000__startstop1202695"></a>If you want
+        the resource group you are creating to be based on (reference) an
+        existing resource group template in the target domain, select the
+        resource group template from the drop-down menu.</span>
+
+         
+          <div>You can create a resource group in two ways:<ul>
+              <li>A new resource group. When you finish creating the partition
+              you must then edit this resource group as needed.</li>
+
+              <li>A new resource group based on a resource group template. The
+              configuration is copied from the template to the new resource
+              group.</li>
+            </ul></div>
+        
+      </li>
+
+      <li>
+        <span><a name="WLACH06000__startstop1202695" id="WLACH06000__startstop1202695"></a>Click
+        <b>Next</b>.</span>
+      </li>
+
+      <li>
+        <span>Select one or more existing virtual targets to be available for
+        this domain partition to use. Multiple partitions cannot use the same
+        virtual target. You can use a virtual target only with one partition
+        at any one time.</span>
+      </li>
+
+      <li>
+        <span>Click <b>Next</b>.</span>
+      </li>
+
+      <li>
+        <span>Select the targets that resource groups in this partition will
+        use by default. Move the targets from the Available list to the Chosen
+        list.</span>
+      </li>
+
+      <li>
+        <span>Select the security realm and default target for this partition.
+        The security realm can be unique to this partition, or shared by
+        multiple partitions.</span>
+      </li>
+
+      <li>
+        <span>Examine the file system root for the partition and change it if
+        needed. You can generally accept the default.</span>
+      </li>
+
+      <li>
+        <span>The <b>Create on Demand </b>control determines whether the
+        partition file system is created when the partition is first accessed.
+        The <b>Preserved</b> control determines whether the partition file
+        system is preserved if you delete the partition. These controls are
+        set by default. Change these settings if needed.</span>
+      </li>
+
+      <li>
+        <span><a name="WLACH06000__startstop1202599" id="WLACH06000__startstop1202599"></a>Click
+        <b>Finish</b>.</span>
+      </li>
+
+      <li>
+        <span>Activate your changes.</span>
+      </li>
+
+      <li>
+        <span>If this is the first partition you have created in this domain,
+        and the domain is running in production mode, restart the WebLogic
+        Administration Server. This step is needed only for the first
+        partition you create for a domain, and only when the domain is running
+        in production mode.</span>
+      </li>
+
+      <li>
+        <span><a name="WLACH06000__startstop1198904" id="WLACH06000__startstop1198904"></a>In the left
+        pane of the Console, select <b>Domain Partitions</b>.</span>
+
+         
+          <p>The Domain Partitions table displays all of the partitions
+          defined in the domain.</p>
+        
+      </li>
+
+      <li>
+        <span>Select the <b>Control</b> page.</span>
+      </li>
+
+      <li>
+        <span>Select the partition you just created.</span>
+      </li>
+
+      <li>
+        <span>Click <b>Start </b>to start the partition. Partitions are created
+        in a shutdown state and need to be started for the resources in them
+        to be accessible.</span>
+      </li>
+    <li>To activate these changes, in the Change Center of the Administration Console, click <b>Activate Changes</b>. <br>Not all changes take effect immediately&mdash;some require a restart (see <a href="/consolehelp/console-help.portal?_nfpb=true&_pageLabel=page&helpId=console.UseTheChangeCenter">Use the Change Center</a>).</li></ol>
+
+    <div class="postreq"><p class="sectiontitle"><b>
+        After you finish
+      </b></p>
+      <p>If you did not create the resource group from a resource group
+      template, edit the resource group as needed. <a href="http://docs.oracle.com/middleware/12213/wls/WLSMT/config_resource_grp.htm#WLSMT583">See
+      Configuring Resource Groups</a> for additional information.</p>
+
+      <p>If you did create the resource group from a resource group template,
+      see <a href="http://docs.oracle.com/middleware/12213/wls/WLSMT/config_resource_over.htm#WLSMT737">Configuring Resource Overrides</a> for additional
+      information.</p>
+    </div>
+  </div>
+
+
+</body></html>

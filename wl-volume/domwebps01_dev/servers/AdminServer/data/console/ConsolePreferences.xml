@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<portlet-preferences>
+  <portlet-preference definitionLabel="GlobalPreferencesPortlet" user="weblogic">
+    <preference name="deploymentMRU" description="The description" isModifiable="true" isMultivalued="true">
+      <value>/u01/oracle/user_projects/domains/domwebps01_dev/servers/AdminServer/upload/ModuloEnvioConfig.war/app</value>
+      <value>/u01/oracle/user_projects/domains/domwebps01_dev/servers/AdminServer/upload/SascarPortalWeb.war/app</value>
+      <value>/u01/oracle/user_projects/domains/domwebps01_dev/servers/AdminServer/upload/SascarPortalWeb (1).war/app</value>
+      <value>/u01/oracle/user_projects/domains/domwebps01_dev/servers/AdminServer/upload</value>
+    </preference>
+  </portlet-preference>
+  <portlet-preference definitionLabel="GlobalJDBCDataSourceTablePortlet" user="weblogic">
+    <preference name="filterByColumn" description="The description" isModifiable="true" isMultivalued="false" value="Name"/>
+    <preference name="maxrows" description="The description" isModifiable="true" isMultivalued="false" value="All"/>
+    <preference name="selectedColumns" description="The description" isModifiable="true" isMultivalued="true">
+      <value>Name</value>
+      <value>DataSourceType</value>
+      <value>JndiName</value>
+      <value>Targets</value>
+    </preference>
+    <preference name="rowsperpage" description="The description" isModifiable="true" isMultivalued="false" value="25"/>
+    <preference name="filterByCriteria" description="The description" isModifiable="true" isMultivalued="false" value=""/>
+  </portlet-preference>
+</portlet-preferences>

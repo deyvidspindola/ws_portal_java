@@ -1,0 +1,115 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--Composite DITA to XHTML application by IBM Corp., 2001, 2002, 2003--><!--Common DITA topic to HTML application by IBM Corp., 2001, 2002, 2003--><html lang="en-US"><head><META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="/consolehelp/wls.css" type="text/css" rel="stylesheet"><title>Import
+  partitions</title>
+<script src="/consolehelp/en-us/topicInfo.js" language="JavaScript"></script>
+<script src="/consolehelp/en-us/CookieClass.js" language="JavaScript"></script>
+
+</head><body class="base"><a name="WLACH06003" id="WLACH06003"></a>
+
+
+  <h1 class="topictitle1">Import
+  partitions</h1>
+
+  <div><!--topic body-->
+    <div class="prereq"><p class="sectiontitle"><b>
+        Before you begin
+      </b></p>
+      <div>Prior to importing a domain partition:<ul>
+          <li>You must have previously exported a domain partition (the source
+          domain) to a partion archive file. See <a href="/consolehelp/console-help.portal?_nfpb=true&_pageLabel=page&helpId=partition.ExportPartitions">Export partitions</a>.</li>
+
+          <li>The server instance must already have a domain configured (the
+          target domain).</li>
+        </ul></div>
+    </div>
+
+    <div><br>
+      <p><a name="WLACH06003__startstop1208194" id="WLACH06003__startstop1208194"></a>While importing a partition
+      archive, you may need to update the dependencies on the domain (like
+      targets and security realms) and also optionally update other attributes
+      in the partition configuration to make it valid. For more information,
+      see <a href="http://docs.oracle.com/middleware/12213/wls/WLSMT/export_import.htm#WLSMT636">Exporting
+      and Importing Partitions</a>.</p>
+
+      <p><a name="WLACH06003__startstop1198902" id="WLACH06003__startstop1198902"></a>To import a domain
+      partition:</p>
+    </div>
+
+    <ol>
+      <li>
+        <span><a name="WLACH06003__startstop1198904" id="WLACH06003__startstop1198904"></a>In the left
+        pane of the Console, select <b>Domain
+        Partitions</b>.</span>
+
+         
+          <p>The Domain Partitions table displays all the partitions defined
+          in the domain.</p>
+        
+      </li>
+
+      <li>
+        <span><a name="WLACH06003__startstop1213516" id="WLACH06003__startstop1213516"></a>Click
+        <b>Import</b>.</span>
+      </li>
+
+      <li>
+        <span>On the Import a Domain Partition page:</span>
+
+        <ol type="a">
+          <li>
+            <span>(Optional) Select the <b>Create New</b> check
+            box if the resource group template already exists in the target
+            domain and you want to create a new one using a new name.</span>
+
+             
+              <p>All resource group templates used by the source domain
+              partition are contained in the partition archive and are
+              imported along with the partition into the target domain.</p>
+
+              <p>If the resource group template already exists in the target
+              domain and you do not specify <b>Create New</b>,
+              the import operation will fail. If a resource group template
+              with the same name already exists in the target domain and you
+              specify <b>Create New</b>, a new resource group
+              template is created with a new name and all the entities in the
+              imported partition reference the new resource group
+              template.</p>
+            
+          </li>
+
+          <li>
+            <span>(Optional) The name to use for the partition when it is
+            created in the target domain. This defaults to the original name
+            of the partition.</span>
+          </li>
+
+          <li>
+            <span>(Optional) In the <b>Enter the full path to the Key
+            File</b> text box, enter the full path to a file
+            containing a string to use as the encryption key to decrypt
+            attributes in the partition archive.</span>
+          </li>
+
+          <li>
+            <span>Select or enter the full path to the partition archive file
+            you want to import.</span>
+          </li>
+        </ol>
+      </li>
+
+      <li>
+        <span><a name="WLACH06003__startstop1202599" id="WLACH06003__startstop1202599"></a>Click
+        <b>OK</b>.</span>
+      </li>
+    </ol>
+
+    <div class="result"><p class="sectiontitle"><b>	
+	Result
+      </b></p>
+      <p>The partition is imported into the target domain.</p>
+    </div>
+  </div>
+
+
+</body></html>

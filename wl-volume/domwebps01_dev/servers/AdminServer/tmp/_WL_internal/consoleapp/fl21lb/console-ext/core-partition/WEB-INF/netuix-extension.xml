@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<weblogic-portal-extension
+  xmlns="http://www.bea.com/servers/portal/weblogic-portal/8.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.bea.com/servers/portal/weblogic-portal/8.0 netuix-extension-1_0_0.xsd"
+>
+  <provider-info>
+    <title>Partition pages</title>
+  </provider-info>
+
+  <portal-file>/console.portal</portal-file>
+
+  <book-extension>
+    <book-location>
+      <parent-label-location label="ContentBook"/>
+      <book-insertion-point action="append"/>
+    </book-location>
+    <page-content content-uri="/PortalConfig/core/partition/Partition.book"/>
+  </book-extension>
+
+  <book-extension>
+    <book-location>
+      <parent-label-location label="ContentBook"/>
+      <book-insertion-point action="append"/>
+    </book-location>
+    <page-content content-uri="/PortalConfig/core/partition/Jmsoverride.book"/>
+  </book-extension>
+
+  <book-extension>
+    <book-location>
+      <parent-label-location label="ContentBook"/>
+      <book-insertion-point action="append"/>
+    </book-location>
+    <page-content content-uri="/PortalConfig/core/partition/CorePartitionWorkMgr.book"/>
+  </book-extension>
+
+</weblogic-portal-extension>

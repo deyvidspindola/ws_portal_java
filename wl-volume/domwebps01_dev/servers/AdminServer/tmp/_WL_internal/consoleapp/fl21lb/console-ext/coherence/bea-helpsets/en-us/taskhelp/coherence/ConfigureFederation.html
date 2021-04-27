@@ -1,0 +1,88 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--Composite DITA to XHTML application by IBM Corp., 2001, 2002, 2003--><!--Common DITA topic to HTML application by IBM Corp., 2001, 2002, 2003--><html lang="en-US"><head><META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="/consolehelp/wls.css" type="text/css" rel="stylesheet"><title>Configure
+  Federation</title>
+<script src="/consolehelp/en-us/topicInfo.js" language="JavaScript"></script>
+<script src="/consolehelp/en-us/CookieClass.js" language="JavaScript"></script>
+
+</head><body class="base"><a name="WLACH50024" id="WLACH50024"></a>
+
+
+  <h1 class="topictitle1">Configure
+  Federation</h1>
+
+  <div><!--topic body-->
+    <div><br>
+      <p><a name="WLACH50024__startstop1208194" id="WLACH50024__startstop1208194"></a>The federated caching
+      feature federates cache data asynchronously across multiple
+      geographically dispersed clusters. Cached data is federated across
+      clusters to provide redundancy, off-site backup, and multiple points of
+      access for application users in different geographical locations.</p>
+
+      <p>To configure federation:</p>
+    </div>
+
+    <ol><li>If you have not already done so, in the Change Center of the Administration Console, click <b>Lock &amp; Edit</b> (see <a href="/consolehelp/console-help.portal?_nfpb=true&_pageLabel=page&helpId=console.UseTheChangeCenter">Use the Change Center</a>).</li>
+      <li>
+        <span><a name="WLACH50024__startstop1198904" id="WLACH50024__startstop1198904"></a>In the left
+        pane of the Console, select <b>Environment &gt; Coherence
+        Clusters</b>.</span>
+      </li>
+
+      <li>
+        <span><a name="WLACH50024__startstop1213516" id="WLACH50024__startstop1213516"></a>In the
+        Coherence Clusters table, select the Coherence cluster for which you
+        want a configure federation.</span>
+      </li>
+
+      <li>
+        <span><a name="WLACH50024__startstop1204881" id="WLACH50024__startstop1204881"></a>Select the
+        <b>Configuration: Federation</b> page.</span>
+      </li>
+
+      <li>
+        <span><a name="WLACH50024__startstop1204881" id="WLACH50024__startstop1204881"></a>Use the
+        drop-down list to select a topology.</span>
+
+         
+          <p><b>Note: </b><ul>
+              <li><p>When a topology is selected, a topology configuration is
+              automatically created and named
+              <code>Default-Topology</code>. The
+              <code>Default-Topology</code> topology configuration is
+              created and used if no other federation topology is specified in
+              the cache configuration file.</p></li>
+
+              <li><p>When using federation, matching topologies must be
+              configured on both the local and remote clusters. For example,
+              selecting <code>none</code> for the topology in a local
+              cluster and <code>active-active</code> as the topology in
+              the remote cluster can lead to unpredictable behavior.
+              Similarly, if a local cluster is set to use active-passive, then
+              the remote cluster must be set to use passive-active.</p></li>
+            </ul></p>
+        
+      </li>
+
+      <li>
+        <span><a name="WLACH50024__startstop1204881" id="WLACH50024__startstop1204881"></a>From the
+        Remote Participant section, enter the name of the remote cluster to
+        which this cluster is being federated.</span>
+      </li>
+
+      <li>
+        <span><a name="WLACH50024__startstop1204881" id="WLACH50024__startstop1204881"></a>From the
+        Remote Participant section, enter one or more hosts that are running
+        managed Coherence servers on the remote cluster.</span>
+      </li>
+
+      <li>
+        <span><a name="WLACH50024__startstop1204881" id="WLACH50024__startstop1204881"></a>If required,
+        change the cluster port of the remote cluster. The default cluster
+        port is typically not changed.</span>
+      </li>
+    <li>To activate these changes, in the Change Center of the Administration Console, click <b>Activate Changes</b>. <br>Not all changes take effect immediately&mdash;some require a restart (see <a href="/consolehelp/console-help.portal?_nfpb=true&_pageLabel=page&helpId=console.UseTheChangeCenter">Use the Change Center</a>).</li></ol>
+  </div>
+
+
+</body></html>

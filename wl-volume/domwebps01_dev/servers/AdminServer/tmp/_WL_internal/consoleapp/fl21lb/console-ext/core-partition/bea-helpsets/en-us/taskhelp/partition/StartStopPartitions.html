@@ -1,0 +1,111 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--Composite DITA to XHTML application by IBM Corp., 2001, 2002, 2003--><!--Common DITA topic to HTML application by IBM Corp., 2001, 2002, 2003--><html lang="en-US"><head><META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link href="/consolehelp/wls.css" type="text/css" rel="stylesheet"><title>Start and stop domain
+  partitions</title>
+<script src="/consolehelp/en-us/topicInfo.js" language="JavaScript"></script>
+<script src="/consolehelp/en-us/CookieClass.js" language="JavaScript"></script>
+
+</head><body class="base"><a name="WLACH06004" id="WLACH06004"></a>
+
+
+  <h1 class="topictitle1">Start and stop domain
+  partitions</h1>
+
+  <div><!--topic body-->
+    <div><br>
+      <p>You can reconfigure global and partition-specific resources without
+      restarting the associated servers or clusters. Changes to one partition
+      do not affect other partitions: you can create, start, stop, and delete
+      partitions independently. </p>
+
+      <p>For more information, see <a href="http://docs.oracle.com/middleware/12213/wls/WLSMT/config_resource_grp.htm#WLSMT1692">About
+      Partition Lifecycle States and Transitions</a>.</p>
+
+      <p><a name="WLACH06004__startstop1198902" id="WLACH06004__startstop1198902"></a>To control domain
+      partitions:</p>
+    </div>
+
+    <ol><li>If you have not already done so, in the Change Center of the Administration Console, click <b>Lock &amp; Edit</b> (see <a href="/consolehelp/console-help.portal?_nfpb=true&_pageLabel=page&helpId=console.UseTheChangeCenter">Use the Change Center</a>).</li>
+      <li>
+        <span><a name="WLACH06004__startstop1198904" id="WLACH06004__startstop1198904"></a>In the left
+        pane of the Console, select <b>Domain Partitions</b>.</span>
+
+         
+          <p>The Domain Partitions table displays all of the partitions
+          defined in the domain.</p>
+        
+      </li>
+
+      <li>
+        <span><a name="WLACH06004__startstop1213516" id="WLACH06004__startstop1213516"></a>Select the
+        check box next to the domain partition you want to control.</span>
+      </li>
+
+      <li>
+        <span>To start a partition, click <b>Start</b>.</span>
+
+         
+          <p>All of the resource groups&mdash;and all of the applications deployed
+          to those resource groups&mdash;are started.</p>
+        
+      </li>
+
+      <li>
+        <span><a name="WLACH06004__startstop1202599" id="WLACH06004__startstop1202599"></a>To suspend a
+        running partition, click <b>Suspend</b>, and select to suspend the
+        partition either gracefully (<b>When work
+        completes</b>) or forced (<b>Force suspend
+        now</b>).</span>
+
+         
+          <p>The suspend operation transitions the partition from the
+          <code>RUNNING</code> to <code>ADMIN</code> state.</p>
+        
+      </li>
+
+      <li>
+        <span>To resume a suspended partition, click
+        <b>Resume</b>.</span>
+
+         
+          <p>The resume operation transitions the partition from the
+          <code>ADMIN</code> to <code>RUNNING</code> state.</p>
+        
+      </li>
+
+      <li>
+        <span>To shutdown a partition:</span>
+
+        <ol type="a">
+          <li>
+            <span>Click <b>Shutdown</b>, and select to shut down the partition
+            either gracefully (<b>When work completes</b>) or
+            forced (<b>Force shutdown now</b>).</span>
+
+             
+              <p>Shutting down the partition is the runtime equivalent of
+              undeploying the application or resource, except that the
+              configuration for the application or resource is not removed
+              from the configuration file as it would be in a true undeploy
+              operation. The configuration delivered to a Managed Server is
+              also not removed. </p>
+            
+          </li>
+
+          <li>
+            <span>Click <b>Shutdown</b>, and select
+            <b>Halt</b>.</span>
+
+             
+              <p>When a partition is in the <code>HALTED</code> state, all
+              resource groups in the partition are shutdown and the partition
+              is fully shutdown on all targets.</p>
+            
+          </li>
+        </ol>
+      </li>
+    <li>To activate these changes, in the Change Center of the Administration Console, click <b>Activate Changes</b>. <br>Not all changes take effect immediately&mdash;some require a restart (see <a href="/consolehelp/console-help.portal?_nfpb=true&_pageLabel=page&helpId=console.UseTheChangeCenter">Use the Change Center</a>).</li></ol>
+  </div>
+
+
+</body></html>

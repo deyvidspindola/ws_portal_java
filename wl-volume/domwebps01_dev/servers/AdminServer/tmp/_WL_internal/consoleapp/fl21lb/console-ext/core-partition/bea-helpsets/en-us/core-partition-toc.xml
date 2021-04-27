@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE toc PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp TOC Version 2.0//EN" "http://java.sun.com/products/javahelp/toc_2_0.dtd">
+<toc xml:lang="en-US" version="2.0" categoryclosedimage="chapter" topicimage="topic">
+  <tocitem text="Core Partition Extension" target="intro">
+    <tocitem text="How Do I..." target="blank">
+    
+  <tocitem text="Partitions" target="blank">
+    <tocitem text="Create domain partitions" target="partition.CreatePartitions"/>
+
+    <tocitem text="Delete domain partitions" target="partition.DeletePartitions"/>
+
+    <tocitem text="Export partitions" target="partition.ExportPartitions"/>
+
+    <tocitem text="Import partitions" target="partition.ImportPartitions"/>
+
+    <tocitem text="Configure domain partition general settings" target="partition.ConfigurePartitions"/>
+
+    <tocitem text="Configure resource deployment plans" target="partition.ConfigureRDP"/>
+
+    <tocitem text="Configure domain partition resource groups" target="partition.ConfigurePartitionsResourceGroups"/>
+
+    <tocitem text="Configure domain partition file systems" target="partition.ConfigurePartitionsFileSystems"/>
+
+    <tocitem text="Configure domain partition JTA options" target="partition.ConfigurePartitionsJTA"/>
+
+    <tocitem text="Configure domain partition concurrent constraints" target="partition.ConfigurePartitionsConcurrency"/>
+
+    <tocitem text="Configure domain partition available targets" target="partition.ConfigurePartitionsTargets"/>
+
+    <tocitem text="Start and stop domain partitions" target="partition.StartStopPartitions"/>
+  </tocitem>
+
+
+    
+  <tocitem text="Partition-Level Resource Groups" target="blank">
+    <tocitem text="Create and manage resource groups at the partition level" target="partition.resourcegroup.PartResourceGroups"/>
+
+    <tocitem text="Create a new resource group at the partition level" target="partition.resourcegroup.PartCreateResourceGroups"/>
+
+    <tocitem text="Delete resource groups at the partition level" target="partition.resourcegroup.PartDeleteResourceGroups"/>
+
+    <tocitem text="Configure resource groups at the partition level" target="partition.resourcegroup.PartConfigureResourceGroups"/>
+
+    <tocitem text="Control resource groups at the partition level" target="partition.resourcegroup.PartControlResourceGroups"/>
+
+    <tocitem text="Start resource groups at the partition level" target="partition.resourcegroup.PartStartResourceGroups"/>
+
+    <tocitem text="Target resource groups at the partition level to virtual targets" target="partition.resourcegroup.PartTargetResourceGroups"/>
+
+    <tocitem text="Create OSGi frameworks" target="partition.resourcegroup.PartCreateOSGiFrameworks"/>
+
+    <tocitem text="Clone OSGi frameworks" target="partition.resourcegroup.PartCloneOSGiFrameworks"/>
+
+    <tocitem text="Delete OSGi frameworks" target="partition.resourcegroup.PartDeleteOSGiFrameworks"/>
+
+    <tocitem text="Target OSGi frameworks" target="partition.resourcegroup.PartTargetOSGiFrameworks"/>
+  </tocitem>
+
+
+    
+  <tocitem text="Partition Work Managers" target="blank">
+    <tocitem text="Define Partition Work Managers" target="partition.work.CreatePartitionWorkManagers"/>
+
+    <tocitem text="Configure Partition Work Managers" target="partition.work.ConfigurePartitionWorkManagers"/>
+
+    <tocitem text="Associate partitions with Partition Work Managers" target="partition.work.AssignPartitionWorkManagers"/>
+  </tocitem>
+
+
+    
+  <tocitem text="Resource Consumption Managerment" target="blank">
+    <tocitem text="Configure partition resource managers" target="partition.rcm.ConfigurePartitionRcmManagers"><tocitem text="Create a partition resource manager" target="partition.rcm.CreatePartitionRcmManagers"/></tocitem>
+
+    <tocitem text="Monitor open files" target="partition.rcm.MonitorPartitionRcmFiles"/>
+
+    <tocitem text="Monitor CPU utilization" target="partition.rcm.MonitorPartitionRcmCPU"/>
+
+    <tocitem text="Monitor heap utilization" target="partition.rcm.MonitorPartitionRcmHeap"/>
+  </tocitem>
+
+
+    
+  <tocitem text="JDBC Overrides" target="blank">
+    <tocitem text="Create JDBC system resource overrides" target="partition.jdbcoverride.CreateJDBCOverrides"/>
+
+    <tocitem text="Configure JDBC system resource overrides" target="partition.jdbcoverride.ConfigureJDBCOverrides"/>
+
+    <tocitem text="Delete JDBC system resource overrides" target="partition.jdbcoverride.DeleteJDBCOverrides"/>
+  </tocitem>
+
+
+    
+  <tocitem text="Mail Session Overrides" target="blank">
+    <tocitem text="Create mail session overrides" target="partition.mailsessionoverride.CreateMailSessionOverrides"/>
+
+    <tocitem text="Configure mail session overrides" target="partition.mailsessionoverride.ConfigureMailSessionOverrides"/>
+
+    <tocitem text="Delete mail session overrides" target="partition.mailsessionoverride.DeleteMailSessionOverrides"/>
+  </tocitem>
+
+
+    
+  <tocitem text="JMS Overrides" target="blank">
+    <tocitem text="Create JMS system resource overrides" target="partition.jmsoverride.CreateJMSModuleOverrides"/>
+
+    <tocitem text="Configure JMS module overrides" target="partition.jmsoverride.ConfigureJMSModuleOverrides"/>
+
+    <tocitem text="Delete JMS module overrides" target="partition.jmsoverride.DeleteJMSModuleOverrides"/>
+
+    <tocitem text="Create foreign server overrides" target="partition.jmsoverride.CreateForeignServerOverrides"/>
+
+    <tocitem text="Configure foreign server overrides" target="partition.jmsoverride.ConfigureForeignServerOverrides"/>
+
+    <tocitem text="Delete foreign server overrides" target="partition.jmsoverride.DeleteForeignServerOverrides"/>
+
+    <tocitem text="Create foreign destination overrides" target="partition.jmsoverride.CreateForeignDestinationOverrides"/>
+
+    <tocitem text="Configure foreign destination overrides" target="partition.jmsoverride.ConfigureForeignDestinationOverrides"/>
+
+    <tocitem text="Delete foreign destination overrides" target="partition.jmsoverride.DeleteForeignDestinationOverrides"/>
+
+    <tocitem text="Create foreign connection factory overrides" target="partition.jmsoverride.CreateForeignConnectionFactoryOverrides"/>
+
+    <tocitem text="Configure foreign connection factory overrides" target="partition.jmsoverride.ConfigureForeignConnectionFactoryOverrides"/>
+
+    <tocitem text="Delete foreign connection factory overrides" target="partition.jmsoverride.DeleteForeignConnectionFactoryOverrides"/>
+  </tocitem>
+
+
+    
+  <tocitem text="Partition-Level Coherence Cache" target="blank">
+    <tocitem text="Create a Coherence cache at the partition level" target="partition.coherencecache.CreateCoherenceCache"/>
+
+    <tocitem text="Override Coherence cache configuration properties at the partition level" target="partition.coherencecache.OverrideCoherenceCacheProperties"/>
+
+    <tocitem text="Enable Coherence cache sharing at the partition level" target="partition.coherencecache.ShareCoherenceCache"/>
+
+    <tocitem text="Delete a Coherence cache from a partition" target="partition.coherencecache.DeleteCoherenceCache"/>
+  </tocitem>
+
+  </tocitem>
+
+    <tocitem text="Core Partition Reference" target="blank">
+    
+  <tocitem text="Domain Partitions" target="Core-partitioncorepartitiontabletitle"><tocitem text="Domain Partitions : Control" target="Core-partitioncorepartitioncontroltabletitle"/><tocitem text="Domain Partition Monitoring: Partition Health Table" target="Core-partitioncorepartitionhealthtabletitle"/><tocitem text="Create a Domain Partition" target="Core-partitioncorepartitioncreatepartitiontitle"/><tocitem text="Delete a Domain Partition" target="Core-partitioncorepartitiondeletepartitiontitle"/><tocitem text="Import a Domain Partition" target="Core-partitioncorepartitionimportpartitiontitle"/><tocitem text="Export a Domain Partition" target="Core-partitioncorepartitionexportpartitiontitle"/><tocitem text="Domain Partitions: Lifecycle" target="Core-partitioncorepartitionlifecycletitle"/><tocitem text="Configuration" target="blank">
+      <tocitem text="Domain Partition: Configuration: General" target="Core-partitioncorepartitionpartitionconfiggeneraltitle"/>
+
+      <tocitem text="Domain Partition: Configuration: Available Targets" target="Core-partitioncorepartitionavailableTargetstitle"/>
+
+      <tocitem text="Domain Partition: Configuration: File System" target="Core-partitioncorepartitionpartitionfilesystemtitle"/>
+
+      <tocitem text="Domain Partition: Configuration: Logging/Debug" target="Core-partitioncorepartitionpartitionloggingdebugtitle"><tocitem text="Enable/Disable Server Debug Attributes" target="corepartitionloggingdebugchangedebugpagetitle"/></tocitem>
+
+      <tocitem text="Domain Partition: Configuration: JTA" target="Core-partitioncorepartitionpartitionconfigjtatitle"/>
+
+      <tocitem text="Domain Partition: Configuration: Concurrent Contraints" target="Core-partitioncorepartitionpartitionconfigconcurrencytitle"/>
+
+      <tocitem text="Domain Partition: Configuration: Partition Work Manager" target="Core-partitioncorepartitionpartitionconfigworkmanagertitle"/>
+
+      <tocitem text="Domain Partition: Configuration: Resource Management" target="Core-partitioncorepartitionrcmmanagementtitle"/>
+    </tocitem></tocitem>
+
+  <tocitem text="Domain Partition : Resource Groups" target="Core-partitioncorepartitionpartitionresourcegroupstabletitle"><tocitem text="Domain Partition Resource Groups : Control" target="Core-partitioncorepartitionpartitionresourcegroupscontroltabletitle"/><tocitem text="Create a Domain Partition Resource Group" target="Core-partitioncorepartitioncreatepartitionresourcegrouptitle"/><tocitem text="Delete a Domain Partition Resource Group" target="Core-partitioncorepartitiondeletepartitionresourcegrouptitle"/><tocitem text="Resource Groups: Lifecycle" target="Core-partitioncorepartitionresourcegrouplifecycletitle"/><tocitem text="Resource Group : Configuration" target="Core-partitioncorepartitionpartitionresourcegroupconfiggeneraltitle"/><tocitem text="Resource Group: Deployments" target="Core-partitioncorepartitionresourcegroupdeploymentstabletitle"/><tocitem text="Resource Group : Services" target="blank">
+      <tocitem text="Domain Partition: Resource Group: Services: JDBC" target="Core-partitioncorepartitionresourcegroupsservicesjdbctitle"/>
+
+      <tocitem text="Domain Partition: Resource Groups: Services: JMS Modules and Servers" target="Core-partitioncorepartitionresourcegroupsservicesjmstitle"/>
+
+      <tocitem text="Domain Partition: Resource Groups: Services: Bridges: Messaging Bridges" target="Core-partitioncorepartitionPartitionRGMessagingBridgetitle"><tocitem text="Domain Partition: Resource Groups: Services: JMS Bridge Destinations" target="Core-partitioncorepartitionPartitionRGJMSBridgeDestinationtitle"/></tocitem>
+
+      <tocitem text="Mail Sessions" target="Core-partitioncorepartitionresourcegroupmailsessionstitle"/>
+
+      <tocitem text="Domain Partition: Resource Groups: Services: Persistent Stores" target="Core-partitioncorepartitionresourcegroupjmsstoretabletitle"/>
+
+      <tocitem text="Domain Partition: Resource Group: Services: Path Services" target="Core-partitioncorepartitionpartitionresourcegroupspathservicetitle"/>
+
+      <tocitem text="Foreign JNDI Providers" target="Core-partitioncorepartitionresourcegroupforeignjndiprovidertabletitle"/>
+
+      <tocitem text="Diagnostic System Modules" target="Core-partitioncorepartitionresourcegroupmoduletabletitle"/>
+
+      <tocitem text="Domain Partition: Resource Groups: Services: Store-and-Forward (SAF) Agents" target="Core-partitioncorepartitionresourcegroupservicesafagentstitle"/>
+
+      <tocitem text="OSGi Framework" target="Core-partitioncorepartitionresourcegrouposgiframeworktitle"/>
+    </tocitem><tocitem text="Resource Group : Notes" target="Core-partitioncorepartitionpartitionresourcegroupsnotestitle"/></tocitem>
+
+  <tocitem text="Domain Partition: Deployments" target="Core-partitioncorepartitionpartitiondeploymentstabletitle"/>
+
+  <tocitem text="Domain Partition : Services" target="blank">
+    <tocitem text="Domain Partition: Services: JDBC" target="Core-partitioncorepartitionpartitionservicesjdbctitle"/>
+
+    <tocitem text="Domain Partition: Services: JMS Modules and Servers" target="Core-partitioncorepartitionjmsservertabletitle"/>
+
+    <tocitem text="Domain Partition: Services: Bridges: Messaging Bridges" target="Core-partitioncorepartitionPartitionMessagingBridgestitle"><tocitem text="Domain Partition: Services: JMS Bridge Destinations" target="Core-partitioncorepartitionPartitionJMSBridgeDestinationtitle"/></tocitem>
+
+    <tocitem text="Mail Sessions" target="Core-partitioncorepartitionmailsessionstitle"/>
+
+    <tocitem text="Domain Partition: Services:Persistent Stores" target="Core-partitioncorepartitionjmsstoretabletitle"/>
+
+    <tocitem text="Domain Partition: Services:Path Services" target="Core-partitioncorepartitionpathservicetitle"/>
+
+    <tocitem text="Foreign JNDI Providers" target="Core-partitioncorepartitionforeignjndiprovidertabletitle"/>
+
+    <tocitem text="Domain Partition: Services: WLDF" target="Core-partitioncorepartitionmoduletabletitle"/>
+
+    <tocitem text="Domain Partition: Services: Store-and-Forward (SAF) Agents" target="Core-partitioncorepartitionsafagentstitle"/>
+
+    <tocitem text="OSGi Framework" target="Core-partitioncorepartitionosgiframeworktitle"/>
+  </tocitem>
+
+  <tocitem text="Domain Partition : Resource Overrides" target="blank">
+    <tocitem text="JDBC System Resource Overrides" target="Core-partitioncorepartitionjdbcsystemresourceoverridetitle"><tocitem text="Create JDBC System Resource Override" target="Core-partitioncorepartitioncreatejdbcsystemresourceoverridetitle"/><tocitem text="Delete a JDBC System Resource Override" target="Core-partitioncorepartitiondeletejdbcsystemresourceoverridetitle"/><tocitem text="JDBC System Resource Override : Configuration" target="Core-partitioncorepartitionjdbcsystemresourceoverrideconfiggeneraltitle"/><tocitem text="JDBC System Resource Override : Notes" target="Core-partitioncorepartitionjdbcsystemresourceoverridenotestitle"/><tocitem text="Add Encrypted Property" target="Core-partitioncorepartitionjdbcsystemresourceoverrideaddjdbcencryptedpropertytitle"/></tocitem>
+
+    <tocitem text="Mail Session Overrides" target="Core-partitioncorepartitionmailsessionoverridetitle"><tocitem text="Create a Mail Session Override" target="corepartitioncreatemailsessionoverridepagetitle"/><tocitem text="Delete a Mail Session Override" target="corepartitiondeletemailsessionoverridepagetitle"/><tocitem text="Mail Session Override : Configuration" target="corepartitionmailsessionoverrideconfigtitle"/><tocitem text="Mail Session Override : Notes" target="Core-partitioncorepartitionmailsessionoverridenotestitle"/></tocitem>
+
+    <tocitem text="JMS System Module Overrides" target="JMSjmsmodulesoverridetitle"><tocitem text="Create a JMS System Module Override" target="JMSjmsmodulessystemcreatejmsmoduleoverridetitle"/><tocitem text="Delete a JMS System Module Override" target="JMSjmsmodulesoverridesystemdeletejmsmoduleoverridetitle"/><tocitem text="JMS System Module Override : Notes" target="jmssystemmoduleoverrideconfignotestitle"/><tocitem text="Foreign Server Overrides" target="JMSjmsforeignserveroverridetabletitle"/><tocitem text="Create a JMS Foreign Server Override" target="corepartitioncreateforeignserveroverridepagetitle"/><tocitem text="Delete a JMS Foreign Server Override" target="jmsmodulesoverridedeleteforeignserveroverridetitle"/><tocitem text="Foreign Server Override : Configuration" target="jmsmoduleoverrideforeignserveroverrideconfigtitle"/><tocitem text="Foreign Server Override : Notes" target="jmsforeignjmsserveroverridenotesnotestitle"/><tocitem text="Foreign Destination Overrides" target="jmsmoduleoverrideforeignserverdestinationoverridetabletitle"/><tocitem text="Create a Foreign JMS Destination Override" target="corepartitioncreateforeigndestinationoverridepagetitle"/><tocitem text="Delete a Foreign JMS Destination Override" target="jmsmodulesoverridedeleteforeigndestinationoverridetitle"/><tocitem text="Foreign JMS Destination Override : Configuration" target="jmsforeigndestinationoverrideconfigtitle"/><tocitem text="Foreign JMS Destination Override: Notes" target="jmsforeigndestinationoverridenotestitle"/><tocitem text="Foreign Connection Factory Overrides" target="jmsmoduleoverrideforeignserverconnectionfactoryoverridetabletitle"/><tocitem text="Create a Foreign JMS Connection Factory Override" target="corepartitioncreateforeignconnectionfactoryoverridepagetitle"/><tocitem text="Delete a Foreign JMS Connection Factory Override" target="jmsmodulesoverridedeleteforeignconnectionfactoryoverridetitle"/><tocitem text="Foreign JMS Connection Factory Override : Configuration" target="jmsforeignconnectionfactoryoverrideconfigtitle"/><tocitem text="Foreign JMS Connection Factory Override : Notes" target="jmsforeignconnectionfactoryoverridenotestitle"/></tocitem>
+  </tocitem>
+
+  <tocitem text="Domain Partition : Partition Coherence Caches" target="Core-partitioncorepartitioncoherencecachetabletitle"><tocitem text="Create a Partition Coherence Cache" target="Core-partitioncorepartitioncreatecoherencemtcachetitle"/><tocitem text="Delete a Partition Coherence Cache" target="Core-partitioncorepartitiondeletecoherencecachetitle"/><tocitem text="Partition Coherence Cache : Configuration" target="Core-partitioncorepartitioncoherencecacheconfiggeneraltitle"/><tocitem text="Create a Partition Coherence Cache Property" target="Core-partitioncorepartitioncreatecoherencemtcachepropertytitle"/><tocitem text="Delete a Partition Coherence Cache Property" target="Core-partitioncorepartitiondeletecoherencemtcachepropertytitle"/><tocitem text="Partition Coherence Cache Property : Configuration" target="Core-partitioncorepartitioncoherencemtcacchpropertytitle"/><tocitem text="Partition Coherence Cache : Notes" target="Core-partitioncorepartitioncoherencemtcachetitle"/></tocitem>
+
+  <tocitem text="Domain Partition : Work Manager" target="Core-partitioncorepartitionpartitionworkmanagertitle"/>
+
+  <tocitem text="Domain Partition : Concurrent Managed Object Templates" target="Core-partitioncorepartitionpartitioncmotemplatetitle"/>
+
+  <tocitem text="Domain Partition : Monitoring" target="blank">
+
+    <tocitem text="Domain Partition Monitoring: Partition Health Table" target="Core-partitioncorepartitionhealthtabletitle"/>
+
+    <tocitem text="Monitoring : Resource Management" target="blank">
+      <tocitem text="Domain Partition: Monitoring: Resource Management: CPU Utilization" target="Core-partitioncorepartitionmonitoringrcmcputitle"/>
+
+      <tocitem text="Domain Partition: Monitoring: Resource Management: File Open" target="Core-partitioncorepartitionmonitoringrcmfiletitle"/>
+
+      <tocitem text="Domain Partition: Monitoring: Resource Management: Heap Retained" target="Core-partitioncorepartitionmonitoringrcmheaptitle"/>
+    </tocitem>
+
+    <tocitem text="Monitoring : Batch Jobs" target="Core-partitioncorepartitionbatchjobstabletitle"><tocitem text="Batch Job Executions" target="Core-partitioncorepartitionbatchjobexecutionstabletitle"/><tocitem text="Batch Job Step Executions" target="Core-partitioncorepartitionbatchjobstepexecutionstabletitle"/></tocitem>
+  </tocitem>
+
+  <tocitem text="Domain Partition : Notes" target="Core-partitioncorepartitionpartitionnotestitle"/>
+
+  <tocitem text="Partition Work Managers" target="Core-Partitionglobalpartitionworkmgrtabletitle"><tocitem text="Create a Partition Work Manager" target="Core-Partitionglobalpartitionworkmgrcreatetitle"/><tocitem text="Delete a Partition Work Manager" target="Core-Partitionglobalpartitionworkmgrdeletetitle"/><tocitem text="Partition Work Manager: Configuration" target="Core-Partitionglobalpartitionworkmgrconfigtitle"/></tocitem>
+
+  </tocitem>
+  </tocitem>
+</toc>

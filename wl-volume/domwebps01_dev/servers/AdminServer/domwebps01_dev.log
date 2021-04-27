@@ -1,0 +1,275 @@
+####<Apr 27, 2021 1:46:59,014 PM GMT> <Notice> <Security> <AdminContainer> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <e14c6291-edcf-434c-b10c-a266e30217ef-00000002> <1619531219014> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-090946> <Security pre-initializing using security realm: myrealm> 
+####<Apr 27, 2021 1:46:59,689 PM GMT> <Notice> <Security> <AdminContainer> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <e14c6291-edcf-434c-b10c-a266e30217ef-00000002> <1619531219689> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-090947> <Security post-initializing using security realm: myrealm> 
+####<Apr 27, 2021 1:47:01,527 PM GMT> <Notice> <Security> <AdminContainer> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <e14c6291-edcf-434c-b10c-a266e30217ef-00000002> <1619531221527> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-090082> <Security initialized using administrative security realm: myrealm> 
+####<Apr 27, 2021 1:47:01,950 PM GMT> <Notice> <JMX> <AdminContainer> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <e14c6291-edcf-434c-b10c-a266e30217ef-00000002> <1619531221950> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-149512> <JMX Connector Server started at service:jmx:iiop://172.17.0.2:7001/jndi/weblogic.management.mbeanservers.runtime.> 
+####<Apr 27, 2021 1:47:02,475 PM GMT> <Notice> <Security> <AdminContainer> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <e14c6291-edcf-434c-b10c-a266e30217ef-00000002> <1619531222475> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-090171> <Loading the identity certificate and private key stored under the alias DemoIdentity from the jks keystore file /u01/oracle/user_projects/domains/domwebps01_dev/security/DemoIdentity.jks.> 
+####<Apr 27, 2021 1:47:02,484 PM GMT> <Notice> <Security> <AdminContainer> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <e14c6291-edcf-434c-b10c-a266e30217ef-00000002> <1619531222484> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-090169> <Loading trusted certificates from the jks keystore file /u01/oracle/wlserver/server/lib/DemoTrust.jks.> 
+####<Apr 27, 2021 1:47:02,497 PM GMT> <Notice> <Security> <AdminContainer> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <e14c6291-edcf-434c-b10c-a266e30217ef-00000002> <1619531222497> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-090169> <Loading trusted certificates from the jks keystore file /u01/jdk/jre/lib/security/cacerts.> 
+####<Apr 27, 2021 1:47:02,808 PM GMT> <Notice> <JMX> <AdminContainer> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <e14c6291-edcf-434c-b10c-a266e30217ef-00000002> <1619531222808> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-149512> <JMX Connector Server started at service:jmx:iiop://172.17.0.2:7001/jndi/weblogic.management.mbeanservers.domainruntime.> 
+####<Apr 27, 2021 1:47:02,931 PM GMT> <Notice> <JMX> <AdminContainer> <AdminServer> <[STANDBY] ExecuteThread: '3' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <e14c6291-edcf-434c-b10c-a266e30217ef-00000004> <1619531222931> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-149512> <JMX Connector Server started at service:jmx:iiop://172.17.0.2:7001/jndi/weblogic.management.mbeanservers.edit.> 
+####<Apr 27, 2021 1:47:04,626 PM GMT> <Notice> <WebLogicServer> <AdminContainer> <AdminServer> <[STANDBY] ExecuteThread: '2' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <e14c6291-edcf-434c-b10c-a266e30217ef-00000003> <1619531224626> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-000365> <Server state changed to STANDBY.> 
+####<Apr 27, 2021 1:47:04,627 PM GMT> <Notice> <WebLogicServer> <AdminContainer> <AdminServer> <[STANDBY] ExecuteThread: '2' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <e14c6291-edcf-434c-b10c-a266e30217ef-00000003> <1619531224627> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-000365> <Server state changed to STARTING.> 
+####<Apr 27, 2021 1:47:04,691 PM GMT> <Notice> <Log Management> <AdminContainer> <AdminServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <e14c6291-edcf-434c-b10c-a266e30217ef-00000006> <1619531224691> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-170036> <The Logging monitoring service timer has started to check for logged message counts every 30 seconds.> 
+####<Apr 27, 2021 1:47:05,050 PM GMT> <Notice> <Log Management> <AdminContainer> <AdminServer> <[STANDBY] ExecuteThread: '9' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <e14c6291-edcf-434c-b10c-a266e30217ef-0000000a> <1619531225050> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-170027> <The server has successfully established a connection with the Domain level Diagnostic Service.> 
+####<Apr 27, 2021 1:47:05,340 PM GMT> <Notice> <WebLogicServer> <AdminContainer> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <e14c6291-edcf-434c-b10c-a266e30217ef-0000000b> <1619531225340> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-000365> <Server state changed to ADMIN.> 
+####<Apr 27, 2021 1:47:05,430 PM GMT> <Notice> <WebLogicServer> <AdminContainer> <AdminServer> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <e14c6291-edcf-434c-b10c-a266e30217ef-0000000b> <1619531225430> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-000365> <Server state changed to RESUMING.> 
+####<Apr 27, 2021 1:47:05,481 PM GMT> <Notice> <Server> <AdminContainer> <AdminServer> <weblogic.socket.ServerListenThread> <<WLS Kernel>> <> <e14c6291-edcf-434c-b10c-a266e30217ef-0000000d> <1619531225481> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-002613> <Channel "Default" is now listening on 172.17.0.2:7001 for protocols iiop, t3, ldap, snmp, http.> 
+####<Apr 27, 2021 1:47:05,482 PM GMT> <Notice> <Server> <AdminContainer> <AdminServer> <weblogic.socket.ServerListenThread> <<WLS Kernel>> <> <e14c6291-edcf-434c-b10c-a266e30217ef-0000000d> <1619531225482> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-002613> <Channel "Default[1]" is now listening on 127.0.0.1:7001 for protocols iiop, t3, ldap, snmp, http.> 
+####<Apr 27, 2021 1:47:05,483 PM GMT> <Notice> <Server> <AdminContainer> <AdminServer> <weblogic.socket.ServerListenThread> <<WLS Kernel>> <> <e14c6291-edcf-434c-b10c-a266e30217ef-0000000d> <1619531225483> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-002613> <Channel "Default" is now listening on 172.17.0.2:7001 for protocols iiop, t3, ldap, snmp, http.> 
+####<Apr 27, 2021 1:47:05,483 PM GMT> <Notice> <Server> <AdminContainer> <AdminServer> <weblogic.socket.ServerListenThread> <<WLS Kernel>> <> <e14c6291-edcf-434c-b10c-a266e30217ef-0000000d> <1619531225483> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-002613> <Channel "Default[1]" is now listening on 127.0.0.1:7001 for protocols iiop, t3, ldap, snmp, http.> 
+####<Apr 27, 2021 1:47:05,483 PM GMT> <Notice> <WebLogicServer> <AdminContainer> <AdminServer> <[STANDBY] ExecuteThread: '12' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <e14c6291-edcf-434c-b10c-a266e30217ef-0000000e> <1619531225483> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-000331> <Started the WebLogic Server Administration Server "AdminServer" for domain "domwebps01_dev" running in development mode.> 
+####<Apr 27, 2021 1:47:05,508 PM GMT> <Notice> <WebLogicServer> <AdminContainer> <AdminServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <e14c6291-edcf-434c-b10c-a266e30217ef-0000000f> <1619531225508> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-000360> <The server started in RUNNING mode.> 
+####<Apr 27, 2021 1:47:05,522 PM GMT> <Notice> <WebLogicServer> <AdminContainer> <AdminServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <e14c6291-edcf-434c-b10c-a266e30217ef-0000000f> <1619531225522> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-000365> <Server state changed to RUNNING.> 
+####<Apr 27, 2021 1:53:53,186 PM GMT> <Warning> <Socket> <AdminContainer> <AdminServer> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <e14c6291-edcf-434c-b10c-a266e30217ef-00000013> <1619531633186> <[severity-value: 16] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-000449> <Closing the socket, as no data read from it on 172.17.0.1:55,574 during the configured idle timeout of 5 seconds.> 
+####<Apr 27, 2021 2:18:28,068 PM GMT> <Notice> <JMX> <AdminContainer> <AdminServer> <[STANDBY] ExecuteThread: '9' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <e14c6291-edcf-434c-b10c-a266e30217ef-00000014> <1619533108068> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-149535> <JMX Resiliency Activity Server=AdminServer : Initializing callbacks> 
+####<Apr 27, 2021 2:18:28,077 PM GMT> <Notice> <JMX> <AdminContainer> <AdminServer> <pool-1-thread-1> <<WLS Kernel>> <> <e14c6291-edcf-434c-b10c-a266e30217ef-00000014> <1619533108077> <[severity-value: 32] [rid: 0:1] [partition-id: 0] [partition-name: DOMAIN] > <BEA-149535> <JMX Resiliency Activity Server=AdminServer : Added MBeanServerConnection in DomainRuntimeServiceMBean > 
+####<Apr 27, 2021 2:18:28,088 PM GMT> <Notice> <JMX> <AdminContainer> <AdminServer> <[STANDBY] ExecuteThread: '9' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <e14c6291-edcf-434c-b10c-a266e30217ef-00000014> <1619533108088> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-149535> <JMX Resiliency Activity Server=AdminServer : Callback is done> 
+####<Apr 27, 2021 2:18:28,093 PM GMT> <Notice> <JMX> <AdminContainer> <AdminServer> <[STANDBY] ExecuteThread: '9' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <e14c6291-edcf-434c-b10c-a266e30217ef-00000014> <1619533108093> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-149535> <JMX Resiliency Activity Server=AdminServer : Connection already exists for the server. Did not attempt to connect to the server> 
+####<Apr 27, 2021 2:18:28,094 PM GMT> <Notice> <JMX> <AdminContainer> <AdminServer> <[STANDBY] ExecuteThread: '9' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <e14c6291-edcf-434c-b10c-a266e30217ef-00000014> <1619533108094> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-149535> <JMX Resiliency Activity Server=mngnode1 : Attempting to connect to the server during initialization > 
+####<Apr 27, 2021 2:18:28,095 PM GMT> <Notice> <JMX> <AdminContainer> <AdminServer> <[STANDBY] ExecuteThread: '9' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <e14c6291-edcf-434c-b10c-a266e30217ef-00000014> <1619533108095> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-149535> <JMX Resiliency Activity Server=mngnode1 : Starting JMX connection. forceReconnect value: false> 
+####<Apr 27, 2021 2:18:28,096 PM GMT> <Warning> <JMX> <AdminContainer> <AdminServer> <[STANDBY] ExecuteThread: '9' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <e14c6291-edcf-434c-b10c-a266e30217ef-00000014> <1619533108096> <[severity-value: 16] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-149505> <The Administration Server was unable to establish JMX Connectivity with the mngnode1 at the JMX Service URL of <none>.> 
+####<Apr 27, 2021 2:18:28,097 PM GMT> <Notice> <JMX> <AdminContainer> <AdminServer> <[STANDBY] ExecuteThread: '9' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <e14c6291-edcf-434c-b10c-a266e30217ef-00000014> <1619533108097> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-149535> <JMX Resiliency Activity Server=mngnode1 : No URL found for the server during the initialization> 
+####<Apr 27, 2021 2:18:29,746 PM GMT> <Notice> <JMX> <AdminContainer> <AdminServer> <[STANDBY] ExecuteThread: '10' for queue: 'weblogic.kernel.Default (self-tuning)'> <weblogic> <> <e14c6291-edcf-434c-b10c-a266e30217ef-00000015> <1619533109746> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-149535> <JMX Resiliency Activity Server=All Servers : Resolving connection list DomainRuntimeServiceMBean> 
+####<Apr 27, 2021 2:18:44,444 PM GMT> <Warning> <NodeManager> <AdminContainer> <AdminServer> <[ACTIVE] ExecuteThread: '12' for queue: 'weblogic.kernel.Default (self-tuning)'> <weblogic> <> <e14c6291-edcf-434c-b10c-a266e30217ef-00000019> <1619533124444> <[severity-value: 16] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-300057> <Starting server mngnode1 on machine devMachine at localhost:5556> 
+####<Apr 27, 2021 2:18:44,484 PM GMT> <Warning> <netuix> <AdminContainer> <AdminServer> <[ACTIVE] ExecuteThread: '12' for queue: 'weblogic.kernel.Default (self-tuning)'> <weblogic> <> <e14c6291-edcf-434c-b10c-a266e30217ef-00000019> <1619533124484> <[severity-value: 16] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-423420> <Redirect is executed in begin or refresh action. Redirect url is /console/console.portal?_nfpb=true&_pageLabel=WLSServerControlTablePage.> 
+####<Apr 27, 2021 2:18:51,436 PM GMT> <Notice> <Security> <AdminContainer> <mngnode1> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <64c281cb-f3da-49fc-8980-8a1bba875c73-00000002> <1619533131436> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-090946> <Security pre-initializing using security realm: myrealm> 
+####<Apr 27, 2021 2:18:51,979 PM GMT> <Notice> <Security> <AdminContainer> <mngnode1> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <64c281cb-f3da-49fc-8980-8a1bba875c73-00000002> <1619533131979> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-090947> <Security post-initializing using security realm: myrealm> 
+####<Apr 27, 2021 2:18:53,714 PM GMT> <Notice> <Security> <AdminContainer> <mngnode1> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <64c281cb-f3da-49fc-8980-8a1bba875c73-00000002> <1619533133714> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-090082> <Security initialized using administrative security realm: myrealm> 
+####<Apr 27, 2021 2:18:53,957 PM GMT> <Notice> <JMX> <AdminContainer> <mngnode1> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <64c281cb-f3da-49fc-8980-8a1bba875c73-00000002> <1619533133957> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-149512> <JMX Connector Server started at service:jmx:iiop://172.17.0.2:8001/jndi/weblogic.management.mbeanservers.runtime.> 
+####<Apr 27, 2021 2:18:55,780 PM GMT> <Notice> <WebLogicServer> <AdminContainer> <mngnode1> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <64c281cb-f3da-49fc-8980-8a1bba875c73-00000003> <1619533135780> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-000365> <Server state changed to STANDBY.> 
+####<Apr 27, 2021 2:18:55,784 PM GMT> <Notice> <WebLogicServer> <AdminContainer> <mngnode1> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <64c281cb-f3da-49fc-8980-8a1bba875c73-00000003> <1619533135784> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-000365> <Server state changed to STARTING.> 
+####<Apr 27, 2021 2:18:55,847 PM GMT> <Notice> <Log Management> <AdminContainer> <mngnode1> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <64c281cb-f3da-49fc-8980-8a1bba875c73-00000006> <1619533135847> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-170036> <The Logging monitoring service timer has started to check for logged message counts every 30 seconds.> 
+####<Apr 27, 2021 2:19:12,434 PM GMT> <Error> <Deployer> <AdminContainer> <mngnode1> <[STANDBY] ExecuteThread: '4' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <64c281cb-f3da-49fc-8980-8a1bba875c73-00000008> <1619533152434> <[severity-value: 8] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-149205> <Failed to initialize the application "ModuloEnvioConfig" due to error weblogic.application.ModuleException: java.lang.ClassNotFoundException: org.apache.commons.logging.Log
+weblogic.application.ModuleException: java.lang.ClassNotFoundException: org.apache.commons.logging.Log
+	at weblogic.application.internal.ExtensibleModuleWrapper.prepare(ExtensibleModuleWrapper.java:114)
+	at weblogic.application.internal.flow.ModuleListenerInvoker.prepare(ModuleListenerInvoker.java:100)
+	at weblogic.application.internal.flow.ModuleStateDriver$1.next(ModuleStateDriver.java:192)
+	at weblogic.application.internal.flow.ModuleStateDriver$1.next(ModuleStateDriver.java:187)
+	at weblogic.application.utils.StateMachineDriver$ParallelChange.run(StateMachineDriver.java:83)
+	at weblogic.application.utils.StateMachineDriver.nextStateInParallel(StateMachineDriver.java:144)
+	at weblogic.application.internal.flow.ModuleStateDriver.parallelPrepare(ModuleStateDriver.java:46)
+	at weblogic.application.internal.flow.DeploymentCallbackFlow.prepare(DeploymentCallbackFlow.java:75)
+	at weblogic.application.internal.flow.DeploymentCallbackFlow.prepare(DeploymentCallbackFlow.java:55)
+	at weblogic.application.internal.BaseDeployment$1.next(BaseDeployment.java:729)
+	at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:45)
+	at weblogic.application.internal.BaseDeployment.prepare(BaseDeployment.java:241)
+	at weblogic.application.internal.SingleModuleDeployment.prepare(SingleModuleDeployment.java:52)
+	at weblogic.application.internal.DeploymentStateChecker.prepare(DeploymentStateChecker.java:158)
+	at weblogic.deploy.internal.targetserver.AppContainerInvoker.prepare(AppContainerInvoker.java:65)
+	at weblogic.deploy.internal.targetserver.AppDeployment.prepare(AppDeployment.java:166)
+	at weblogic.management.deploy.internal.DeploymentAdapter$1.doPrepare(DeploymentAdapter.java:41)
+	at weblogic.management.deploy.internal.DeploymentAdapter.prepare(DeploymentAdapter.java:193)
+	at weblogic.management.deploy.internal.AppTransition$1.transitionApp(AppTransition.java:31)
+	at weblogic.management.deploy.internal.ConfiguredDeployments$2.doItem(ConfiguredDeployments.java:741)
+	at weblogic.management.deploy.internal.parallel.BucketInvoker.invoke(BucketInvoker.java:138)
+	at weblogic.management.deploy.internal.ConfiguredDeployments.transitionAppsParallel(ConfiguredDeployments.java:749)
+	at weblogic.management.deploy.internal.ConfiguredDeployments.prepare(ConfiguredDeployments.java:363)
+	at weblogic.management.deploy.internal.ConfiguredDeployments.deploy(ConfiguredDeployments.java:232)
+	at weblogic.management.deploy.internal.DeploymentServerService.resume(DeploymentServerService.java:219)
+	at weblogic.management.deploy.internal.DeploymentServerService.start(DeploymentServerService.java:133)
+	at weblogic.server.AbstractServerService.postConstruct(AbstractServerService.java:76)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.hk2.utilities.reflection.ReflectionHelper.invoke(ReflectionHelper.java:1287)
+	at org.jvnet.hk2.internal.ClazzCreator.postConstructMe(ClazzCreator.java:333)
+	at org.jvnet.hk2.internal.ClazzCreator.create(ClazzCreator.java:375)
+	at org.jvnet.hk2.internal.SystemDescriptor.create(SystemDescriptor.java:487)
+	at org.glassfish.hk2.runlevel.internal.AsyncRunLevelContext.findOrCreate(AsyncRunLevelContext.java:305)
+	at org.glassfish.hk2.runlevel.RunLevelContext.findOrCreate(RunLevelContext.java:85)
+	at org.jvnet.hk2.internal.Utilities.createService(Utilities.java:2126)
+	at org.jvnet.hk2.internal.ServiceHandleImpl.getService(ServiceHandleImpl.java:116)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getService(ServiceLocatorImpl.java:698)
+	at org.jvnet.hk2.internal.ThreeThirtyResolver.resolve(ThreeThirtyResolver.java:78)
+	at org.jvnet.hk2.internal.ClazzCreator.resolve(ClazzCreator.java:212)
+	at org.jvnet.hk2.internal.ClazzCreator.resolveAllDependencies(ClazzCreator.java:235)
+	at org.jvnet.hk2.internal.ClazzCreator.create(ClazzCreator.java:358)
+	at org.jvnet.hk2.internal.SystemDescriptor.create(SystemDescriptor.java:487)
+	at org.glassfish.hk2.runlevel.internal.AsyncRunLevelContext.findOrCreate(AsyncRunLevelContext.java:305)
+	at org.glassfish.hk2.runlevel.RunLevelContext.findOrCreate(RunLevelContext.java:85)
+	at org.jvnet.hk2.internal.Utilities.createService(Utilities.java:2126)
+	at org.jvnet.hk2.internal.ServiceHandleImpl.getService(ServiceHandleImpl.java:116)
+	at org.jvnet.hk2.internal.ServiceHandleImpl.getService(ServiceHandleImpl.java:90)
+	at org.glassfish.hk2.runlevel.internal.CurrentTaskFuture$QueueRunner.oneJob(CurrentTaskFuture.java:1237)
+	at org.glassfish.hk2.runlevel.internal.CurrentTaskFuture$QueueRunner.run(CurrentTaskFuture.java:1168)
+	at weblogic.work.SelfTuningWorkManagerImpl$WorkAdapterImpl.run(SelfTuningWorkManagerImpl.java:670)
+	at weblogic.invocation.ComponentInvocationContextManager._runAs(ComponentInvocationContextManager.java:352)
+	at weblogic.invocation.ComponentInvocationContextManager.runAs(ComponentInvocationContextManager.java:337)
+	at weblogic.work.LivePartitionUtility.doRunWorkUnderContext(LivePartitionUtility.java:57)
+	at weblogic.work.PartitionUtility.runWorkUnderContext(PartitionUtility.java:41)
+	at weblogic.work.SelfTuningWorkManagerImpl.runWorkUnderContext(SelfTuningWorkManagerImpl.java:644)
+	at weblogic.work.ExecuteThread.execute(ExecuteThread.java:415)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:355)
+Caused By: java.lang.ClassNotFoundException: org.apache.commons.logging.Log
+	at weblogic.utils.classloaders.GenericClassLoader.findLocalClass(GenericClassLoader.java:1029)
+	at weblogic.utils.classloaders.GenericClassLoader.findClass(GenericClassLoader.java:990)
+	at weblogic.utils.classloaders.ChangeAwareClassLoader.findClass(ChangeAwareClassLoader.java:104)
+	at weblogic.utils.classloaders.GenericClassLoader.doFindClass(GenericClassLoader.java:611)
+	at weblogic.utils.classloaders.GenericClassLoader.loadClass(GenericClassLoader.java:543)
+	at weblogic.utils.classloaders.GenericClassLoader.loadClass(GenericClassLoader.java:496)
+	at weblogic.utils.classloaders.ChangeAwareClassLoader.loadClass(ChangeAwareClassLoader.java:89)
+	at weblogic.utils.classloaders.ChangeAwareClassLoader.loadClass(ChangeAwareClassLoader.java:53)
+	at java.lang.Class.getDeclaredFields0(Native Method)
+	at java.lang.Class.privateGetDeclaredFields(Class.java:2583)
+	at java.lang.Class.getDeclaredFields(Class.java:1916)
+	at weblogic.j2ee.dd.xml.BaseJ2eeAnnotationProcessor.getFields(BaseJ2eeAnnotationProcessor.java:1047)
+	at weblogic.j2ee.dd.xml.BaseJ2eeAnnotationProcessor.getFields(BaseJ2eeAnnotationProcessor.java:1041)
+	at weblogic.j2ee.dd.xml.BaseJ2eeAnnotationProcessor.processJ2eeAnnotations(BaseJ2eeAnnotationProcessor.java:145)
+	at weblogic.j2ee.dd.xml.J2eeAnnotationProcessor.processJ2eeAnnotations(J2eeAnnotationProcessor.java:47)
+	at weblogic.servlet.internal.WebAnnotationProcessor.processJ2eeAnnotations(WebAnnotationProcessor.java:707)
+	at weblogic.servlet.internal.WebAnnotationProcessor.processServlet(WebAnnotationProcessor.java:475)
+	at weblogic.servlet.internal.AnnotationProcessingManager.processServlets(AnnotationProcessingManager.java:242)
+	at weblogic.servlet.internal.AnnotationProcessingManager.processAnnotationsInWebXml(AnnotationProcessingManager.java:228)
+	at weblogic.servlet.internal.AnnotationProcessingManager.processAnnotations(AnnotationProcessingManager.java:131)
+	at weblogic.servlet.internal.AnnotationProcessingManager.processAnnotations(AnnotationProcessingManager.java:105)
+	at weblogic.servlet.internal.WebAppModule.processAnnotations(WebAppModule.java:1995)
+	at weblogic.servlet.internal.WebAppModule.processAnnotations(WebAppModule.java:1957)
+	at weblogic.servlet.internal.WebAppModule.prepare(WebAppModule.java:802)
+	at weblogic.application.internal.ExtensibleModuleWrapper$PrepareStateChange.next(ExtensibleModuleWrapper.java:295)
+	at weblogic.application.internal.ExtensibleModuleWrapper$PrepareStateChange.next(ExtensibleModuleWrapper.java:285)
+	at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:45)
+	at weblogic.application.internal.ExtensibleModuleWrapper.prepare(ExtensibleModuleWrapper.java:109)
+	at weblogic.application.internal.flow.ModuleListenerInvoker.prepare(ModuleListenerInvoker.java:100)
+	at weblogic.application.internal.flow.ModuleStateDriver$1.next(ModuleStateDriver.java:192)
+	at weblogic.application.internal.flow.ModuleStateDriver$1.next(ModuleStateDriver.java:187)
+	at weblogic.application.utils.StateMachineDriver$ParallelChange.run(StateMachineDriver.java:83)
+	at weblogic.application.utils.StateMachineDriver.nextStateInParallel(StateMachineDriver.java:144)
+	at weblogic.application.internal.flow.ModuleStateDriver.parallelPrepare(ModuleStateDriver.java:46)
+	at weblogic.application.internal.flow.DeploymentCallbackFlow.prepare(DeploymentCallbackFlow.java:75)
+	at weblogic.application.internal.flow.DeploymentCallbackFlow.prepare(DeploymentCallbackFlow.java:55)
+	at weblogic.application.internal.BaseDeployment$1.next(BaseDeployment.java:729)
+	at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:45)
+	at weblogic.application.internal.BaseDeployment.prepare(BaseDeployment.java:241)
+	at weblogic.application.internal.SingleModuleDeployment.prepare(SingleModuleDeployment.java:52)
+	at weblogic.application.internal.DeploymentStateChecker.prepare(DeploymentStateChecker.java:158)
+	at weblogic.deploy.internal.targetserver.AppContainerInvoker.prepare(AppContainerInvoker.java:65)
+	at weblogic.deploy.internal.targetserver.AppDeployment.prepare(AppDeployment.java:166)
+	at weblogic.management.deploy.internal.DeploymentAdapter$1.doPrepare(DeploymentAdapter.java:41)
+	at weblogic.management.deploy.internal.DeploymentAdapter.prepare(DeploymentAdapter.java:193)
+	at weblogic.management.deploy.internal.AppTransition$1.transitionApp(AppTransition.java:31)
+	at weblogic.management.deploy.internal.ConfiguredDeployments$2.doItem(ConfiguredDeployments.java:741)
+	at weblogic.management.deploy.internal.parallel.BucketInvoker.invoke(BucketInvoker.java:138)
+	at weblogic.management.deploy.internal.ConfiguredDeployments.transitionAppsParallel(ConfiguredDeployments.java:749)
+	at weblogic.management.deploy.internal.ConfiguredDeployments.prepare(ConfiguredDeployments.java:363)
+	at weblogic.management.deploy.internal.ConfiguredDeployments.deploy(ConfiguredDeployments.java:232)
+	at weblogic.management.deploy.internal.DeploymentServerService.resume(DeploymentServerService.java:219)
+	at weblogic.management.deploy.internal.DeploymentServerService.start(DeploymentServerService.java:133)
+	at weblogic.server.AbstractServerService.postConstruct(AbstractServerService.java:76)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.hk2.utilities.reflection.ReflectionHelper.invoke(ReflectionHelper.java:1287)
+	at org.jvnet.hk2.internal.ClazzCreator.postConstructMe(ClazzCreator.java:333)
+	at org.jvnet.hk2.internal.ClazzCreator.create(ClazzCreator.java:375)
+	at org.jvnet.hk2.internal.SystemDescriptor.create(SystemDescriptor.java:487)
+	at org.glassfish.hk2.runlevel.internal.AsyncRunLevelContext.findOrCreate(AsyncRunLevelContext.java:305)
+	at org.glassfish.hk2.runlevel.RunLevelContext.findOrCreate(RunLevelContext.java:85)
+	at org.jvnet.hk2.internal.Utilities.createService(Utilities.java:2126)
+	at org.jvnet.hk2.internal.ServiceHandleImpl.getService(ServiceHandleImpl.java:116)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getService(ServiceLocatorImpl.java:698)
+	at org.jvnet.hk2.internal.ThreeThirtyResolver.resolve(ThreeThirtyResolver.java:78)
+	at org.jvnet.hk2.internal.ClazzCreator.resolve(ClazzCreator.java:212)
+	at org.jvnet.hk2.internal.ClazzCreator.resolveAllDependencies(ClazzCreator.java:235)
+	at org.jvnet.hk2.internal.ClazzCreator.create(ClazzCreator.java:358)
+	at org.jvnet.hk2.internal.SystemDescriptor.create(SystemDescriptor.java:487)
+	at org.glassfish.hk2.runlevel.internal.AsyncRunLevelContext.findOrCreate(AsyncRunLevelContext.java:305)
+	at org.glassfish.hk2.runlevel.RunLevelContext.findOrCreate(RunLevelContext.java:85)
+	at org.jvnet.hk2.internal.Utilities.createService(Utilities.java:2126)
+	at org.jvnet.hk2.internal.ServiceHandleImpl.getService(ServiceHandleImpl.java:116)
+	at org.jvnet.hk2.internal.ServiceHandleImpl.getService(ServiceHandleImpl.java:90)
+	at org.glassfish.hk2.runlevel.internal.CurrentTaskFuture$QueueRunner.oneJob(CurrentTaskFuture.java:1237)
+	at org.glassfish.hk2.runlevel.internal.CurrentTaskFuture$QueueRunner.run(CurrentTaskFuture.java:1168)
+	at weblogic.work.SelfTuningWorkManagerImpl$WorkAdapterImpl.run(SelfTuningWorkManagerImpl.java:670)
+	at weblogic.invocation.ComponentInvocationContextManager._runAs(ComponentInvocationContextManager.java:352)
+	at weblogic.invocation.ComponentInvocationContextManager.runAs(ComponentInvocationContextManager.java:337)
+	at weblogic.work.LivePartitionUtility.doRunWorkUnderContext(LivePartitionUtility.java:57)
+	at weblogic.work.PartitionUtility.runWorkUnderContext(PartitionUtility.java:41)
+	at weblogic.work.SelfTuningWorkManagerImpl.runWorkUnderContext(SelfTuningWorkManagerImpl.java:644)
+	at weblogic.work.ExecuteThread.execute(ExecuteThread.java:415)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:355)
+> 
+####<Apr 27, 2021 2:19:14,814 PM GMT> <Error> <Deployer> <AdminContainer> <mngnode1> <[STANDBY] ExecuteThread: '4' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <64c281cb-f3da-49fc-8980-8a1bba875c73-00000008> <1619533154814> <[severity-value: 8] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-149231> <Unable to set the activation state to true for the application "ModuloEnvioConfig".
+weblogic.application.ModuleException: Module null can not be activated, not in ACTIVATED state: NEW
+	at weblogic.diagnostics.module.WLDFModule.activate(WLDFModule.java:334)
+	at weblogic.application.internal.flow.ModuleStateDriver$2.next(ModuleStateDriver.java:212)
+	at weblogic.application.internal.flow.ModuleStateDriver$2.next(ModuleStateDriver.java:207)
+	at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:45)
+	at weblogic.application.internal.flow.ModuleStateDriver.activate(ModuleStateDriver.java:57)
+	at weblogic.application.internal.flow.DeploymentCallbackFlow.activate(DeploymentCallbackFlow.java:114)
+	at weblogic.application.internal.BaseDeployment$2.next(BaseDeployment.java:752)
+	at weblogic.application.utils.StateMachineDriver.nextState(StateMachineDriver.java:45)
+	at weblogic.application.internal.BaseDeployment.activate(BaseDeployment.java:262)
+	at weblogic.application.internal.SingleModuleDeployment.activate(SingleModuleDeployment.java:52)
+	at weblogic.application.internal.DeploymentStateChecker.activate(DeploymentStateChecker.java:165)
+	at weblogic.deploy.internal.targetserver.AppContainerInvoker.activate(AppContainerInvoker.java:90)
+	at weblogic.deploy.internal.targetserver.BasicDeployment.activate(BasicDeployment.java:274)
+	at weblogic.deploy.internal.targetserver.BasicDeployment.activateFromServerLifecycle(BasicDeployment.java:507)
+	at weblogic.management.deploy.internal.DeploymentAdapter$1.doActivate(DeploymentAdapter.java:53)
+	at weblogic.management.deploy.internal.DeploymentAdapter.activate(DeploymentAdapter.java:202)
+	at weblogic.management.deploy.internal.AppTransition$2.transitionApp(AppTransition.java:52)
+	at weblogic.management.deploy.internal.ConfiguredDeployments$2.doItem(ConfiguredDeployments.java:741)
+	at weblogic.management.deploy.internal.parallel.BucketInvoker.invoke(BucketInvoker.java:138)
+	at weblogic.management.deploy.internal.ConfiguredDeployments.transitionAppsParallel(ConfiguredDeployments.java:749)
+	at weblogic.management.deploy.internal.ConfiguredDeployments.transitionAppsParallel(ConfiguredDeployments.java:702)
+	at weblogic.management.deploy.internal.ConfiguredDeployments.activate(ConfiguredDeployments.java:381)
+	at weblogic.management.deploy.internal.ConfiguredDeployments.deploy(ConfiguredDeployments.java:233)
+	at weblogic.management.deploy.internal.DeploymentServerService.resume(DeploymentServerService.java:219)
+	at weblogic.management.deploy.internal.DeploymentServerService.start(DeploymentServerService.java:133)
+	at weblogic.server.AbstractServerService.postConstruct(AbstractServerService.java:76)
+	at sun.reflect.GeneratedMethodAccessor6.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.glassfish.hk2.utilities.reflection.ReflectionHelper.invoke(ReflectionHelper.java:1287)
+	at org.jvnet.hk2.internal.ClazzCreator.postConstructMe(ClazzCreator.java:333)
+	at org.jvnet.hk2.internal.ClazzCreator.create(ClazzCreator.java:375)
+	at org.jvnet.hk2.internal.SystemDescriptor.create(SystemDescriptor.java:487)
+	at org.glassfish.hk2.runlevel.internal.AsyncRunLevelContext.findOrCreate(AsyncRunLevelContext.java:305)
+	at org.glassfish.hk2.runlevel.RunLevelContext.findOrCreate(RunLevelContext.java:85)
+	at org.jvnet.hk2.internal.Utilities.createService(Utilities.java:2126)
+	at org.jvnet.hk2.internal.ServiceHandleImpl.getService(ServiceHandleImpl.java:116)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getService(ServiceLocatorImpl.java:698)
+	at org.jvnet.hk2.internal.ThreeThirtyResolver.resolve(ThreeThirtyResolver.java:78)
+	at org.jvnet.hk2.internal.ClazzCreator.resolve(ClazzCreator.java:212)
+	at org.jvnet.hk2.internal.ClazzCreator.resolveAllDependencies(ClazzCreator.java:235)
+	at org.jvnet.hk2.internal.ClazzCreator.create(ClazzCreator.java:358)
+	at org.jvnet.hk2.internal.SystemDescriptor.create(SystemDescriptor.java:487)
+	at org.glassfish.hk2.runlevel.internal.AsyncRunLevelContext.findOrCreate(AsyncRunLevelContext.java:305)
+	at org.glassfish.hk2.runlevel.RunLevelContext.findOrCreate(RunLevelContext.java:85)
+	at org.jvnet.hk2.internal.Utilities.createService(Utilities.java:2126)
+	at org.jvnet.hk2.internal.ServiceHandleImpl.getService(ServiceHandleImpl.java:116)
+	at org.jvnet.hk2.internal.ServiceHandleImpl.getService(ServiceHandleImpl.java:90)
+	at org.glassfish.hk2.runlevel.internal.CurrentTaskFuture$QueueRunner.oneJob(CurrentTaskFuture.java:1237)
+	at org.glassfish.hk2.runlevel.internal.CurrentTaskFuture$QueueRunner.run(CurrentTaskFuture.java:1168)
+	at weblogic.work.SelfTuningWorkManagerImpl$WorkAdapterImpl.run(SelfTuningWorkManagerImpl.java:670)
+	at weblogic.invocation.ComponentInvocationContextManager._runAs(ComponentInvocationContextManager.java:352)
+	at weblogic.invocation.ComponentInvocationContextManager.runAs(ComponentInvocationContextManager.java:337)
+	at weblogic.work.LivePartitionUtility.doRunWorkUnderContext(LivePartitionUtility.java:57)
+	at weblogic.work.PartitionUtility.runWorkUnderContext(PartitionUtility.java:41)
+	at weblogic.work.SelfTuningWorkManagerImpl.runWorkUnderContext(SelfTuningWorkManagerImpl.java:644)
+	at weblogic.work.ExecuteThread.execute(ExecuteThread.java:415)
+	at weblogic.work.ExecuteThread.run(ExecuteThread.java:355)
+> 
+####<Apr 27, 2021 2:19:16,420 PM GMT> <Warning> <JNDI> <AdminContainer> <mngnode1> <[STANDBY] ExecuteThread: '4' for queue: 'weblogic.kernel.Default (self-tuning)'> <<anonymous>> <> <64c281cb-f3da-49fc-8980-8a1bba875c73-00000008> <1619533156420> <[severity-value: 16] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-050007> <An attempt was made to look up the non-versioned global resource "jms" from an application version "SascarPortalWeb [Version=v_12345]". This can potentially cause conflict of the global resource usages among multiple application versions.> 
+####<Apr 27, 2021 2:19:17,661 PM GMT> <Notice> <Cluster> <AdminContainer> <mngnode1> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <64c281cb-f3da-49fc-8980-8a1bba875c73-00000006> <1619533157661> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-000197> <Listening for announcements from cluster using unicast cluster messaging> 
+####<Apr 27, 2021 2:19:17,740 PM GMT> <Notice> <Log Management> <AdminContainer> <mngnode1> <[ACTIVE] ExecuteThread: '6' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <64c281cb-f3da-49fc-8980-8a1bba875c73-0000000c> <1619533157740> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-170027> <The server has successfully established a connection with the Domain level Diagnostic Service.> 
+####<Apr 27, 2021 2:19:17,890 PM GMT> <Notice> <WebLogicServer> <AdminContainer> <mngnode1> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <64c281cb-f3da-49fc-8980-8a1bba875c73-00000006> <1619533157890> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-000365> <Server state changed to ADMIN.> 
+####<Apr 27, 2021 2:19:17,974 PM GMT> <Notice> <WebLogicServer> <AdminContainer> <mngnode1> <[STANDBY] ExecuteThread: '1' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <64c281cb-f3da-49fc-8980-8a1bba875c73-00000006> <1619533157974> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-000365> <Server state changed to RESUMING.> 
+####<Apr 27, 2021 2:19:18,063 PM GMT> <Notice> <JMX> <AdminContainer> <AdminServer> <[STANDBY] ExecuteThread: '4' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <e14c6291-edcf-434c-b10c-a266e30217ef-00000022> <1619533158063> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-149535> <JMX Resiliency Activity Server=mngnode1 : 
+Received a CONNECT EVENT 
+> 
+####<Apr 27, 2021 2:19:18,063 PM GMT> <Notice> <JMX> <AdminContainer> <AdminServer> <[STANDBY] ExecuteThread: '4' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <e14c6291-edcf-434c-b10c-a266e30217ef-00000022> <1619533158063> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-149535> <JMX Resiliency Activity Server=mngnode1 : Starting JMX connection. forceReconnect value: false> 
+####<Apr 27, 2021 2:19:18,235 PM GMT> <Notice> <Cluster> <AdminContainer> <mngnode1> <[ACTIVE] ExecuteThread: '10' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <64c281cb-f3da-49fc-8980-8a1bba875c73-0000000d> <1619533158235> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-000162> <Starting "async" replication service with remote cluster address "null"> 
+####<Apr 27, 2021 2:19:18,296 PM GMT> <Notice> <Server> <AdminContainer> <mngnode1> <weblogic.socket.ServerListenThread> <<WLS Kernel>> <> <64c281cb-f3da-49fc-8980-8a1bba875c73-0000000f> <1619533158296> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-002613> <Channel "Default" is now listening on 172.17.0.2:8001 for protocols iiop, t3, CLUSTER-BROADCAST, ldap, snmp, http.> 
+####<Apr 27, 2021 2:19:18,312 PM GMT> <Notice> <Server> <AdminContainer> <mngnode1> <weblogic.socket.ServerListenThread> <<WLS Kernel>> <> <64c281cb-f3da-49fc-8980-8a1bba875c73-0000000f> <1619533158312> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-002613> <Channel "Default[1]" is now listening on 127.0.0.1:8001 for protocols iiop, t3, CLUSTER-BROADCAST, ldap, snmp, http.> 
+####<Apr 27, 2021 2:19:18,314 PM GMT> <Notice> <Server> <AdminContainer> <mngnode1> <weblogic.socket.ServerListenThread> <<WLS Kernel>> <> <64c281cb-f3da-49fc-8980-8a1bba875c73-0000000f> <1619533158314> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-002613> <Channel "Default" is now listening on 172.17.0.2:8001 for protocols iiop, t3, CLUSTER-BROADCAST, ldap, snmp, http.> 
+####<Apr 27, 2021 2:19:18,315 PM GMT> <Notice> <Server> <AdminContainer> <mngnode1> <weblogic.socket.ServerListenThread> <<WLS Kernel>> <> <64c281cb-f3da-49fc-8980-8a1bba875c73-0000000f> <1619533158315> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-002613> <Channel "Default[1]" is now listening on 127.0.0.1:8001 for protocols iiop, t3, CLUSTER-BROADCAST, ldap, snmp, http.> 
+####<Apr 27, 2021 2:19:18,316 PM GMT> <Notice> <WebLogicServer> <AdminContainer> <mngnode1> <[ACTIVE] ExecuteThread: '0' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <64c281cb-f3da-49fc-8980-8a1bba875c73-0000000e> <1619533158316> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-000332> <Started the WebLogic Server Managed Server "mngnode1" for domain "domwebps01_dev" running in development mode.> 
+####<Apr 27, 2021 2:19:18,436 PM GMT> <Notice> <WebLogicServer> <AdminContainer> <mngnode1> <[ACTIVE] ExecuteThread: '10' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <64c281cb-f3da-49fc-8980-8a1bba875c73-0000000d> <1619533158436> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-000360> <The server started in RUNNING mode.> 
+####<Apr 27, 2021 2:19:18,455 PM GMT> <Notice> <WebLogicServer> <AdminContainer> <mngnode1> <[ACTIVE] ExecuteThread: '10' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <64c281cb-f3da-49fc-8980-8a1bba875c73-0000000d> <1619533158455> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-000365> <Server state changed to RUNNING.> 
+####<Apr 27, 2021 2:19:19,198 PM GMT> <Notice> <JMX> <AdminContainer> <AdminServer> <[STANDBY] ExecuteThread: '4' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <e14c6291-edcf-434c-b10c-a266e30217ef-00000022> <1619533159198> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-149535> <JMX Resiliency Activity Server=mngnode1 : Registering call backs for server> 
+####<Apr 27, 2021 2:19:19,199 PM GMT> <Notice> <JMX> <AdminContainer> <AdminServer> <[STANDBY] ExecuteThread: '4' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <e14c6291-edcf-434c-b10c-a266e30217ef-00000022> <1619533159199> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-149535> <JMX Resiliency Activity Server=mngnode1 : Initializing callbacks> 
+####<Apr 27, 2021 2:19:19,228 PM GMT> <Notice> <JMX> <AdminContainer> <AdminServer> <pool-2-thread-1> <<anonymous>> <> <e14c6291-edcf-434c-b10c-a266e30217ef-00000022> <1619533159228> <[severity-value: 32] [rid: 0:5] [partition-id: 0] [partition-name: DOMAIN] > <BEA-149535> <JMX Resiliency Activity Server=mngnode1 : Added MBeanServerConnection in DomainRuntimeServiceMBean > 
+####<Apr 27, 2021 2:19:19,228 PM GMT> <Notice> <JMX> <AdminContainer> <AdminServer> <[STANDBY] ExecuteThread: '4' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <e14c6291-edcf-434c-b10c-a266e30217ef-00000022> <1619533159228> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-149535> <JMX Resiliency Activity Server=mngnode1 : Callback is done> 
+####<Apr 27, 2021 2:19:19,232 PM GMT> <Warning> <JMX> <AdminContainer> <AdminServer> <[STANDBY] ExecuteThread: '4' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <e14c6291-edcf-434c-b10c-a266e30217ef-00000022> <1619533159232> <[severity-value: 16] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-149506> <Established JMX Connectivity with mngnode1 at the JMX Service URL of service:jmx:t3://172.17.0.2:8001/jndi/weblogic.management.mbeanservers.runtime.> 
+####<Apr 27, 2021 2:19:19,241 PM GMT> <Notice> <JMX> <AdminContainer> <AdminServer> <[STANDBY] ExecuteThread: '4' for queue: 'weblogic.kernel.Default (self-tuning)'> <<WLS Kernel>> <> <e14c6291-edcf-434c-b10c-a266e30217ef-00000022> <1619533159241> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-149535> <JMX Resiliency Activity Server=mngnode1 : Server is reachable, after a single attempt. Will return from the retry.> 
+####<Apr 27, 2021 2:19:28,395 PM GMT> <Notice> <JMX> <AdminContainer> <AdminServer> <[ACTIVE] ExecuteThread: '12' for queue: 'weblogic.kernel.Default (self-tuning)'> <weblogic> <> <e14c6291-edcf-434c-b10c-a266e30217ef-0000002c> <1619533168395> <[severity-value: 32] [rid: 0] [partition-id: 0] [partition-name: DOMAIN] > <BEA-149535> <JMX Resiliency Activity Server=All Servers : Resolving connection list DomainRuntimeServiceMBean> 

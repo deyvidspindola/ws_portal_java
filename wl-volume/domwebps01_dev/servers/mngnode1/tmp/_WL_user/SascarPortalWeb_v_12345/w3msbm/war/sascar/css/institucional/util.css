@@ -1,0 +1,352 @@
+/* danilonobre.com.br */
+/* 24/06/2010 */
+
+
+/* CSS RESET */
+
+* {  	
+	padding: 0; 
+	margin: 0;
+	font-family: inherit; 
+	font-size: inherit;
+	color: inherit;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 62,5%;
+	font-size: 11px;
+	color: #343434;
+}
+
+a { 
+	text-decoration: none; 
+}
+
+	a:hover { 
+		text-decoration: underline; 
+	}
+
+	a img { 
+		border: 0;
+	}
+	
+ul, ol { 
+	list-style: none;
+}
+
+iframe{
+	border: 0;
+	background-color: #fff;
+	margin-bottom: 10px;
+}
+	
+	iframe body{
+		background-color: #fff;
+	}
+
+h1, h2, h3, h4, h5, h6 { 
+	font-size: 100%; 
+}
+
+h3{
+	font-size: 15px;
+	color: #525252;
+	margin: 3px 0 10px 0;
+}
+
+addreess, strong, p {
+	text-style: normal;
+	color: inherit;
+	font-size: inherit;
+}
+
+label{
+	color: #ffff;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 6px 10px 0 0;
+	text-align: right;
+}
+
+fieldset {
+	border-style: solid;
+	border-width: 1px;
+}
+
+input, button{
+	border: 0;
+}
+
+textarea { 
+	overflow: auto; 
+	font-family: ;
+	font-size: ;
+}
+
+
+
+/* CLASSES UTEIS */
+
+.fl {
+	float: left !important;
+}
+
+.fr {
+	float: right !important;
+}
+
+.txtIndent {
+	text-indent: -999999px;
+	overflow: hidden;
+	display: block;
+}
+
+	input.txtIndent,
+	button.txtIndent {
+		cursor: pointer;
+		*text-transform: uppercase;
+	}
+
+.dn {
+	display: none;
+}
+
+.mgR10{
+	margin-right: 10px !important;
+}
+
+.mgR20{
+	margin-right: 20px !important;
+}
+
+.mgR0{
+	margin-right: 0px !important;
+}
+
+.mgL10{
+	margin-left: 10px !important;
+}
+
+.mgL20{
+	margin-left: 20px !important;
+}
+
+.mgB10{
+	margin-bottom: 10px !important;
+}
+
+.mgB20{
+	margin-bottom: 20px !important;
+}
+
+.mgT7{
+	margin-top: 7px !important;
+}
+
+.pL0{
+	padding-left: 0 !important;
+}
+
+.bgNone{
+	background: none;
+}
+
+hr{
+	width: 100%;
+	float: left;
+	border: 0;
+	border-top: 1px solid #ccc;
+}
+
+	.caixa_formulario hr{
+		margin: 20px 0;
+		border-color: #E6E6E6;
+	}
+
+.caixa_titulo{
+	width: 100%;
+	height: 48px;
+	float: left;
+	border-bottom: 1px solid #e6e6e7;
+	padding: 0 0 5px 0;
+	background: url(../../images/institucional/baixo_titulo.gif) no-repeat right bottom;
+}
+
+.laranja{
+	background-image: url(../../images/institucional/baixo_titulo_laranja.gif);
+}
+
+	.caixa_titulo .canto1 {
+		width: 15px;
+		height: 48px;
+		float: left;
+		background: url(../../images/institucional/cantos/canto_titulo.gif) no-repeat 0 0;
+	}
+	
+	.laranja .canto1 {
+		background-image: url(../../images/institucional/cantos/canto_titulo_laranja.gif);
+	}
+	
+	.caixa_titulo h2 {
+		width: px;
+		height: 32px;
+		float: left;
+		background: url(../../images/institucional/bg_titulo.gif) repeat-x 0 0;
+		font-size: 18px;
+		padding: 16px 5px 0 0;
+	}
+	
+	.caixa_interna .caixa_titulo h3 {
+		width: px;
+		height: 32px;
+		float: left;
+		background: url(../../images/institucional/bg_titulo.gif) repeat-x 0 0;
+		font-size: 18px;
+		padding: 16px 5px 0 0;
+		font-weight: normal;
+		margin: 0 0 0 0;
+	}
+	
+	.laranja h2 {
+		color: #fff;
+		background-image: url(../../images/institucional/bg_titulo_laranja.gif);
+	}
+	
+	.caixa_titulo .canto2 {
+		width: 14px;
+		height: 48px;
+		float: left;
+		background: url(../../images/institucional/cantos/canto2_titulo.gif) no-repeat 0 0;
+	}
+	
+	.laranja .canto2 {
+		background-image: url(../../images/institucional/cantos/canto2_titulo_laranja.gif);
+	}
+	
+.caixa {
+	width: ;
+	height: ;
+	float: left;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	border-right: 1px solid #e6e6e6;
+	border-left: 1px solid #e6e6e6;
+}
+
+	.coluna_direita .caixa {
+		width: 283px;
+		_width: 280px;
+	}
+
+.caixa_baixo {
+	width: 100%;
+	height: 4px;
+	float: left;
+	overflow: hidden;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	background: url(../../images/institucional/cinza.gif) repeat-x 0 3px;
+}
+
+	.caixa_baixo .canto1,
+	.caixa_baixo .canto2 {
+		width: 4px;
+		height: 4px;
+		float: left;
+		background: url(../../images/institucional/cantos/canto_e_caixa.gif) no-repeat 0 0;
+	}
+	
+	.caixa_baixo .canto2 {
+		float: right;
+		background-image: url(../../images/institucional/cantos/canto_d_caixa.gif);
+	}
+	
+.caixa_cinza{
+	background-color: #f7f7f7;
+}
+
+	.caixa_cinza .caixa_meio{
+		float: left;
+		border-left: 1px solid #e6e6e6;
+		border-right: 1px solid #e6e6e6;
+	}
+
+	.caixa_cinza .caixa_cima,
+	.caixa_cinza .caixa_baixo{
+		width: 100%;
+		height: 5px;
+		float: left;
+		background: url(../../images/institucional/cinza.gif) repeat-x 0 0;
+		overflow: hidden;
+	}
+	
+	.caixa_cinza .caixa_baixo{
+		background-position: 0 4px;
+	}
+	
+		.caixa_cinza .caixa_cima div,
+		.caixa_cinza .caixa_baixo div{
+			width: 5px;
+			height: 5px;
+			background: url(../../images/institucional/cantos/canto_e_s_cinza.gif) no-repeat 0 0;
+		}
+		
+		.caixa_cinza div.canto1{
+			float: left;
+		}
+		
+		.caixa_cinza div.canto2{
+			float: right;
+		}
+		
+		.caixa_cinza .caixa_cima .canto1{
+			background-image: url(../../images/institucional/cantos/canto_e_s_cinza.gif);
+		}
+		
+		.caixa_cinza .caixa_cima .canto2{
+			background-image: url(../../images/institucional/cantos/canto_d_s_cinza.gif);
+		}
+		
+		.caixa_cinza .caixa_baixo .canto1{
+			background-image: url(../../images/institucional/cantos/canto_e_i_cinza.gif);
+		}
+		
+		.caixa_cinza .caixa_baixo .canto2{
+			background-image: url(../../images/institucional/cantos/canto_d_i_cinza.gif);
+		}
+		
+		
+
+.simply-scroll-clip {
+	overflow: hidden;
+}
+
+.simply-scroll-btn-up.disabled {
+	background-position: 0 0 !important;
+}
+.simply-scroll-btn-up:hover {
+	background-position: 0 -8px;
+}
+	
+.simply-scroll-btn-down {
+}
+.simply-scroll-btn-down.disabled {
+	background-position: 0 0 !important;
+}
+.simply-scroll-btn-down:hover {
+	background-position: 0 -8px;
+}
+
+.centralizar{
+	margin: 0 auto;
+}
+
+#DOMWindow{
+	position: absolute;
+}
+
+#DOMWindowOverlay{
+	background-color: #fff;
+	
+}

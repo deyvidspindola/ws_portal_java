@@ -1,0 +1,169 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="help ID" content="Core-partition.core.partition.osgiframework.title">
+<title>OSGi Framework</title>
+<script language="JavaScript" src="/consolehelp/en-us/topicInfo.js"></script><script language="JavaScript" src="/consolehelp/en-us/CookieClass.js"></script>
+</head>
+<body class="base">
+<blockquote>
+<h1 class="Title">OSGi Framework</h1>
+<p>
+<a href="#table">Column Display</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#tasks">Related Tasks</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>An OSGi Framework provides an OSGi runtime environment to support
+    applications which make use of OSGi features, such as packaging, lifecycle
+    management, and an active registry.</p>
+<p>For OSGi Frameworks that are scoped to a resource group template, you
+    cannot edit them at the partition or resource group level. The properties
+    of these resources apply to the entire domain. To edit these resources,
+    expand the Services node in the Domain Structure pane, then select the
+    resource you want to edit. Changes to any properties apply to the entire
+    domain.</p>
+<p>This page summarizes the OSGi Frameworks that have been configured in
+    the current partition.</p>
+<h4>
+<a name="table">Column Display</a>
+</h4>
+<p>You can show fewer or additional data points on this page by expanding <b>Customize this table</b> and modifying the <b>Column Display</b> list. Each data point displays in its own table column.</p>
+<p>The following table lists all of the data points that you can display in columns on this page.</p>
+<div class="tblmargin">
+<table class="edocshelp">
+<thead>
+<tr>
+<th valign="top" style="padding:0px"> Name</th><th valign="top" style="padding:0px"> Description</th>
+</tr>
+</thead>
+<tbody>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="osgiframework.table.name">Name</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>The name that you specified when you configured the OSGi
+        Framework.</p>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="osgiframework.table.factoryimplementationclass">Factory Implementation Class</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getFactoryImplementationClass"></a><a name="FactoryImplementationClass"></a>
+<p>The name of the frameworks implementation class for the org.osgi.framework.launch.FrameworkFactory class.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/OsgiFrameworkMBean.html#FactoryImplementationClass">OsgiFrameworkMBean.FactoryImplementationClass</a></code>
+</p>
+<p>
+<a href="en-us/restart.html" onClick="return popup(this,'glossarypopup')"> 
+                                                    Changes take effect after you redeploy the module or restart the server.</a>
+</p>
+</td>
+</tr>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="osgiframework.table.initproperties">Init Properties</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getInitProperties"></a><a name="InitProperties"></a>
+<p>The properties to be used when initializing the framework. All standard properties and all properties specific to the framework can be set.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/OsgiFrameworkMBean.html#InitProperties">OsgiFrameworkMBean.InitProperties</a></code>
+</p>
+<p>
+<a href="en-us/restart.html" onClick="return popup(this,'glossarypopup')"> 
+                                                    Changes take effect after you redeploy the module or restart the server.</a>
+</p>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="osgiframework.table.registerglobalworkmanagers">Register Global Work Managers</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getRegisterGlobalWorkManagers"></a><a name="RegisterGlobalWorkManagers"></a>
+<p>Returns true if global work managers should be added to the OSGi service registry.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/OsgiFrameworkMBean.html#RegisterGlobalWorkManagers">OsgiFrameworkMBean.RegisterGlobalWorkManagers</a></code>
+</p>
+<p>
+<a href="en-us/restart.html" onClick="return popup(this,'glossarypopup')"> 
+                                                    Changes take effect after you redeploy the module or restart the server.</a>
+</p>
+</td>
+</tr>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="osgiframework.table.registerglobaldataSources">Register Global Data Sources</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getRegisterGlobalDataSources"></a><a name="RegisterGlobalDataSources"></a>
+<p>Returns true if global data sources should be added to the OSGi service registry.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/OsgiFrameworkMBean.html#RegisterGlobalDataSources">OsgiFrameworkMBean.RegisterGlobalDataSources</a></code>
+</p>
+<p>
+<a href="en-us/restart.html" onClick="return popup(this,'glossarypopup')"> 
+                                                    Changes take effect after you redeploy the module or restart the server.</a>
+</p>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="osgiframework.table.orgosgiframeworkbootdelegation">Boot delegation</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getOrgOsgiFrameworkBootdelegation"></a><a name="OrgOsgiFrameworkBootdelegation"></a>
+<p>The name of the org.osgi.framework.bootdelegation property. Note that this value, if set, will take precedence over anything specified in the init-properties.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/OsgiFrameworkMBean.html#OrgOsgiFrameworkBootdelegation">OsgiFrameworkMBean.OrgOsgiFrameworkBootdelegation</a></code>
+</p>
+<p>
+<a href="en-us/restart.html" onClick="return popup(this,'glossarypopup')"> 
+                                                    Changes take effect after you redeploy the module or restart the server.</a>
+</p>
+</td>
+</tr>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="osgiframework.table.orgosgiframeworksystempackagesextra">System Packages Extra</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getOrgOsgiFrameworkSystemPackagesExtra"></a><a name="OrgOsgiFrameworkSystemPackagesExtra"></a>
+<p>The name of the org.osgi.framework.system.packages.extra property. Note that this value, if set, will take precedence over anything specified in the init-properties.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/OsgiFrameworkMBean.html#OrgOsgiFrameworkSystemPackagesExtra">OsgiFrameworkMBean.OrgOsgiFrameworkSystemPackagesExtra</a></code>
+</p>
+<p>
+<a href="en-us/restart.html" onClick="return popup(this,'glossarypopup')"> 
+                                                    Changes take effect after you redeploy the module or restart the server.</a>
+</p>
+</td>
+</tr>
+<tr bgcolor="#FFFFFF">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="osgiframework.table.deployinstallationbundles">Deploy Installation Bundles</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="getDeployInstallationBundles"></a><a name="DeployInstallationBundles"></a>
+<p>Determines if some WebLogic helper bundles will be installed into the framework</p>
+<p>If this is set to "populate" then the bundles found in the WebLogic installation directory under wlserver/server/osgi-lib will be installed into this OSGi framework. Futhermore a few extra packages will be added to the bootdelegation classpath parameters in order to enable the bundles in the osgi-lib directory if they are not already there.</p>
+<p>If this is set to "ignore" then the bundles found in the WebLogic installation directory will not be installed into the framework.</p>
+<p>MBean Attribute: 
+					<br>
+<code><a href="http://docs.oracle.com/middleware/12213/wls/../wls/WLMBR/mbeans/OsgiFrameworkMBean.html#DeployInstallationBundles">OsgiFrameworkMBean.DeployInstallationBundles</a></code>
+</p>
+<p>
+<a href="en-us/restart.html" onClick="return popup(this,'glossarypopup')"> 
+                                                    Changes take effect after you redeploy the module or restart the server.</a>
+</p>
+</td>
+</tr>
+<tr bgcolor="#F6F6F6">
+<td width="25%" valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;"><a name="osgiframework.table.targetlist">Targets</a></td><td valign="top" style="padding-top:10px;padding-bottom:10px;border-top:1px dotted #cccccc;">
+<p>A list of current targets for this OSGi framework.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="relatedtopics">
+<a name="tasks">Related Tasks</a>
+</p>
+<ul>
+<li>
+<a href="/consolehelp/console-help.portal?_nfpb=true&amp;_pageLabel=page&amp;helpId=partition.resourcegroup.PartCloneOSGiFrameworks">Clone OSGi frameworks</a>
+</li>
+<li>
+<a href="/consolehelp/console-help.portal?_nfpb=true&amp;_pageLabel=page&amp;helpId=partition.resourcegroup.PartCreateOSGiFrameworks">Create OSGi
+  frameworks</a>
+</li>
+<li>
+<a href="/consolehelp/console-help.portal?_nfpb=true&amp;_pageLabel=page&amp;helpId=partition.resourcegroup.PartDeleteOSGiFrameworks">Delete OSGi
+  frameworks</a>
+</li>
+<li>
+<a href="/consolehelp/console-help.portal?_nfpb=true&amp;_pageLabel=page&amp;helpId=partition.resourcegroup.PartTargetOSGiFrameworks">Target OSGi
+  frameworks</a>
+</li>
+</ul>
+</blockquote>
+</body>
+</html>

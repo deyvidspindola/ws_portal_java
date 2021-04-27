@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<jdbc:jdbc-data-source xmlns:jdbc="http://xmlns.oracle.com/weblogic/jdbc-data-source">
+  <jdbc:name>mds-owsm</jdbc:name>
+  <jdbc:datasource-type>GENERIC</jdbc:datasource-type>
+  <jdbc:jdbc-driver-params>
+    <jdbc:url>jdbc:oracle:thin:@10.1.110.25:1521/sasdbdv</jdbc:url>
+    <jdbc:driver-name>oracle.jdbc.OracleDriver</jdbc:driver-name>
+    <jdbc:properties>
+      <jdbc:property>
+        <jdbc:name>user</jdbc:name>
+        <jdbc:value>squad_devices</jdbc:value>
+      </jdbc:property>
+    </jdbc:properties>
+    <jdbc:password-encrypted>{AES}Kxwd2leo7xnAkhBhoPRgJO1E/OiRKHxIw3JxejLJINU=</jdbc:password-encrypted>
+  </jdbc:jdbc-driver-params>
+  <jdbc:jdbc-connection-pool-params>
+    <jdbc:initial-capacity>1</jdbc:initial-capacity>
+    <jdbc:max-capacity>15</jdbc:max-capacity>
+    <jdbc:min-capacity>1</jdbc:min-capacity>
+    <jdbc:shrink-frequency-seconds>900</jdbc:shrink-frequency-seconds>
+    <jdbc:highest-num-waiters>2147483647</jdbc:highest-num-waiters>
+    <jdbc:connection-creation-retry-frequency-seconds>0</jdbc:connection-creation-retry-frequency-seconds>
+    <jdbc:connection-reserve-timeout-seconds>10</jdbc:connection-reserve-timeout-seconds>
+    <jdbc:test-frequency-seconds>120</jdbc:test-frequency-seconds>
+    <jdbc:test-connections-on-reserve>false</jdbc:test-connections-on-reserve>
+    <jdbc:ignore-in-use-connections-enabled>false</jdbc:ignore-in-use-connections-enabled>
+    <jdbc:inactive-connection-timeout-seconds>0</jdbc:inactive-connection-timeout-seconds>
+    <jdbc:test-table-name>SQL SELECT 1 FROM DUAL</jdbc:test-table-name>
+    <jdbc:login-delay-seconds>0</jdbc:login-delay-seconds>
+    <jdbc:statement-cache-size>10</jdbc:statement-cache-size>
+    <jdbc:statement-cache-type>LRU</jdbc:statement-cache-type>
+    <jdbc:remove-infected-connections>false</jdbc:remove-infected-connections>
+    <jdbc:seconds-to-trust-an-idle-pool-connection>0</jdbc:seconds-to-trust-an-idle-pool-connection>
+    <jdbc:statement-timeout>-1</jdbc:statement-timeout>
+    <jdbc:pinned-to-thread>false</jdbc:pinned-to-thread>
+    <jdbc:wrap-types>false</jdbc:wrap-types>
+    <jdbc:connection-harvest-max-count>1</jdbc:connection-harvest-max-count>
+    <jdbc:connection-harvest-trigger-count>-1</jdbc:connection-harvest-trigger-count>
+    <jdbc:count-of-test-failures-till-flush>2</jdbc:count-of-test-failures-till-flush>
+    <jdbc:count-of-refresh-failures-till-disable>2</jdbc:count-of-refresh-failures-till-disable>
+  </jdbc:jdbc-connection-pool-params>
+  <jdbc:jdbc-data-source-params>
+    <jdbc:jndi-name>jdbc/mds/owsm</jdbc:jndi-name>
+    <jdbc:global-transactions-protocol>None</jdbc:global-transactions-protocol>
+  </jdbc:jdbc-data-source-params>
+</jdbc:jdbc-data-source>

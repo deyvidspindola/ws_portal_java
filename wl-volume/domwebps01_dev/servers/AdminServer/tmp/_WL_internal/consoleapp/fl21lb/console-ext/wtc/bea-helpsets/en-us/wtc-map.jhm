@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE map PUBLIC "-//Sun Microsystems Inc.//DTD JavaHelp Map Version 2.0//EN" "http://java.sun.com/products/javahelp/map_2_0.dtd">
+<map xml:lang="en-US" version="2.0">
+<mapID target="intro" url="index.html"/>
+<mapID target="blank" url="index.html"/>
+<mapID target="Homehomehomepagetitle" url="pagehelp/Homehomehomepagetitle.html"/>
+
+  
+    
+      
+    <mapID target="wtc.CreateWTCServices" url="taskhelp/wtc/CreateWTCServices.html"/>
+
+
+    <mapID target="wtc.DeleteWTCServices" url="taskhelp/wtc/DeleteWTCServices.html"/>
+
+
+    <mapID target="wtc.AssignWTCServicesToServers" url="taskhelp/wtc/AssignWTCServicesToServers.html"/>
+
+
+    <mapID target="wtc.ResumeWTCServices" url="taskhelp/wtc/ResumeWTCServices.html"/>
+
+
+    <mapID target="wtc.SuspendWTCServices" url="taskhelp/wtc/SuspendWTCServices.html"/>
+
+
+    <mapID target="wtc.StartWTCServerConnections" url="taskhelp/wtc/StartWTCServerConnections.html"/>
+
+
+    <mapID target="wtc.StopWTCServerConnections" url="taskhelp/wtc/StopWTCServerConnections.html"/>
+
+
+    <mapID target="wtc.CreateLocalTuxedoAccessPoints" url="taskhelp/wtc/CreateLocalTuxedoAccessPoints.html"/>
+<mapID target="wtc.ConfigureConnectionAttributesForLocalTuxedoAccessPoints" url="taskhelp/wtc/ConfigureConnectionAttributesForLocalTuxedoAccessPoints.html"/>
+<mapID target="wtc.ConfigureLocalTuxedoAccessPointSecurity" url="taskhelp/wtc/ConfigureLocalTuxedoAccessPointSecurity.html"/>
+<mapID target="wtc.DeleteLocalTuxedoAccessPoints" url="taskhelp/wtc/DeleteLocalTuxedoAccessPoints.html"/>
+
+
+    <mapID target="wtc.CreateRemoteTuxedoAccessPoints" url="taskhelp/wtc/CreateRemoteTuxedoAccessPoints.html"/>
+<mapID target="wtc.ConfigureConnectionAttributesForRemoteTuxedoAccessPoints" url="taskhelp/wtc/ConfigureConnectionAttributesForRemoteTuxedoAccessPoints.html"/>
+<mapID target="wtc.ConfigureRemoteTuxedoAccessPointSecurity" url="taskhelp/wtc/ConfigureRemoteTuxedoAccessPointSecurity.html"/>
+<mapID target="wtc.DeleteRemoteTuxedoAccessPoints" url="taskhelp/wtc/DeleteRemoteTuxedoAccessPoints.html"/>
+
+
+    <mapID target="wtc.CreateExportedServices" url="taskhelp/wtc/CreateExportedServices.html"/>
+
+
+    <mapID target="wtc.DeleteExportedServices" url="taskhelp/wtc/DeleteExportedServices.html"/>
+
+
+    <mapID target="wtc.CreateImportedServices" url="taskhelp/wtc/CreateImportedServices.html"/>
+
+
+    <mapID target="wtc.DeleteImportedServices" url="taskhelp/wtc/DeleteImportedServices.html"/>
+
+
+    <mapID target="wtc.CreatePasswordConfigurations" url="taskhelp/wtc/CreatePasswordConfigurations.html"/>
+
+
+    <mapID target="wtc.DeletePasswordConfigurations" url="taskhelp/wtc/DeletePasswordConfigurations.html"/>
+
+
+    <mapID target="wtc.CreateResources" url="taskhelp/wtc/CreateResources.html"/>
+
+
+    <mapID target="wtc.RemoveResources" url="taskhelp/wtc/RemoveResources.html"/>
+
+
+    <mapID target="wtc.CreateTuxedoQueuingBridgeConnections" url="taskhelp/wtc/CreateTuxedoQueuingBridgeConnections.html"/>
+<mapID target="wtc.ConfigureConnectionAttributesForTuxedoQueuingBridges" url="taskhelp/wtc/ConfigureConnectionAttributesForTuxedoQueuingBridges.html"/>
+<mapID target="wtc.ConfigureConnectionFactoriesForTuxedoQueuingBridges" url="taskhelp/wtc/ConfigureConnectionFactoriesForTuxedoQueuingBridges.html"/>
+<mapID target="wtc.ConfigurePriorityMappingForTuxedoQueuingBridgeConnections" url="taskhelp/wtc/ConfigurePriorityMappingForTuxedoQueuingBridgeConnections.html"/>
+<mapID target="wtc.RemoveTuxedoQueuingBridgeConnections" url="taskhelp/wtc/RemoveTuxedoQueuingBridgeConnections.html"/>
+
+
+    <mapID target="wtc.CreateATuxedoQueuingBridgeRedirection" url="taskhelp/wtc/CreateATuxedoQueuingBridgeRedirection.html"/>
+
+
+    <mapID target="wtc.DeleteATuxedoQueuingBridgeRedirection" url="taskhelp/wtc/DeleteATuxedoQueuingBridgeRedirection.html"/>
+
+
+  
+
+    
+    
+  <mapID target="WTCwtcwtcservertabletitle" url="pagehelp/WTCwtcwtcservertabletitle.html"/>
+
+
+  <mapID target="WTCwtcwtcservergeneraltitle" url="pagehelp/WTCwtcwtcservergeneraltitle.html"/>
+<mapID target="Corecoreserverserverserviceswtctitle" url="pagehelp/Corecoreserverserverserviceswtctitle.html"/>
+<mapID target="WTCwtcservercreatewtcservertitle" url="pagehelp/WTCwtcservercreatewtcservertitle.html"/>
+<mapID target="WTCwtcserverdeletewtcservertitle" url="pagehelp/WTCwtcserverdeletewtcservertitle.html"/>
+<mapID target="WTCwtcwtcservercontentslocaldomainstitle" url="pagehelp/WTCwtcwtcservercontentslocaldomainstitle.html"/>
+<mapID target="WTCwtccreatewtclocaltuxdomtitle" url="pagehelp/WTCwtccreatewtclocaltuxdomtitle.html"/>
+<mapID target="WTCwtcdeletewtclocaltuxdomtitle" url="pagehelp/WTCwtcdeletewtclocaltuxdomtitle.html"/>
+<mapID target="WTCwtcwtclocaltuxdomgeneraltitle" url="pagehelp/WTCwtcwtclocaltuxdomgeneraltitle.html"/>
+<mapID target="WTCwtcwtclocaltuxdomconnectionstitle" url="pagehelp/WTCwtcwtclocaltuxdomconnectionstitle.html"/>
+<mapID target="WTCwtcwtclocaltuxdomsecuritytitle" url="pagehelp/WTCwtcwtclocaltuxdomsecuritytitle.html"/>
+<mapID target="WTCwtcwtcservercontentsremotedomainstitle" url="pagehelp/WTCwtcwtcservercontentsremotedomainstitle.html"/>
+<mapID target="WTCwtccreatewtcremotetuxdomtitle" url="pagehelp/WTCwtccreatewtcremotetuxdomtitle.html"/>
+<mapID target="WTCwtcdeletewtcremotetuxdomtitle" url="pagehelp/WTCwtcdeletewtcremotetuxdomtitle.html"/>
+<mapID target="WTCwtcwtcremotetuxdomgeneraltitle" url="pagehelp/WTCwtcwtcremotetuxdomgeneraltitle.html"/>
+<mapID target="WTCwtcwtcremotetuxdomconnectionstitle" url="pagehelp/WTCwtcwtcremotetuxdomconnectionstitle.html"/>
+<mapID target="WTCwtcwtcremotetuxdomsecuritytitle" url="pagehelp/WTCwtcwtcremotetuxdomsecuritytitle.html"/>
+<mapID target="WTCwtcwtcservercontentsexportedtitle" url="pagehelp/WTCwtcwtcservercontentsexportedtitle.html"/>
+<mapID target="WTCwtccreatewtcexporttitle" url="pagehelp/WTCwtccreatewtcexporttitle.html"/>
+<mapID target="WTCwtcdeletewtcexporttitle" url="pagehelp/WTCwtcdeletewtcexporttitle.html"/>
+<mapID target="WTCwtcwtcexportgeneraltitle" url="pagehelp/WTCwtcwtcexportgeneraltitle.html"/>
+<mapID target="WTCwtcwtcservercontentsimportedtitle" url="pagehelp/WTCwtcwtcservercontentsimportedtitle.html"/>
+<mapID target="WTCwtccreatewtcimporttitle" url="pagehelp/WTCwtccreatewtcimporttitle.html"/>
+<mapID target="WTCwtcdeletewtcimporttitle" url="pagehelp/WTCwtcdeletewtcimporttitle.html"/>
+<mapID target="WTCwtcwtcimportgeneraltitle" url="pagehelp/WTCwtcwtcimportgeneraltitle.html"/>
+<mapID target="WTCwtcwtcservercontentspasswordstitle" url="pagehelp/WTCwtcwtcservercontentspasswordstitle.html"/>
+<mapID target="WTCwtccreatewtcpasswordtitle" url="pagehelp/WTCwtccreatewtcpasswordtitle.html"/>
+<mapID target="WTCwtcdeletewtcpasswordtitle" url="pagehelp/WTCwtcdeletewtcpasswordtitle.html"/>
+<mapID target="WTCwtcwtcpasswordconfigtitle" url="pagehelp/WTCwtcwtcpasswordconfigtitle.html"/>
+<mapID target="WTCwtcwtcservercontentsresourcestitle" url="pagehelp/WTCwtcwtcservercontentsresourcestitle.html"/>
+<mapID target="WTCwtcresourcescreatewtcresourcetitle" url="pagehelp/WTCwtcresourcescreatewtcresourcetitle.html"/>
+<mapID target="WTCwtcresourcesdeletewtcresourcetitle" url="pagehelp/WTCwtcresourcesdeletewtcresourcetitle.html"/>
+<mapID target="WTCwtcresourceswtcresourcesconfigtitle" url="pagehelp/WTCwtcresourceswtcresourcesconfigtitle.html"/>
+<mapID target="WTCwtcwtcservercontentsqueuingbridgetitle" url="pagehelp/WTCwtcwtcservercontentsqueuingbridgetitle.html"/>
+<mapID target="WTCwtccreatetbridgeglobaltitle" url="pagehelp/WTCwtccreatetbridgeglobaltitle.html"/>
+<mapID target="WTCwtctbridgedeletewtctbridgeglobaltitle" url="pagehelp/WTCwtctbridgedeletewtctbridgeglobaltitle.html"/>
+<mapID target="WTCwtctbridgeglobalgeneraltitle" url="pagehelp/WTCwtctbridgeglobalgeneraltitle.html"/>
+<mapID target="WTCwtctbridgeglobalconnectionstitle" url="pagehelp/WTCwtctbridgeglobalconnectionstitle.html"/>
+<mapID target="WTCwtctbridgeglobalfactoriestitle" url="pagehelp/WTCwtctbridgeglobalfactoriestitle.html"/>
+<mapID target="WTCwtctbridgeglobalprioritiestitle" url="pagehelp/WTCwtctbridgeglobalprioritiestitle.html"/>
+<mapID target="WTCwtcwtcservercontentsredirectstitle" url="pagehelp/WTCwtcwtcservercontentsredirectstitle.html"/>
+<mapID target="WTCwtccreatetbridgeredirecttitle" url="pagehelp/WTCwtccreatetbridgeredirecttitle.html"/>
+<mapID target="WTCwtctbridgedeletewtctbridgeredirecttitle" url="pagehelp/WTCwtctbridgedeletewtctbridgeredirecttitle.html"/>
+<mapID target="WTCwtctbridgeredirectgeneraltitle" url="pagehelp/WTCwtctbridgeredirectgeneraltitle.html"/>
+
+
+  <mapID target="WTCwtcwtcservercontrolservicestitle" url="pagehelp/WTCwtcwtcservercontrolservicestitle.html"/>
+
+
+  <mapID target="WTCwtcwtcservercontrolconnectionstitle" url="pagehelp/WTCwtcwtcservercontrolconnectionstitle.html"/>
+
+
+  <mapID target="WTCwtcwtcservertargetdeploytitle" url="pagehelp/WTCwtcwtcservertargetdeploytitle.html"/>
+
+
+  <mapID target="WTCwtcwtcservernotestitle" url="pagehelp/WTCwtcwtcservernotestitle.html"/>
+
+
+  
+  
+</map>

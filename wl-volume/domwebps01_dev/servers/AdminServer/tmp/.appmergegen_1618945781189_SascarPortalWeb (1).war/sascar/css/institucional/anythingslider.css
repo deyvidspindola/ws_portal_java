@@ -1,0 +1,50 @@
+div.anythingSlider {
+	width: 296px;
+	height: 129px;
+	overflow: hidden; /* needed for Opera and Safari */
+	background: #fff;
+}
+
+div.anythingSlider .anythingWindow {
+	overflow: hidden;
+	position: relative;
+	width: 256px;
+	height: 129px;
+	float: left;
+}
+
+div.anythingSlider {
+	position: relative;
+}
+
+ul.anythingBase {
+	background: transparent;
+	list-style: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0;
+	padding: 0;
+}
+
+	ul.anythingBase li.panel {
+		background: transparent;
+		display: block;
+		overflow: hidden;
+		float: left;
+		padding: 0;
+		margin: 0;
+		text-align: center;
+	}
+	
+div.anythingSlider .bt_ant,
+div.anythingSlider .bt_prox{
+	width: 20px;
+	height: 129px;
+	float: left;
+	background: url(../../images/institucional/botoes/ant_parceiros.gif) no-repeat 0 0;
+}
+
+div.anythingSlider .bt_prox{
+	background-image: url(../../images/institucional/botoes/prox_parceiros.gif);
+}
